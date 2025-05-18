@@ -123,7 +123,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2021-12-27,"TRANSACCION CONTACTLESS EN SUB 24 SL, TELDE, TARJ. :*585729",5.95,transaccion contactless en sub sl telde tarj,gasto,2021-12,Supermercado,modelo
 2021-12-27,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Gastos mensual Enero mas",175.0,transferencia de evelymar esperanza bastidas rosario concepto gastos mensual enero mas,ingreso,2021-12,Ingreso,manual
 2021-12-27,"COMPRA PAGO M:VIL EN DISA VALSEQUILL, VALSEQUILLO (, TARJ. :*585729",10.0,compra pago m vil en disa valsequill valsequillo tarj,gasto,2021-12,Transporte,manual
-2021-12-28,"TRANSACCION CONTACTLESS EN MANUEL NAVARRO, LAS PALMAS, TARJ. :*585729",70.49,transaccion contactless en manuel navarro las palmas tarj,gasto,2021-12,Gastos extraordinarios,modelo
+2021-12-28,"TRANSACCION CONTACTLESS EN MANUEL NAVARRO, LAS PALMAS, TARJ. :*585729",70.49,transaccion contactless en manuel navarro las palmas tarj,gasto,2021-12,Restauración,modelo
 2021-12-28,"COMPRA PAGO M:VIL EN HELADERIA QUINT, TELDE, TARJ. :*585729",7.5,compra pago m vil en heladeria quint telde tarj,gasto,2021-12,Restauración,manual
 2021-12-28,"COMPRA PAGO M:VIL EN LA MADERA TELDE, TELDE, TARJ. :*585729",3.5,compra pago m vil en la madera telde telde tarj,gasto,2021-12,Supermercado,modelo
 2021-12-28,"TRANSACCION CONTACTLESS EN DISA VALSEQUILL, VALSEQUILLO (, TARJ. :*585729",1.9,transaccion contactless en disa valsequill valsequillo tarj,gasto,2021-12,Transporte,manual
@@ -170,7 +170,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-01-29,"COMPRA INTERNET EN UNIV. LAS PALMA, LAS PALMAS DE, TARJ. :*585729",113.15,compra internet en univ las palma las palmas de tarj,gasto,2022-01,Facturas,manual
 2022-01-30,"TRANSACCION CONTACTLESS EN CIAALIMNT HERMN, LAS PALMAS, TARJ. :*585729",0.75,transaccion contactless en ciaalimnt hermn las palmas tarj,gasto,2022-01,Restauración,modelo
 2022-01-30,"COMPRA EN PETROPRIX LAS P, LAS PALMAS, TARJ. :*585729",20.0,compra en petroprix las p las palmas tarj,gasto,2022-01,Transporte,manual
-2022-01-30,"TRANSACCION CONTACTLESS EN SIROCO, ARUCAS, TARJ. :*585729",6.0,transaccion contactless en siroco arucas tarj,gasto,2022-01,Supermercado,modelo
+2022-01-30,"TRANSACCION CONTACTLESS EN SIROCO, ARUCAS, TARJ. :*585729",6.0,transaccion contactless en siroco arucas tarj,gasto,2022-01,Restauración,modelo
 2022-01-30,"TRANSACCION CONTACTLESS EN PARQUE GASTRONO, SANTA:CRUZ:DE, TARJ. :*585729",2.5,transaccion contactless en parque gastrono santa cruz de tarj,gasto,2022-01,Restauración,modelo
 2022-01-30,"TRANSACCION CONTACTLESS EN OSCAR GONZALEZ, LAS PALMAS DE, TARJ. :*585729",5.0,transaccion contactless en oscar gonzalez las palmas de tarj,gasto,2022-01,Restauración,modelo
 2022-02-01,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Clases particulares Febrero.",156.0,transferencia de evelymar esperanza bastidas rosario concepto clases particulares febrero,ingreso,2022-02,Ingreso,manual
@@ -196,8 +196,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-02-16,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",1.5,pago movil en las casitas emp las palmas de tarj,gasto,2022-02,Restauración,manual
 2022-02-16,"PAGO MOVIL EN BURGER KING LA, LAS PALMAS, TARJ. :*585729",11.79,pago movil en burger king la las palmas tarj,gasto,2022-02,Restauración,manual
 2022-02-14,"COMPRA APPLE.COM/BILL, ITUNES.COM, TARJETA 5163830309585729 , COMISION 0,00",8.99,compra apple com bill itunes com tarjeta comision,gasto,2022-02,Ocio / Suscripciones,manual
-2022-02-16,"PAGO MOVIL EN INSIDE LAS PALM, LAS PALMAS, TARJ. :*585729",46.96,pago movil en inside las palm las palmas tarj,gasto,2022-02,Supermercado,modelo
-2022-02-17,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",2.8,pago movil en minimarket la x las palmas tarj,gasto,2022-02,Supermercado,modelo
+2022-02-16,"PAGO MOVIL EN INSIDE LAS PALM, LAS PALMAS, TARJ. :*585729",46.96,pago movil en inside las palm las palmas tarj,gasto,2022-02,Compras no esenciales,modelo
+2022-02-17,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",2.8,pago movil en minimarket la x las palmas tarj,gasto,2022-02,Compras no esenciales,modelo
 2022-02-17,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO Sin concepto.",6.0,transferencia de oscar alejandro gomez bastidas concepto sin concepto,ingreso,2022-02,Ingreso,manual
 2022-02-18,"COMPRA WORTEN TRIANA, Canarias, TARJETA 5163830309585729 , COMISION 0,00",10.97,compra worten triana canarias tarjeta comision,gasto,2022-02,Ocio / Suscripciones,modelo
 2022-02-21,"TRANSACCION CONTACTLESS EN BAR TIFARITI, VALSEQUILLO, TARJ. :*585729",15.8,transaccion contactless en bar tifariti valsequillo tarj,gasto,2022-02,Restauración,manual
@@ -206,7 +206,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-02-22,"TRANSACCION CONTACTLESS EN EN 1 PLIS PLAS, TELDE, TARJ. :*585729",12.9,transaccion contactless en en plis plas telde tarj,gasto,2022-02,Supermercado,modelo
 2022-02-24,"PAGO MOVIL EN PETROPRIX LAS P, LAS PALMAS, TARJ. :*585729",25.0,pago movil en petroprix las p las palmas tarj,gasto,2022-02,Transporte,manual
 2022-02-24,"TRANSACCION CONTACTLESS EN PUNTO COMA, PALMAS (LAS), TARJ. :*585729",3.25,transaccion contactless en punto coma palmas las tarj,gasto,2022-02,Restauración,modelo
-2022-02-25,"PAGO MOVIL EN QIONG ZHANG, LAS PALMAS, TARJ. :*585729",1.0,pago movil en qiong zhang las palmas tarj,gasto,2022-02,Supermercado,modelo
+2022-02-25,"PAGO MOVIL EN QIONG ZHANG, LAS PALMAS, TARJ. :*585729",1.0,pago movil en qiong zhang las palmas tarj,gasto,2022-02,Compras no esenciales,modelo
 2022-02-28,"PAGO MOVIL EN PISCOLABIS LA H, VALSEQUILLO, TARJ. :*585729",22.7,pago movil en piscolabis la h valsequillo tarj,gasto,2022-02,Supermercado,modelo
 2022-02-28,"TRANSACCION CONTACTLESS EN BURGUER KING YU, MASPALOMAS, TARJ. :*585729",12.59,transaccion contactless en burguer king yu maspalomas tarj,gasto,2022-02,Restauración,manual
 2022-03-01,"TRANSACCION CONTACTLESS EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",6.42,transaccion contactless en supermercdo lop valsequillo tarj,gasto,2022-03,Supermercado,modelo
@@ -237,8 +237,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-03-11,"COMPRA APPLE.COM/BILL, ITUNES.COM, TARJETA 5163830309585729 , COMISION 0,00",8.99,compra apple com bill itunes com tarjeta comision,gasto,2022-03,Ocio / Suscripciones,manual
 2022-03-15,"PAGO MOVIL EN PETROPRIX LAS P, LAS PALMAS, TARJ. :*585729",40.0,pago movil en petroprix las p las palmas tarj,gasto,2022-03,Transporte,manual
 2022-03-16,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO, TARJ. :*585729",3.3,pago movil en bazar valsequil valsequillo tarj,gasto,2022-03,Supermercado,modelo
-2022-03-17,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.9,pago movil en minimarket la x las palmas tarj,gasto,2022-03,Supermercado,modelo
-2022-03-18,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.1,pago movil en minimarket la x las palmas tarj,gasto,2022-03,Supermercado,modelo
+2022-03-17,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.9,pago movil en minimarket la x las palmas tarj,gasto,2022-03,Compras no esenciales,modelo
+2022-03-18,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.1,pago movil en minimarket la x las palmas tarj,gasto,2022-03,Compras no esenciales,modelo
 2022-03-21,"COMPRA EN EL CORTE INGLES, LAS PALMAS, TARJ. :*585729",17.9,compra en el corte ingles las palmas tarj,gasto,2022-03,Restauración,modelo
 2022-03-18,"TRANSACCION CONTACTLESS EN ALCAMPO TELDE, TELDE, TARJ. :*585729",3.99,transaccion contactless en alcampo telde telde tarj,gasto,2022-03,Supermercado,manual
 2022-03-19,"TRANSACCION CONTACTLESS EN MERCADONA SAN G, TELDE, TARJ. :*585729",2.25,transaccion contactless en mercadona san g telde tarj,gasto,2022-03,Supermercado,manual
@@ -251,7 +251,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-03-24,"TRANSACCION CONTACTLESS EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.8,transaccion contactless en minimarket la x las palmas tarj,gasto,2022-03,Restauración,modelo
 2022-03-25,"PAGO MOVIL EN PETROPRIX LAS P, LAS PALMAS, TARJ. :*585729",30.0,pago movil en petroprix las p las palmas tarj,gasto,2022-03,Transporte,manual
 2022-03-28,"PAGO MOVIL EN LAIBA DONER KEB, TELDE, TARJ. :*585729",13.6,pago movil en laiba doner keb telde tarj,gasto,2022-03,Supermercado,modelo
-2022-03-29,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.35,pago movil en minimarket la x las palmas tarj,gasto,2022-03,Supermercado,modelo
+2022-03-29,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.35,pago movil en minimarket la x las palmas tarj,gasto,2022-03,Compras no esenciales,modelo
 2022-03-31,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO wiii.",11.0,transferencia de oscar alejandro gomez bastidas concepto wiii,ingreso,2022-03,Ingreso,manual
 2022-04-01,"COMPRA SAGULPA, LAS PALMAS DE, TARJETA 5163830309585729 , COMISION 0,00",0.7,compra sagulpa las palmas de tarjeta comision,gasto,2022-04,Restauración,modelo
 2022-04-04,"TRANSACCION CONTACTLESS EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",20.08,transaccion contactless en supermercdo lop valsequillo tarj,gasto,2022-04,Supermercado,modelo
@@ -262,10 +262,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-04-02,"COMPRA SpotifyES P1AABBBB95, Stockholm, TARJETA 5163830309585729 , COMISION 0,00",4.99,compra spotifyes paabbbb stockholm tarjeta comision,gasto,2022-04,Ocio / Suscripciones,manual
 2022-04-05,"TRANSACCION CONTACTLESS EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.35,transaccion contactless en minimarket la x las palmas tarj,gasto,2022-04,Restauración,modelo
 2022-04-06,"PAGO MOVIL EN ACADEMIA UNIVER, PALMAS, TARJ. :*585729",162.0,pago movil en academia univer palmas tarj,gasto,2022-04,Facturas,manual
-2022-04-06,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.43,compra internet en e s la mareta telde tarj,gasto,2022-04,Transporte,modelo
+2022-04-06,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.43,compra internet en e s la mareta telde tarj,gasto,2022-04,Restauración,modelo
 2022-04-06,"PAGO MOVIL EN LAS CASITAS, LAS PALMAS DE, TARJ. :*585729",2.5,pago movil en las casitas las palmas de tarj,gasto,2022-04,Restauración,manual
 2022-04-08,"TRANSACCION CONTACTLESS EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",1.5,transaccion contactless en las casitas emp las palmas de tarj,gasto,2022-04,Restauración,manual
-2022-04-08,"COMPRA INTERNET EN WWW.FULP.ULPGC., PALMAS (LAS), TARJ. :*585729",40.0,compra internet en www fulp ulpgc palmas las tarj,gasto,2022-04,Transporte,modelo
+2022-04-08,"COMPRA INTERNET EN WWW.FULP.ULPGC., PALMAS (LAS), TARJ. :*585729",40.0,compra internet en www fulp ulpgc palmas las tarj,gasto,2022-04,Restauración,modelo
 2022-04-08,"COMPRA INTERNET EN UNIV. LAS PALMA, LAS PALMAS DE, TARJ. :*585729",113.14,compra internet en univ las palma las palmas de tarj,gasto,2022-04,Facturas,manual
 2022-04-11,"TRANSACCION CONTACTLESS EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",7.24,transaccion contactless en supermercdo lop valsequillo tarj,gasto,2022-04,Supermercado,modelo
 2022-04-12,"TRANSACCION CONTACTLESS EN PISCOLABIS LA H, VALSEQUILLO, TARJ. :*585729",4.9,transaccion contactless en piscolabis la h valsequillo tarj,gasto,2022-04,Supermercado,modelo
@@ -276,8 +276,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-04-17,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO, TARJ. :*585729",0.6,pago movil en bazar valsequil valsequillo tarj,gasto,2022-04,Supermercado,modelo
 2022-04-20,"TRANSACCION CONTACTLESS EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.5,transaccion contactless en minimarket la x las palmas tarj,gasto,2022-04,Restauración,modelo
 2022-04-22,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",1.6,pago movil en las casitas emp las palmas de tarj,gasto,2022-04,Restauración,manual
-2022-04-22,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.47,compra internet en e s la mareta telde tarj,gasto,2022-04,Transporte,modelo
-2022-04-25,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-04,Compras no esenciales,modelo
+2022-04-22,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.47,compra internet en e s la mareta telde tarj,gasto,2022-04,Restauración,modelo
+2022-04-25,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-04,Ocio / Suscripciones,modelo
 2022-04-26,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Gastos mes Mayo.",230.0,transferencia de evelymar esperanza bastidas rosario concepto gastos mes mayo,ingreso,2022-04,Ingreso,manual
 2022-04-26,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO AirPods.",230.0,transferencia de evelymar esperanza bastidas rosario concepto airpods,ingreso,2022-04,Ingreso,manual
 2022-04-26,"TRANSACCION CONTACTLESS EN MEDIA MARKT - T, JINAMAR, TARJ. :*585729",241.39,transaccion contactless en media markt t jinamar tarj,gasto,2022-04,Gastos extraordinarios,manual
@@ -287,7 +287,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-04-28,"TRANSACCION CONTACTLESS EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.75,transaccion contactless en minimarket la x las palmas tarj,gasto,2022-04,Restauración,modelo
 2022-04-28,TRANSFERENCIA A FAVOR DE ANA CONCEPTO: COMIDA,5.0,transferencia a favor de ana concepto comida,gasto,2022-04,Transferencia personal,manual
 2022-04-29,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",1.6,pago movil en las casitas emp las palmas de tarj,gasto,2022-04,Restauración,manual
-2022-04-29,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.57,compra internet en e s la mareta telde tarj,gasto,2022-04,Transporte,modelo
+2022-04-29,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.57,compra internet en e s la mareta telde tarj,gasto,2022-04,Restauración,modelo
 2022-04-29,"PAGO MOVIL EN LAIBA DONER KEB, TELDE, TARJ. :*585729",6.3,pago movil en laiba doner keb telde tarj,gasto,2022-04,Supermercado,modelo
 2022-05-02,"TRANSACCION CONTACTLESS EN ALCAMPO TELDE, TELDE, TARJ. :*585729",62.21,transaccion contactless en alcampo telde telde tarj,gasto,2022-05,Supermercado,manual
 2022-05-02,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO y.",12.0,transferencia de oscar alejandro gomez bastidas concepto y,ingreso,2022-05,Ingreso,manual
@@ -300,10 +300,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-05-09,"TRANSACCION CONTACTLESS EN MODAS SHANGHAI, TELDE, TARJ. :*585729",5.5,transaccion contactless en modas shanghai telde tarj,gasto,2022-05,Supermercado,modelo
 2022-05-06,"TRANSACCION CONTACTLESS EN CANTINA EL BUEN, VALSEQUILLO, TARJ. :*585729",27.0,transaccion contactless en cantina el buen valsequillo tarj,gasto,2022-05,Restauración,manual
 2022-05-08,"TRANSACCION CONTACTLESS EN RICHARD KNIZE, SAN BARTOLOM, TARJ. :*585729",3.6,transaccion contactless en richard knize san bartolom tarj,gasto,2022-05,Restauración,manual
-2022-05-09,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.5,pago movil en minimarket la x las palmas tarj,gasto,2022-05,Supermercado,modelo
+2022-05-09,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.5,pago movil en minimarket la x las palmas tarj,gasto,2022-05,Compras no esenciales,modelo
 2022-05-09,"PAGO MOVIL EN DISA VALSEQUILL, VALSEQUILLO, TARJ. :*585729",1.9,pago movil en disa valsequill valsequillo tarj,gasto,2022-05,Transporte,manual
 2022-05-09,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",3.55,pago movil en supermercdo lop valsequillo tarj,gasto,2022-05,Supermercado,modelo
-2022-05-10,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.66,compra internet en e s la mareta telde tarj,gasto,2022-05,Transporte,modelo
+2022-05-10,"COMPRA INTERNET EN E.S. LA MARETA, TELDE, TARJ. :*585729",23.66,compra internet en e s la mareta telde tarj,gasto,2022-05,Restauración,modelo
 2022-05-12,"TRANSACCION CONTACTLESS EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",2.6,transaccion contactless en las casitas emp las palmas de tarj,gasto,2022-05,Restauración,manual
 2022-05-13,"TRANSACCION CONTACTLESS EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.25,transaccion contactless en minimarket la x las palmas tarj,gasto,2022-05,Restauración,modelo
 2022-05-11,"COMPRA APPLE.COM/BILL, 900812703, TARJETA 5163830309585729 , COMISION 0,00",8.99,compra apple com bill tarjeta comision,gasto,2022-05,Ocio / Suscripciones,manual
@@ -313,7 +313,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-05-23,"COMPRA TB3501 LAS ARENAS CLE, Las Palmas, TARJETA 5163830309585729 , COMISION 0,00",17.7,compra tb las arenas cle las palmas tarjeta comision,gasto,2022-05,Restauración,modelo
 2022-05-25,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Gastos Junio.",230.0,transferencia de evelymar esperanza bastidas rosario concepto gastos junio,ingreso,2022-05,Ingreso,manual
 2022-05-25,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Clases Particulares.",162.0,transferencia de evelymar esperanza bastidas rosario concepto clases particulares,ingreso,2022-05,Ingreso,manual
-2022-05-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-05,Compras no esenciales,modelo
+2022-05-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-05,Ocio / Suscripciones,modelo
 2022-05-27,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",27.68,compra internet en repsol waylet madrid tarj,gasto,2022-05,Transporte,manual
 2022-05-30,"TRANSACCION CONTACTLESS EN CANTINA EL BUEN, VALSEQUILLO, TARJ. :*585729",32.0,transaccion contactless en cantina el buen valsequillo tarj,gasto,2022-05,Restauración,manual
 2022-05-28,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",10.35,pago movil en supermercdo lop valsequillo tarj,gasto,2022-05,Supermercado,modelo
@@ -341,7 +341,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-06-24,"PAGO MOVIL EN MCDONALDS TELDE, TELDE, TARJ. :*585729",2.5,pago movil en mcdonalds telde telde tarj,gasto,2022-06,Restauración,manual
 2022-06-27,"PAGO MOVIL EN ALCAMPO TELDE, TELDE, TARJ. :*585729",6.52,pago movil en alcampo telde telde tarj,gasto,2022-06,Supermercado,manual
 2022-06-25,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",5.49,pago movil en supermercdo lop valsequillo tarj,gasto,2022-06,Supermercado,modelo
-2022-06-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-06,Compras no esenciales,modelo
+2022-06-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-06,Ocio / Suscripciones,modelo
 2022-07-04,"COMPRA SpotifyES P1C53906D0, Stockholm, TARJETA 5163830309585729 , COMISION 0,00",4.99,compra spotifyes pcd stockholm tarjeta comision,gasto,2022-07,Ocio / Suscripciones,manual
 2022-07-05,"INGRESO CONTRA CUENTA, ATM SUC.6140 EL 04/07/2022 A LAS 21:40",50.0,ingreso contra cuenta atm suc el a las,ingreso,2022-07,Ingreso,modelo
 2022-07-04,"REINTEGRO, ATM:00496140, LAS PALMAS DE, TARJ. :*585729",40.0,reintegro atm las palmas de tarj,gasto,2022-07,Ingreso,manual
@@ -361,13 +361,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-07-13,"TRANSACCION CONTACTLESS EN TOOLMAN SERVICE, LAS PALMAS, TARJ. :*585729",53.5,transaccion contactless en toolman service las palmas tarj,gasto,2022-07,Restauración,modelo
 2022-07-13,"COMPRA INTERNET EN ARTESIETE LAS T, HORNOS DEL RE, TARJ. :*585729",8.4,compra internet en artesiete las t hornos del re tarj,gasto,2022-07,Ocio / Suscripciones,manual
 2022-07-13,"TRANSACCION CONTACTLESS EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",6.5,transaccion contactless en supermercdo lop valsequillo tarj,gasto,2022-07,Supermercado,modelo
-2022-07-13,"COMPRA INTERNET EN RED ITEVELESA C, SANTA CRUZ DE, TARJ. :*585729",32.89,compra internet en red itevelesa c santa cruz de tarj,gasto,2022-07,Restauración,modelo
+2022-07-13,"COMPRA INTERNET EN RED ITEVELESA C, SANTA CRUZ DE, TARJ. :*585729",32.89,compra internet en red itevelesa c santa cruz de tarj,gasto,2022-07,Transporte,modelo
 2022-07-13,"TRANSACCION CONTACTLESS EN ARTESIETE LAS T, HORNOS DEL RE, TARJ. :*585729",5.7,transaccion contactless en artesiete las t hornos del re tarj,gasto,2022-07,Ocio / Suscripciones,manual
 2022-07-14,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Movimiento ING.",100.0,transferencia de evelymar esperanza bastidas rosario concepto movimiento ing,ingreso,2022-07,Ingreso,manual
 2022-07-14,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",32.59,compra internet en repsol waylet madrid tarj,gasto,2022-07,Transporte,manual
 2022-07-14,"PAGO MOVIL EN ALCAMPO TELDE, TELDE, TARJ. :*585729",14.36,pago movil en alcampo telde telde tarj,gasto,2022-07,Supermercado,manual
 2022-07-15,"TRANSACCION CONTACTLESS EN LAIBA DONER KEB, TELDE, TARJ. :*585729",14.6,transaccion contactless en laiba doner keb telde tarj,gasto,2022-07,Supermercado,modelo
-2022-07-14,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.65,pago movil en las palmas tarj,gasto,2022-07,Supermercado,modelo
+2022-07-14,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.65,pago movil en las palmas tarj,gasto,2022-07,Compras no esenciales,modelo
 2022-07-15,"TRANSACCION CONTACTLESS EN FRABECAR CANARI, LAS PALMAS, TARJ. :*585729",3.2,transaccion contactless en frabecar canari las palmas tarj,gasto,2022-07,Restauración,modelo
 2022-07-15,"TRANSACCION CONTACTLESS EN LA PANERA, VALSEQUILLO (, TARJ. :*585729",5.05,transaccion contactless en la panera valsequillo tarj,gasto,2022-07,Supermercado,modelo
 2022-07-15,TRANSFERENCIA A FAVOR DE YAZMINA CONCEPTO: VIAJE,100.0,transferencia a favor de yazmina concepto viaje,gasto,2022-07,Transferencia personal,manual
@@ -383,7 +383,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-07-22,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO r.",10.0,transferencia de oscar alejandro gomez bastidas concepto r,ingreso,2022-07,Ingreso,manual
 2022-07-25,"PAGO MOVIL EN TRANSP. Y SUM., TUINEJE-FUERT, TARJ. :*585729",17.48,pago movil en transp y sum tuineje fuert tarj,gasto,2022-07,Supermercado,modelo
 2022-07-25,"PAGO MOVIL EN FELIX FUMERO S., GRAN TARAJAL, TARJ. :*585729",32.49,pago movil en felix fumero s gran tarajal tarj,gasto,2022-07,Compras no esenciales,modelo
-2022-07-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-07,Compras no esenciales,modelo
+2022-07-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-07,Ocio / Suscripciones,modelo
 2022-07-25,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO gasofa.",10.0,transferencia de oscar alejandro gomez bastidas concepto gasofa,ingreso,2022-07,Ingreso,manual
 2022-07-25,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Gastos Agosti.",232.0,transferencia de evelymar esperanza bastidas rosario concepto gastos agosti,ingreso,2022-07,Ingreso,manual
 2022-07-26,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO Sin concepto.",29.4,transferencia de oscar alejandro gomez bastidas concepto sin concepto,ingreso,2022-07,Ingreso,manual
@@ -397,7 +397,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-08-01,"PAGO MOVIL EN MUELLE DEPORTIV, PALMAS DE GRA, TARJ. :*585729",2.3,pago movil en muelle deportiv palmas de gra tarj,gasto,2022-08,Compras no esenciales,modelo
 2022-07-31,"PAGO MOVIL EN BAR CAFETERIA T, VALSEQUILLO (, TARJ. :*585729",13.6,pago movil en bar cafeteria t valsequillo tarj,gasto,2022-07,Restauración,manual
 2022-08-01,"TRANSFERENCIA DE DEBORA VEGA RAVELO, CONCEPTO ..",19.0,transferencia de debora vega ravelo concepto,ingreso,2022-08,Ingreso,manual
-2022-07-31,"COMPRA www.groupon.es, groupon.es, TARJETA 5163830309585729 , COMISION 0,00",29.99,compra www groupon es groupon es tarjeta comision,gasto,2022-07,Compras no esenciales,modelo
+2022-07-31,"COMPRA www.groupon.es, groupon.es, TARJETA 5163830309585729 , COMISION 0,00",29.99,compra www groupon es groupon es tarjeta comision,gasto,2022-07,Restauración,modelo
 2022-07-29,"COMPRA TooGoodToG 4918nvk37up, toogoodtogo.e, TARJETA 5163830309585729 , COMISION 0,00",3.99,compra toogoodtog nvkup toogoodtogo e tarjeta comision,gasto,2022-07,Ocio / Suscripciones,modelo
 2022-08-01,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO comida.",13.35,transferencia de oscar alejandro gomez bastidas concepto comida,ingreso,2022-08,Ingreso,manual
 2022-08-01,"TRANSFERENCIA DE Oscar Alejandro Gomez Bastidas, CONCEPTO Sin concepto.",4.0,transferencia de oscar alejandro gomez bastidas concepto sin concepto,ingreso,2022-08,Ingreso,manual
@@ -436,7 +436,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-08-18,"TRANSACCION CONTACTLESS EN ELECTRO TV KAIR, LAS PALMAS DE, TARJ. :*585729",12.6,transaccion contactless en electro tv kair las palmas de tarj,gasto,2022-08,Restauración,modelo
 2022-08-23,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",1.45,pago movil en supermercdo lop valsequillo tarj,gasto,2022-08,Supermercado,modelo
 2022-08-24,"INGRESO CONTRA CUENTA, ATM SUC.0520 EL 23/08/2022 A LAS 22:56",30.0,ingreso contra cuenta atm suc el a las,ingreso,2022-08,Ingreso,modelo
-2022-08-24,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-08,Compras no esenciales,modelo
+2022-08-24,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-08,Ocio / Suscripciones,modelo
 2022-08-26,"PAGO MOVIL EN HD MELENARA, TELDE, TARJ. :*585729",2.25,pago movil en hd melenara telde tarj,gasto,2022-08,Supermercado,modelo
 2022-08-30,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Gastos Septiembre.",232.0,transferencia de evelymar esperanza bastidas rosario concepto gastos septiembre,ingreso,2022-08,Ingreso,manual
 2022-08-30,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Universidad 2022 2023.",151.64,transferencia de evelymar esperanza bastidas rosario concepto universidad,ingreso,2022-08,Ingreso,manual
@@ -455,19 +455,19 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-09-08,"PAGO MOVIL EN PROXIM SUPERMER, VECINDARIO, TARJ. :*585729",0.79,pago movil en proxim supermer vecindario tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-09,TRANSFERENCIA A FAVOR DE D:BORA CONCEPTO: COSAS,20.22,transferencia a favor de d bora concepto cosas,gasto,2022-09,Transferencia personal,manual
 2022-09-12,"PAGO MOVIL EN IKEA TIENDA SUE, TELDE, TARJ. :*585729",4.25,pago movil en ikea tienda sue telde tarj,gasto,2022-09,Compras no esenciales,manual
-2022-09-09,"PAGO MOVIL EN CIAALIMNT HERMN, LAS PALMAS, TARJ. :*585729",1.39,pago movil en ciaalimnt hermn las palmas tarj,gasto,2022-09,Supermercado,modelo
+2022-09-09,"PAGO MOVIL EN CIAALIMNT HERMN, LAS PALMAS, TARJ. :*585729",1.39,pago movil en ciaalimnt hermn las palmas tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-09,"PAGO MOVIL EN DELOREAN BURGUE, MONTE LENTISC, TARJ. :*585729",26.68,pago movil en delorean burgue monte lentisc tarj,gasto,2022-09,Supermercado,modelo
 2022-09-11,"PAGO MOVIL EN SPAR VELAZQUEZ, CRUCE DE SARD, TARJ. :*585729",1.0,pago movil en spar velazquez cruce de sard tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-11,"PAGO MOVIL EN BAZAR OM SAI, MOGAN, TARJ. :*585729",1.0,pago movil en bazar om sai mogan tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-11,"PAGO MOVIL EN GASOLINERA DEL, SANTA BRIGIDA, TARJ. :*585729",2.1,pago movil en gasolinera del santa brigida tarj,gasto,2022-09,Transporte,manual
 2022-09-12,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",2.6,pago movil en las casitas emp las palmas de tarj,gasto,2022-09,Restauración,manual
-2022-09-13,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.6,pago movil en las palmas tarj,gasto,2022-09,Supermercado,modelo
+2022-09-13,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.6,pago movil en las palmas tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-12,"PAGO MOVIL EN MULTIOPTICAS TR, PALMAS (LAS), TARJ. :*585729",20.0,pago movil en multiopticas tr palmas las tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-13,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",27.8,compra internet en repsol waylet madrid tarj,gasto,2022-09,Transporte,manual
 2022-09-13,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Gafas.",100.0,transferencia de evelymar esperanza bastidas rosario concepto gafas,ingreso,2022-09,Ingreso,manual
 2022-09-15,"PAGO MOVIL EN B KING CC LAS T, TELDE, TARJ. :*585729",12.48,pago movil en b king cc las t telde tarj,gasto,2022-09,Restauración,modelo
 2022-09-19,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO D, TARJ. :*585729",3.7,pago movil en bazar valsequil valsequillo d tarj,gasto,2022-09,Supermercado,modelo
-2022-09-20,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",2.15,pago movil en minimarket la x las palmas tarj,gasto,2022-09,Supermercado,modelo
+2022-09-20,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",2.15,pago movil en minimarket la x las palmas tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-20,"TRANSACCION CONTACTLESS EN HD ARNAO, TELDE, TARJ. :*585729",4.94,transaccion contactless en hd arnao telde tarj,gasto,2022-09,Supermercado,modelo
 2022-09-21,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",18.21,compra internet en repsol waylet madrid tarj,gasto,2022-09,Transporte,manual
 2022-09-22,"PAGO MOVIL EN MERCADONA LAS T, TELDE, TARJ. :*585729",5.6,pago movil en mercadona las t telde tarj,gasto,2022-09,Supermercado,manual
@@ -479,12 +479,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-09-24,"PAGO MOVIL EN LIDL CAN-GC-TEL, TELDE, TARJ. :*585729",4.35,pago movil en lidl can gc tel telde tarj,gasto,2022-09,Supermercado,manual
 2022-09-25,"TRANSACCION CONTACTLESS EN LA PANERA, VALSEQUILLO (, TARJ. :*585729",0.95,transaccion contactless en la panera valsequillo tarj,gasto,2022-09,Supermercado,modelo
 2022-09-26,"PAGO MOVIL EN MERCADONA LAS T, TELDE, TARJ. :*585729",2.39,pago movil en mercadona las t telde tarj,gasto,2022-09,Supermercado,manual
-2022-09-26,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.2,pago movil en las palmas tarj,gasto,2022-09,Supermercado,modelo
+2022-09-26,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.2,pago movil en las palmas tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-26,"TRANSACCION CONTACTLESS EN MULTIOPTICAS TR, PALMAS (LAS), TARJ. :*585729",79.0,transaccion contactless en multiopticas tr palmas las tarj,gasto,2022-09,Gastos extraordinarios,modelo
 2022-09-26,"PAGO MOVIL EN LAIBA DONER KEB, TELDE, TARJ. :*585729",10.1,pago movil en laiba doner keb telde tarj,gasto,2022-09,Supermercado,modelo
-2022-09-22,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-09,Compras no esenciales,modelo
+2022-09-22,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-09,Ocio / Suscripciones,modelo
 2022-09-27,"TRANSFERENCIA DE DEBORA VEGA RAVELO, CONCEPTO Envio de dinero - imaginBank.",17.31,transferencia de debora vega ravelo concepto envio de dinero imaginbank,ingreso,2022-09,Ingreso,manual
-2022-09-28,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.4,pago movil en minimarket la x las palmas tarj,gasto,2022-09,Supermercado,modelo
+2022-09-28,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.4,pago movil en minimarket la x las palmas tarj,gasto,2022-09,Compras no esenciales,modelo
 2022-09-29,"PAGO MOVIL EN BAR TIFARITI, VALSEQUILLO, TARJ. :*585729",3.5,pago movil en bar tifariti valsequillo tarj,gasto,2022-09,Restauración,manual
 2022-09-28,"PAGO MOVIL EN CANTINA EL BUEN, VALSEQUILLO, TARJ. :*585729",8.3,pago movil en cantina el buen valsequillo tarj,gasto,2022-09,Restauración,manual
 2022-09-29,"PAGO MOVIL EN ATRACCIONES CAN, TELDE, TARJ. :*585729",5.0,pago movil en atracciones can telde tarj,gasto,2022-09,Supermercado,modelo
@@ -496,10 +496,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-10-01,"PAGO MOVIL EN PISCOLABIS LA V, AGUIMES, TARJ. :*585729",6.1,pago movil en piscolabis la v aguimes tarj,gasto,2022-10,Restauración,modelo
 2022-10-01,"PAGO MOVIL EN PISCOLABIS LA V, AGUIMES, TARJ. :*585729",1.0,pago movil en piscolabis la v aguimes tarj,gasto,2022-10,Restauración,modelo
 2022-10-01,"PAGO MOVIL EN ARTESIETE LAS T, HORNOS DEL RE, TARJ. :*585729",18.4,pago movil en artesiete las t hornos del re tarj,gasto,2022-10,Ocio / Suscripciones,manual
-2022-10-02,"PAGO MOVIL EN SAKURA, LAS PALMAS, TARJ. :*585729",34.45,pago movil en sakura las palmas tarj,gasto,2022-10,Supermercado,modelo
+2022-10-02,"PAGO MOVIL EN SAKURA, LAS PALMAS, TARJ. :*585729",34.45,pago movil en sakura las palmas tarj,gasto,2022-10,Compras no esenciales,modelo
 2022-10-04,"TRANSFERENCIA DE DEBORA VEGA RAVELO, CONCEPTO ..",10.0,transferencia de debora vega ravelo concepto,ingreso,2022-10,Ingreso,manual
 2022-10-02,"COMPRA SpotifyES P1E1AFC44B, Stockholm, TARJETA 5163830309585729 , COMISION 0,00",4.99,compra spotifyes peafcb stockholm tarjeta comision,gasto,2022-10,Ocio / Suscripciones,manual
-2022-10-04,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2022-10,Supermercado,modelo
+2022-10-04,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2022-10,Compras no esenciales,modelo
 2022-10-06,"PAGO MOVIL EN DUNKIN COFFEE, LAS PALMAS DE, TARJ. :*585729",5.55,pago movil en dunkin coffee las palmas de tarj,gasto,2022-10,Restauración,modelo
 2022-10-05,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",1.75,pago movil en supermercdo lop valsequillo tarj,gasto,2022-10,Supermercado,modelo
 2022-10-06,"RECIBO CAYEST TURISTICA SL N: RECIBO 0049 6140 755 BBFBLDQ REF. MANDATO 5382021522202206, DE",34.0,recibo cayest turistica sl n recibo bbfbldq ref mandato de,gasto,2022-10,Facturas,manual
@@ -516,12 +516,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-10-13,"TRANSACCION CONTACTLESS EN MCDONALDS TELDE, TELDE, TARJ. :*585729",8.6,transaccion contactless en mcdonalds telde telde tarj,gasto,2022-10,Restauración,manual
 2022-10-17,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",4.92,pago movil en supermercdo lop valsequillo tarj,gasto,2022-10,Supermercado,modelo
 2022-10-16,"COMPRA INTERNET EN UNIV. LAS PALMA, LAS PALMAS DE, TARJ. :*585729",28.41,compra internet en univ las palma las palmas de tarj,gasto,2022-10,Facturas,manual
-2022-10-19,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.4,pago movil en minimarket la x las palmas tarj,gasto,2022-10,Supermercado,modelo
+2022-10-19,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.4,pago movil en minimarket la x las palmas tarj,gasto,2022-10,Compras no esenciales,modelo
 2022-10-20,"TRANSACCION CONTACTLESS EN CARLOS ARBOLEDA, TELDE, TARJ. :*585729",130.0,transaccion contactless en carlos arboleda telde tarj,gasto,2022-10,Gastos extraordinarios,modelo
-2022-10-20,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.4,pago movil en minimarket la x las palmas tarj,gasto,2022-10,Supermercado,modelo
+2022-10-20,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.4,pago movil en minimarket la x las palmas tarj,gasto,2022-10,Compras no esenciales,modelo
 2022-10-21,"PAGO MOVIL EN EST CEPSA HOYA, PALMAS (LAS), TARJ. :*585729",5.19,pago movil en est cepsa hoya palmas las tarj,gasto,2022-10,Transporte,manual
 2022-10-24,"PAGO MOVIL EN FUND GRUBE LAS, TELDE, TARJ. :*585729",4.57,pago movil en fund grube las telde tarj,gasto,2022-10,Supermercado,modelo
-2022-10-22,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-10,Compras no esenciales,modelo
+2022-10-22,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-10,Ocio / Suscripciones,modelo
 2022-10-26,"PAGO MOVIL EN EST CEPSA HOYA, PALMAS (LAS), TARJ. :*585729",8.65,pago movil en est cepsa hoya palmas las tarj,gasto,2022-10,Transporte,manual
 2022-10-25,"PAGO MOVIL EN CAFETERIA HOYA, LAS PALMAS DE, TARJ. :*585729",3.6,pago movil en cafeteria hoya las palmas de tarj,gasto,2022-10,Restauración,manual
 2022-10-26,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",31.6,compra internet en repsol waylet madrid tarj,gasto,2022-10,Transporte,manual
@@ -550,7 +550,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-11-07,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",9.83,pago movil en supermercdo lop valsequillo tarj,gasto,2022-11,Supermercado,modelo
 2022-11-06,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO D, TARJ. :*585729",3.2,pago movil en bazar valsequil valsequillo d tarj,gasto,2022-11,Supermercado,modelo
 2022-11-07,"PAGO MOVIL EN E.S. LA MARETA, TELDE, TARJ. :*585729",1.75,pago movil en e s la mareta telde tarj,gasto,2022-11,Restauración,modelo
-2022-11-07,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2022-11,Supermercado,modelo
+2022-11-07,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2022-11,Compras no esenciales,modelo
 2022-11-05,"COMPRA STEAMGAMES.COM 4259522, Hamburg, TARJETA 5163830309585729 , COMISION 0,00",13.99,compra steamgames com hamburg tarjeta comision,gasto,2022-11,Ocio / Suscripciones,modelo
 2022-11-08,"RECIBO CAYEST TURISTICA SL N: RECIBO 0049 6140 755 BBFCFJP REF. MANDATO 5382021522202206, DE",34.0,recibo cayest turistica sl n recibo bbfcfjp ref mandato de,gasto,2022-11,Facturas,manual
 2022-11-09,"PAGO MOVIL EN IKEA LAS PALMAS, TELDE, TARJ. :*585729",9.65,pago movil en ikea las palmas telde tarj,gasto,2022-11,Compras no esenciales,manual
@@ -560,7 +560,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-11-12,"PAGO MOVIL EN PALMETTO FOOD &, VEGA DE SAN M, TARJ. :*585729",16.0,pago movil en palmetto food & vega de san m tarj,gasto,2022-11,Restauración,manual
 2022-11-14,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",31.81,compra internet en repsol waylet madrid tarj,gasto,2022-11,Transporte,manual
 2022-11-16,"PAGO MOVIL EN LAIBA DONER KEB, TELDE, TARJ. :*585729 1                                   E X T R A C T O    D E    C U E N T A S    P E R S O N A L E S              FECHA  :  06-05-2025",13.6,pago movil en laiba doner keb telde tarj e x t r a c t o d e c u e n t a s p e r s o n a l e s fecha,gasto,2022-11,Restauración,modelo
-2022-11-16,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2022-11,Supermercado,modelo
+2022-11-16,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2022-11,Compras no esenciales,modelo
 2022-11-17,"PAGO MOVIL EN HD ARNAO, TELDE, TARJ. :*585729",14.5,pago movil en hd arnao telde tarj,gasto,2022-11,Supermercado,modelo
 2022-11-17,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Curso online Excel.",60.0,transferencia de evelymar esperanza bastidas rosario concepto curso online excel,ingreso,2022-11,Ingreso,manual
 2022-11-17,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",5.0,pago movil en las casitas emp las palmas de tarj,gasto,2022-11,Restauración,manual
@@ -568,22 +568,22 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-11-16,"COMPRA Excelfull-Plan Excel, Nederland, TARJETA 5163830309585729 , COMISION 0,00",49.0,compra excelfull plan excel nederland tarjeta comision,gasto,2022-11,Compras no esenciales,modelo
 2022-11-21,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO D, TARJ. :*585729",1.8,pago movil en bazar valsequil valsequillo d tarj,gasto,2022-11,Supermercado,modelo
 2022-11-21,"RECIBO VODAFONE Factura: YJ22-002002787/ N: RECIBO 0049 6140 755 BBFCJWB REF. MANDATO 0111207734, DE",29.99,recibo vodafone factura yj n recibo bbfcjwb ref mandato de,gasto,2022-11,Facturas,manual
-2022-11-22,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.0,pago movil en minimarket la x las palmas tarj,gasto,2022-11,Supermercado,modelo
+2022-11-22,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.0,pago movil en minimarket la x las palmas tarj,gasto,2022-11,Compras no esenciales,modelo
 2022-11-23,"PAGO MOVIL EN HD ARNAO, TELDE, TARJ. :*585729",10.32,pago movil en hd arnao telde tarj,gasto,2022-11,Supermercado,modelo
 2022-11-23,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",31.77,compra internet en repsol waylet madrid tarj,gasto,2022-11,Transporte,manual
-2022-11-24,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-11,Compras no esenciales,modelo
+2022-11-24,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-11,Ocio / Suscripciones,modelo
 2022-11-25,"PAGO MOVIL EN SPAR SAN MATEO, VEGA DE SAN M, TARJ. :*585729",6.69,pago movil en spar san mateo vega de san m tarj,gasto,2022-11,Restauración,modelo
 2022-11-28,"PAGO MOVIL EN HELADERIA HORCH, TELDE, TARJ. :*585729",6.8,pago movil en heladeria horch telde tarj,gasto,2022-11,Restauración,manual
 2022-11-29,"PAGO MOVIL EN SUPERMERCDO LOP, VALSEQUILLO (, TARJ. :*585729",3.5,pago movil en supermercdo lop valsequillo tarj,gasto,2022-11,Supermercado,modelo
 2022-11-29,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO D, TARJ. :*585729",5.55,pago movil en bazar valsequil valsequillo d tarj,gasto,2022-11,Supermercado,modelo
-2022-12-01,"PAGO MOVIL EN FUND GRUBE ALIS, LAS PALMAS DE, TARJ. :*585729",4.0,pago movil en fund grube alis las palmas de tarj,gasto,2022-12,Supermercado,modelo
-2022-12-01,"PAGO MOVIL EN DUNKINS ALS, LAS PALMAS DE, TARJ. :*585729",3.8,pago movil en dunkins als las palmas de tarj,gasto,2022-12,Supermercado,modelo
+2022-12-01,"PAGO MOVIL EN FUND GRUBE ALIS, LAS PALMAS DE, TARJ. :*585729",4.0,pago movil en fund grube alis las palmas de tarj,gasto,2022-12,Restauración,modelo
+2022-12-01,"PAGO MOVIL EN DUNKINS ALS, LAS PALMAS DE, TARJ. :*585729",3.8,pago movil en dunkins als las palmas de tarj,gasto,2022-12,Restauración,modelo
 2022-12-01,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",31.77,compra internet en repsol waylet madrid tarj,gasto,2022-12,Transporte,manual
 2022-12-02,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Pago universidad Dec.",231.96,transferencia de evelymar esperanza bastidas rosario concepto pago universidad dec,ingreso,2022-12,Ingreso,manual
 2022-12-02,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Pago Universidad Diciembre.",231.96,transferencia de evelymar esperanza bastidas rosario concepto pago universidad diciembre,ingreso,2022-12,Ingreso,manual
 2022-12-02,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Pago factura Mobil.",35.0,transferencia de evelymar esperanza bastidas rosario concepto pago factura mobil,ingreso,2022-12,Ingreso,manual
 2022-12-02,"TRANSFERENCIA DE EVELYMAR ESPERANZA BASTIDAS ROSARIO, CONCEPTO Oscar gastos extra comida.",100.0,transferencia de evelymar esperanza bastidas rosario concepto oscar gastos extra comida,ingreso,2022-12,Ingreso,manual
-2022-12-02,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",15.7,pago movil en minimarket la x las palmas tarj,gasto,2022-12,Supermercado,modelo
+2022-12-02,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",15.7,pago movil en minimarket la x las palmas tarj,gasto,2022-12,Compras no esenciales,modelo
 2022-12-05,"PAGO MOVIL EN HD ARNAO, TELDE, TARJ. :*585729",75.5,pago movil en hd arnao telde tarj,gasto,2022-12,Supermercado,modelo
 2022-12-02,"PAGO MOVIL EN LAIBA DONER KEB, TELDE, TARJ. :*585729",3.5,pago movil en laiba doner keb telde tarj,gasto,2022-12,Supermercado,modelo
 2022-12-03,"PAGO MOVIL EN ALCAMPO TELDE, TELDE, TARJ. :*585729",6.24,pago movil en alcampo telde telde tarj,gasto,2022-12,Supermercado,manual
@@ -591,13 +591,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-12-03,"PAGO MOVIL EN FLORISTERIA ELA, VALSEQUILLO, TARJ. :*585729",1.9,pago movil en floristeria ela valsequillo tarj,gasto,2022-12,Supermercado,modelo
 2022-12-03,"COMPRA APPLE.COM/BILL, 900812703, TARJETA 5163830309585729 , COMISION 0,00",5.99,compra apple com bill tarjeta comision,gasto,2022-12,Ocio / Suscripciones,manual
 2022-12-02,"COMPRA SpotifyES P1F4A994CD, Stockholm, TARJETA 5163830309585729 , COMISION 0,00",4.99,compra spotifyes pfacd stockholm tarjeta comision,gasto,2022-12,Ocio / Suscripciones,manual
-2022-12-05,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.5,pago movil en minimarket la x las palmas tarj,gasto,2022-12,Supermercado,modelo
+2022-12-05,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",0.5,pago movil en minimarket la x las palmas tarj,gasto,2022-12,Compras no esenciales,modelo
 2022-12-07,"PAGO MOVIL EN LIDL CAN-GC-TEL, LLANOS DE LA, TARJ. :*585729",5.61,pago movil en lidl can gc tel llanos de la tarj,gasto,2022-12,Supermercado,manual
 2022-12-07,"RECIBO CAYEST TURISTICA SL N: RECIBO 0049 6140 755 BBFCXGK REF. MANDATO 5382021522202206, DE",34.0,recibo cayest turistica sl n recibo bbfcxgk ref mandato de,gasto,2022-12,Facturas,manual
 2022-12-04,"COMPRA APPLE.COM/BILL, 900812703, TARJETA 5163830309585729 , COMISION 0,00",17.99,compra apple com bill tarjeta comision,gasto,2022-12,Ocio / Suscripciones,manual
 2022-12-09,"PAGO MOVIL EN CA LORE MARZAGA, VINCULO, EL, TARJ. :*585729",22.0,pago movil en ca lore marzaga vinculo el tarj,gasto,2022-12,Supermercado,modelo
 2022-12-12,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",31.66,compra internet en repsol waylet madrid tarj,gasto,2022-12,Transporte,manual
-2022-12-10,"PAGO MOVIL EN STARBUCKS ALISI, LAS PALMAS DE, TARJ. :*585729",8.7,pago movil en starbucks alisi las palmas de tarj,gasto,2022-12,Supermercado,modelo
+2022-12-10,"PAGO MOVIL EN STARBUCKS ALISI, LAS PALMAS DE, TARJ. :*585729",8.7,pago movil en starbucks alisi las palmas de tarj,gasto,2022-12,Restauración,modelo
 2022-12-11,"PAGO MOVIL EN SPAR LA BARRERA, VALSEQUILLO (, TARJ. :*585729",4.95,pago movil en spar la barrera valsequillo tarj,gasto,2022-12,Restauración,manual
 2022-12-11,"PAGO MOVIL EN FARMACIA LA BAR, VALSEQUILLO (, TARJ. :*585729",7.25,pago movil en farmacia la bar valsequillo tarj,gasto,2022-12,Restauración,manual
 2022-12-13,"PAGO MOVIL EN LA MARETA, TELDE, TARJ. :*585729",24.25,pago movil en la mareta telde tarj,gasto,2022-12,Restauración,modelo
@@ -620,7 +620,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-12-19,"PAGO MOVIL EN GLOBAL SALCAI, LAS PALMAS DE, TARJ. :*585729",1.4,pago movil en global salcai las palmas de tarj,gasto,2022-12,Transporte,manual
 2022-12-20,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Gastos mensuales - Hijo",250.0,transferencia de evelymar bastidas rosario concepto gastos mensuales hijo,ingreso,2022-12,Ingreso,manual
 2022-12-21,"RECIBO VODAFONE Factura: YJ22-002183074/ N: RECIBO 0049 6140 755 BBFDCNB REF. MANDATO 0111207734, DE",31.39,recibo vodafone factura yj n recibo bbfdcnb ref mandato de,gasto,2022-12,Facturas,manual
-2022-12-21,"PAGO MOVIL EN LA TASQUITA VIE, LAS PALMAS, TARJ. :*585729",3.5,pago movil en la tasquita vie las palmas tarj,gasto,2022-12,Supermercado,modelo
+2022-12-21,"PAGO MOVIL EN LA TASQUITA VIE, LAS PALMAS, TARJ. :*585729",3.5,pago movil en la tasquita vie las palmas tarj,gasto,2022-12,Compras no esenciales,modelo
 2022-12-21,BIZUM A FAVOR DE JUAN AYOZE GONZALEZ PEREZ CONCEPTO: reparacion,192.6,bizum a favor de juan ayoze gonzalez perez concepto reparacion,gasto,2022-12,Transferencia personal,manual
 2022-12-22,"PAGO MOVIL EN SPAR LA BARRERA, VALSEQUILLO (, TARJ. :*585729",24.8,pago movil en spar la barrera valsequillo tarj,gasto,2022-12,Restauración,manual
 2022-12-22,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",31.36,compra internet en repsol waylet madrid tarj,gasto,2022-12,Transporte,manual
@@ -630,20 +630,20 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-12-22,"PAGO MOVIL EN BAZAR VALSEQUIL, VALSEQUILLO D, TARJ. :*585729",4.99,pago movil en bazar valsequil valsequillo d tarj,gasto,2022-12,Supermercado,modelo
 2022-12-23,"PAGO MOVIL EN TELEPIZZA, TELDE, TARJ. :*585729",26.95,pago movil en telepizza telde tarj,gasto,2022-12,Restauración,manual
 2022-12-23,BIZUM DE Debora Vega Ravelo CONCEPTO .,34.0,bizum de debora vega ravelo concepto,ingreso,2022-12,Ingreso,manual
-2022-12-26,"PAGO MOVIL EN ISLA NATURA, LAS PALMAS DE, TARJ. :*585729",16.9,pago movil en isla natura las palmas de tarj,gasto,2022-12,Supermercado,modelo
+2022-12-26,"PAGO MOVIL EN ISLA NATURA, LAS PALMAS DE, TARJ. :*585729",16.9,pago movil en isla natura las palmas de tarj,gasto,2022-12,Restauración,modelo
 2022-12-25,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Regalo Navidad",200.0,transferencia de evelymar bastidas rosario concepto regalo navidad,ingreso,2022-12,Ingreso,manual
 2022-12-25,"PAGO MOVIL EN PAPARAZZI LAS A, LAS PALMAS DE, TARJ. :*585729",28.8,pago movil en paparazzi las a las palmas de tarj,gasto,2022-12,Restauración,modelo
 2022-12-25,"PAGO MOVIL EN ILUSIONA LAS PA, PALMAS (LAS), TARJ. :*585729",1.0,pago movil en ilusiona las pa palmas las tarj,gasto,2022-12,Restauración,modelo
 2022-12-26,"PAGO MOVIL EN CHINA MARKET, LAS PALMAS DE, TARJ. :*585729",8.77,pago movil en china market las palmas de tarj,gasto,2022-12,Restauración,modelo
 2022-12-26,"PAGO MOVIL EN EL CORTE INGLES, LAS PALMAS, TARJ. :*585729",40.19,pago movil en el corte ingles las palmas tarj,gasto,2022-12,Restauración,modelo
-2022-12-22,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-12,Compras no esenciales,modelo
+2022-12-22,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2022-12,Ocio / Suscripciones,modelo
 2022-12-28,"PAGO MOVIL EN LEFTIES ZARA RD, TELDE, TARJ. :*585729",12.59,pago movil en lefties zara rd telde tarj,gasto,2022-12,Compras no esenciales,manual
-2022-12-26,"COMPRA PRIMARK GRAN CAN EL MI, JINAMAR, TARJETA 5163830309585729 , COMISION 0,00",30.5,compra primark gran can el mi jinamar tarjeta comision,gasto,2022-12,Compras no esenciales,modelo
+2022-12-26,"COMPRA PRIMARK GRAN CAN EL MI, JINAMAR, TARJETA 5163830309585729 , COMISION 0,00",30.5,compra primark gran can el mi jinamar tarjeta comision,gasto,2022-12,Restauración,modelo
 2022-12-30,"PAGO MOVIL EN ILUSIONA LAS PA, PALMAS (LAS), TARJ. :*585729",1.0,pago movil en ilusiona las pa palmas las tarj,gasto,2022-12,Restauración,modelo
 2022-12-29,"PAGO MOVIL EN ILUSIONA LAS PA, PALMAS (LAS), TARJ. :*585729",1.0,pago movil en ilusiona las pa palmas las tarj,gasto,2022-12,Restauración,modelo
 2022-12-29,BIZUM A FAVOR DE Debora Vega Ravelo CONCEPTO: comida,34.0,bizum a favor de debora vega ravelo concepto comida,gasto,2022-12,Transferencia personal,manual
 2023-01-02,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",35.22,compra internet en repsol waylet madrid tarj,gasto,2023-01,Transporte,manual
-2023-01-03,"PAGO MOVIL EN ROCKABILLY VENE, LAS PALMAS DE, TARJ. :*585729",35.45,pago movil en rockabilly vene las palmas de tarj,gasto,2023-01,Supermercado,modelo
+2023-01-03,"PAGO MOVIL EN ROCKABILLY VENE, LAS PALMAS DE, TARJ. :*585729",35.45,pago movil en rockabilly vene las palmas de tarj,gasto,2023-01,Restauración,modelo
 2023-01-02,BIZUM DE Debora Vega Ravelo CONCEPTO feliz aniversario,17.5,bizum de debora vega ravelo concepto feliz aniversario,ingreso,2023-01,Ingreso,manual
 2023-01-04,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Gastos mes Enero",230.0,transferencia de evelymar bastidas rosario concepto gastos mes enero,ingreso,2023-01,Ingreso,manual
 2023-01-02,"COMPRA SpotifyES P1FF209F30, Stockholm, TARJETA 5163830309585729 , COMISION 0,00",4.99,compra spotifyes pfff stockholm tarjeta comision,gasto,2023-01,Ocio / Suscripciones,manual
@@ -659,7 +659,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-01-11,"PAGO MOVIL EN ESTHER HOME CC, LAS PALMAS DE, TARJ. :*585729",25.1,pago movil en esther home cc las palmas de tarj,gasto,2023-01,Restauración,modelo
 2023-01-11,BIZUM A FAVOR DE JUAN AYOZE GONZALEZ PEREZ CONCEPTO: bateria,192.6,bizum a favor de juan ayoze gonzalez perez concepto bateria,gasto,2023-01,Transferencia personal,manual
 2023-01-12,TRANSFERENCIA A FAVOR DE JAVIER CONCEPTO: ORLA 1                                   E X T R A C T O    D E    C U E N T A S    P E R S O N A L E S              FECHA  :  06-05-2025,20.0,transferencia a favor de javier concepto orla e x t r a c t o d e c u e n t a s p e r s o n a l e s fecha,gasto,2023-01,Transferencia personal,manual
-2023-01-16,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.2,pago movil en las palmas tarj,gasto,2023-01,Supermercado,modelo
+2023-01-16,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",0.2,pago movil en las palmas tarj,gasto,2023-01,Compras no esenciales,modelo
 2023-01-13,"PAGO MOVIL EN LACANDELLA, PALMAS DE GRA, TARJ. :*585729",27.4,pago movil en lacandella palmas de gra tarj,gasto,2023-01,Compras no esenciales,modelo
 2023-01-16,"PAGO MOVIL EN LIDL CAN-GC-TEL, TELDE, TARJ. :*585729",5.3,pago movil en lidl can gc tel telde tarj,gasto,2023-01,Supermercado,manual
 2023-01-17,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Reparacion coche, pago orla universidad y para un",100.0,transferencia de evelymar bastidas rosario concepto reparacion coche pago orla universidad y para un,ingreso,2023-01,Ingreso,manual
@@ -671,8 +671,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-01-23,BIZUM A FAVOR DE Debora Vega Ravelo CONCEPTO: comida,24.0,bizum a favor de debora vega ravelo concepto comida,gasto,2023-01,Transferencia personal,manual
 2023-01-23,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",37.06,compra internet en repsol waylet madrid tarj,gasto,2023-01,Transporte,manual
 2023-01-21,"COMPRA APPLE.COM/BILL, 900812703, TARJETA 5163830309585729 , COMISION 0,00",8.99,compra apple com bill tarjeta comision,gasto,2023-01,Ocio / Suscripciones,manual
-2023-01-23,"PAGO MOVIL EN SUPERMERCADO HN, PALMAS (LAS), TARJ. :*585729",6.94,pago movil en supermercado hn palmas las tarj,gasto,2023-01,Supermercado,modelo
-2023-01-24,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2023-01,Compras no esenciales,modelo
+2023-01-23,"PAGO MOVIL EN SUPERMERCADO HN, PALMAS (LAS), TARJ. :*585729",6.94,pago movil en supermercado hn palmas las tarj,gasto,2023-01,Compras no esenciales,modelo
+2023-01-24,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2023-01,Ocio / Suscripciones,modelo
 2023-01-26,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Pago universidad",231.96,transferencia de evelymar bastidas rosario concepto pago universidad,ingreso,2023-01,Ingreso,manual
 2023-01-26,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Pago movil",35.0,transferencia de evelymar bastidas rosario concepto pago movil,ingreso,2023-01,Ingreso,manual
 2023-01-26,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Gastos Febrero",230.0,transferencia de evelymar bastidas rosario concepto gastos febrero,ingreso,2023-01,Ingreso,manual
@@ -681,15 +681,15 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-01-30,BIZUM A FAVOR DE JUAN JOSE RODRIGUEZ ALVAR CONCEPTO: tu tom tom yo querer nam nam,7.0,bizum a favor de juan jose rodriguez alvar concepto tu tom tom yo querer nam nam,gasto,2023-01,Transferencia personal,manual
 2023-01-28,"TRANSACCION CONTACTLESS EN HD ARNAO, TELDE, TARJ. :*585729",5.52,transaccion contactless en hd arnao telde tarj,gasto,2023-01,Supermercado,modelo
 2023-01-28,"PAGO MOVIL EN LIDL CAN-GC-TEL, TELDE, TARJ. :*585729",4.96,pago movil en lidl can gc tel telde tarj,gasto,2023-01,Supermercado,manual
-2023-01-29,"PAGO MOVIL EN COOP S CRISTOBA, PALMAS (LAS), TARJ. :*585729",5.95,pago movil en coop s cristoba palmas las tarj,gasto,2023-01,Supermercado,modelo
+2023-01-29,"PAGO MOVIL EN COOP S CRISTOBA, PALMAS (LAS), TARJ. :*585729",5.95,pago movil en coop s cristoba palmas las tarj,gasto,2023-01,Compras no esenciales,modelo
 2023-01-30,"PAGO MOVIL EN CAFETERIA ECUAD, TELDE, TARJ. :*585729",1.2,pago movil en cafeteria ecuad telde tarj,gasto,2023-01,Restauración,manual
 2023-01-31,"PAGO MOVIL EN LAIBA DONER KEB, TELDE, TARJ. :*585729",8.6,pago movil en laiba doner keb telde tarj,gasto,2023-01,Supermercado,modelo
 2023-01-31,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Reparacion coche",158.17,transferencia de evelymar bastidas rosario concepto reparacion coche,ingreso,2023-01,Ingreso,manual
 2023-02-01,BIZUM A FAVOR DE JUAN AYOZE GONZALEZ PEREZ CONCEPTO: arreglo coche,158.17,bizum a favor de juan ayoze gonzalez perez concepto arreglo coche,gasto,2023-02,Transferencia personal,manual
-2023-02-01,"PAGO MOVIL EN 1216 PC AER LPA, LAS PALMAS, TARJ. :*585729",1.65,pago movil en pc aer lpa las palmas tarj,gasto,2023-02,Supermercado,modelo
+2023-02-01,"PAGO MOVIL EN 1216 PC AER LPA, LAS PALMAS, TARJ. :*585729",1.65,pago movil en pc aer lpa las palmas tarj,gasto,2023-02,Compras no esenciales,modelo
 2023-02-02,"PAGO MOVIL EN TABACO BARATO, TELDE, TARJ. :*585729",15.6,pago movil en tabaco barato telde tarj,gasto,2023-02,Compras no esenciales,manual
 2023-02-02,"PAGO MOVIL EN BAR RESTAURANTE, LAS PALMAS, TARJ. :*585729",1.2,pago movil en bar restaurante las palmas tarj,gasto,2023-02,Restauración,manual
-2023-02-03,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",1.65,pago movil en las palmas tarj,gasto,2023-02,Supermercado,modelo
+2023-02-03,"PAGO MOVIL EN 38, LAS PALMAS, TARJ. :*585729",1.65,pago movil en las palmas tarj,gasto,2023-02,Compras no esenciales,modelo
 2023-02-06,"PAGO MOVIL EN DELOREAN BURGUE, MONTE LENTISC, TARJ. :*585729",21.12,pago movil en delorean burgue monte lentisc tarj,gasto,2023-02,Supermercado,modelo
 2023-02-05,"PAGO MOVIL EN GRAN CANARIA PA, TELDE, TARJ. :*585729",10.0,pago movil en gran canaria pa telde tarj,gasto,2023-02,Restauración,modelo
 2023-02-05,"PAGO MOVIL EN POKE POKE LAS A, LAS PALMAS, TARJ. :*585729",12.95,pago movil en poke poke las a las palmas tarj,gasto,2023-02,Restauración,manual
@@ -722,13 +722,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-02-24,"PAGO MOVIL EN LA TASQUITA VIE, PALMAS DE GRA, TARJ. :*585729",1.5,pago movil en la tasquita vie palmas de gra tarj,gasto,2023-02,Restauración,modelo
 2023-02-24,"REINTEGRO CAJERO SERVIRED, ATM:01824951, PALMAS (LAS), TARJ. :*585729, COMIS. CAJERO",22.7,reintegro cajero servired atm palmas las tarj comis cajero,gasto,2023-02,Ingreso,manual
 2023-02-27,"PAGO MOVIL EN PURA VIDA PAN &, LAS PALMAS DE, TARJ. :*585729",2.3,pago movil en pura vida pan & las palmas de tarj,gasto,2023-02,Restauración,modelo
-2023-02-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2023-02,Compras no esenciales,modelo
+2023-02-23,"COMPRA DOMESTIC & GENERAL ESP, MADRID, TARJETA 5163830309585729 , COMISION 0,00",6.19,compra domestic & general esp madrid tarjeta comision,gasto,2023-02,Ocio / Suscripciones,modelo
 2023-03-01,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Gastos mes Marzo",230.0,transferencia de evelymar bastidas rosario concepto gastos mes marzo,ingreso,2023-03,Ingreso,manual
 2023-03-01,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",3.9,pago movil en las casitas emp las palmas de tarj,gasto,2023-03,Restauración,manual
 2023-03-01,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Movil Febrero",35.0,transferencia de evelymar bastidas rosario concepto movil febrero,ingreso,2023-03,Ingreso,manual
 2023-03-01,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Universidad pago Marzo",231.96,transferencia de evelymar bastidas rosario concepto universidad pago marzo,ingreso,2023-03,Ingreso,manual
 2023-03-02,BIZUM A FAVOR DE DELIA CAROLINA CABRERA GO CONCEPTO: desayuno chachi,4.0,bizum a favor de delia carolina cabrera go concepto desayuno chachi,gasto,2023-03,Transferencia personal,manual
-2023-03-02,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.0,pago movil en minimarket la x las palmas tarj,gasto,2023-03,Supermercado,modelo
+2023-03-02,"PAGO MOVIL EN MINIMARKET LA X, LAS PALMAS, TARJ. :*585729",1.0,pago movil en minimarket la x las palmas tarj,gasto,2023-03,Compras no esenciales,modelo
 2023-03-03,"PAGO MOVIL EN PURA VIDA PAN &, LAS PALMAS DE, TARJ. :*585729",2.5,pago movil en pura vida pan & las palmas de tarj,gasto,2023-03,Restauración,modelo
 2023-03-06,"PAGO MOVIL EN ALCAMPO TELDE, TELDE, TARJ. :*585729",82.47,pago movil en alcampo telde telde tarj,gasto,2023-03,Supermercado,manual
 2023-03-04,BIZUM DE ANA MARIA YLLA PALLARES CONCEPTO Botas,70.0,bizum de ana maria ylla pallares concepto botas,ingreso,2023-03,Ingreso,manual
@@ -763,7 +763,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-03-21,"RECIBO VODAFONE Factura: YJ23-000446847/ N: RECIBO 0049 6140 755 BBFGKNV REF. MANDATO 0111207734, DE",33.43,recibo vodafone factura yj n recibo bbfgknv ref mandato de,gasto,2023-03,Facturas,manual
 2023-03-21,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",36.85,compra internet en repsol waylet madrid tarj,gasto,2023-03,Transporte,manual
 2023-03-23,"COMPRA APPLE.COM/BILL, 900812703, TARJETA 5163830309585729 , COMISION 0,00",8.99,compra apple com bill tarjeta comision,gasto,2023-03,Ocio / Suscripciones,manual
-2023-03-27,"PAGO MOVIL EN LLAO LLAO LAS C, PALMAS (LAS), TARJ. :*585729",7.8,pago movil en llao llao las c palmas las tarj,gasto,2023-03,Supermercado,modelo
+2023-03-27,"PAGO MOVIL EN LLAO LLAO LAS C, PALMAS (LAS), TARJ. :*585729",7.8,pago movil en llao llao las c palmas las tarj,gasto,2023-03,Compras no esenciales,modelo
 2023-03-28,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Clases particulares",162.0,transferencia de evelymar bastidas rosario concepto clases particulares,ingreso,2023-03,Ingreso,manual
 2023-03-28,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Producto limpieza camisas",10.0,transferencia de evelymar bastidas rosario concepto producto limpieza camisas,ingreso,2023-03,Ingreso,manual
 2023-03-28,"TRANSFERENCIA DE Evelymar Bastidas Rosario, CONCEPTO Mensualidad mas extra Abril 2023",230.0,transferencia de evelymar bastidas rosario concepto mensualidad mas extra abril,ingreso,2023-03,Ingreso,manual
@@ -795,7 +795,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-04-13,"PAGO MOVIL EN MCDONALDS TELDE, TELDE, TARJ. :*585729",12.62,pago movil en mcdonalds telde telde tarj,gasto,2023-04,Restauración,manual
 2023-04-17,"PAGO MOVIL EN HD MELENARA, TELDE, TARJ. :*585729",39.1,pago movil en hd melenara telde tarj,gasto,2023-04,Supermercado,modelo
 2023-04-15,"PAGO MOVIL EN LIDL CAN-GC-TEL, LLANOS DE LA, TARJ. :*585729",16.28,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-04,Supermercado,manual
-2023-04-15,"PAGO MOVIL EN LACANDELLA, LAS PALMAS DE, TARJ. :*585729",29.1,pago movil en lacandella las palmas de tarj,gasto,2023-04,Supermercado,modelo
+2023-04-15,"PAGO MOVIL EN LACANDELLA, LAS PALMAS DE, TARJ. :*585729",29.1,pago movil en lacandella las palmas de tarj,gasto,2023-04,Restauración,modelo
 2023-04-16,BIZUM DE Debora Vega Ravelo CONCEPTO .,31.0,bizum de debora vega ravelo concepto,ingreso,2023-04,Ingreso,manual
 2023-04-19,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",2.9,pago movil en las casitas emp las palmas de tarj,gasto,2023-04,Restauración,manual
 2023-04-20,"RECIBO VODAFONE Factura: YJ23-000620633/ N: RECIBO 0049 6140 755 BBFHDQW REF. MANDATO 0111207734, DE",33.43,recibo vodafone factura yj n recibo bbfhdqw ref mandato de,gasto,2023-04,Facturas,manual
@@ -805,7 +805,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-04-20,BIZUM DE Debora Vega Ravelo CONCEPTO .,32.0,bizum de debora vega ravelo concepto,ingreso,2023-04,Ingreso,manual
 2023-04-24,"PAGO MOVIL EN LIDL CAN-GC-TEL, TELDE, TARJ. :*585729",45.96,pago movil en lidl can gc tel telde tarj,gasto,2023-04,Supermercado,manual
 2023-04-22,"PAGO MOVIL EN HD ARNAO, TELDE, TARJ. :*585729",8.13,pago movil en hd arnao telde tarj,gasto,2023-04,Supermercado,modelo
-2023-04-22,"PAGO MOVIL EN LACANDELLA, LAS PALMAS DE, TARJ. :*585729",20.0,pago movil en lacandella las palmas de tarj,gasto,2023-04,Supermercado,modelo
+2023-04-22,"PAGO MOVIL EN LACANDELLA, LAS PALMAS DE, TARJ. :*585729",20.0,pago movil en lacandella las palmas de tarj,gasto,2023-04,Restauración,modelo
 2023-04-25,BIZUM DE Debora Vega Ravelo CONCEPTO .,27.0,bizum de debora vega ravelo concepto,ingreso,2023-04,Ingreso,manual
 2023-04-27,"COMPRA INTERNET EN REPSOL WAYLET, MADRID, TARJ. :*585729",28.82,compra internet en repsol waylet madrid tarj,gasto,2023-04,Transporte,manual
 2023-04-27,"PAGO MOVIL EN LAS CASITAS EMP, LAS PALMAS DE, TARJ. :*585729",4.1,pago movil en las casitas emp las palmas de tarj,gasto,2023-04,Restauración,manual
@@ -924,7 +924,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2025-02-21,"Transferencia Inmediata De Evelymar Bastidas Rosario, Concepto Mobile Feb",15.0,transferencia inmediata de evelymar bastidas rosario concepto mobile feb,ingreso,2025-02,Ingreso,manual
 2025-02-21,"Transferencia Inmediata De Evelymar Bastidas Rosario, Concepto Seguro Medico March",75.0,transferencia inmediata de evelymar bastidas rosario concepto seguro medico march,ingreso,2025-02,Ingreso,manual
 2025-02-21,"Transferencia Inmediata De Evelymar Bastidas Rosario, Concepto Master 3/18 Meses",300.0,transferencia inmediata de evelymar bastidas rosario concepto master meses,ingreso,2025-02,Ingreso,manual
-2025-02-20,"Compra Internet En Fred.olsen Expr, Santa Cruz De, Tarj. :*179057",54.72,compra internet en fred olsen expr santa cruz de tarj,gasto,2025-02,Restauración,modelo
+2025-02-20,"Compra Internet En Fred.olsen Expr, Santa Cruz De, Tarj. :*179057",54.72,compra internet en fred olsen expr santa cruz de tarj,gasto,2025-02,Transporte,modelo
 2025-02-18,"Pago Movil En El Corral Telde, Telde, Tarj. :*179057",206.49,pago movil en el corral telde telde tarj,gasto,2025-02,Facturas,manual
 2025-02-17,"Compra Playstation Network, Hilversum, Tarjeta 5489010358179057 , Comision 0,00",13.99,compra playstation network hilversum tarjeta comision,gasto,2025-02,Compras no esenciales,manual
 2025-02-17,"Compra Apple.com/bill, 900812703, Tarjeta 5489010358179057 , Comision 0,00",4.99,compra apple com bill tarjeta comision,gasto,2025-02,Ocio / Suscripciones,manual
@@ -971,7 +971,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2025-01-20,"Pago Movil En Lidl Can-gc-tel, Telde, Tarj. :*179057",33.35,pago movil en lidl can gc tel telde tarj,gasto,2025-01,Supermercado,manual
 2025-01-20,"Pago Movil En Hd Melenara, Telde, Tarj. :*179057",67.25,pago movil en hd melenara telde tarj,gasto,2025-01,Supermercado,modelo
 2025-01-20,"Pago Movil En Muelle Deportiv, Palmas De Gra, Tarj. :*179057",0.9,pago movil en muelle deportiv palmas de gra tarj,gasto,2025-01,Compras no esenciales,modelo
-2025-01-20,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",38.65,pago movil en school busrger las palmas de tarj,gasto,2025-01,Supermercado,modelo
+2025-01-20,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",38.65,pago movil en school busrger las palmas de tarj,gasto,2025-01,Restauración,modelo
 2025-01-17,"Pago Movil En Media Markt - T, Jinamar, Tarj. :*179057",39.99,pago movil en media markt t jinamar tarj,gasto,2025-01,Compras no esenciales,manual
 2025-01-17,"Compra Apple.com/bill, 900812703, Tarjeta 5489010358179057 , Comision 0,00",4.99,compra apple com bill tarjeta comision,gasto,2025-01,Ocio / Suscripciones,manual
 2025-01-16,"Recibo Vodafone Factura: Yj25-000092107/ Nº Recibo 0049 6140 755 Bbgclzk Ref. Mandato 0111207734, De",74.39,recibo vodafone factura yj nº recibo bbgclzk ref mandato de,gasto,2025-01,Facturas,manual
@@ -1016,7 +1016,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-26,"Pago Movil En Bk16212 Telde, Telde, Tarj. :*179057",15.0,pago movil en bk telde telde tarj,gasto,2024-12,Restauración,manual
 2024-12-26,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",39.11,compra internet en repsol waylet madrid tarj,gasto,2024-12,Transporte,manual
 2024-12-24,"Compra Aliexpress, Luxembourg, Tarjeta 5489010358179057 , Comision 0,00",12.06,compra aliexpress luxembourg tarjeta comision,gasto,2024-12,Compras no esenciales,manual
-2024-12-24,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",2.25,pago movil en sagulpa elder las palmas tarj,gasto,2024-12,Supermercado,modelo
+2024-12-24,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",2.25,pago movil en sagulpa elder las palmas tarj,gasto,2024-12,Compras no esenciales,modelo
 2024-12-23,"Compra Ubr* Pending.uber.com, Amsterdam, Tarjeta 5489010358179057 , Comision 0,00",4.99,compra ubr pending uber com amsterdam tarjeta comision,gasto,2024-12,Restauración,modelo
 2024-12-23,Bizum De Debora Vega Ravelo Concepto Todo Saldado,78.0,bizum de debora vega ravelo concepto todo saldado,ingreso,2024-12,Ingreso,manual
 2024-12-23,"Pago Movil En Rest Hermanos M, Santa Brigida, Tarj. :*179057",8.1,pago movil en rest hermanos m santa brigida tarj,gasto,2024-12,Restauración,modelo
@@ -1042,7 +1042,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-16,"Pago Movil En Dulceria San Ma, Vega De San M, Tarj. :*179057",12.7,pago movil en dulceria san ma vega de san m tarj,gasto,2024-12,Restauración,modelo
 2024-12-16,Reintegro Contra Cuenta En Atm 004903590000 El 14/12/2024 A Las 20:33. .pan: 5489010358179057.,40.0,reintegro contra cuenta en atm el a las pan,gasto,2024-12,Ingreso,manual
 2024-12-16,"Devolucion Pago Movil En Netx Tv Pc Gami, Las Palmas De, Tarj. :*179057",874.0,devolucion pago movil en netx tv pc gami las palmas de tarj,ingreso,2024-12,Gastos extraordinarios,modelo
-2024-12-16,"Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057 −0,20€ −171,94€ 16 dic 2024 F. valor: 14 dic 2024 Pago Movil En Netx Tv Pc Gami, Las Palmas De, Tarj. :*179057 −874,00€ −171,74€ 16 dic 2024 F. valor: 14 dic 2024 Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057",0.2,pago movil en sagulpa parquim palmas de gra tarj − € − € dic f valor dic pago movil en netx tv pc gami las palmas de tarj − € − € dic f valor dic pago movil en sagulpa parquim palmas de gra tarj,gasto,2024-12,Supermercado,modelo
+2024-12-16,"Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057 −0,20€ −171,94€ 16 dic 2024 F. valor: 14 dic 2024 Pago Movil En Netx Tv Pc Gami, Las Palmas De, Tarj. :*179057 −874,00€ −171,74€ 16 dic 2024 F. valor: 14 dic 2024 Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057",0.2,pago movil en sagulpa parquim palmas de gra tarj − € − € dic f valor dic pago movil en netx tv pc gami las palmas de tarj − € − € dic f valor dic pago movil en sagulpa parquim palmas de gra tarj,gasto,2024-12,Compras no esenciales,modelo
 2024-12-16,"Pago Movil En Picoteo S. Migu, Telde, Tarj. :*179057",16.22,pago movil en picoteo s migu telde tarj,gasto,2024-12,Restauración,manual
 2024-12-16,"Pago Movil En Pizza Royers Te, Telde, Tarj. :*179057",18.4,pago movil en pizza royers te telde tarj,gasto,2024-12,Restauración,manual
 2024-12-13,"Devolucion Pago Movil En Stradivarius Mi, Las Palmas De, Tarj. :*179057",45.99,devolucion pago movil en stradivarius mi las palmas de tarj,ingreso,2024-12,Compras no esenciales,manual
@@ -1108,11 +1108,11 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-11-18,"Recibo Vodafone Factura: Yj24-001769982/ Nº Recibo 0049 6140 755 Bbfzsyh Ref. Mandato 0111207734, De",74.17,recibo vodafone factura yj nº recibo bbfzsyh ref mandato de,gasto,2024-11,Facturas,manual
 2024-11-18,"Pago Movil En B King Cc Las T, Telde, Tarj. :*179057",24.33,pago movil en b king cc las t telde tarj,gasto,2024-11,Restauración,modelo
 2024-11-18,Bizum A Favor De Debora Vega Ravelo Concepto: Agua,36.6,bizum a favor de debora vega ravelo concepto agua,gasto,2024-11,Transferencia personal,manual
-2024-11-18,"Pago Movil En Churreria Kevin, El Caracol Te, Tarj. :*179057",3.0,pago movil en churreria kevin el caracol te tarj,gasto,2024-11,Supermercado,modelo
-2024-11-18,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",1.25,pago movil en sagulpa elder las palmas tarj,gasto,2024-11,Supermercado,modelo
+2024-11-18,"Pago Movil En Churreria Kevin, El Caracol Te, Tarj. :*179057",3.0,pago movil en churreria kevin el caracol te tarj,gasto,2024-11,Compras no esenciales,modelo
+2024-11-18,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",1.25,pago movil en sagulpa elder las palmas tarj,gasto,2024-11,Compras no esenciales,modelo
 2024-11-18,"Pago Movil En Lidl Can-gc-tel, Telde, Tarj. :*179057",31.7,pago movil en lidl can gc tel telde tarj,gasto,2024-11,Supermercado,manual
-2024-11-18,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",2.45,pago movil en sagulpa elder las palmas tarj,gasto,2024-11,Supermercado,modelo
-2024-11-18,"Pago Movil En Lacan Farray, Las Palmas De, Tarj. :*179057",16.8,pago movil en lacan farray las palmas de tarj,gasto,2024-11,Supermercado,modelo
+2024-11-18,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",2.45,pago movil en sagulpa elder las palmas tarj,gasto,2024-11,Compras no esenciales,modelo
+2024-11-18,"Pago Movil En Lacan Farray, Las Palmas De, Tarj. :*179057",16.8,pago movil en lacan farray las palmas de tarj,gasto,2024-11,Restauración,modelo
 2024-11-15,"Pago Movil En Decathlon Telde, Telde, Tarj. :*179057",9.98,pago movil en decathlon telde telde tarj,gasto,2024-11,Compras no esenciales,manual
 2024-11-14,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",32.56,compra internet en repsol waylet madrid tarj,gasto,2024-11,Transporte,manual
 2024-11-13,Recibo Gym Canarias Sl - Fp Telde - Las Terraza Nº Recibo 0049 6140 755 Bbfzrvp Ref. Mandato Rumfic4,30.0,recibo gym canarias sl fp telde las terraza nº recibo bbfzrvp ref mandato rumfic,gasto,2024-11,Facturas,manual
@@ -1129,7 +1129,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-11-04,"Compra Apple.com/bill, 900812703, Tarjeta 5489010358179057 , Comision 0,00",8.99,compra apple com bill tarjeta comision,gasto,2024-11,Ocio / Suscripciones,manual
 2024-11-04,"Recibo Sanitas S A De Seguros Nº Recibo 0049 6140 755 Bbfzbxy Ref. Mandato 800014242109, De",73.06,recibo sanitas s a de seguros nº recibo bbfzbxy ref mandato de,gasto,2024-11,Facturas,manual
 2024-11-04,"Pago Movil En Picoteo S. Migu, Telde, Tarj. :*179057",15.7,pago movil en picoteo s migu telde tarj,gasto,2024-11,Restauración,manual
-2024-11-04,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",12.9,pago movil en school busrger las palmas de tarj,gasto,2024-11,Supermercado,modelo
+2024-11-04,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",12.9,pago movil en school busrger las palmas de tarj,gasto,2024-11,Restauración,modelo
 2024-10-31,"Devolucion Compra En Amazon Prime, Amazon.es/prm, Tarjeta 5489010358179057 , Comision 0,00",49.9,devolucion compra en amazon prime amazon es prm tarjeta comision,ingreso,2024-10,Compras no esenciales,manual
 2024-10-31,Liquidacion Periodica Prestamo 0049 6140 143 0002741,197.19,liquidacion periodica prestamo,gasto,2024-10,Préstamo,manual
 2024-10-30,"Pago Movil En 2834 Tb Metropo, Madrid, Tarj. :*179057",19.21,pago movil en tb metropo madrid tarj,gasto,2024-10,Restauración,manual
@@ -1148,7 +1148,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-10-29,"Pago Movil En Mercadona Las T, Hornos Del Re, Tarj. :*179057",9.0,pago movil en mercadona las t hornos del re tarj,gasto,2024-10,Supermercado,manual
 2024-10-28,"Compra Spotify P30ef6e8fb, Stockholm, Tarjeta 5489010358179057 , Comision 0,00",14.99,compra spotify pefefb stockholm tarjeta comision,gasto,2024-10,Ocio / Suscripciones,manual
 2024-10-28,Bizum De Debora Vega Ravelo Concepto Compras,45.0,bizum de debora vega ravelo concepto compras,ingreso,2024-10,Ingreso,manual
-2024-10-28,"Pago Movil En Lacan Primero D, Las Palmas De, Tarj. :*179057",38.5,pago movil en lacan primero d las palmas de tarj,gasto,2024-10,Supermercado,modelo
+2024-10-28,"Pago Movil En Lacan Primero D, Las Palmas De, Tarj. :*179057",38.5,pago movil en lacan primero d las palmas de tarj,gasto,2024-10,Restauración,modelo
 2024-10-28,"Pago Movil En Pull And Bear, Telde, Tarj. :*179057",19.99,pago movil en pull and bear telde tarj,gasto,2024-10,Supermercado,modelo
 2024-10-28,"Pago Movil En Bershka, Telde, Tarj. :*179057",23.08,pago movil en bershka telde tarj,gasto,2024-10,Supermercado,modelo
 2024-10-28,"Pago Movil En Picoteo S. Migu, Telde, Tarj. :*179057",2.2,pago movil en picoteo s migu telde tarj,gasto,2024-10,Restauración,manual
@@ -1182,7 +1182,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-10-14,"Pago Movil En Dulceria San Ma, Vega De San M, Tarj. :*179057",5.2,pago movil en dulceria san ma vega de san m tarj,gasto,2024-10,Restauración,modelo
 2024-10-14,"Pago Movil En Jose Martel, San Mateo, Tarj. :*179057",5.07,pago movil en jose martel san mateo tarj,gasto,2024-10,Restauración,modelo
 2024-10-14,"Pago Movil En Golosinas Merca, San Mateo, Tarj. :*179057",2.6,pago movil en golosinas merca san mateo tarj,gasto,2024-10,Supermercado,modelo
-2024-10-14,"Pago Movil En Frutas Y Verdur, Vega De San M, Tarj. :*179057",1.5,pago movil en frutas y verdur vega de san m tarj,gasto,2024-10,Supermercado,modelo
+2024-10-14,"Pago Movil En Frutas Y Verdur, Vega De San M, Tarj. :*179057",1.5,pago movil en frutas y verdur vega de san m tarj,gasto,2024-10,Restauración,modelo
 2024-10-14,"Pago Movil En Alcampo Telde, Telde, Tarj. :*179057",7.98,pago movil en alcampo telde telde tarj,gasto,2024-10,Supermercado,manual
 2024-10-14,Bizum A Favor De Eduardo Jesus Vega Cabello Concepto: Entrada Circo,55.0,bizum a favor de eduardo jesus vega cabello concepto entrada circo,gasto,2024-10,Transferencia personal,manual
 2024-10-08,"Pago Movil En 2834 Tb Metropo, Madrid, Tarj. :*179057",3.0,pago movil en tb metropo madrid tarj,gasto,2024-10,Restauración,manual
@@ -1211,8 +1211,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-08-27,Bizum A Favor De Fernando Lafuente Gonzalez Concepto: Pizza,8.9,bizum a favor de fernando lafuente gonzalez concepto pizza,gasto,2024-08,Transferencia personal,manual
 2024-08-26,"Pago Movil En Dulceria Nublo, Tejeda, Tarj. :*179057",6.2,pago movil en dulceria nublo tejeda tarj,gasto,2024-08,Supermercado,modelo
 2024-08-26,"Compra Spotify P2ed7dbce3, Stockholm, Tarjeta 5489010358179057 , Comision 0,00",14.99,compra spotify peddbce stockholm tarjeta comision,gasto,2024-08,Ocio / Suscripciones,manual
-2024-08-26,"Pago Movil En Piscina Tejeda, Las Palmas, Tarj. :*179057",3.9,pago movil en piscina tejeda las palmas tarj,gasto,2024-08,Supermercado,modelo
-2024-08-26,"Pago Movil En Piscina Tejeda, Las Palmas, Tarj. :*179057",8.0,pago movil en piscina tejeda las palmas tarj,gasto,2024-08,Supermercado,modelo
+2024-08-26,"Pago Movil En Piscina Tejeda, Las Palmas, Tarj. :*179057",3.9,pago movil en piscina tejeda las palmas tarj,gasto,2024-08,Compras no esenciales,modelo
+2024-08-26,"Pago Movil En Piscina Tejeda, Las Palmas, Tarj. :*179057",8.0,pago movil en piscina tejeda las palmas tarj,gasto,2024-08,Compras no esenciales,modelo
 2024-08-26,"Pago Movil En Boanva Canarias, Barranco De L, Tarj. :*179057",4.0,pago movil en boanva canarias barranco de l tarj,gasto,2024-08,Restauración,manual
 2024-08-26,"Pago Movil En Picoteo S. Migu, Telde, Tarj. :*179057",9.9,pago movil en picoteo s migu telde tarj,gasto,2024-08,Restauración,manual
 2024-08-26,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",28.69,compra internet en repsol waylet madrid tarj,gasto,2024-08,Transporte,manual
@@ -1237,7 +1237,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-08-19,Transferencia A Favor De Brisa Psicologos Concepto: Oscar Gomez Bastidas,60.0,transferencia a favor de brisa psicologos concepto oscar gomez bastidas,gasto,2024-08,Transferencia personal,manual
 2024-08-19,"Pago Movil En El Roque, Telde, Tarj. :*179057",1.7,pago movil en el roque telde tarj,gasto,2024-08,Supermercado,modelo
 2024-08-19,Reintegro Contra Cuenta En Atm 004901520010 El 18/08/2024 A Las 19:15. .pan: 5489010358179057.,10.0,reintegro contra cuenta en atm el a las pan,gasto,2024-08,Ingreso,manual
-2024-08-19,"Pago Movil En Hi Bubble Tea 1, Las Palmas De, Tarj. :*179057",4.5,pago movil en hi bubble tea las palmas de tarj,gasto,2024-08,Supermercado,modelo
+2024-08-19,"Pago Movil En Hi Bubble Tea 1, Las Palmas De, Tarj. :*179057",4.5,pago movil en hi bubble tea las palmas de tarj,gasto,2024-08,Restauración,modelo
 2024-08-19,"Pago Movil En Administracion, Telde, Tarj. :*179057",1.5,pago movil en administracion telde tarj,gasto,2024-08,Supermercado,modelo
 2024-08-19,Bizum A Favor De Lucia Artiles Sanchez Concepto: Cerveza,2.0,bizum a favor de lucia artiles sanchez concepto cerveza,gasto,2024-08,Transferencia personal,manual
 2024-08-19,"Pago Movil En Aparcamiento Ac, Palmas (las), Tarj. :*179057",1.2,pago movil en aparcamiento ac palmas las tarj,gasto,2024-08,Compras no esenciales,modelo
@@ -1328,7 +1328,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-15,"Devolucion Compra En Hotel Casablanc, Puerto Rico, Tarj. :*179057",150.0,devolucion compra en hotel casablanc puerto rico tarj,ingreso,2024-07,Gastos extraordinarios,modelo
 2024-07-15,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",14.4,compra internet en repsol waylet madrid tarj,gasto,2024-07,Transporte,manual
 2024-07-15,"Pago Movil En Di Un Gelato, S Bartolome T, Tarj. :*179057",7.8,pago movil en di un gelato s bartolome t tarj,gasto,2024-07,Restauración,manual
-2024-07-15,"Pago Movil En Taj Lavdi, Las Palmas, Tarj. :*179057",24.5,pago movil en taj lavdi las palmas tarj,gasto,2024-07,Supermercado,modelo
+2024-07-15,"Pago Movil En Taj Lavdi, Las Palmas, Tarj. :*179057",24.5,pago movil en taj lavdi las palmas tarj,gasto,2024-07,Compras no esenciales,modelo
 2024-07-12,"Pago Movil En Hotel Casablanc, Puerto Rico, Tarj. :*179057",150.0,pago movil en hotel casablanc puerto rico tarj,gasto,2024-07,Gastos extraordinarios,modelo
 2024-07-12,"Pago Movil En Hde C.c. Bahia, Palmas De Gra, Tarj. :*179057",4.25,pago movil en hde c c bahia palmas de gra tarj,gasto,2024-07,Compras no esenciales,modelo
 2024-07-11,"Transferencia De Trade Republic Bank Gmbh, Concepto Your Puk Is Su7eh4. Please Keep. No Transfer To",0.01,transferencia de trade republic bank gmbh concepto your puk is sueh please keep no transfer to,ingreso,2024-07,Ingreso,manual
@@ -1340,8 +1340,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-10,"Pago Movil En 2834 Tb Metropo, Madrid, Tarj. :*179057",11.45,pago movil en tb metropo madrid tarj,gasto,2024-07,Restauración,manual
 2024-07-09,"Compra Playstation Network, Hilversum, Tarjeta 5489010358179057 , Comision 0,00",8.99,compra playstation network hilversum tarjeta comision,gasto,2024-07,Compras no esenciales,manual
 2024-07-09,"Pago Movil En El Roque, Telde, Tarj. :*179057",20.03,pago movil en el roque telde tarj,gasto,2024-07,Supermercado,modelo
-2024-07-09,"Pago Movil En Jack Jones Las, Las Palmas De, Tarj. :*179057",4.57,pago movil en jack jones las las palmas de tarj,gasto,2024-07,Supermercado,modelo
-2024-07-08,"Pago Movil En Llao Llao Las C, Palmas (las), Tarj. :*179057",8.8,pago movil en llao llao las c palmas las tarj,gasto,2024-07,Supermercado,modelo
+2024-07-09,"Pago Movil En Jack Jones Las, Las Palmas De, Tarj. :*179057",4.57,pago movil en jack jones las las palmas de tarj,gasto,2024-07,Restauración,modelo
+2024-07-08,"Pago Movil En Llao Llao Las C, Palmas (las), Tarj. :*179057",8.8,pago movil en llao llao las c palmas las tarj,gasto,2024-07,Compras no esenciales,modelo
 2024-07-05,"Compra Apple.com/bill, 900812703, Tarjeta 5489010358179057 , Comision 0,00",3.49,compra apple com bill tarjeta comision,gasto,2024-07,Ocio / Suscripciones,manual
 2024-07-05,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",30.0,compra internet en repsol waylet madrid tarj,gasto,2024-07,Transporte,manual
 2024-07-05,"Pago Movil En 2834 Tb Metropo, Madrid, Tarj. :*179057",24.55,pago movil en tb metropo madrid tarj,gasto,2024-07,Restauración,manual
@@ -1390,7 +1390,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-06-24,"Compra Sumup *aupa Che, Berlin, Tarjeta 5489010358179057 , Comision 0,00",5.0,compra sumup aupa che berlin tarjeta comision,gasto,2024-06,Restauración,manual
 2024-06-24,"Compra Heidenpeters Brauerei, Berlin, Tarjeta 5489010358179057 , Comision 0,00",4.0,compra heidenpeters brauerei berlin tarjeta comision,gasto,2024-06,Compras no esenciales,modelo
 2024-06-24,"Compra Ullrich Berlin-mitte, Berlin, Tarjeta 5489010358179057 , Comision 0,00",4.39,compra ullrich berlin mitte berlin tarjeta comision,gasto,2024-06,Restauración,modelo
-2024-06-24,"Compra Zettle_*rosa Canina Gm, Berlin, Tarjeta 5489010358179057 , Comision 0,00",4.8,compra zettle rosa canina gm berlin tarjeta comision,gasto,2024-06,Compras no esenciales,modelo
+2024-06-24,"Compra Zettle_*rosa Canina Gm, Berlin, Tarjeta 5489010358179057 , Comision 0,00",4.8,compra zettle rosa canina gm berlin tarjeta comision,gasto,2024-06,Ocio / Suscripciones,modelo
 2024-06-24,"Compra Cinnamood, Monheim Am Rh, Tarjeta 5489010358179057 , Comision 0,00",9.1,compra cinnamood monheim am rh tarjeta comision,gasto,2024-06,Compras no esenciales,modelo
 2024-06-24,"Compra Gate Kebap, Berlin, Tarjeta 5489010358179057 , Comision 0,00",31.5,compra gate kebap berlin tarjeta comision,gasto,2024-06,Compras no esenciales,modelo
 2024-06-24,"Compra S-bahn Berlin Gmbh, Berlin, Tarjeta 5489010358179057 , Comision 0,00",33.0,compra s bahn berlin gmbh berlin tarjeta comision,gasto,2024-06,Restauración,modelo
@@ -1432,8 +1432,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-06-10,"Compra Prime Video*hj9ex77o4, Primevideo.co, Tarjeta 5489010358179057 , Comision 0,00",2.99,compra prime video hjexo primevideo co tarjeta comision,gasto,2024-06,Compras no esenciales,modelo
 2024-06-10,"Pago Movil En Paris Ole Las T, Telde, Tarj. :*179057",13.95,pago movil en paris ole las t telde tarj,gasto,2024-06,Compras no esenciales,modelo
 2024-06-10,Bizum De Debora Vega Ravelo Concepto Compra Cena Y Tabaco,85.0,bizum de debora vega ravelo concepto compra cena y tabaco,ingreso,2024-06,Ingreso,manual
-2024-06-10,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",3.9,pago movil en school busrger las palmas de tarj,gasto,2024-06,Supermercado,modelo
-2024-06-10,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",39.2,pago movil en school busrger las palmas de tarj,gasto,2024-06,Supermercado,modelo
+2024-06-10,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",3.9,pago movil en school busrger las palmas de tarj,gasto,2024-06,Restauración,modelo
+2024-06-10,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",39.2,pago movil en school busrger las palmas de tarj,gasto,2024-06,Restauración,modelo
 2024-06-10,"Pago Movil En El Roque, Telde, Tarj. :*179057",7.6,pago movil en el roque telde tarj,gasto,2024-06,Supermercado,modelo
 2024-06-10,"Pago Movil En Mcdonalds Telde, Telde, Tarj. :*179057",16.06,pago movil en mcdonalds telde telde tarj,gasto,2024-06,Restauración,manual
 2024-06-06,"Compra Apple.com/bill, 900812703, Tarjeta 5489010358179057 , Comision 0,00",4.99,compra apple com bill tarjeta comision,gasto,2024-06,Ocio / Suscripciones,manual
@@ -1467,7 +1467,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-05-27,"Pago Movil En Hd Arnao, Telde, Tarj. :*179057",24.34,pago movil en hd arnao telde tarj,gasto,2024-05,Supermercado,modelo
 2024-05-27,Gestion De Devoluciones -exterior,14.19,gestion de devoluciones exterior,ingreso,2024-05,Ingreso,modelo
 2024-05-27,"Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057",0.2,pago movil en sagulpa parquim palmas de gra tarj,gasto,2024-05,Compras no esenciales,modelo
-2024-05-27,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",2.55,pago movil en sagulpa elder las palmas tarj,gasto,2024-05,Supermercado,modelo
+2024-05-27,"Pago Movil En Sagulpa / Elder, Las Palmas, Tarj. :*179057",2.55,pago movil en sagulpa elder las palmas tarj,gasto,2024-05,Compras no esenciales,modelo
 2024-05-24,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",28.97,compra internet en repsol waylet madrid tarj,gasto,2024-05,Transporte,manual
 2024-05-23,"Compra Temu.com, Dublin 2, Tarjeta 5489010358179057 , Comision 0,00",9.64,compra temu com dublin tarjeta comision,gasto,2024-05,Ocio / Suscripciones,modelo
 2024-05-23,"Pago Movil En Farmacia Clara, Valsequillo, Tarj. :*179057",3.0,pago movil en farmacia clara valsequillo tarj,gasto,2024-05,Supermercado,manual
@@ -1482,7 +1482,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-05-17,"Pago Movil En Hd Melenara, Telde, Tarj. :*179057",23.69,pago movil en hd melenara telde tarj,gasto,2024-05,Supermercado,modelo
 2024-05-17,"Pago Movil En Martin Valeron, Telde, Tarj. :*179057",6.2,pago movil en martin valeron telde tarj,gasto,2024-05,Supermercado,modelo
 2024-05-16,"Pago Movil En Druni,s.a, Telde, Tarj. :*179057",44.31,pago movil en druni s a telde tarj,gasto,2024-05,Compras no esenciales,manual
-2024-05-16,"Pago Movil En Lacan Primero D, Las Palmas De, Tarj. :*179057",37.9,pago movil en lacan primero d las palmas de tarj,gasto,2024-05,Supermercado,modelo
+2024-05-16,"Pago Movil En Lacan Primero D, Las Palmas De, Tarj. :*179057",37.9,pago movil en lacan primero d las palmas de tarj,gasto,2024-05,Restauración,modelo
 2024-05-14,"Pago Movil En Mercadona Las T, Telde, Tarj. :*179057",0.35,pago movil en mercadona las t telde tarj,gasto,2024-05,Supermercado,manual
 2024-05-14,"Pago Movil En El Corral Telde, Telde, Tarj. :*179057",8.66,pago movil en el corral telde telde tarj,gasto,2024-05,Facturas,manual
 2024-05-13,"Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057",1.25,pago movil en sagulpa parquim palmas de gra tarj,gasto,2024-05,Compras no esenciales,modelo
@@ -1498,8 +1498,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-05-06,"Pago Movil En Campsared La Ma, Telde, Tarj. :*179057",3.89,pago movil en campsared la ma telde tarj,gasto,2024-05,Supermercado,modelo
 2024-05-06,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",15.63,compra internet en repsol waylet madrid tarj,gasto,2024-05,Transporte,manual
 2024-05-06,Bizum A Favor De Samuel Trujillo Santana Concepto: Cine,14.2,bizum a favor de samuel trujillo santana concepto cine,gasto,2024-05,Transferencia personal,manual
-2024-05-06,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",52.25,pago movil en school busrger las palmas de tarj,gasto,2024-05,Supermercado,modelo
-2024-05-06,"Pago Movil En Sultan Kebab Ho, Las Palmas, Tarj. :*179057",5.5,pago movil en sultan kebab ho las palmas tarj,gasto,2024-05,Supermercado,modelo
+2024-05-06,"Pago Movil En School Busrger, Las Palmas De, Tarj. :*179057",52.25,pago movil en school busrger las palmas de tarj,gasto,2024-05,Restauración,modelo
+2024-05-06,"Pago Movil En Sultan Kebab Ho, Las Palmas, Tarj. :*179057",5.5,pago movil en sultan kebab ho las palmas tarj,gasto,2024-05,Compras no esenciales,modelo
 2024-05-06,"Pago Movil En Gmsa Guaguas, Las Palmas, Tarj. :*179057",1.4,pago movil en gmsa guaguas las palmas tarj,gasto,2024-05,Transporte,manual
 2024-05-06,"Pago Movil En Global Salcai, Las Palmas De, Tarj. :*179057",1.65,pago movil en global salcai las palmas de tarj,gasto,2024-05,Transporte,manual
 2024-05-03,"Compra Apple.com/bill, 900812703, Tarjeta 5489010358179057 , Comision 0,00",5.99,compra apple com bill tarjeta comision,gasto,2024-05,Ocio / Suscripciones,manual
@@ -1537,7 +1537,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-04-22,"Pago Movil En Bazar Valsequil, Almendros Ur, Tarj. :*179057",3.1,pago movil en bazar valsequil almendros ur tarj,gasto,2024-04,Restauración,modelo
 2024-04-22,"Pago Movil En Disa Valsequill, Valsequillo (, Tarj. :*179057",1.9,pago movil en disa valsequill valsequillo tarj,gasto,2024-04,Transporte,manual
 2024-04-22,"Compra Internet En Univ. Las Palma, Las Palmas De, Tarj. :*179057",60.4,compra internet en univ las palma las palmas de tarj,gasto,2024-04,Facturas,manual
-2024-04-22,"Pago Movil En 3502 Tb Alisios, Las Palmas De, Tarj. :*179057",1.72,pago movil en tb alisios las palmas de tarj,gasto,2024-04,Compras no esenciales,modelo
+2024-04-22,"Pago Movil En 3502 Tb Alisios, Las Palmas De, Tarj. :*179057",1.72,pago movil en tb alisios las palmas de tarj,gasto,2024-04,Restauración,modelo
 2024-04-22,Bizum A Favor De Silvia Ramirez Garcia Concepto: Boloncho,10.0,bizum a favor de silvia ramirez garcia concepto boloncho,gasto,2024-04,Transferencia personal,manual
 2024-04-22,"Pago Movil En B King Cc Las T, Telde, Tarj. :*179057",7.9,pago movil en b king cc las t telde tarj,gasto,2024-04,Restauración,modelo
 2024-04-22,"Pago Movil En La Casa De Las, Jaraiz De La, Tarj. :*179057",25.97,pago movil en la casa de las jaraiz de la tarj,gasto,2024-04,Restauración,modelo
@@ -1552,9 +1552,9 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-04-17,Traspaso: Ahorro Hucha Objetivo: Regalo,2.02,traspaso ahorro hucha objetivo regalo,gasto,2024-04,Transferencia personal,manual
 2024-04-16,Traspaso: Ahorro Hucha Objetivo: Regalo,2.02,traspaso ahorro hucha objetivo regalo,gasto,2024-04,Transferencia personal,manual
 2024-04-16,"Pago Movil En El Corral Clini, Telde, Tarj. :*179057",11.86,pago movil en el corral clini telde tarj,gasto,2024-04,Facturas,manual
-2024-04-15,"Pago Movil En El Tucan, Mogan, Tarj. :*179057",31.95,pago movil en el tucan mogan tarj,gasto,2024-04,Restauración,modelo
-2024-04-15,"Pago Movil En Spar Express Ar, Arguineguin, Tarj. :*179057",0.55,pago movil en spar express ar arguineguin tarj,gasto,2024-04,Supermercado,modelo
-2024-04-15,"Pago Movil En El Tucan, Mogan, Tarj. :*179057",23.25,pago movil en el tucan mogan tarj,gasto,2024-04,Restauración,modelo
+2024-04-15,"Pago Movil En El Tucan, Mogan, Tarj. :*179057",31.95,pago movil en el tucan mogan tarj,gasto,2024-04,Facturas,modelo
+2024-04-15,"Pago Movil En Spar Express Ar, Arguineguin, Tarj. :*179057",0.55,pago movil en spar express ar arguineguin tarj,gasto,2024-04,Compras no esenciales,modelo
+2024-04-15,"Pago Movil En El Tucan, Mogan, Tarj. :*179057",23.25,pago movil en el tucan mogan tarj,gasto,2024-04,Facturas,modelo
 2024-04-15,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",19.31,compra internet en repsol waylet madrid tarj,gasto,2024-04,Transporte,manual
 2024-04-15,Bizum A Favor De Debora Vega Ravelo Concepto: Galletas,20.0,bizum a favor de debora vega ravelo concepto galletas,gasto,2024-04,Transferencia personal,manual
 2024-04-15,"Pago Movil En Cafeteria Paris, Telde, Tarj. :*179057",9.0,pago movil en cafeteria paris telde tarj,gasto,2024-04,Restauración,manual
@@ -1667,14 +1667,14 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-03-04,"Compra Apple.com/bill, Itunes.com, Tarjeta 5489010358179057 , Comision 0,00",4.99,compra apple com bill itunes com tarjeta comision,gasto,2024-03,Ocio / Suscripciones,manual
 2024-03-04,"Pago Movil En Yelmo Cines Ali, Palmas (las), Tarj. :*179057",13.4,pago movil en yelmo cines ali palmas las tarj,gasto,2024-03,Ocio / Suscripciones,manual
 2024-03-04,Bizum De Debora Vega Ravelo Concepto Saldado Hasta Hoy,90.0,bizum de debora vega ravelo concepto saldado hasta hoy,ingreso,2024-03,Ingreso,manual
-2024-03-04,"Pago Movil En Starbucks Alisi, Las Palmas De, Tarj. :*179057",10.12,pago movil en starbucks alisi las palmas de tarj,gasto,2024-03,Supermercado,modelo
+2024-03-04,"Pago Movil En Starbucks Alisi, Las Palmas De, Tarj. :*179057",10.12,pago movil en starbucks alisi las palmas de tarj,gasto,2024-03,Restauración,modelo
 2024-03-04,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",19.21,compra internet en repsol waylet madrid tarj,gasto,2024-03,Transporte,manual
 2024-03-04,Traspaso:,100.0,traspaso,gasto,2024-03,Transferencia personal,manual
 2024-03-04,Transferencia A Favor De Óscar Gómez Bastidas Concepto: .,100.0,transferencia a favor de óscar gómez bastidas concepto,gasto,2024-03,Transferencia personal,manual
 2024-03-04,Bizum A Favor De Samuel Trujillo Santana Concepto: Cine,19.8,bizum a favor de samuel trujillo santana concepto cine,gasto,2024-03,Transferencia personal,manual
 2024-03-04,"Pago Movil En Ikea Bistro, Telde, Tarj. :*179057",1.5,pago movil en ikea bistro telde tarj,gasto,2024-03,Compras no esenciales,manual
 2024-03-04,"Pago Movil En Ikea Tienda Sue, Telde, Tarj. :*179057",1.5,pago movil en ikea tienda sue telde tarj,gasto,2024-03,Compras no esenciales,manual
-2024-03-04,"Pago Movil En De Mala Madre, Las Palmas, Tarj. :*179057",60.5,pago movil en de mala madre las palmas tarj,gasto,2024-03,Supermercado,modelo
+2024-03-04,"Pago Movil En De Mala Madre, Las Palmas, Tarj. :*179057",60.5,pago movil en de mala madre las palmas tarj,gasto,2024-03,Restauración,modelo
 2024-03-04,Traspaso: Ahorro Hucha Objetivo: Regalo,1.13,traspaso ahorro hucha objetivo regalo,gasto,2024-03,Transferencia personal,manual
 2024-03-04,"Transferencia De Evelymar Bastidas Rosario, Concepto Seguro Medico",65.97,transferencia de evelymar bastidas rosario concepto seguro medico,ingreso,2024-03,Ingreso,manual
 2024-03-04,"Transferencia De Evelymar Bastidas Rosario, Concepto Pago Universidad Marzo",30.71,transferencia de evelymar bastidas rosario concepto pago universidad marzo,ingreso,2024-03,Ingreso,manual
@@ -1715,7 +1715,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-02-22,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",28.94,compra internet en repsol waylet madrid tarj,gasto,2024-02,Transporte,manual
 2024-02-20,"Recibo Vodafone Factura: Yj24-000261673/ Nº Recibo 0049 6140 755 Bbfrdvm Ref. Mandato 0111207734, De",74.17,recibo vodafone factura yj nº recibo bbfrdvm ref mandato de,gasto,2024-02,Facturas,manual
 2024-02-19,"Compra Playstation Network, Sony Psn, Tarjeta 5489010358179057 , Comision 0,00",5.8,compra playstation network sony psn tarjeta comision,gasto,2024-02,Compras no esenciales,manual
-2024-02-19,"Pago Movil En Rockabilly Vene, Palmas (las), Tarj. :*179057",38.45,pago movil en rockabilly vene palmas las tarj,gasto,2024-02,Supermercado,modelo
+2024-02-19,"Pago Movil En Rockabilly Vene, Palmas (las), Tarj. :*179057",38.45,pago movil en rockabilly vene palmas las tarj,gasto,2024-02,Compras no esenciales,modelo
 2024-02-19,"Pago Movil En Mercadona Cc El, Hornos Del Re, Tarj. :*179057",16.79,pago movil en mercadona cc el hornos del re tarj,gasto,2024-02,Supermercado,manual
 2024-02-19,Traspaso: Ahorro Hucha Objetivo: Regalo,0.4,traspaso ahorro hucha objetivo regalo,gasto,2024-02,Transferencia personal,manual
 2024-02-16,"Pago Movil En El Roque, Telde, Tarj. :*179057",20.0,pago movil en el roque telde tarj,gasto,2024-02,Supermercado,modelo
@@ -1727,7 +1727,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-02-14,Traspaso: Ahorro Hucha Objetivo: Regalo,6.0,traspaso ahorro hucha objetivo regalo,gasto,2024-02,Transferencia personal,manual
 2024-02-14,"Compra Www.amazon* 404-950400, Luxembourg, Tarjeta 5489010358179057 , Comision 0,00",13.44,compra www amazon luxembourg tarjeta comision,gasto,2024-02,Compras no esenciales,manual
 2024-02-14,"Transferencia De Trade Republic Bank Gmbh, Concepto Your Puk Is 4anfxs. Please Keep. No Transfer To",0.01,transferencia de trade republic bank gmbh concepto your puk is anfxs please keep no transfer to,ingreso,2024-02,Ingreso,manual
-2024-02-14,"Compra Internet En Chiwawa, Las Palmas, Tarj. :*179057",5.0,compra internet en chiwawa las palmas tarj,gasto,2024-02,Transporte,modelo
+2024-02-14,"Compra Internet En Chiwawa, Las Palmas, Tarj. :*179057",5.0,compra internet en chiwawa las palmas tarj,gasto,2024-02,Restauración,modelo
 2024-02-14,"Pago Movil En Bazar Valsequil, Valsequillo, Tarj. :*179057",6.5,pago movil en bazar valsequil valsequillo tarj,gasto,2024-02,Supermercado,modelo
 2024-02-14,"Pago Movil En Floristeria Ela, Almendros, Ur, Tarj. :*179057",26.5,pago movil en floristeria ela almendros ur tarj,gasto,2024-02,Restauración,modelo
 2024-02-13,Traspaso: Ahorro Hucha Objetivo: Regalo,0.71,traspaso ahorro hucha objetivo regalo,gasto,2024-02,Transferencia personal,manual
@@ -1744,7 +1744,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-02-12,"Pago Movil En Mcdonalds Telde, Telde, Tarj. :*179057",8.91,pago movil en mcdonalds telde telde tarj,gasto,2024-02,Restauración,manual
 2024-02-12,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",28.93,compra internet en repsol waylet madrid tarj,gasto,2024-02,Transporte,manual
 2024-02-09,"Pago Movil En Heladeria Quint, Las Palmas, Tarj. :*179057",5.2,pago movil en heladeria quint las palmas tarj,gasto,2024-02,Restauración,manual
-2024-02-09,"Pago Movil En Sushi Bowl, Las Palmas De, Tarj. :*179057",38.15,pago movil en sushi bowl las palmas de tarj,gasto,2024-02,Supermercado,modelo
+2024-02-09,"Pago Movil En Sushi Bowl, Las Palmas De, Tarj. :*179057",38.15,pago movil en sushi bowl las palmas de tarj,gasto,2024-02,Restauración,modelo
 2024-02-08,"Pago Movil En Bazar Valsequil, Valsequillo, Tarj. :*179057",10.8,pago movil en bazar valsequil valsequillo tarj,gasto,2024-02,Supermercado,modelo
 2024-02-07,Recibo Gym Canarias Sl - Fp Telde - Las Terraza Nº Recibo 0049 6140 755 Bbfqyrk Ref. Mandato Rumfic4,30.0,recibo gym canarias sl fp telde las terraza nº recibo bbfqyrk ref mandato rumfic,gasto,2024-02,Facturas,manual
 2024-02-06,"Compra Rockabilly Venegas, Las Palmas De, Tarjeta 5489010358179057 , Comision 0,00",33.55,compra rockabilly venegas las palmas de tarjeta comision,gasto,2024-02,Restauración,modelo
@@ -1781,11 +1781,11 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-29,"Pago Movil En Restaurante Pap, Las Palmas, Tarj. :*179057",26.65,pago movil en restaurante pap las palmas tarj,gasto,2024-01,Restauración,manual
 2024-01-29,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",20.0,compra internet en repsol waylet madrid tarj,gasto,2024-01,Transporte,manual
 2024-01-26,"Compra Spotifyes P28f2dab82, Stockholm, Tarjeta 5489010358179057 , Comision 0,00",14.99,compra spotifyes pfdab stockholm tarjeta comision,gasto,2024-01,Ocio / Suscripciones,manual
-2024-01-26,"Pago Movil En Worten Mirador, Jinamar, Tarj. :*179057",63.99,pago movil en worten mirador jinamar tarj,gasto,2024-01,Restauración,modelo
+2024-01-26,"Pago Movil En Worten Mirador, Jinamar, Tarj. :*179057",63.99,pago movil en worten mirador jinamar tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-24,Traspaso: Ahorro Hucha Objetivo: Regalo,1.72,traspaso ahorro hucha objetivo regalo,gasto,2024-01,Transferencia personal,manual
 2024-01-23,"Pago Movil En Llaollao, Palmas De Gra, Tarj. :*179057",8.8,pago movil en llaollao palmas de gra tarj,gasto,2024-01,Restauración,manual
 2024-01-23,"Pago Movil En Papparazi Arena, Palmas De Gra, Tarj. :*179057",54.6,pago movil en papparazi arena palmas de gra tarj,gasto,2024-01,Compras no esenciales,modelo
-2024-01-23,"Pago Movil En E.s. Sical, Las Palmas, Tarj. :*179057",20.0,pago movil en e s sical las palmas tarj,gasto,2024-01,Supermercado,modelo
+2024-01-23,"Pago Movil En E.s. Sical, Las Palmas, Tarj. :*179057",20.0,pago movil en e s sical las palmas tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-23,Traspaso: Ahorro Hucha Objetivo: Regalo,0.45,traspaso ahorro hucha objetivo regalo,gasto,2024-01,Transferencia personal,manual
 2024-01-23,Bizum A Favor De Debora Vega Ravelo Concepto: Spas,60.0,bizum a favor de debora vega ravelo concepto spas,gasto,2024-01,Transferencia personal,manual
 2024-01-23,Bizum De Debora Vega Ravelo Concepto Ropa Compra Y Tabaco,172.0,bizum de debora vega ravelo concepto ropa compra y tabaco,ingreso,2024-01,Ingreso,manual
@@ -1796,14 +1796,14 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-22,"Pago Movil En Stradivarius Me, Las Palmas De, Tarj. :*179057",79.06,pago movil en stradivarius me las palmas de tarj,gasto,2024-01,Compras no esenciales,manual
 2024-01-22,"Pago Movil En Makan Food, Las Palmas, Tarj. :*179057",20.5,pago movil en makan food las palmas tarj,gasto,2024-01,Restauración,manual
 2024-01-22,Bizum De Josep Oriol Ulaszewski Ylla Concepto Sin Concepto,45.0,bizum de josep oriol ulaszewski ylla concepto sin concepto,ingreso,2024-01,Ingreso,manual
-2024-01-22,"Pago Movil En Ramen Shifu, Las Palmas De, Tarj. :*179057",64.65,pago movil en ramen shifu las palmas de tarj,gasto,2024-01,Supermercado,modelo
+2024-01-22,"Pago Movil En Ramen Shifu, Las Palmas De, Tarj. :*179057",64.65,pago movil en ramen shifu las palmas de tarj,gasto,2024-01,Restauración,modelo
 2024-01-19,"Recibo Vodafone Factura: Yj24-000092274/ Nº Recibo 0049 6140 755 Bbfqjlh Ref. Mandato 0111207734, De",82.42,recibo vodafone factura yj nº recibo bbfqjlh ref mandato de,gasto,2024-01,Facturas,manual
 2024-01-18,"Pago Movil En Pull And Bear, Telde, Tarj. :*179057",27.98,pago movil en pull and bear telde tarj,gasto,2024-01,Supermercado,modelo
 2024-01-17,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",16.77,compra internet en repsol waylet madrid tarj,gasto,2024-01,Transporte,manual
 2024-01-16,Bizum A Favor De Gonzalo Carreo Ascanio Concepto: Capo,50.0,bizum a favor de gonzalo carreo ascanio concepto capo,gasto,2024-01,Transferencia personal,manual
 2024-01-15,"Pago Movil En Fitness Park La, Jinamar, Tarj. :*179057",4.11,pago movil en fitness park la jinamar tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-15,"Pago Movil En Muelle Deportiv, Palmas De Gra, Tarj. :*179057",1.05,pago movil en muelle deportiv palmas de gra tarj,gasto,2024-01,Compras no esenciales,modelo
-2024-01-15,"Pago Movil En Lacan Farray, Las Palmas De, Tarj. :*179057",43.3,pago movil en lacan farray las palmas de tarj,gasto,2024-01,Supermercado,modelo
+2024-01-15,"Pago Movil En Lacan Farray, Las Palmas De, Tarj. :*179057",43.3,pago movil en lacan farray las palmas de tarj,gasto,2024-01,Restauración,modelo
 2024-01-12,Bizum A Favor De Juan Ayoze Gonzalez Perez Concepto: Arreglo Bobina,121.98,bizum a favor de juan ayoze gonzalez perez concepto arreglo bobina,gasto,2024-01,Transferencia personal,manual
 2024-01-11,"Pago Movil En El Roque, Telde, Tarj. :*179057",5.6,pago movil en el roque telde tarj,gasto,2024-01,Supermercado,modelo
 2024-01-11,"Pago Movil En La Mareta, Telde, Tarj. :*179057",16.92,pago movil en la mareta telde tarj,gasto,2024-01,Restauración,modelo
@@ -1816,8 +1816,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-05,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",39.95,compra internet en repsol waylet madrid tarj,gasto,2024-01,Transporte,manual
 2024-01-05,"Pago Movil En H Veggie, Jinamar, Tarj. :*179057",28.8,pago movil en h veggie jinamar tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-04,Bizum A Favor De Debora Vega Ravelo Concepto: Taco Boll,12.1,bizum a favor de debora vega ravelo concepto taco boll,gasto,2024-01,Transferencia personal,manual
-2024-01-04,"Pago Movil En Springfield C.c, Las Palmas, Tarj. :*179057",28.98,pago movil en springfield c c las palmas tarj,gasto,2024-01,Supermercado,modelo
-2024-01-04,"Pago Movil En Pull And Bear, Tamaraceite, Tarj. :*179057",36.07,pago movil en pull and bear tamaraceite tarj,gasto,2024-01,Supermercado,modelo
+2024-01-04,"Pago Movil En Springfield C.c, Las Palmas, Tarj. :*179057",28.98,pago movil en springfield c c las palmas tarj,gasto,2024-01,Compras no esenciales,modelo
+2024-01-04,"Pago Movil En Pull And Bear, Tamaraceite, Tarj. :*179057",36.07,pago movil en pull and bear tamaraceite tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-03,"Pago Movil En Alcampo Telde, Telde, Tarj. :*179057",20.16,pago movil en alcampo telde telde tarj,gasto,2024-01,Supermercado,manual
 2024-01-03,"Compra Steam Purchase, Seattle, Tarjeta 5489010358179057 , Comision 0,00",9.75,compra steam purchase seattle tarjeta comision,gasto,2024-01,Ocio / Suscripciones,modelo
 2024-01-03,"Compra Apple.com/bill, Itunes.com, Tarjeta 5489010358179057 , Comision 0,00",8.99,compra apple com bill itunes com tarjeta comision,gasto,2024-01,Ocio / Suscripciones,manual
@@ -1826,7 +1826,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-02,"Compra H M, Jinamar, Tarjeta 5489010358179057 , Comision 0,00",19.99,compra h m jinamar tarjeta comision,gasto,2024-01,Ocio / Suscripciones,modelo
 2024-01-02,"Compra Playstation Network, Hilversum, Tarjeta 5489010358179057 , Comision 0,00",13.99,compra playstation network hilversum tarjeta comision,gasto,2024-01,Compras no esenciales,manual
 2024-01-02,"Recibo Sanitas S A De Seguros Nº Recibo 0049 6140 755 Bbfprvm Ref. Mandato 800014242109, De",65.97,recibo sanitas s a de seguros nº recibo bbfprvm ref mandato de,gasto,2024-01,Facturas,manual
-2024-01-02,"Pago Movil En Rockabilly Vene, Palmas (las), Tarj. :*179057",38.95,pago movil en rockabilly vene palmas las tarj,gasto,2024-01,Supermercado,modelo
+2024-01-02,"Pago Movil En Rockabilly Vene, Palmas (las), Tarj. :*179057",38.95,pago movil en rockabilly vene palmas las tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-02,"Pago Movil En Bazar Valsequil, Valsequillo, Tarj. :*179057",8.9,pago movil en bazar valsequil valsequillo tarj,gasto,2024-01,Supermercado,modelo
 2024-01-02,"Pago Movil En Calzedonia, Jinamar, Tarj. :*179057",15.95,pago movil en calzedonia jinamar tarj,gasto,2024-01,Compras no esenciales,modelo
 2024-01-02,"Pago Movil En Pull And Bear, Telde, Tarj. :*179057",17.99,pago movil en pull and bear telde tarj,gasto,2024-01,Supermercado,modelo
@@ -1862,17 +1862,17 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-26,"Pago Movil En Bf, Telde, Tarj. :*179057",20.0,pago movil en bf telde tarj,gasto,2023-12,Supermercado,modelo
 2023-12-26,"Compra Internet En +q Xurros, Vecidario, Tarj. :*179057",15.3,compra internet en +q xurros vecidario tarj,gasto,2023-12,Transporte,modelo
 2023-12-26,"Pago Movil En Alisios Tpv1, Las Palmas De, Tarj. :*179057",9.95,pago movil en alisios tpv las palmas de tarj,gasto,2023-12,Restauración,modelo
-2023-12-26,"Pago Movil En Pull And Bear, Tamaraceite, Tarj. :*179057",25.99,pago movil en pull and bear tamaraceite tarj,gasto,2023-12,Supermercado,modelo
+2023-12-26,"Pago Movil En Pull And Bear, Tamaraceite, Tarj. :*179057",25.99,pago movil en pull and bear tamaraceite tarj,gasto,2023-12,Compras no esenciales,modelo
 2023-12-26,Bizum De Debora Vega Ravelo Concepto Depresion,58.0,bizum de debora vega ravelo concepto depresion,ingreso,2023-12,Ingreso,manual
 2023-12-26,"Pago Movil En Mercadona Los P, Telde, Tarj. :*179057",8.15,pago movil en mercadona los p telde tarj,gasto,2023-12,Supermercado,manual
-2023-12-22,"Pago Movil En Hi Bubble Tea, Palmas Las, Tarj. :*179057",8.4,pago movil en hi bubble tea palmas las tarj,gasto,2023-12,Supermercado,modelo
+2023-12-22,"Pago Movil En Hi Bubble Tea, Palmas Las, Tarj. :*179057",8.4,pago movil en hi bubble tea palmas las tarj,gasto,2023-12,Compras no esenciales,modelo
 2023-12-22,"Pago Movil En Lefties, Las Palmas, Tarj. :*179057",7.99,pago movil en lefties las palmas tarj,gasto,2023-12,Compras no esenciales,modelo
 2023-12-22,"Pago Movil En Manuel Navarro, Las Palmas, Tarj. :*179057",65.0,pago movil en manuel navarro las palmas tarj,gasto,2023-12,Restauración,modelo
 2023-12-22,Traspaso: Ahorro Hucha Objetivo: Regalo,1.18,traspaso ahorro hucha objetivo regalo,gasto,2023-12,Transferencia personal,manual
 2023-12-22,"Pago Movil En Artesiete Las T, Hornos Del Re, Tarj. :*179057",1.2,pago movil en artesiete las t hornos del re tarj,gasto,2023-12,Ocio / Suscripciones,manual
 2023-12-22,"Pago Movil En 328 - Belros La, Telde, Tarj. :*179057",4.3,pago movil en belros la telde tarj,gasto,2023-12,Supermercado,modelo
 2023-12-21,"Compra Internet En Artesiete Las T, Hornos Del Re, Tarj. :*179057",16.6,compra internet en artesiete las t hornos del re tarj,gasto,2023-12,Ocio / Suscripciones,manual
-2023-12-21,"Pago Movil En Starbucks Alisi, Las Palmas De, Tarj. :*179057",4.81,pago movil en starbucks alisi las palmas de tarj,gasto,2023-12,Supermercado,modelo
+2023-12-21,"Pago Movil En Starbucks Alisi, Las Palmas De, Tarj. :*179057",4.81,pago movil en starbucks alisi las palmas de tarj,gasto,2023-12,Restauración,modelo
 2023-12-21,"Pago Movil En Tagliatella Los, Palmas De Gra, Tarj. :*179057",49.25,pago movil en tagliatella los palmas de gra tarj,gasto,2023-12,Restauración,manual
 2023-12-21,Bizum De Debora Vega Ravelo Concepto Compras Regalo Comida,118.0,bizum de debora vega ravelo concepto compras regalo comida,ingreso,2023-12,Ingreso,manual
 2023-12-20,"Pago Movil En Lidl Can-gc-tel, Llanos De La, Tarj. :*179057",39.78,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-12,Supermercado,manual
@@ -1901,8 +1901,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-11,"Transferencia De Gomez Bastidas Oscar Alejandro, Concepto Segunda Parte Regalo.",91.0,transferencia de gomez bastidas oscar alejandro concepto segunda parte regalo,ingreso,2023-12,Ingreso,manual
 2023-12-11,"Pago Movil En Base C.c. El Mi, Las Palmas, Tarj. :*179057",53.2,pago movil en base c c el mi las palmas tarj,gasto,2023-12,Restauración,modelo
 2023-12-11,"Pago Movil En Cafe Regina Cc, Las Palmas De, Tarj. :*179057",15.5,pago movil en cafe regina cc las palmas de tarj,gasto,2023-12,Restauración,modelo
-2023-12-11,"Pago Movil En Gicha 3, Las Palmas De, Tarj. :*179057",0.5,pago movil en gicha las palmas de tarj,gasto,2023-12,Supermercado,modelo
-2023-12-11,"Pago Movil En Gicha 3, Las Palmas De, Tarj. :*179057",10.5,pago movil en gicha las palmas de tarj,gasto,2023-12,Supermercado,modelo
+2023-12-11,"Pago Movil En Gicha 3, Las Palmas De, Tarj. :*179057",0.5,pago movil en gicha las palmas de tarj,gasto,2023-12,Restauración,modelo
+2023-12-11,"Pago Movil En Gicha 3, Las Palmas De, Tarj. :*179057",10.5,pago movil en gicha las palmas de tarj,gasto,2023-12,Restauración,modelo
 2023-12-11,"Pago Movil En Parking Teror, Teror, Tarj. :*179057",3.65,pago movil en parking teror teror tarj,gasto,2023-12,Transporte,manual
 2023-12-11,Bizum A Favor De Maria Esther Quintana Cabrera Concepto: Sin Concepto,3.0,bizum a favor de maria esther quintana cabrera concepto sin concepto,gasto,2023-12,Transferencia personal,manual
 2023-12-11,Traspaso: Ahorro Hucha Objetivo: Regalo,0.86,traspaso ahorro hucha objetivo regalo,gasto,2023-12,Transferencia personal,manual
@@ -1931,7 +1931,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-04,"Pago Movil En La Peatonal, Palmas De Gra, Tarj. :*179057",6.0,pago movil en la peatonal palmas de gra tarj,gasto,2023-12,Restauración,modelo
 2023-12-04,Traspaso: Ahorro Hucha Objetivo: Regalo,1.77,traspaso ahorro hucha objetivo regalo,gasto,2023-12,Transferencia personal,manual
 2023-12-04,"Reintegro, Atm:00494991, Palmas G Cana, Tarj. :*179057",40.0,reintegro atm palmas g cana tarj,gasto,2023-12,Ingreso,manual
-2023-12-04,"Pago Movil En E.s. Cidelmar, Las Palmas, Tarj. :*179057",11.3,pago movil en e s cidelmar las palmas tarj,gasto,2023-12,Supermercado,modelo
+2023-12-04,"Pago Movil En E.s. Cidelmar, Las Palmas, Tarj. :*179057",11.3,pago movil en e s cidelmar las palmas tarj,gasto,2023-12,Compras no esenciales,modelo
 2023-12-04,"Pago Movil En Camaleon Cubata, Las Palmas De, Tarj. :*179057",10.0,pago movil en camaleon cubata las palmas de tarj,gasto,2023-12,Restauración,manual
 2023-12-04,"Pago Movil En Camaleon Cubata, Las Palmas De, Tarj. :*179057",15.0,pago movil en camaleon cubata las palmas de tarj,gasto,2023-12,Restauración,manual
 2023-12-01,"Compra Playstation Network, Sony Psn, Tarjeta 5489010358179057 , Comision 0,00",8.99,compra playstation network sony psn tarjeta comision,gasto,2023-12,Compras no esenciales,manual
@@ -1986,7 +1986,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-11-20,"Pago Movil En Bazar Valsequil, Valsequillo, Tarj. :*179057",5.5,pago movil en bazar valsequil valsequillo tarj,gasto,2023-11,Supermercado,modelo
 2023-11-20,"Pago Movil En Disa Valsequill, Valsequillo (, Tarj. :*179057",5.5,pago movil en disa valsequill valsequillo tarj,gasto,2023-11,Transporte,manual
 2023-11-20,"Transferencia De Evelymar Bastidas Rosario, Concepto Pelicula Domingo",4.0,transferencia de evelymar bastidas rosario concepto pelicula domingo,ingreso,2023-11,Ingreso,manual
-2023-11-20,"Pago Movil En Gerardo Melian, Palmas (las), Tarj. :*179057",11.65,pago movil en gerardo melian palmas las tarj,gasto,2023-11,Supermercado,modelo
+2023-11-20,"Pago Movil En Gerardo Melian, Palmas (las), Tarj. :*179057",11.65,pago movil en gerardo melian palmas las tarj,gasto,2023-11,Compras no esenciales,modelo
 2023-11-20,"Transferencia De Evelymar Bastidas Rosario, Concepto Pelicula Sabado 18/11",13.0,transferencia de evelymar bastidas rosario concepto pelicula sabado,ingreso,2023-11,Ingreso,manual
 2023-11-20,"Pago Movil En Campsared La Ma, Telde, Tarj. :*179057",35.78,pago movil en campsared la ma telde tarj,gasto,2023-11,Supermercado,modelo
 2023-11-17,Bizum A Favor De Debora Vega Ravelo Concepto: Maquillaje,20.0,bizum a favor de debora vega ravelo concepto maquillaje,gasto,2023-11,Transferencia personal,manual
@@ -2001,9 +2001,9 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-11-15,"Recibo Sanitas S A De Seguros Nº Recibo 0049 6140 755 Bbfnqnf Ref. Mandato 800014242109, De",65.97,recibo sanitas s a de seguros nº recibo bbfnqnf ref mandato de,gasto,2023-11,Facturas,manual
 2023-11-15,Recibo Gym Canarias Sl - Fp Telde - Las Terraza Nº Recibo 0049 6140 755 Bbfnqqy Ref. Mandato Rumfic4,25.0,recibo gym canarias sl fp telde las terraza nº recibo bbfnqqy ref mandato rumfic,gasto,2023-11,Facturas,manual
 2023-11-14,Bizum De Debora Vega Ravelo Concepto Compras Rock Más P,65.0,bizum de debora vega ravelo concepto compras rock más p,ingreso,2023-11,Ingreso,manual
-2023-11-13,"Pago Movil En Jamaica Capitol, Las Palmas De, Tarj. :*179057",8.35,pago movil en jamaica capitol las palmas de tarj,gasto,2023-11,Supermercado,modelo
+2023-11-13,"Pago Movil En Jamaica Capitol, Las Palmas De, Tarj. :*179057",8.35,pago movil en jamaica capitol las palmas de tarj,gasto,2023-11,Restauración,modelo
 2023-11-13,"Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*179057",1.25,pago movil en sagulpa parquim palmas de gra tarj,gasto,2023-11,Compras no esenciales,modelo
-2023-11-13,"Pago Movil En Rockabilly Vene, Las Palmas De, Tarj. :*179057",34.45,pago movil en rockabilly vene las palmas de tarj,gasto,2023-11,Supermercado,modelo
+2023-11-13,"Pago Movil En Rockabilly Vene, Las Palmas De, Tarj. :*179057",34.45,pago movil en rockabilly vene las palmas de tarj,gasto,2023-11,Restauración,modelo
 2023-11-13,"Pago Movil En Laiba Doner Keb, Telde, Tarj. :*179057",8.6,pago movil en laiba doner keb telde tarj,gasto,2023-11,Supermercado,modelo
 2023-11-13,"Pago Movil En Lidl Can-gc-tel, Llanos De La, Tarj. :*179057",29.45,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-11,Supermercado,manual
 2023-11-13,"Pago Movil En Aldi Telde Mele, Telde, Tarj. :*179057",45.22,pago movil en aldi telde mele telde tarj,gasto,2023-11,Supermercado,manual
@@ -2057,7 +2057,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-10-19,Bizum De Debora Vega Ravelo Concepto .,25.0,bizum de debora vega ravelo concepto,ingreso,2023-10,Ingreso,manual
 2023-10-19,"Pago Movil En Lidl Can-gc-tel, Llanos De La, Tarj. :*179057",34.78,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-10,Supermercado,manual
 2023-10-18,Recibo Gym Canarias Sl - Fp Telde - Las Terraza Nº Recibo 0049 6140 755 Bbfmwnt Ref. Mandato Rumfic4,25.0,recibo gym canarias sl fp telde las terraza nº recibo bbfmwnt ref mandato rumfic,gasto,2023-10,Facturas,manual
-2023-10-17,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*179057",1.8,pago movil en minimarket la x las palmas tarj,gasto,2023-10,Supermercado,modelo
+2023-10-17,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*179057",1.8,pago movil en minimarket la x las palmas tarj,gasto,2023-10,Compras no esenciales,modelo
 2023-10-17,"Pago Movil En Las Casitas, Las Palmas De, Tarj. :*179057",2.9,pago movil en las casitas las palmas de tarj,gasto,2023-10,Restauración,manual
 2023-10-17,Traspaso: Ahorro Hucha Objetivo: Regalo,0.32,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-16,Bizum De Debora Vega Ravelo Concepto Gasolina,28.44,bizum de debora vega ravelo concepto gasolina,ingreso,2023-10,Ingreso,manual
@@ -2066,12 +2066,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-10-16,"Pago Movil En Est. Texaco Los, Valsequillo (, Tarj. :*179057",28.0,pago movil en est texaco los valsequillo tarj,gasto,2023-10,Restauración,modelo
 2023-10-16,Bizum A Favor De Samuel Trujillo Santana Concepto: Durinkin,1.85,bizum a favor de samuel trujillo santana concepto durinkin,gasto,2023-10,Transferencia personal,manual
 2023-10-16,Bizum De Samuel Trujillo Santana Concepto Nesti,4.25,bizum de samuel trujillo santana concepto nesti,ingreso,2023-10,Ingreso,manual
-2023-10-16,"Pago Movil En Supermercado Hn, Palmas (las), Tarj. :*179057",4.25,pago movil en supermercado hn palmas las tarj,gasto,2023-10,Supermercado,modelo
+2023-10-16,"Pago Movil En Supermercado Hn, Palmas (las), Tarj. :*179057",4.25,pago movil en supermercado hn palmas las tarj,gasto,2023-10,Compras no esenciales,modelo
 2023-10-13,Bizum A Favor De Nereida Ravelo Suarez Concepto: Los Pollos,10.0,bizum a favor de nereida ravelo suarez concepto los pollos,gasto,2023-10,Transferencia personal,manual
 2023-10-11,"Pago Movil En Alcampo Telde, Telde, Tarj. :*179057",32.62,pago movil en alcampo telde telde tarj,gasto,2023-10,Supermercado,manual
 2023-10-11,Traspaso: Ahorro Hucha Objetivo: Regalo,0.77,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-10,"Pago Movil En Muelle Deportiv, Palmas De Gra, Tarj. :*179057",0.45,pago movil en muelle deportiv palmas de gra tarj,gasto,2023-10,Compras no esenciales,modelo
-2023-10-10,"Pago Movil En Rower Minimarke, Palmas (las), Tarj. :*179057",1.5,pago movil en rower minimarke palmas las tarj,gasto,2023-10,Supermercado,modelo
+2023-10-10,"Pago Movil En Rower Minimarke, Palmas (las), Tarj. :*179057",1.5,pago movil en rower minimarke palmas las tarj,gasto,2023-10,Compras no esenciales,modelo
 2023-10-10,"Transferencia De Evelymar Bastidas Rosario, Concepto Camisas",52.0,transferencia de evelymar bastidas rosario concepto camisas,ingreso,2023-10,Ingreso,manual
 2023-10-10,"Transferencia De Evelymar Bastidas Rosario, Concepto Amazon Prime",25.0,transferencia de evelymar bastidas rosario concepto amazon prime,ingreso,2023-10,Ingreso,manual
 2023-10-10,Traspaso: Ahorro Hucha Objetivo: Regalo,2.32,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
@@ -2080,18 +2080,18 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-10-09,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*179057",6.66,compra internet en repsol waylet madrid tarj,gasto,2023-10,Transporte,manual
 2023-10-09,"Transferencia De Gomez Bastidas Oscar Alejandro, .",88.61,transferencia de gomez bastidas oscar alejandro,ingreso,2023-10,Ingreso,manual
 2023-10-09,Traspaso:,49.9,traspaso,gasto,2023-10,Transferencia personal,manual
-2023-10-09,"Pago Movil En Lacandella, Las Palmas De, Tarj. :*179057",35.1,pago movil en lacandella las palmas de tarj,gasto,2023-10,Supermercado,modelo
+2023-10-09,"Pago Movil En Lacandella, Las Palmas De, Tarj. :*179057",35.1,pago movil en lacandella las palmas de tarj,gasto,2023-10,Restauración,modelo
 2023-10-09,"Pago Movil En Zara, Telde, Tarj. :*179057",52.0,pago movil en zara telde tarj,gasto,2023-10,Compras no esenciales,manual
 2023-10-09,Bizum De Debora Vega Ravelo Concepto Compra Comida Garita Y Gasolina,99.0,bizum de debora vega ravelo concepto compra comida garita y gasolina,ingreso,2023-10,Ingreso,manual
 2023-10-09,Traspaso:,20.0,traspaso,gasto,2023-10,Transferencia personal,manual
 2023-10-06,"Pago Movil En Lidl Can-gc-tel, Llanos De La, Tarj. :*179057",31.97,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-10,Supermercado,manual
 2023-10-06,"Pago Movil En Hd Melenara, Telde, Tarj. :*179057",55.19,pago movil en hd melenara telde tarj,gasto,2023-10,Supermercado,modelo
 2023-10-06,"Pago Movil En La Esquinita De, La Garita, Tarj. :*179057",24.0,pago movil en la esquinita de la garita tarj,gasto,2023-10,Restauración,modelo
-2023-10-06,"Pago Movil En Family Mart 202, Las Palmas, Tarj. :*179057",3.9,pago movil en family mart las palmas tarj,gasto,2023-10,Supermercado,modelo
+2023-10-06,"Pago Movil En Family Mart 202, Las Palmas, Tarj. :*179057",3.9,pago movil en family mart las palmas tarj,gasto,2023-10,Compras no esenciales,modelo
 2023-10-05,Traspaso: Ahorro Hucha Objetivo: Regalo,0.45,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-04,Bizum De Debora Vega Ravelo Concepto Compra Churros Y Copias,45.0,bizum de debora vega ravelo concepto compra churros y copias,ingreso,2023-10,Ingreso,manual
 2023-10-04,"Pago Movil En Laiba Doner Keb, Telde, Tarj. :*179057",5.0,pago movil en laiba doner keb telde tarj,gasto,2023-10,Supermercado,modelo
-2023-10-03,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*179057",4.4,pago movil en minimarket la x las palmas tarj,gasto,2023-10,Supermercado,modelo
+2023-10-03,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*179057",4.4,pago movil en minimarket la x las palmas tarj,gasto,2023-10,Compras no esenciales,modelo
 2023-10-03,Traspaso: Ahorro Hucha Objetivo: Regalo,0.03,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-02,"Pago Movil En Bar Cafeteria T, Valsequillo (, Tarj. :*179057",5.8,pago movil en bar cafeteria t valsequillo tarj,gasto,2023-10,Restauración,manual
 2023-10-02,Bizum A Favor De Debora Vega Ravelo Concepto: Cochitos,3.3,bizum a favor de debora vega ravelo concepto cochitos,gasto,2023-10,Transferencia personal,manual
@@ -2106,7 +2106,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-08-31,"Transferencia De Evelymar Bastidas Rosario, Concepto Felula De Descarga - Odontologo",140.0,transferencia de evelymar bastidas rosario concepto felula de descarga odontologo,ingreso,2023-08,Ingreso,manual
 2023-08-31,"Transaccion Contactless En Lidl Can-gc-tel, Llanos De La, Tarj. :*585729",29.17,transaccion contactless en lidl can gc tel llanos de la tarj,gasto,2023-08,Supermercado,manual
 2023-08-31,"Transaccion Contactless En Hd Melenara, Telde, Tarj. :*585729",40.5,transaccion contactless en hd melenara telde tarj,gasto,2023-08,Supermercado,modelo
-2023-08-30,"Compra Www.groupon.es, Groupon.es, Tarjeta 5163830309585729 , Comision 0,00",39.99,compra www groupon es groupon es tarjeta comision,gasto,2023-08,Compras no esenciales,modelo
+2023-08-30,"Compra Www.groupon.es, Groupon.es, Tarjeta 5163830309585729 , Comision 0,00",39.99,compra www groupon es groupon es tarjeta comision,gasto,2023-08,Restauración,modelo
 2023-08-30,Traspaso: Ahorro Hucha Objetivo: Regalo,2.84,traspaso ahorro hucha objetivo regalo,gasto,2023-08,Transferencia personal,manual
 2023-08-29,"Transferencia De Evelymar Bastidas Rosario, Concepto Gastos Mes Septiembre",230.0,transferencia de evelymar bastidas rosario concepto gastos mes septiembre,ingreso,2023-08,Ingreso,manual
 2023-08-29,"Transferencia De Evelymar Bastidas Rosario, Concepto Factura Moviles",35.0,transferencia de evelymar bastidas rosario concepto factura moviles,ingreso,2023-08,Ingreso,manual
@@ -2135,7 +2135,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-08-21,"Pago Movil En Zara España S.a, Palmas De Gra, Tarj. :*585729",5.99,pago movil en zara españa s a palmas de gra tarj,gasto,2023-08,Compras no esenciales,manual
 2023-08-21,"Pago Movil En Dulces De Tejed, Tejeda, Tarj. :*585729",1.8,pago movil en dulces de tejed tejeda tarj,gasto,2023-08,Supermercado,modelo
 2023-08-21,"Pago Movil En Dulces De Tejed, Tejeda, Tarj. :*585729",6.3,pago movil en dulces de tejed tejeda tarj,gasto,2023-08,Supermercado,modelo
-2023-08-21,"Pago Movil En Hamburgueseria, Vega De San M, Tarj. :*585729",11.1,pago movil en hamburgueseria vega de san m tarj,gasto,2023-08,Supermercado,modelo
+2023-08-21,"Pago Movil En Hamburgueseria, Vega De San M, Tarj. :*585729",11.1,pago movil en hamburgueseria vega de san m tarj,gasto,2023-08,Restauración,modelo
 2023-08-21,"Pago Movil En Sd San Mateo, San Mateo, Tarj. :*585729",5.97,pago movil en sd san mateo san mateo tarj,gasto,2023-08,Restauración,modelo
 2023-08-16,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.52,compra internet en repsol waylet madrid tarj,gasto,2023-08,Transporte,manual
 2023-08-16,"Pago Movil En Ca Santana, Ojos De Garza, Tarj. :*585729",1.8,pago movil en ca santana ojos de garza tarj,gasto,2023-08,Supermercado,modelo
@@ -2152,7 +2152,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-08-08,Traspaso: Ahorro Hucha Objetivo: Regalo,0.72,traspaso ahorro hucha objetivo regalo,gasto,2023-08,Transferencia personal,manual
 2023-08-07,"Compra Restaurante Agustin Y, Icod De Los V, Tarjeta 5163830309585729 , Comision 0,00",26.1,compra restaurante agustin y icod de los v tarjeta comision,gasto,2023-08,Restauración,manual
 2023-08-07,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.49,compra internet en repsol waylet madrid tarj,gasto,2023-08,Transporte,manual
-2023-08-07,"Pago Movil En Volcan De Taidi, Las Palmas De, Tarj. :*585729",4.18,pago movil en volcan de taidi las palmas de tarj,gasto,2023-08,Compras no esenciales,modelo
+2023-08-07,"Pago Movil En Volcan De Taidi, Las Palmas De, Tarj. :*585729",4.18,pago movil en volcan de taidi las palmas de tarj,gasto,2023-08,Restauración,modelo
 2023-08-07,"Pago Movil En Brisas Del Mar, Santa Cruz De, Tarj. :*585729",3.0,pago movil en brisas del mar santa cruz de tarj,gasto,2023-08,Restauración,modelo
 2023-08-07,"Transferencia De Gomez Bastidas Oscar Alejandro, Concepto Tenerife Ya Se Supo.",72.0,transferencia de gomez bastidas oscar alejandro concepto tenerife ya se supo,ingreso,2023-08,Ingreso,manual
 2023-08-07,"Pago Movil En Arepas Asadas N, San Cristobal, Tarj. :*585729",24.9,pago movil en arepas asadas n san cristobal tarj,gasto,2023-08,Supermercado,modelo
@@ -2177,7 +2177,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-08-01,Bizum A Favor De Gonzalo Carreo Ascanio Concepto: Arreglo Cristal,100.0,bizum a favor de gonzalo carreo ascanio concepto arreglo cristal,gasto,2023-08,Transferencia personal,manual
 2023-08-01,Traspaso: Ahorro Hucha Objetivo: Regalo,0.07,traspaso ahorro hucha objetivo regalo,gasto,2023-08,Transferencia personal,manual
 2023-08-01,Bizum De Debora Vega Ravelo Concepto .,23.0,bizum de debora vega ravelo concepto,ingreso,2023-08,Ingreso,manual
-2023-07-31,"Compra Sq *everywhere Meal&sw, Aguimes, Tarjeta 5163830309585729 , Comision 0,00",6.5,compra sq everywhere meal&sw aguimes tarjeta comision,gasto,2023-07,Compras no esenciales,modelo
+2023-07-31,"Compra Sq *everywhere Meal&sw, Aguimes, Tarjeta 5163830309585729 , Comision 0,00",6.5,compra sq everywhere meal&sw aguimes tarjeta comision,gasto,2023-07,Ocio / Suscripciones,modelo
 2023-07-31,"Pago Movil En Llao Llao, Palmas De Gra, Tarj. :*585729",4.85,pago movil en llao llao palmas de gra tarj,gasto,2023-07,Compras no esenciales,modelo
 2023-07-31,"Compra Internet En Las Arenas Web, Las Palmas De, Tarj. :*585729",23.6,compra internet en las arenas web las palmas de tarj,gasto,2023-07,Transporte,modelo
 2023-07-31,Bizum De Juan Miguel Viera Rodriguez Concepto Comida,7.85,bizum de juan miguel viera rodriguez concepto comida,ingreso,2023-07,Ingreso,manual
@@ -2200,21 +2200,21 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-26,Traspaso: Gym,25.0,traspaso gym,gasto,2023-07,Transferencia personal,manual
 2023-07-26,Bizum A Favor De Debora Vega Ravelo Concepto: Chuspis,46.2,bizum a favor de debora vega ravelo concepto chuspis,gasto,2023-07,Transferencia personal,manual
 2023-07-25,Bizum De Debora Vega Ravelo Concepto .,11.2,bizum de debora vega ravelo concepto,ingreso,2023-07,Ingreso,manual
-2023-07-25,"Pago Movil En Hotel Escuela S, Las Palmas De, Tarj. :*585729",3.14,pago movil en hotel escuela s las palmas de tarj,gasto,2023-07,Supermercado,modelo
+2023-07-25,"Pago Movil En Hotel Escuela S, Las Palmas De, Tarj. :*585729",3.14,pago movil en hotel escuela s las palmas de tarj,gasto,2023-07,Restauración,modelo
 2023-07-24,"Transferencia De Evelymar Bastidas Rosario, Concepto Peluqueria",20.0,transferencia de evelymar bastidas rosario concepto peluqueria,ingreso,2023-07,Ingreso,manual
-2023-07-24,"Pago Movil En Mendoza Peluque, Las Palmas, Tarj. :*585729",20.0,pago movil en mendoza peluque las palmas tarj,gasto,2023-07,Supermercado,modelo
+2023-07-24,"Pago Movil En Mendoza Peluque, Las Palmas, Tarj. :*585729",20.0,pago movil en mendoza peluque las palmas tarj,gasto,2023-07,Compras no esenciales,modelo
 2023-07-24,Traspaso: Teléfono Agosto,35.0,traspaso teléfono agosto,gasto,2023-07,Transferencia personal,manual
 2023-07-24,Traspaso: Julio,10.0,traspaso julio,gasto,2023-07,Transferencia personal,manual
 2023-07-21,"Transferencia De Evelymar Bastidas Rosario, Concepto Movil Julio",35.0,transferencia de evelymar bastidas rosario concepto movil julio,ingreso,2023-07,Ingreso,manual
 2023-07-21,"Transferencia De Evelymar Bastidas Rosario, Concepto Gastos Agosto Mas Adicional",230.0,transferencia de evelymar bastidas rosario concepto gastos agosto mas adicional,ingreso,2023-07,Ingreso,manual
 2023-07-21,"Transferencia De Evelymar Bastidas Rosario, Concepto Cena Jueves",20.0,transferencia de evelymar bastidas rosario concepto cena jueves,ingreso,2023-07,Ingreso,manual
 2023-07-21,Bizum A Favor De Debora Vega Ravelo Concepto: Sin Concepto,40.0,bizum a favor de debora vega ravelo concepto sin concepto,gasto,2023-07,Transferencia personal,manual
-2023-07-20,"Pago Movil En Õnce, Las Palmas, Tarj. :*585729",6.0,pago movil en õnce las palmas tarj,gasto,2023-07,Supermercado,modelo
+2023-07-20,"Pago Movil En Õnce, Las Palmas, Tarj. :*585729",6.0,pago movil en õnce las palmas tarj,gasto,2023-07,Compras no esenciales,modelo
 2023-07-19,Bizum De Debora Vega Ravelo Concepto Colchón,17.5,bizum de debora vega ravelo concepto colchón,ingreso,2023-07,Ingreso,manual
 2023-07-19,Bizum De Debora Vega Ravelo Concepto Te Amo,30.0,bizum de debora vega ravelo concepto te amo,ingreso,2023-07,Ingreso,manual
 2023-07-19,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",16.21,compra internet en repsol waylet madrid tarj,gasto,2023-07,Transporte,manual
 2023-07-19,"Recibo Vodafone Factura: Yj23-001135776/ Nº Recibo 0049 6140 755 Bbfknbx Ref. Mandato 0111207734, De",33.43,recibo vodafone factura yj nº recibo bbfknbx ref mandato de,gasto,2023-07,Facturas,manual
-2023-07-19,"Compra Internet En Red Itevelesa C, Santa Cruz De, Tarj. :*585729",36.69,compra internet en red itevelesa c santa cruz de tarj,gasto,2023-07,Restauración,modelo
+2023-07-19,"Compra Internet En Red Itevelesa C, Santa Cruz De, Tarj. :*585729",36.69,compra internet en red itevelesa c santa cruz de tarj,gasto,2023-07,Transporte,modelo
 2023-07-19,"Pago Movil En Hd Arnao, Telde, Tarj. :*585729",2.13,pago movil en hd arnao telde tarj,gasto,2023-07,Supermercado,modelo
 2023-07-17,"Pago Movil En Decathlon Telde, Telde, Tarj. :*585729",34.98,pago movil en decathlon telde telde tarj,gasto,2023-07,Compras no esenciales,manual
 2023-07-17,"Pago Movil En Churreria V. Fi, Firgas, Tarj. :*585729",3.0,pago movil en churreria v fi firgas tarj,gasto,2023-07,Supermercado,modelo
@@ -2226,8 +2226,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-13,"Pago Movil En Dni/pasaporte T, Telde, Tarj. :*585729",12.0,pago movil en dni pasaporte t telde tarj,gasto,2023-07,Supermercado,modelo
 2023-07-12,"Pago Movil En Petroprix Ag Im, Aguimes (capi, Tarj. :*585729",30.0,pago movil en petroprix ag im aguimes capi tarj,gasto,2023-07,Transporte,manual
 2023-07-11,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.45,compra internet en repsol waylet madrid tarj,gasto,2023-07,Transporte,manual
-2023-07-10,"Pago Movil En Busca Y Gusta, Las Palmas, Tarj. :*585729",7.8,pago movil en busca y gusta las palmas tarj,gasto,2023-07,Supermercado,modelo
-2023-07-10,"Pago Movil En Foto Color Rima, Las Palmas, Tarj. :*585729",5.5,pago movil en foto color rima las palmas tarj,gasto,2023-07,Supermercado,modelo
+2023-07-10,"Pago Movil En Busca Y Gusta, Las Palmas, Tarj. :*585729",7.8,pago movil en busca y gusta las palmas tarj,gasto,2023-07,Compras no esenciales,modelo
+2023-07-10,"Pago Movil En Foto Color Rima, Las Palmas, Tarj. :*585729",5.5,pago movil en foto color rima las palmas tarj,gasto,2023-07,Compras no esenciales,modelo
 2023-07-10,"Pago Movil En Sagulpa Parquim, Palmas De Gra, Tarj. :*585729",1.65,pago movil en sagulpa parquim palmas de gra tarj,gasto,2023-07,Compras no esenciales,modelo
 2023-07-10,Bizum A Favor De Samuel Trujillo Santana Concepto: Jambuguesa,11.4,bizum a favor de samuel trujillo santana concepto jambuguesa,gasto,2023-07,Transferencia personal,manual
 2023-07-10,"Pago Movil En Transportes Y S, Galdar, Tarj. :*585729",10.0,pago movil en transportes y s galdar tarj,gasto,2023-07,Supermercado,modelo
@@ -2237,12 +2237,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-07,"Pago Movil En Lidl Can-gc-tel, Llanos De La, Tarj. :*585729",46.26,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-07,Supermercado,manual
 2023-07-07,"Pago Movil En Cafe Manhattan, Telde, Tarj. :*585729",6.4,pago movil en cafe manhattan telde tarj,gasto,2023-07,Supermercado,modelo
 2023-07-07,"Pago Movil En Tiger Los Alisi, Palmas (las), Tarj. :*585729",16.0,pago movil en tiger los alisi palmas las tarj,gasto,2023-07,Compras no esenciales,modelo
-2023-07-07,"Pago Movil En Bershka, Tamaraceite, Tarj. :*585729",3.99,pago movil en bershka tamaraceite tarj,gasto,2023-07,Supermercado,modelo
+2023-07-07,"Pago Movil En Bershka, Tamaraceite, Tarj. :*585729",3.99,pago movil en bershka tamaraceite tarj,gasto,2023-07,Compras no esenciales,modelo
 2023-07-06,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",10.55,compra internet en repsol waylet madrid tarj,gasto,2023-07,Transporte,manual
 2023-07-05,"Pago Movil En Las Terrazas Tp, Telde, Tarj. :*585729",5.49,pago movil en las terrazas tp telde tarj,gasto,2023-07,Supermercado,modelo
 2023-07-05,"Pago Movil En Quinta Cumbre L, Las Palmas De, Tarj. :*585729",3.0,pago movil en quinta cumbre l las palmas de tarj,gasto,2023-07,Restauración,manual
 2023-07-05,"Pago Movil En Domyhome, Telde, Tarj. :*585729",2.95,pago movil en domyhome telde tarj,gasto,2023-07,Supermercado,modelo
-2023-07-05,"Compra Internet En Chiwawa, Las Palmas, Tarj. :*585729",5.0,compra internet en chiwawa las palmas tarj,gasto,2023-07,Transporte,modelo
+2023-07-05,"Compra Internet En Chiwawa, Las Palmas, Tarj. :*585729",5.0,compra internet en chiwawa las palmas tarj,gasto,2023-07,Restauración,modelo
 2023-07-04,"Compra Spotifyes P24137cfdd, Stockholm, Tarjeta 5163830309585729 , Comision 0,00",9.99,compra spotifyes pcfdd stockholm tarjeta comision,gasto,2023-07,Ocio / Suscripciones,manual
 2023-07-03,"Pago Movil En Alcampo Telde, Telde, Tarj. :*585729",26.41,pago movil en alcampo telde telde tarj,gasto,2023-07,Supermercado,manual
 2023-07-03,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.47,compra internet en repsol waylet madrid tarj,gasto,2023-07,Transporte,manual
@@ -2252,7 +2252,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-03,"Pago Movil En Agroquimica Jua, Telde, Tarj. :*585729",21.95,pago movil en agroquimica jua telde tarj,gasto,2023-07,Compras no esenciales,manual
 2023-06-30,"Pago Movil En Spar Salinetas, Telde, Tarj. :*585729",2.58,pago movil en spar salinetas telde tarj,gasto,2023-06,Compras no esenciales,modelo
 2023-06-30,"Pago Movil En Restaurante El, Las Palmas, Tarj. :*585729",6.45,pago movil en restaurante el las palmas tarj,gasto,2023-06,Restauración,manual
-2023-06-30,"Pago Movil En Starbucks Las C, Las Palmas, Tarj. :*585729",14.4,pago movil en starbucks las c las palmas tarj,gasto,2023-06,Supermercado,modelo
+2023-06-30,"Pago Movil En Starbucks Las C, Las Palmas, Tarj. :*585729",14.4,pago movil en starbucks las c las palmas tarj,gasto,2023-06,Compras no esenciales,modelo
 2023-06-30,"Pago Movil En Kiwoko Telde La, Cruz De La Ga, Tarj. :*585729",8.5,pago movil en kiwoko telde la cruz de la ga tarj,gasto,2023-06,Compras no esenciales,manual
 2023-06-30,"Transferencia De Fundacion Canaria Universidad De Las Palmas, Concepto Junio Oscar Gomez Bastidas Os",358.65,transferencia de fundacion canaria universidad de las palmas concepto junio oscar gomez bastidas os,ingreso,2023-06,Ingreso,manual
 2023-06-30,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.47,compra internet en repsol waylet madrid tarj,gasto,2023-06,Transporte,manual
@@ -2266,18 +2266,18 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-06-23,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",36.07,compra internet en repsol waylet madrid tarj,gasto,2023-06,Transporte,manual
 2023-06-22,Bizum De Debora Vega Ravelo Concepto .,31.0,bizum de debora vega ravelo concepto,ingreso,2023-06,Ingreso,manual
 2023-06-21,"Pago Movil En Heladeria Quint, Jinamar, Tarj. :*585729",9.8,pago movil en heladeria quint jinamar tarj,gasto,2023-06,Restauración,manual
-2023-06-21,"Pago Movil En Ella'shoes, Las Palmas De, Tarj. :*585729",30.53,pago movil en ella shoes las palmas de tarj,gasto,2023-06,Supermercado,modelo
+2023-06-21,"Pago Movil En Ella'shoes, Las Palmas De, Tarj. :*585729",30.53,pago movil en ella shoes las palmas de tarj,gasto,2023-06,Restauración,modelo
 2023-06-21,"Pago Movil En Alcampo Telde, Telde, Tarj. :*585729",0.78,pago movil en alcampo telde telde tarj,gasto,2023-06,Supermercado,manual
 2023-06-19,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.49,compra internet en repsol waylet madrid tarj,gasto,2023-06,Transporte,manual
 2023-06-19,"Recibo Vodafone Factura: Yj23-000964978/ Nº Recibo 0049 6140 755 Bbfjsjd Ref. Mandato 0111207734, De",33.43,recibo vodafone factura yj nº recibo bbfjsjd ref mandato de,gasto,2023-06,Facturas,manual
 2023-06-19,"Pago Movil En Lidl Can-gc-tel, Telde, Tarj. :*585729",33.66,pago movil en lidl can gc tel telde tarj,gasto,2023-06,Supermercado,manual
 2023-06-19,"Pago Movil En Hd Melenara, Telde, Tarj. :*585729",66.4,pago movil en hd melenara telde tarj,gasto,2023-06,Supermercado,modelo
 2023-06-19,Transferencia A Favor De Javier Concepto: Orla,20.0,transferencia a favor de javier concepto orla,gasto,2023-06,Transferencia personal,manual
-2023-06-19,"Pago Movil En Rockabilly Puer, Las Palmas De, Tarj. :*585729",35.45,pago movil en rockabilly puer las palmas de tarj,gasto,2023-06,Supermercado,modelo
+2023-06-19,"Pago Movil En Rockabilly Puer, Las Palmas De, Tarj. :*585729",35.45,pago movil en rockabilly puer las palmas de tarj,gasto,2023-06,Restauración,modelo
 2023-06-16,"Transaccion Contactless En Academia Univer, Palmas, Tarj. :*585729",52.5,transaccion contactless en academia univer palmas tarj,gasto,2023-06,Facturas,manual
 2023-06-16,"Transferencia De Evelymar Bastidas Rosario, Concepto Clases Particulares",190.0,transferencia de evelymar bastidas rosario concepto clases particulares,ingreso,2023-06,Ingreso,manual
 2023-06-16,"Compra Internet En Grupo Rockabill, Las Palmas, Tarj. :*585729",5.0,compra internet en grupo rockabill las palmas tarj,gasto,2023-06,Transporte,modelo
-2023-06-14,"Compra Nyx*tecnotron, Madrid, Tarjeta 5163830309585729 , Comision 0,00",6.0,compra nyx tecnotron madrid tarjeta comision,gasto,2023-06,Compras no esenciales,modelo
+2023-06-14,"Compra Nyx*tecnotron, Madrid, Tarjeta 5163830309585729 , Comision 0,00",6.0,compra nyx tecnotron madrid tarjeta comision,gasto,2023-06,Ocio / Suscripciones,modelo
 2023-06-14,"Pago Movil En Las Casitas Emp, Las Palmas De, Tarj. :*585729",2.9,pago movil en las casitas emp las palmas de tarj,gasto,2023-06,Restauración,manual
 2023-06-14,Bizum De Debora Vega Ravelo Concepto .,25.0,bizum de debora vega ravelo concepto,ingreso,2023-06,Ingreso,manual
 2023-06-12,"Pago Movil En Academia Univer, Palmas, Tarj. :*585729",94.5,pago movil en academia univer palmas tarj,gasto,2023-06,Facturas,manual
@@ -2297,7 +2297,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-06-02,Bizum De Ana Maria Ylla Pallares Concepto Botitas,50.0,bizum de ana maria ylla pallares concepto botitas,ingreso,2023-06,Ingreso,manual
 2023-05-31,"Pago Movil En El Corral Telde, Telde, Tarj. :*585729",50.0,pago movil en el corral telde telde tarj,gasto,2023-05,Facturas,manual
 2023-05-31,Bizum A Favor De Juan Miguel Viera Rodriguez Concepto: Cine,2.5,bizum a favor de juan miguel viera rodriguez concepto cine,gasto,2023-05,Transferencia personal,manual
-2023-05-30,"Pago Movil En Lacandella, Las Palmas De, Tarj. :*585729",28.6,pago movil en lacandella las palmas de tarj,gasto,2023-05,Supermercado,modelo
+2023-05-30,"Pago Movil En Lacandella, Las Palmas De, Tarj. :*585729",28.6,pago movil en lacandella las palmas de tarj,gasto,2023-05,Restauración,modelo
 2023-05-30,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.51,compra internet en repsol waylet madrid tarj,gasto,2023-05,Transporte,manual
 2023-05-30,"Pago Movil En Lidl Can-gc-tel, Llanos De La, Tarj. :*585729",34.03,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-05,Supermercado,manual
 2023-05-29,"Pago Movil En Aldi Telde Mele, Telde, Tarj. :*585729",13.42,pago movil en aldi telde mele telde tarj,gasto,2023-05,Supermercado,manual
@@ -2316,7 +2316,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-05-23,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.57,compra internet en repsol waylet madrid tarj,gasto,2023-05,Transporte,manual
 2023-05-23,Bizum De Debora Vega Ravelo Concepto .,35.0,bizum de debora vega ravelo concepto,ingreso,2023-05,Ingreso,manual
 2023-05-23,"Pago Movil En Ruth Peluqueria, Las Palmas, Tarj. :*585729",8.0,pago movil en ruth peluqueria las palmas tarj,gasto,2023-05,Restauración,modelo
-2023-05-22,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*585729",1.3,pago movil en minimarket la x las palmas tarj,gasto,2023-05,Supermercado,modelo
+2023-05-22,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*585729",1.3,pago movil en minimarket la x las palmas tarj,gasto,2023-05,Compras no esenciales,modelo
 2023-05-22,Transferencia A Favor De Javier Concepto: Orla,20.0,transferencia a favor de javier concepto orla,gasto,2023-05,Transferencia personal,manual
 2023-05-22,"Pago Movil En Alisios Tpv1, Las Palmas De, Tarj. :*585729",6.95,pago movil en alisios tpv las palmas de tarj,gasto,2023-05,Restauración,modelo
 2023-05-22,"Transaccion Contactless En Mercadona Las T, Telde, Tarj. :*585729",9.31,transaccion contactless en mercadona las t telde tarj,gasto,2023-05,Supermercado,manual
@@ -2325,17 +2325,17 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-05-22,"Pago Movil En Lidl Can-gc-tel, Telde, Tarj. :*585729",26.16,pago movil en lidl can gc tel telde tarj,gasto,2023-05,Supermercado,manual
 2023-05-22,"Pago Movil En Hd Arnao, Telde, Tarj. :*585729",23.12,pago movil en hd arnao telde tarj,gasto,2023-05,Supermercado,modelo
 2023-05-19,"Recibo Vodafone Factura: Yj23-000793033/ Nº Recibo 0049 6140 755 Bbfhycf Ref. Mandato 0111207734, De",33.43,recibo vodafone factura yj nº recibo bbfhycf ref mandato de,gasto,2023-05,Facturas,manual
-2023-05-18,"Pago Movil En El Bosque Encan, Gran Canaria, Tarj. :*585729",20.9,pago movil en el bosque encan gran canaria tarj,gasto,2023-05,Restauración,modelo
+2023-05-18,"Pago Movil En El Bosque Encan, Gran Canaria, Tarj. :*585729",20.9,pago movil en el bosque encan gran canaria tarj,gasto,2023-05,Facturas,modelo
 2023-05-17,"Pago Movil En El Corral Telde, Telde, Tarj. :*585729",145.11,pago movil en el corral telde telde tarj,gasto,2023-05,Facturas,manual
 2023-05-17,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.57,compra internet en repsol waylet madrid tarj,gasto,2023-05,Transporte,manual
-2023-05-15,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2023-05,Supermercado,modelo
+2023-05-15,"Pago Movil En Minimarket La X, Las Palmas, Tarj. :*585729",0.85,pago movil en minimarket la x las palmas tarj,gasto,2023-05,Compras no esenciales,modelo
 2023-05-15,"Pago Movil En Las Casitas Emp, Las Palmas De, Tarj. :*585729",4.1,pago movil en las casitas emp las palmas de tarj,gasto,2023-05,Restauración,manual
 2023-05-15,Bizum De Debora Vega Ravelo Concepto .,43.0,bizum de debora vega ravelo concepto,ingreso,2023-05,Ingreso,manual
 2023-05-15,"Pago Movil En Lidl Can-gc-tel, Telde, Tarj. :*585729",40.7,pago movil en lidl can gc tel telde tarj,gasto,2023-05,Supermercado,manual
 2023-05-15,"Pago Movil En Alcampo Telde, Telde, Tarj. :*585729",46.97,pago movil en alcampo telde telde tarj,gasto,2023-05,Supermercado,manual
 2023-05-15,Bizum De Debora Vega Ravelo Concepto .,42.0,bizum de debora vega ravelo concepto,ingreso,2023-05,Ingreso,manual
 2023-05-12,"Pago Movil En Farmacia Alfons, Valsequillo (, Tarj. :*585729",6.5,pago movil en farmacia alfons valsequillo tarj,gasto,2023-05,Supermercado,manual
-2023-05-11,"Pago Movil En Punto Coma, Palmas (las), Tarj. :*585729",2.55,pago movil en punto coma palmas las tarj,gasto,2023-05,Supermercado,modelo
+2023-05-11,"Pago Movil En Punto Coma, Palmas (las), Tarj. :*585729",2.55,pago movil en punto coma palmas las tarj,gasto,2023-05,Compras no esenciales,modelo
 2023-05-10,"Compra Internet En Repsol Waylet, Madrid, Tarj. :*585729",28.57,compra internet en repsol waylet madrid tarj,gasto,2023-05,Transporte,manual
 2023-05-10,Bizum De Ana Maria Ylla Pallares Concepto Botas,150.11,bizum de ana maria ylla pallares concepto botas,ingreso,2023-05,Ingreso,manual
 2023-05-09,"Pago Movil En El Corral Clini, Telde, Tarj. :*585729",30.0,pago movil en el corral clini telde tarj,gasto,2023-05,Facturas,manual
