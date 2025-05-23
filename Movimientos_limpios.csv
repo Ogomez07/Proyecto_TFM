@@ -2360,4 +2360,4 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes
 2023-05-05,"PAGO MOVIL EN LIDL CAN-GC-TEL, LLANOS DE LA, TARJ. :*585729",-34.69,pago movil en lidl can gc tel llanos de la tarj,gasto,2023-05
 2023-05-06,"PAGO MOVIL EN VIVEROS EL ROSA, ARINAGA, TARJ. :*585729",-4.4,pago movil en viveros el rosa arinaga tarj,gasto,2023-05
 2023-05-06,"PAGO MOVIL EN SHALOM RESTAURA, TEROR, TARJ. :*585729 -                                       S A L D O   F I N A L   A L   08-05-2023                                             403,81 H",-7.9,pago movil en shalom restaura teror tarj s a l d o f i n a l a l h,gasto,2023-05
-2025-03-31,Prestamo,-197.19,prestamo,gasto,2025-03
+2025-03-31,Prestamo,197.19,prestamo,ingreso,2025-03
