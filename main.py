@@ -4,7 +4,9 @@ from IPython.display import display
 
 import src.eda as eda
 import src.etl as etl
-import src.entrenamiento as entrenamiento
+import src.categorizacion as categorizar
+import src.prediccion as pred
+
 
 if __name__ == "__main__":
 
@@ -35,14 +37,46 @@ if __name__ == "__main__":
     # Abrir CSV de los movimientos combinados
     df_fechas = pd.read_csv('data/movimientos_combinados.csv', parse_dates=["Fecha_operacion"])
 
-    # Procesar las fechas del Dataset
+    #Convertir fechas en formato datetime
+
     df_fechas = etl.convertir_a_datetime(df_fechas)
 
     # Agregar manualmente un movimiento 
-    df_fechas = etl.agregar_movimiento(df_fechas,'2025-03-31', 'Prestamo', 197.19, None)
+    df_fechas = etl.agregar_movimiento(df_fechas,'2025-03-31', 'Prestamo', -197.19, None)
     df_fechas.info()
-    display(df_fechas.sample(25))
 
-    display(df_fechas["Fecha_operacion"].isna().sum())
+    # Cambiar los nombres de las columnas
+    df_fechas = etl.normalizar_columnas(df_fechas)
 
+    display(df_fechas.columns)
+
+    # Limpiar el texto de la columna operacion
+    df_fechas['operacion_limpia'] = df_fechas['operacion'].apply(etl.limpiar_texto)
+
+    # Creación de la columna tipo que separa los datos en función Ingresos de dinero y Gasto
+    df_fechas["tipo"] = df_fechas["importe"].apply(lambda i: "ingreso" if i > 0 else "gasto")
+
+    # Añadir columna año_mes
+    df_fechas["año_mes"] = df_fechas["fecha_operacion"].dt.to_period("M").astype(str)
+
+    # Eliminar columna saldo
+    df_fechas_limpio = df_fechas.drop(columns=["saldo"])
+
+    # Guardamos el CSV limpio
+    df_fechas_limpio.to_csv("data/movimientos_limpios.csv", index=False)
+    display(df_fechas_limpio['importe'].isnull().sum())
+
+    # Abrimos el nuevo CSV 
+    df_categorizacion = pd.read_csv('data/movimientos_limpios.csv', parse_dates=['fecha_operacion'])
+
+    # Categorizamos los movimientos
+    df_categorizacion['categoria'] = df_categorizacion['operacion_limpia'].apply(categorizar.clasificar_por_reglas)
+    display(df_categorizacion)
+
+    #  Preparación del modelo de clasificación
+    # Preparar datos
+    x_train, x_test, y_train, y_test, x_text_train, x_text_test, vectorizer = categorizar.preparar_datos_modelo(df_categorizacion)
+
+    # Entrenar modelo
+    modelo = categorizar.entrenar_modelo_clasificador(x_train, y_train)
  
