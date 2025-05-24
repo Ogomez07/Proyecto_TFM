@@ -1,3 +1,4 @@
+import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import confusion_matrix
@@ -55,5 +56,21 @@ def mostrar_boxplots_por_categoria(df, columna_categoria='categoria', columna_va
         plt.grid(True)
         plt.tight_layout()
         plt.show()
+
+def graficar_predicciones(serie_train, fechas_futuras, reales, pred, categoria, n_meses):
+    serie_ext = pd.concat([
+        serie_train,
+        pd.Series(reales, index=fechas_futuras)
+    ])
+    plt.figure(figsize=(10, 5))
+    plt.plot(serie_ext.index, serie_ext.values, marker='o', color='orange', label='Real')
+    plt.plot(fechas_futuras, [pred] * len(fechas_futuras), color='blue', marker='o', label='Predicción')
+    plt.title(f"Predicción de gastos - {categoria} (Naïve, media últimos {n_meses} meses)")
+    plt.xlabel("Fecha")
+    plt.ylabel("€")
+    plt.grid(True)
+    plt.legend()
+    plt.tight_layout()
+    plt.show()
 
 

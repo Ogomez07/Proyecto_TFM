@@ -2,11 +2,10 @@ import pandas as pd
 from IPython.display import display
 import matplotlib.pyplot as plt
 
-
 import src.eda as eda
 import src.etl as etl
 import src.categorizacion as categorizar
-import src.prediccion as pred
+import src.prediccion as predecir
 import src.visualizaciones as viz
 
 
@@ -105,6 +104,38 @@ if __name__ == "__main__":
     viz.mostrar_distribucion_categorias(df_actualizado)
 
     # Vemos como se comportan sus importes por categoría con un Boxplot
-    viz.mostrar_boxplots_por_categoria(df_actualizado)
+    #viz.mostrar_boxplots_por_categoria(df_actualizado)
+
+    # Limpiamos lo valores atípicos de cada categoría y los agrupamos en una categoría nueva llamada "Gastos extras"
+    df_actualizado = etl.mover_outliers_a_gastos_extra(df_actualizado)
+    display(df_actualizado['categoria'].value_counts())
+
+    # Eliminamos el valor 0 de préstamo (puede generar problemas en las predicciones)
+    df_actualizado = etl.eliminar_outliers_prestamo(df_actualizado)
+
+    # Pasamos los valores a positivo
+    df_actualizado['importe'] = df_actualizado['importe'].abs()
+
+    # Revisamos como se encuentra cada categoría con un boxplot
+    #viz.mostrar_boxplots_por_categoria(df_actualizado)
+
+    # Guardar el CSV
+    #df_actualizado.to_csv("Movimientos_categorizados.csv", index=False)
+
+    # Abrir el CSV de movimientos categorizados
+    df_prediccion =pd.read_csv('Movimientos_categorizados.csv', parse_dates=['fecha_operacion'])
+
+    # Seleccionamos el tipo de movimiento que queremos predecir
+    df_prediccion = df_prediccion[df_prediccion['tipo'] == 'gasto'].copy()
+    gastos_mensuales = df_prediccion.groupby(['año_mes', 'categoria'])['importe'].sum().unstack(fill_value=0)
+    display(gastos_mensuales)
+
+    # Predecir el gasto mensual por categoría
+    serie = gastos_mensuales['Restauración']
+    serie_train, fechas, pred, reales = predecir.predecir_naive_media(serie)
+    df_resultado = predecir.mostrar_resultado(fechas, [pred]*len(fechas), reales)
+    viz.graficar_predicciones(serie_train, fechas, reales, pred, 'Restauración', 6)
+    predecir.calcular_metricas(reales, [pred]*len(fechas))
+
 
  
