@@ -58,3 +58,12 @@ def limpiar_texto(texto):
     texto = re.sub(r'\s+', ' ', texto).strip()                  # quitar espacios repetidos
     return texto
 
+def eliminar_palabras(texto):
+    """Elimina palabras/frases específicas del texto."""
+    palabras = ["pago movil", "tarj"]  # Personaliza esta lista
+    texto = str(texto).lower()
+    for palabra in palabras:
+        texto = re.sub(re.escape(palabra), '', texto, flags=re.IGNORECASE)
+    texto = re.sub(r'\s+', ' ', texto).strip()  # limpiar espacios extra
+    return texto
+
