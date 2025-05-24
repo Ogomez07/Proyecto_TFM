@@ -47,8 +47,10 @@ if __name__ == "__main__":
 
     # Cambiar los nombres de las columnas
     df_fechas = etl.normalizar_columnas(df_fechas)
+    
+    # Eliminar palabras de la columna Operacion
+    df_fechas['operacion'] = df_fechas['operacion'].apply(etl.eliminar_palabras)
 
-    display(df_fechas.columns)
 
     # Limpiar el texto de la columna operacion
     df_fechas['operacion_limpia'] = df_fechas['operacion'].apply(etl.limpiar_texto)
@@ -64,14 +66,12 @@ if __name__ == "__main__":
 
     # Guardamos el CSV limpio
     df_fechas_limpio.to_csv("data/movimientos_limpios.csv", index=False)
-    display(df_fechas_limpio['importe'].isnull().sum())
 
     # Abrimos el nuevo CSV 
     df_categorizacion = pd.read_csv('data/movimientos_limpios.csv', parse_dates=['fecha_operacion'])
 
     # Categorizamos los movimientos
     df_categorizacion['categoria'] = df_categorizacion['operacion_limpia'].apply(categorizar.clasificar_por_reglas)
-    display(df_categorizacion)
 
     #  Preparación del modelo de clasificación
     # Preparar datos
@@ -79,4 +79,19 @@ if __name__ == "__main__":
 
     # Entrenar modelo
     modelo = categorizar.entrenar_modelo_clasificador(x_train, y_train)
+
+    # Evaluación del modelo
+    evaluacion = categorizar.evaluar_modelo(modelo, x_test, y_test, x_text_test)
+    print(evaluacion)
+
+    # Filtrar las operaciones sin etiquetar
+    df_sin_etiquetar = categorizar.filtrar_movimientos_sin_categoria(df_categorizacion)
+    display(df_sin_etiquetar)
+
+    # Predecir categorias faltantes
+    df_sin_etiquetar = categorizar.predecir_categorias(df_sin_etiquetar, vectorizer, modelo)
+
+    # Vizualizar resultados
+    print(f' Movimientos sin etiquetar: {df_sin_etiquetar.shape[0]}')
+    display(df_sin_etiquetar[['operacion_limpia', 'categoria_predicha']].sample(15))
  

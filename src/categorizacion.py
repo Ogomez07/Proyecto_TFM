@@ -1,6 +1,11 @@
+from IPython.display import display
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 # Creamos funcion para crear las categorias y entrenar el modelo de categorización
 def clasificar_por_reglas(texto):
@@ -76,6 +81,7 @@ def preparar_datos_modelo(df, columna_texto='operacion_limpia', columna_etiqueta
     """
     Prepara los datos para entrenamiento: vectoriza texto, separa etiquetas y texto original.
     """
+    
     df_etiquetado = df[df[columna_etiqueta] != 'Sin categorizar'].copy()
     x_texto = df_etiquetado[columna_texto]
     y_etiqueta = df_etiquetado[columna_etiqueta]
@@ -97,3 +103,75 @@ def entrenar_modelo_clasificador(x_train, y_train):
     modelo = RandomForestClassifier()
     modelo.fit(x_train, y_train)
     return modelo
+
+
+
+def obtener_predicciones(modelo, x_test):
+    """Devuelve las predicciones del modelo."""
+    return modelo.predict(x_test)
+
+
+def mostrar_metricas(y_test, y_pred):
+    """Imprime accuracy y reporte de clasificación."""
+    acc = accuracy_score(y_test, y_pred)
+    print(f"✅ Accuracy: {acc:.4f}")
+    print("\n Reporte de clasificación:")
+    print(classification_report(y_test, y_pred))
+
+
+def mostrar_matriz_confusion(y_test, y_pred, labels):
+    """Muestra la matriz de confusión como heatmap."""
+    matriz = confusion_matrix(y_test, y_pred)
+    plt.figure(figsize=(10, 6))
+    sns.heatmap(matriz, annot=True, fmt='d', cmap='Blues',
+                xticklabels=labels, yticklabels=labels)
+    plt.xlabel("Predicción")
+    plt.ylabel("Real")
+    plt.title("Matriz de Confusión")
+    plt.show()
+
+
+def obtener_errores(x_text_test, y_test, y_pred):
+    """Devuelve un DataFrame con los errores de predicción."""
+    errores = pd.DataFrame({
+        'texto': x_text_test,
+        'real': y_test.values,
+        'predicho': y_pred
+    })
+    return errores[errores['real'] != errores['predicho']]
+
+
+def evaluar_modelo(modelo, x_test, y_test, x_text_test=None, mostrar_errores=True):
+    """
+    Evalúa un modelo clasificando y visualiza métricas.
+    Devuelve errores si `mostrar_errores=True` y `x_text_test` no es None.
+    """
+    y_pred = obtener_predicciones(modelo, x_test)
+    mostrar_metricas(y_test, y_pred)
+    mostrar_matriz_confusion(y_test, y_pred, modelo.classes_)
+
+    if x_text_test is not None and mostrar_errores:
+        errores = obtener_errores(x_text_test, y_test, y_pred)
+        print("\n❌ Errores de clasificación:")
+        display(errores.head(15))
+        return errores
+
+    return None
+
+def filtrar_movimientos_sin_categoria(df, columna_etiqueta="categoria"):
+    """
+    Devuelve un DataFrame con los movimientos sin categoría.
+    """
+    return df[df[columna_etiqueta] == "Sin categorizar"].copy()
+
+
+def predecir_categorias(df_sin_etiquetar, vectorizer, modelo, columna_texto="operacion_limpia"):
+    """
+    Usa un modelo entrenado y un vectorizador para predecir categorías de movimientos sin etiquetar.
+    Añade la columna 'categoria_predicha'.
+    """
+    x_nuevos = vectorizer.transform(df_sin_etiquetar[columna_texto])
+    df_sin_etiquetar["categoria_predicha"] = modelo.predict(x_nuevos)
+    return df_sin_etiquetar
+
+
