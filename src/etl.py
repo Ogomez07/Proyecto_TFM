@@ -67,3 +67,52 @@ def eliminar_palabras(texto):
     texto = re.sub(r'\s+', ' ', texto).strip()  # limpiar espacios extra
     return texto
 
+def mover_outliers_a_gastos_extra(df):
+    df = df.copy()
+
+    for cat in df['categoria'].unique():
+        datos = df[df['categoria'] == cat]['importe']
+        q1, q3 = datos.quantile([0.25, 0.9])
+        iqr = q3 - q1
+        bajo = q1 - 1.5 * iqr
+        alto = q3 + 1.5 * iqr
+
+        es_outlier = (df['categoria'] == cat) & ((df['importe'] < bajo) | (df['importe'] > alto))
+        df.loc[es_outlier, 'categoria'] = 'Gastos extraordinarios'
+
+    return df
+
+def eliminar_outliers_prestamo(df, columna_categoria='categoria', columna_valor='importe'):
+    """
+    Elimina outliers (valores atípicos) dentro de la categoría 'Préstamo' 
+    usando el método del rango intercuartílico (IQR). 
+    No modifica otras categorías.
+    """
+    df_filtrado = df.copy()
+    df_filtrado[columna_valor] = pd.to_numeric(df_filtrado[columna_valor], errors='coerce')
+
+    # Aislar los valores de 'Préstamo'
+    prestamos = df_filtrado[df_filtrado[columna_categoria] == 'Préstamo']
+
+    q1 = prestamos[columna_valor].quantile(0.25)
+    q3 = prestamos[columna_valor].quantile(0.75)
+    iqr = q3 - q1
+
+    limite_inferior = q1 - 1.5 * iqr
+    limite_superior = q3 + 1.5 * iqr
+
+    # Filtrar los 'Préstamo' que están dentro del rango
+    prestamos_filtrados = prestamos[
+        (prestamos[columna_valor] >= limite_inferior) &
+        (prestamos[columna_valor] <= limite_superior)
+    ]
+
+    # Conservar todas las demás categorías sin tocar
+    df_restantes = df_filtrado[df_filtrado[columna_categoria] != 'Préstamo']
+
+    # Reunir ambos
+    df_final = pd.concat([df_restantes, prestamos_filtrados], ignore_index=True)
+
+    return df_final
+
+
