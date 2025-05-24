@@ -1,11 +1,13 @@
 import pandas as pd
 from IPython.display import display
+import matplotlib.pyplot as plt
 
 
 import src.eda as eda
 import src.etl as etl
 import src.categorizacion as categorizar
 import src.prediccion as pred
+import src.visualizaciones as viz
 
 
 if __name__ == "__main__":
@@ -86,7 +88,6 @@ if __name__ == "__main__":
 
     # Filtrar las operaciones sin etiquetar
     df_sin_etiquetar = categorizar.filtrar_movimientos_sin_categoria(df_categorizacion)
-    display(df_sin_etiquetar)
 
     # Predecir categorias faltantes
     df_sin_etiquetar = categorizar.predecir_categorias(df_sin_etiquetar, vectorizer, modelo)
@@ -94,4 +95,16 @@ if __name__ == "__main__":
     # Vizualizar resultados
     print(f' Movimientos sin etiquetar: {df_sin_etiquetar.shape[0]}')
     display(df_sin_etiquetar[['operacion_limpia', 'categoria_predicha']].sample(15))
+
+    # Actualizamos las categorías en el Dataframe original
+    df_actualizado = categorizar.actualizar_categorias(df_categorizacion, df_sin_etiquetar)
+    print(f" Aún sin categorizar: {df_actualizado[df_actualizado['categoria'] == 'Sin categorizar'].shape[0]}")
+    print(df_actualizado.info())
+
+    # Visualizamos el reparto de categorías
+    viz.mostrar_distribucion_categorias(df_actualizado)
+
+    # Vemos como se comportan sus importes por categoría con un Boxplot
+    viz.mostrar_boxplots_por_categoria(df_actualizado)
+
  

@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
+import src.visualizaciones as viz
+
 # Creamos funcion para crear las categorias y entrenar el modelo de categorización
 def clasificar_por_reglas(texto):
     texto = str(texto).lower()
@@ -111,24 +113,24 @@ def obtener_predicciones(modelo, x_test):
     return modelo.predict(x_test)
 
 
+# def mostrar_matriz_confusion(y_test, y_pred, labels):
+#     """Muestra la matriz de confusión como heatmap."""
+#     matriz = confusion_matrix(y_test, y_pred)
+#     plt.figure(figsize=(10, 6))
+#     sns.heatmap(matriz, annot=True, fmt='d', cmap='Blues',
+#                 xticklabels=labels, yticklabels=labels)
+#     plt.xlabel("Predicción")
+#     plt.ylabel("Real")
+#     plt.title("Matriz de Confusión")
+#     plt.show()
+
+
 def mostrar_metricas(y_test, y_pred):
     """Imprime accuracy y reporte de clasificación."""
     acc = accuracy_score(y_test, y_pred)
     print(f"✅ Accuracy: {acc:.4f}")
     print("\n Reporte de clasificación:")
     print(classification_report(y_test, y_pred))
-
-
-def mostrar_matriz_confusion(y_test, y_pred, labels):
-    """Muestra la matriz de confusión como heatmap."""
-    matriz = confusion_matrix(y_test, y_pred)
-    plt.figure(figsize=(10, 6))
-    sns.heatmap(matriz, annot=True, fmt='d', cmap='Blues',
-                xticklabels=labels, yticklabels=labels)
-    plt.xlabel("Predicción")
-    plt.ylabel("Real")
-    plt.title("Matriz de Confusión")
-    plt.show()
 
 
 def obtener_errores(x_text_test, y_test, y_pred):
@@ -148,7 +150,7 @@ def evaluar_modelo(modelo, x_test, y_test, x_text_test=None, mostrar_errores=Tru
     """
     y_pred = obtener_predicciones(modelo, x_test)
     mostrar_metricas(y_test, y_pred)
-    mostrar_matriz_confusion(y_test, y_pred, modelo.classes_)
+    viz.mostrar_matriz_confusion(y_test, y_pred, modelo.classes_)
 
     if x_text_test is not None and mostrar_errores:
         errores = obtener_errores(x_text_test, y_test, y_pred)
@@ -173,5 +175,44 @@ def predecir_categorias(df_sin_etiquetar, vectorizer, modelo, columna_texto="ope
     x_nuevos = vectorizer.transform(df_sin_etiquetar[columna_texto])
     df_sin_etiquetar["categoria_predicha"] = modelo.predict(x_nuevos)
     return df_sin_etiquetar
+
+def actualizar_categorias(df_original, df_predicho, columna_etiqueta='categoria'):
+    """
+    Actualiza el DataFrame original con las categorías predichas,
+    y marca el origen de la categoría ('manual' o 'modelo').
+
+    - df_original: DataFrame con todas las operaciones.
+    - df_predicho: DataFrame con operaciones 'Sin categorizar' ya predichas.
+    """
+    # Actualizar las categorías
+    df_original.loc[df_predicho.index, columna_etiqueta] = df_predicho['categoria_predicha'].values
+
+    # Añadir columna de origen
+    df_original['origen'] = 'manual'
+    df_original.loc[df_predicho.index, 'origen'] = 'modelo'
+
+    return df_original
+
+def mostrar_distribucion_categorias(df, columna='categoria', titulo='Distribución de Categorías'):
+    """
+    Muestra un gráfico de barras con la distribución de valores en una columna categórica.
+    
+    Parámetros:
+    - df: DataFrame que contiene la columna a analizar.
+    - columna: nombre de la columna categórica (por defecto 'categoria').
+    - titulo: título opcional del gráfico.
+    """
+    conteo = df[columna].value_counts()
+    conteo.plot(kind='bar', figsize=(10, 6), color='skyblue', edgecolor='black')
+
+    plt.title(titulo)
+    plt.xlabel(columna.capitalize())
+    plt.ylabel("Frecuencia")
+    plt.xticks(rotation=45)
+    plt.tight_layout()
+    plt.show()
+
+
+
 
 
