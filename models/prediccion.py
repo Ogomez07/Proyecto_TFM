@@ -18,7 +18,7 @@ def predecir_naive_media(serie, fecha_corte='2024-12-31', n_meses=6, meses_pred=
     media = serie_train[-n_meses:].mean()
 
     fechas_futuras = pd.date_range(start=pd.to_datetime(fecha_corte) + pd.offsets.MonthEnd(1),
-                                    periods=meses_pred, freq='M')
+                                    periods=meses_pred, freq='ME')
     valores_reales = [serie.get(fecha, np.nan) for fecha in fechas_futuras]
 
     return serie_train, fechas_futuras, media, valores_reales
