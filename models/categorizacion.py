@@ -112,19 +112,6 @@ def obtener_predicciones(modelo, x_test):
     """Devuelve las predicciones del modelo."""
     return modelo.predict(x_test)
 
-
-# def mostrar_matriz_confusion(y_test, y_pred, labels):
-#     """Muestra la matriz de confusión como heatmap."""
-#     matriz = confusion_matrix(y_test, y_pred)
-#     plt.figure(figsize=(10, 6))
-#     sns.heatmap(matriz, annot=True, fmt='d', cmap='Blues',
-#                 xticklabels=labels, yticklabels=labels)
-#     plt.xlabel("Predicción")
-#     plt.ylabel("Real")
-#     plt.title("Matriz de Confusión")
-#     plt.show()
-
-
 def mostrar_metricas(y_test, y_pred):
     """Imprime accuracy y reporte de clasificación."""
     acc = accuracy_score(y_test, y_pred)

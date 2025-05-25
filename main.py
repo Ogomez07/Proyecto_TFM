@@ -1,12 +1,17 @@
 import pandas as pd
 from IPython.display import display
 import matplotlib.pyplot as plt
+from dotenv import load_dotenv
+import os
 
 import src.eda as eda
 import src.etl as etl
-import src.categorizacion as categorizar
-import src.prediccion as predecir
 import src.visualizaciones as viz
+import src.resumen_datos as rd
+import models.categorizacion as categorizar
+import models.prediccion as predecir
+import src.resumen_datos as resumen
+import models.ia_asesor as ia_asesor 
 
 
 if __name__ == "__main__":
@@ -30,7 +35,7 @@ if __name__ == "__main__":
     df_total = pd.concat(dataframes, ignore_index=True)
 
     # Guardar resultado combinado
-    df_total.to_csv("data/movimientos_combinados.csv", index=False, encoding="utf-8-sig")
+    #df_total.to_csv("data/movimientos_combinados.csv", index=False, encoding="utf-8-sig")
 
     print(f"✔ Se extrajeron {len(df_total)} movimientos combinados.")
     print(df_total.head())
@@ -120,10 +125,10 @@ if __name__ == "__main__":
     #viz.mostrar_boxplots_por_categoria(df_actualizado)
 
     # Guardar el CSV
-    #df_actualizado.to_csv("Movimientos_categorizados.csv", index=False)
+    df_actualizado.to_csv("data/Movimientos_categorizados.csv", index=False)
 
     # Abrir el CSV de movimientos categorizados
-    df_prediccion =pd.read_csv('Movimientos_categorizados.csv', parse_dates=['fecha_operacion'])
+    df_prediccion =pd.read_csv('data/Movimientos_categorizados.csv', parse_dates=['fecha_operacion'])
 
     # Seleccionamos el tipo de movimiento que queremos predecir
     df_prediccion = df_prediccion[df_prediccion['tipo'] == 'gasto'].copy()
@@ -137,5 +142,30 @@ if __name__ == "__main__":
     viz.graficar_predicciones(serie_train, fechas, reales, pred, 'Restauración', 6)
     predecir.calcular_metricas(reales, [pred]*len(fechas))
 
+    # Prueba API ok
+    load_dotenv()
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        print('❌ No se ha cargado la clave API.')
+    else:
+        print('✅ Clave API cargada correctamente.')
 
- 
+    # # Generamos la ruta a seguir del asesor a los datos
+    # ruta_csv = 'data/Movimientos_categorizados.csv'
+
+    # # Generamos resumen de los datos
+    # contexto = resumen.resumir_movimientos(ruta_csv)
+
+    # # Pregunta del usuario
+    # print("¿Qué deseas consultar?: ")
+    # pregunta = input("> ")
+
+    # # Preparar respuesta de la IA
+    # respuesta = ia_asesor.asesor_con_contexto(pregunta, contexto)
+
+    # # Respuesta generada
+    # print("\n Respuesta: \n")
+    # print(respuesta)
+    
+    
+    

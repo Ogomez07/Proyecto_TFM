@@ -67,10 +67,29 @@ def eliminar_palabras(texto):
     texto = re.sub(r'\s+', ' ', texto).strip()  # limpiar espacios extra
     return texto
 
+# def mover_outliers_a_gastos_extra(df):
+#     df = df.copy()
+
+#     for cat in df['categoria'].unique():
+#         datos = df[df['categoria'] == cat]['importe']
+#         q1, q3 = datos.quantile([0.25, 0.9])
+#         iqr = q3 - q1
+#         bajo = q1 - 1.5 * iqr
+#         alto = q3 + 1.5 * iqr
+
+#         es_outlier = (df['categoria'] == cat) & ((df['importe'] < bajo) | (df['importe'] > alto))
+#         df.loc[es_outlier, 'categoria'] = 'Gastos extraordinarios'
+
+#     return df
+
 def mover_outliers_a_gastos_extra(df):
     df = df.copy()
 
     for cat in df['categoria'].unique():
+        # Ignorar cualquier categoría si el tipo asociado a ella es "ingreso"
+        if df[df['categoria'] == cat]['tipo'].iloc[0].lower() == "ingreso":
+            continue
+
         datos = df[df['categoria'] == cat]['importe']
         q1, q3 = datos.quantile([0.25, 0.9])
         iqr = q3 - q1
