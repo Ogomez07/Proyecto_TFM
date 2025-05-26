@@ -38,7 +38,7 @@ if __name__ == "__main__":
     #df_total.to_csv("data/movimientos_combinados.csv", index=False, encoding="utf-8-sig")
 
     print(f"✔ Se extrajeron {len(df_total)} movimientos combinados.")
-    print(df_total.head())
+    #print(df_total.head())
 
     # Abrir CSV de los movimientos combinados
     df_fechas = pd.read_csv('data/movimientos_combinados.csv', parse_dates=["Fecha_operacion"])
@@ -49,7 +49,7 @@ if __name__ == "__main__":
 
     # Agregar manualmente un movimiento 
     df_fechas = etl.agregar_movimiento(df_fechas,'2025-03-31', 'Prestamo', -197.19, None)
-    df_fechas.info()
+    #df_fechas.info()
 
     # Cambiar los nombres de las columnas
     df_fechas = etl.normalizar_columnas(df_fechas)
@@ -98,12 +98,12 @@ if __name__ == "__main__":
 
     # Vizualizar resultados
     print(f' Movimientos sin etiquetar: {df_sin_etiquetar.shape[0]}')
-    display(df_sin_etiquetar[['operacion_limpia', 'categoria_predicha']].sample(15))
+    #display(df_sin_etiquetar[['operacion_limpia', 'categoria_predicha']].sample(15))
 
     # Actualizamos las categorías en el Dataframe original
     df_actualizado = categorizar.actualizar_categorias(df_categorizacion, df_sin_etiquetar)
     print(f" Aún sin categorizar: {df_actualizado[df_actualizado['categoria'] == 'Sin categorizar'].shape[0]}")
-    print(df_actualizado.info())
+    #print(df_actualizado.info())
 
     # Visualizamos el reparto de categorías
     viz.mostrar_distribucion_categorias(df_actualizado)
@@ -125,7 +125,7 @@ if __name__ == "__main__":
     #viz.mostrar_boxplots_por_categoria(df_actualizado)
 
     # Guardar el CSV
-    df_actualizado.to_csv("data/Movimientos_categorizados.csv", index=False)
+    #df_actualizado.to_csv("data/Movimientos_categorizados.csv", index=False)
 
     # Abrir el CSV de movimientos categorizados
     df_prediccion =pd.read_csv('data/Movimientos_categorizados.csv', parse_dates=['fecha_operacion'])
@@ -151,10 +151,13 @@ if __name__ == "__main__":
         print('✅ Clave API cargada correctamente.')
 
     # # Generamos la ruta a seguir del asesor a los datos
-    # ruta_csv = 'data/Movimientos_categorizados.csv'
+    ruta_csv = 'data/Movimientos_categorizados.csv'
+
+    # Funciones de asesor financiero
+    # Funcion 1
 
     # # Generamos resumen de los datos
-    # contexto = resumen.resumir_movimientos(ruta_csv)
+    contexto = resumen.resumir_movimientos(ruta_csv)
 
     # # Pregunta del usuario
     # print("¿Qué deseas consultar?: ")
@@ -166,6 +169,28 @@ if __name__ == "__main__":
     # # Respuesta generada
     # print("\n Respuesta: \n")
     # print(respuesta)
+
+
+    # Función 2
+    #print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
+
+    # Función 3
+    # Cargar CSV de movimientos
+    df_movimientos = pd.read_csv("data/Movimientos_categorizados.csv")
+    df_movimientos['fecha'] = pd.to_datetime(df_movimientos['fecha_operacion'])
+    respuesta_3 = ia_asesor.proyeccion_gastos_futuros("Restauración", df_movimientos)
+
+    # Función 4 
+    print(ia_asesor.proyeccion_gastos_totales(df_movimientos))
+
+
+    # Fucnión 5
+    print(ia_asesor.recomendacion_emergencia(1300, 500, usar_contexto=False, contexto_gastos=None))
+
+    # Función 6
+    alerta_df = ia_asesor.alerta_gasto_excesivo(df_movimientos)
+    informe = ia_asesor.resumen_alerta_gastos(alerta_df)
+    print(informe)
     
     
     
