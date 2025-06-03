@@ -376,3 +376,147 @@ def resumen_alerta_gastos(alertas_df):
     informe += "\n Revisa si estos aumentos fueron necesarios o si puedes ajustar tu presupuesto el próximo mes."
 
     return informe
+
+def ordenar_deudas(deudas, estrategia):
+    """
+    Ordena las deudas según la estrategia seleccionada.
+    """
+    if estrategia == 'bola de nieve':
+        return sorted(deudas, key=lambda d: d['saldo'])
+    elif estrategia == 'avalancha':
+        return sorted(deudas, key=lambda d: d['interes'], reverse=True)
+    else:
+        raise ValueError("Estrategia no válida. Usa 'bola de nieve' o 'avalancha'.")
+
+def simular_pago_dinamico(deudas, ingreso_mensual, estrategia):
+    """
+    Simula el pago dinámico de deudas, devolviendo además la evolución del saldo total mes a mes.
+    """
+    plan = ordenar_deudas(deudas, estrategia)
+    total_intereses = 0
+    meses = 0
+    historial_saldo_total = []
+
+    while plan:
+        dinero_mes = ingreso_mensual
+
+        for deuda in plan:
+            interes_mensual = deuda['interes'] / 100 / 12
+            saldo = deuda['saldo']
+
+            interes_mes = saldo * interes_mensual
+            pago_aplicado = min(dinero_mes, saldo + interes_mes)
+
+            deuda['saldo'] = saldo + interes_mes - pago_aplicado
+            total_intereses += interes_mes
+            dinero_mes -= pago_aplicado
+
+        # Guardar el saldo total al final del mes
+        saldo_total_mes = sum(d['saldo'] for d in plan)
+        historial_saldo_total.append(saldo_total_mes)
+
+        # Eliminar deudas pagadas
+        plan = [d for d in plan if d['saldo'] > 0]
+        meses += 1
+
+    return total_intereses, meses, historial_saldo_total
+
+
+
+def generar_reporte_asesoramiento(intereses_totales, meses_totales, estrategia):
+    """
+    Genera un resumen del plan para reducir las deudas.
+    """
+    if estrategia == 'bola de nieve':
+        estrategia_texto = ("La estrategia utilizada es **Bola de Nieve**, priorizando pagar las deudas con menor saldo "
+                            "para que sientas avances rápidos y aumentes tu motivación.")
+    elif estrategia == 'avalancha':
+        estrategia_texto = ("La estrategia utilizada es **Avalancha**, enfocándote en pagar primero las deudas con "
+                            "mayor interés para ahorrar más dinero en intereses a largo plazo.")
+    else:
+        estrategia_texto = "La estrategia utilizada no está definida claramente."
+
+    reporte = (
+        f"{estrategia_texto}\n\n"
+        f"- Tiempo estimado total para liberarte de todas las deudas: {meses_totales} meses.\n"
+        f"- Intereses totales estimados que pagarás: {round(intereses_totales, 2)} €.\n\n"
+        "*Consejo*: Considera no adquirir nuevas deudas durante este proceso y, si puedes, incrementar los pagos mensuales "
+        "cuando sea posible para acortar los plazos."
+    )
+
+    return reporte
+
+
+def comparar_intereses(intereses_nieve, intereses_avalancha):
+    """
+    Compara los intereses pagados entre las dos estrategias y da una recomendación.
+    """
+    if intereses_avalancha < intereses_nieve:
+        return (
+            f" Recomendación: Te conviene utilizar la estrategia **Avalancha**, ya que pagarías menos intereses "
+            f"({intereses_avalancha:.2f} € vs {intereses_nieve:.2f} €). Esta estrategia es ideal si quieres minimizar el coste total."
+        )
+    else:
+        return (
+            f" Recomendación: Te conviene utilizar la estrategia **Bola de Nieve**, aunque pagarás un poco más en intereses "
+            f"({intereses_nieve:.2f} € vs {intereses_avalancha:.2f} €). Es ideal si prefieres mantener alta tu motivación eliminando deudas rápidamente."
+        )
+
+def comparar_estrategias_deuda(deudas, ingresos_disponibles):
+    """
+    Compara las estrategias Bola de Nieve y Avalancha, generando reportes y recomendación.
+    """
+    # IMPORTANTE: Copias profundas para que no se modifiquen las deudas originales
+    deudas_nieve = [deuda.copy() for deuda in deudas]
+    deudas_avalancha = [deuda.copy() for deuda in deudas]
+
+    intereses_nieve, meses_nieve, _ = simular_pago_dinamico(deudas_nieve, ingresos_disponibles, 'bola de nieve')
+    intereses_avalancha, meses_avalancha, _ = simular_pago_dinamico(deudas_avalancha, ingresos_disponibles, 'avalancha')
+
+
+    reporte_nieve = generar_reporte_asesoramiento(intereses_nieve, meses_nieve, 'bola de nieve')
+    reporte_avalancha = generar_reporte_asesoramiento(intereses_avalancha, meses_avalancha, 'avalancha')
+
+    recomendacion = comparar_intereses(intereses_nieve, intereses_avalancha)
+
+    return reporte_nieve, reporte_avalancha, recomendacion
+
+def generar_tabla_orden_pago(deudas, estrategia):
+    """
+    Genera una tabla con el orden de pago de las deudas según la estrategia.
+    """
+    # Ordenamos las deudas
+    deudas_ordenadas = ordenar_deudas(deudas, estrategia)
+    
+    # Creamos un DataFrame
+    df = pd.DataFrame(deudas_ordenadas)
+    df = df[['nombre', 'saldo', 'interes']]  # Solo columnas que nos interesan
+    df.columns = ['Deuda', 'Saldo Inicial (€)', 'Interés Anual (%)']
+
+    # Añadimos columna de orden de pago
+    df.insert(0, 'Orden de Pago', range(1, len(df) + 1))
+
+    return df
+
+def simular_estrategias(deudas, ingreso_mensual):
+    """
+    Simula las dos estrategias (bola de nieve y avalancha) y devuelve intereses, meses y historial de cada una.
+    """
+    # Copiamos deudas para cada simulación
+    deudas_nieve = [deuda.copy() for deuda in deudas]
+    deudas_avalancha = [deuda.copy() for deuda in deudas]
+
+    intereses_nieve, meses_nieve, historial_nieve = simular_pago_dinamico(deudas_nieve, ingreso_mensual, 'bola de nieve')
+    intereses_avalancha, meses_avalancha, historial_avalancha = simular_pago_dinamico(deudas_avalancha, ingreso_mensual, 'avalancha')
+
+    return intereses_nieve, meses_nieve, historial_nieve, intereses_avalancha, meses_avalancha, historial_avalancha
+
+
+
+
+
+
+
+
+
+

@@ -73,4 +73,18 @@ def graficar_predicciones(serie_train, fechas_futuras, reales, pred, categoria, 
     plt.tight_layout()
     plt.show()
 
+def graficar_evolucion_deuda(historial_nieve, historial_avalancha):
+    """
+    Genera un gráfico comparando la evolución de la deuda entre Bola de Nieve y Avalancha.
+    """
+    plt.figure(figsize=(10,6))
+    plt.plot(range(1, len(historial_nieve) + 1), historial_nieve, label='Bola de Nieve', marker='o')
+    plt.plot(range(1, len(historial_avalancha) + 1), historial_avalancha, label='Avalancha', marker='x')
+    plt.xlabel('Meses')
+    plt.ylabel('Deuda Total Restante (€)')
+    plt.title('Evolución de la Deuda: Bola de Nieve vs Avalancha')
+    plt.legend()
+    plt.grid(True)
+    plt.tight_layout()
+    plt.show()
 

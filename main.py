@@ -106,7 +106,7 @@ if __name__ == "__main__":
     #print(df_actualizado.info())
 
     # Visualizamos el reparto de categorías
-    viz.mostrar_distribucion_categorias(df_actualizado)
+    #viz.mostrar_distribucion_categorias(df_actualizado)
 
     # Vemos como se comportan sus importes por categoría con un Boxplot
     #viz.mostrar_boxplots_por_categoria(df_actualizado)
@@ -139,7 +139,7 @@ if __name__ == "__main__":
     serie = gastos_mensuales['Restauración']
     serie_train, fechas, pred, reales = predecir.predecir_naive_media(serie)
     df_resultado = predecir.mostrar_resultado(fechas, [pred]*len(fechas), reales)
-    viz.graficar_predicciones(serie_train, fechas, reales, pred, 'Restauración', 6)
+    #viz.graficar_predicciones(serie_train, fechas, reales, pred, 'Restauración', 6)
     predecir.calcular_metricas(reales, [pred]*len(fechas))
 
     # Prueba API ok
@@ -174,23 +174,68 @@ if __name__ == "__main__":
     # Función 2
     #print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
 
-    # Función 3
+    """Función 3"""
     # Cargar CSV de movimientos
     df_movimientos = pd.read_csv("data/Movimientos_categorizados.csv")
     df_movimientos['fecha'] = pd.to_datetime(df_movimientos['fecha_operacion'])
     respuesta_3 = ia_asesor.proyeccion_gastos_futuros("Restauración", df_movimientos)
 
-    # Función 4 
+    """Función 4 """
     print(ia_asesor.proyeccion_gastos_totales(df_movimientos))
 
 
-    # Fucnión 5
+    """Fucnión 5"""
     print(ia_asesor.recomendacion_emergencia(1300, 500, usar_contexto=False, contexto_gastos=None))
 
-    # Función 6
+    """Función 6"""
     alerta_df = ia_asesor.alerta_gasto_excesivo(df_movimientos)
     informe = ia_asesor.resumen_alerta_gastos(alerta_df)
     print(informe)
     
+    """Función 7 (Gestión de deudas)"""
+    # Valores de ejemplo para hacer significativas las diferencias entre modelos
+    deudas = [
+        {'nombre': 'Micropréstamo', 'saldo': 5000, 'interes': 35},    # ahora más saldo pero poco interés
+        {'nombre': 'Tarjeta Crédito', 'saldo': 3000, 'interes': 28},
+        {'nombre': 'Préstamo personal', 'saldo': 8000, 'interes': 7},
+        {'nombre': 'Crédito estudios', 'saldo': 15000, 'interes': 4},
+        {'nombre': 'Préstamo consumo', 'saldo': 1000, 'interes': 5},   # pequeño pero alto interés
+    ]
+
+
+    ingresos_disponibles = 500
     
+    # Generar DataFrames de orden de pago
+    df_nieve = ia_asesor.generar_tabla_orden_pago(deudas, 'bola de nieve')
+    df_avalancha = ia_asesor.generar_tabla_orden_pago(deudas, 'avalancha')
+
+    # Comparar estrategias
+    reporte_nieve, reporte_avalancha, recomendacion = ia_asesor.comparar_estrategias_deuda(deudas, ingresos_disponibles)
+    
+    # Nueva simulación con historial para gráficos
+    intereses_nieve, meses_nieve, historial_nieve, intereses_avalancha, meses_avalancha, historial_avalancha = ia_asesor.simular_estrategias(deudas, ingresos_disponibles)
+
+
+    # Mostrar reporte Bola de Nieve
+    print(" Estrategia: Bola de Nieve ")
+    print(df_nieve.to_string(index=False))
+    print(reporte_nieve)
+
+    # Mostrar reporte Avalancha
+    print(" Estrategia: Avalancha ")
+    print(df_avalancha.to_string(index=False))
+    print(reporte_avalancha)
+
+    # Mostrar recomendación final
+    print(" Recomendación Final ")
+    print(recomendacion)
+    # Grafico evolucion deudas
+    viz.graficar_evolucion_deuda(historial_nieve, historial_avalancha)
+
+
+
+
+
+
+
     

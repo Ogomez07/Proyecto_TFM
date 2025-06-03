@@ -19,12 +19,12 @@ def resumir_movimientos(filepath: str) -> str:
 
     # Agrupar por mes y categoría
     gastos_mensuales = (
-        df_filtrado.groupby([pd.Grouper(key="fecha_operacion", freq="M"), "categoria"])["importe"].sum().unstack(fill_value=0))
+        df_filtrado.groupby([pd.Grouper(key="fecha_operacion", freq="ME"), "categoria"])["importe"].sum().unstack(fill_value=0))
 
     # Generar resumen de texto para IA
     resumen = "Resumen de importes mensuales por categoría en los últimos 18 meses:\n"
     for categoria in gastos_mensuales.columns:
         valores = gastos_mensuales[categoria].round(2).tolist()
-        resumen += f"\n📌 {categoria}: {valores}\n"
+        resumen += f"\n {categoria}: {valores}\n"
 
     return resumen.strip()
