@@ -65,7 +65,7 @@ if __name__ == "__main__":
     df_fechas["tipo"] = df_fechas["importe"].apply(lambda i: "ingreso" if i > 0 else "gasto")
 
     # Añadir columna año_mes
-    df_fechas["año_mes"] = df_fechas["fecha_operacion"].dt.to_period("M").astype(str)
+    df_fechas["año_mes"] = df_fechas["fecha_operacion"].dt.to_period("ME").astype(str)
 
     # Eliminar columna saldo
     df_fechas_limpio = df_fechas.drop(columns=["saldo"])
