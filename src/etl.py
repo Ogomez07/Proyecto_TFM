@@ -134,4 +134,42 @@ def eliminar_outliers_prestamo(df, columna_categoria='categoria', columna_valor=
 
     return df_final
 
+def preparar_contexto(ruta_csv):
+    """
+    Lee el CSV y prepara el contexto necesario para la función de asesoría,
+    usando solo los datos del penúltimo mes disponible y excluyendo 'Gastos extraordinarios'.
+    """
+    df = pd.read_csv(ruta_csv)
+
+    # Obtener el penúltimo mes
+    meses_ordenados = sorted(df['año_mes'].unique())
+    penultimo_mes = meses_ordenados[-2]
+
+    # Filtrar solo movimientos del penúltimo mes
+    df_mes = df[df['año_mes'] == penultimo_mes]
+
+    # Filtrar ingresos
+    ingresos = df_mes[df_mes['tipo'] == 'ingreso']['importe'].sum()
+
+    # Filtrar gastos, excluyendo 'Gastos extraordinarios'
+    df_gastos = df_mes[(df_mes['tipo'] == 'gasto') & (df_mes['categoria'] != 'Gastos extraordinarios')]
+
+    gastos_por_categoria = (
+        df_gastos
+        .groupby('categoria')['importe']
+        .sum()
+        .to_dict()
+    )
+
+    contexto = {
+        'ingresos_mensuales': ingresos,
+        'gastos': gastos_por_categoria
+    }
+
+    return contexto
+
+
+
+
+
 

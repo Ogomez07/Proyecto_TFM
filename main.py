@@ -232,6 +232,16 @@ if __name__ == "__main__":
     # Grafico evolucion deudas
     viz.graficar_evolucion_deuda(historial_nieve, historial_avalancha)
 
+    """Funcion 8 (Asesor vivienda)"""
+    # Cargando contexto financiero real
+    contexto = etl.preparar_contexto(ruta_csv)
+
+    # Asesoría normal basada en lógica
+    print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto))
+
+    # Asesoría avanzada con ChatGPT
+    #print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto, usar_chatgpt=True))
+
 
 
 

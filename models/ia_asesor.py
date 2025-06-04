@@ -515,6 +515,148 @@ def simular_estrategias(deudas, ingreso_mensual):
 
 
 
+# Función para procesar contexto
+def procesar_contexto(contexto_gastos):
+    ingreso = contexto_gastos.get('ingresos_mensuales', 0)
+    gastos_totales = sum(contexto_gastos.get('gastos', {}).values())
+    ahorro_estimado = ingreso - gastos_totales
+    gasto_alquiler = contexto_gastos.get('gastos', {}).get('Alquiler', 0)
+    return {
+        'ingreso': ingreso,
+        'gastos_totales': gastos_totales,
+        'ahorro_estimado': ahorro_estimado,
+        'gasto_alquiler': gasto_alquiler
+    }
+
+
+# Funciones auxiliares para lógica manual
+def generar_asesoria_compra(datos):
+    cuota_maxima = datos['ingreso'] * 0.35
+    if datos['ahorro_estimado'] > cuota_maxima:
+        return (
+            f"Comprar podría ser viable.\n"
+            f" - Máxima cuota hipotecaria recomendada: {cuota_maxima:.2f} €/mes.\n"
+            f" - Asegúrate de contar con al menos el 20% del precio de la vivienda como entrada.\n"
+            f" - Tu capacidad de ahorro es suficiente para asumir los gastos iniciales y afrontar imprevistos."
+        )
+    else:
+        return (
+            "Actualmente tu capacidad de ahorro no parece suficiente para afrontar una hipoteca de forma segura.\n"
+            "Se recomienda mejorar tu ahorro mensual antes de plantearte comprar vivienda."
+        )
+
+
+def generar_asesoria_alquiler(datos):
+    if datos['gasto_alquiler'] > 0:
+        porcentaje_alquiler = datos['gasto_alquiler'] / datos['ingreso']
+        if porcentaje_alquiler <= 0.3:
+            return (
+                f"Tu gasto en alquiler representa un {porcentaje_alquiler*100:.1f}% de tus ingresos, "
+                "lo cual es un valor saludable.\n"
+                "Seguir de alquiler parece una opción adecuada en tu situación actual."
+            )
+        else:
+            return (
+                f"Tu gasto en alquiler representa un {porcentaje_alquiler*100:.1f}% de tus ingresos, "
+                "lo cual es elevado.\n"
+                "Considera renegociar el alquiler, mudarte o valorar una compra si es viable."
+            )
+    else:
+        return (
+            "No se detecta gasto en alquiler actualmente.\n"
+            "¿Seguro que deseas evaluar continuar alquilado? Puede que no estés pagando alquiler ahora mismo."
+        )
+
+
+def generar_asesoria_independizar(datos):
+    if datos['gasto_alquiler'] > 0:
+        return (
+            "Actualmente ya tienes un gasto de alquiler. Pareces estar independizado.\n"
+            "Revisa si tu gasto es adecuado o si puedes optimizarlo."
+        )
+    else:
+        alquiler_recomendado = datos['ingreso'] * 0.3
+        if datos['ahorro_estimado'] > 300:
+            return (
+                f"Actualmente vives sin gasto de alquiler.\n"
+                f"Podrías permitirte un alquiler de hasta {alquiler_recomendado:.2f} € al mes "
+                "manteniendo un margen sano.\n"
+                "Si decides independizarte, asegúrate de considerar los gastos extra: fianza, mudanza, muebles."
+            )
+        else:
+            return (
+                "Actualmente tu ahorro mensual es bajo.\n"
+                "Independizarte podría comprometer tu estabilidad financiera.\n"
+                "Recomendación: aumenta tu ahorro mensual antes de dar el paso."
+            )
+
+
+# Función para generar asesoría manual
+def generar_asesoria_manual(opcion, datos):
+    resumen = (
+        f"Ingreso mensual promedio: {datos['ingreso']:.2f} €\n"
+        f"Gastos mensuales aproximados: {datos['gastos_totales']:.2f} €\n"
+        f"Ahorro mensual estimado: {datos['ahorro_estimado']:.2f} €\n\n"
+    )
+    if opcion == "compra":
+        resumen += generar_asesoria_compra(datos)
+    elif opcion == "alquiler":
+        resumen += generar_asesoria_alquiler(datos)
+    elif opcion in ["independizarme", "independizar"]:
+        resumen += generar_asesoria_independizar(datos)
+    return resumen
+
+
+# Función para generar asesoría usando ChatGPT
+def generar_asesoria_chatgpt(opcion, datos):
+    prompt_usuario = f"""
+Eres un asesor financiero experto.
+Basándote en estos datos reales de un usuario:
+- Ingreso mensual: {datos['ingreso']:.2f} €
+- Ahorro mensual estimado: {datos['ahorro_estimado']:.2f} €
+- Gasto mensual en alquiler (si existe): {datos['gasto_alquiler']:.2f} €
+- Opción deseada: {opcion}
+
+Asesora de forma profesional y razonada si debería comprar vivienda, seguir alquilado o si puede independizarse.
+Sé claro, sencillo, razonado y adapta la recomendación a la situación financiera.
+"""
+    try:
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=[
+                {"role": "system", "content": "Asistente financiero experto en asesoría de compra y alquiler de vivienda."},
+                {"role": "user", "content": prompt_usuario}
+            ],
+            temperature=0.3
+        )
+        return response['choices'][0]['message']['content']
+    except Exception as e:
+        return f"Error al generar asesoría con ChatGPT: {str(e)}"
+
+
+# Función principal
+def asesoria_vivienda(opcion, usar_contexto=True, contexto_gastos=None, usar_chatgpt=False):
+    """
+    Aconseja si conviene comprar, seguir de alquiler o independizarse usando datos reales o generando la asesoría con ChatGPT.
+    """
+    opciones_validas = ["compra", "alquiler", "independizarme", "independizar"]
+
+    if opcion.lower() not in opciones_validas:
+        return "Error: opción no válida. Debes elegir entre: 'compra', 'alquiler' o 'independizarme'."
+
+    if not usar_contexto or contexto_gastos is None:
+        return "Actualmente esta función requiere usar contexto financiero real."
+
+    datos = procesar_contexto(contexto_gastos)
+
+    if usar_chatgpt:
+        return generar_asesoria_chatgpt(opcion.lower(), datos)
+    else:
+        return generar_asesoria_manual(opcion.lower(), datos)
+
+
+
+
 
 
 
