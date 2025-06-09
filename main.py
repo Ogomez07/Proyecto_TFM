@@ -65,7 +65,7 @@ if __name__ == "__main__":
     df_fechas["tipo"] = df_fechas["importe"].apply(lambda i: "ingreso" if i > 0 else "gasto")
 
     # Añadir columna año_mes
-    df_fechas["año_mes"] = df_fechas["fecha_operacion"].dt.to_period("ME").astype(str)
+    df_fechas["año_mes"] = df_fechas["fecha_operacion"].dt.to_period("M").astype(str)
 
     # Eliminar columna saldo
     df_fechas_limpio = df_fechas.drop(columns=["saldo"])
@@ -136,11 +136,14 @@ if __name__ == "__main__":
     display(gastos_mensuales)
 
     # Predecir el gasto mensual por categoría
-    serie = gastos_mensuales['Restauración']
+    categoria ='Préstamo'
+    serie = gastos_mensuales[categoria]
     serie_train, fechas, pred, reales = predecir.predecir_naive_media(serie)
+    print(f"Predicción para la categoría {categoria}: {pred:.2f} €")
     df_resultado = predecir.mostrar_resultado(fechas, [pred]*len(fechas), reales)
     #viz.graficar_predicciones(serie_train, fechas, reales, pred, 'Restauración', 6)
     predecir.calcular_metricas(reales, [pred]*len(fechas))
+
 
     # Prueba API ok
     load_dotenv()

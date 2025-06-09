@@ -11,7 +11,9 @@ import src.eda as eda
 import src.etl as etl
 import models.categorizacion as categorizar
 import models.prediccion as prediccion
-import src.visualizaciones as visualizaciones  # Para graficar
+import viz_app as viz # Para graficar
+
+
 
 
 st.title("🧾 Extractor de movimientos bancarios desde PDF")
@@ -73,8 +75,30 @@ if archivos_pdf:
     # ========================
     st.subheader("🏷️ Clasificación automática de movimientos")
 
+    # Clasificación inicial por reglas
     df_total['categoria'] = df_total['operacion_limpia'].apply(categorizar.clasificar_por_reglas)
 
+    # Entrenar el modelo supervisado de clasificación
+    x_train, x_test, y_train, y_test, x_text_train, x_text_test, vectorizer = categorizar.preparar_datos_modelo(df_total)
+    modelo = categorizar.entrenar_modelo_clasificador(x_train, y_train)
+
+    # (Opcional) Mostrar evaluación en consola o como texto
+    evaluacion = categorizar.evaluar_modelo(modelo, x_test, y_test, x_text_test)
+    st.text(f"📊 Evaluación del modelo:\n{evaluacion}")
+
+    # Predecir las categorías de movimientos que quedaron sin clasificar
+    df_sin_etiquetar = categorizar.filtrar_movimientos_sin_categoria(df_total)
+
+    if not df_sin_etiquetar.empty:
+        df_sin_etiquetar = categorizar.predecir_categorias(df_sin_etiquetar, vectorizer, modelo)
+        df_total = categorizar.actualizar_categorias(df_total, df_sin_etiquetar)
+
+    # ELIMINACIÓN DE OUTLIERS Y AJUSTES DE IMPORTE
+    df_total = etl.mover_outliers_a_gastos_extra(df_total)
+    df_total = etl.eliminar_outliers_prestamo(df_total)
+    df_total['importe'] = df_total['importe'].abs()
+
+    # Mostrar movimientos categorizados
     st.write("📚 Movimientos clasificados:")
     st.dataframe(df_total[['fecha_operacion', 'operacion', 'importe', 'categoria']].head())
 
@@ -112,14 +136,15 @@ if archivos_pdf:
 
         st.write(f"📈 Predicción de gastos futuros para **{categoria_seleccionada}**:")
 
-        fig = visualizaciones.graficar_predicciones(
-            serie_train, 
-            fechas, 
-            reales, 
-            pred, 
-            categoria_seleccionada, 
-            6    # <--- pasas el 6 directamente, sin "meses_pred="
-        )
+        fig = viz.graficar_predicciones(
+                serie_train, 
+                fechas, 
+                reales, 
+                pred, 
+                categoria_seleccionada, 
+                6
+            )
+        st.pyplot(fig)  # <-- ¡Mostrar el gráfico!
 
         df_resultados = prediccion.mostrar_resultado(fechas, [pred]*len(fechas), reales)
         st.dataframe(df_resultados)
