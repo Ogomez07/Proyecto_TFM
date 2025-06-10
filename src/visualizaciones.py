@@ -37,12 +37,6 @@ def mostrar_distribucion_categorias(df, columna='categoria', titulo='Distribuci�
 def mostrar_boxplots_por_categoria(df, columna_categoria='categoria', columna_valor='importe', titulo_base='Boxplot'):
     """
     Muestra un boxplot del valor numérico para cada categoría única.
-
-    Parámetros:
-    - df: DataFrame con los datos.
-    - columna_categoria: nombre de la columna que contiene las categorías.
-    - columna_valor: nombre de la columna con valores numéricos (e.g. importe).
-    - titulo_base: prefijo para el título de cada gráfico.
     """
     categorias = df[columna_categoria].dropna().unique()
 

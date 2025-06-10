@@ -181,6 +181,10 @@ def proyeccion_gastos_futuros(categoria, historial_gastos, fecha_corte='2024-12-
 
     promedio_prediccion = np.mean(predicciones)
     return (
+        f"\n Se estima que tendrás unos ingresos aproximados de: {promedio_prediccion:.2f}€ mensuales "
+        f"en '{categoria}' los próximos {meses_pred} meses."
+        if categoria.lower() == 'ingreso'
+        else
         f"\n Se estima que gastarás aproximadamente {promedio_prediccion:.2f}€ mensuales "
         f"en '{categoria}' los próximos {meses_pred} meses."
     )

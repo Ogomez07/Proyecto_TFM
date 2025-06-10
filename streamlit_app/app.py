@@ -1,6 +1,7 @@
 # streamlit/app.py
 
 import streamlit as st
+import importlib
 import pandas as pd
 import tempfile
 import sys
@@ -13,6 +14,8 @@ import models.categorizacion as categorizar
 import models.prediccion as prediccion
 import viz_app as viz 
 import models.ia_asesor as ia_asesor
+importlib.reload(ia_asesor)
+
 import src.resumen_datos as resumen
 import streamlit_app.historial as historial
 
@@ -214,6 +217,9 @@ elif page == "Predicciones por categorías":
             df_resultados = prediccion.mostrar_resultado(fechas, [pred]*len(fechas), reales)
             st.dataframe(df_resultados)
 
+# ========================
+# 🚀 Página 3: Asesor financiero
+# ========================
 elif page == "Asesor financiero":
     st.header("💬 Asesor Financiero Inteligente")
 
@@ -222,12 +228,12 @@ elif page == "Asesor financiero":
     else:
         df_total = st.session_state.df_total.copy()
 
-        # ⚡ Inicializar contexto si no existe
+        # ✅ AÑADIDO NECESARIO: columna 'fecha' para compatibilidad con ia_asesor
+        df_total['fecha'] = pd.to_datetime(df_total['fecha_operacion'])
+
+        # ✅ Inicializar contexto si no existe
         if 'contexto' not in st.session_state:
-            df_total_limpio = st.session_state.df_total_limpio.copy()
-            # Clasificación automática por reglas (necesario para contexto)
-            df_total_limpio['categoria'] = df_total_limpio['operacion_limpia'].apply(categorizar.clasificar_por_reglas)
-            st.session_state.contexto = historial.resumir_movimientos(df_total_limpio)
+            st.session_state.contexto = historial.resumir_movimientos(df_total)
 
         contexto = st.session_state.contexto
 
@@ -243,14 +249,14 @@ elif page == "Asesor financiero":
 
         if opcion == "📈 Proyección de gastos futuros":
             st.subheader("📈 Proyección de gastos futuros")
+            categoria = st.selectbox("Selecciona categoría a proyectar:", df_total['categoria'].unique())
 
             if st.button("Generar proyección"):
-                respuesta = ia_asesor.proyeccion_gastos_futuros(historial_gastos=df_total)
+                respuesta = ia_asesor.proyeccion_gastos_futuros(categoria, df_total)
                 st.success(respuesta)
 
         elif opcion == "💬 Chat con el Asesor Financiero IA":
             st.subheader("💬 Chat con el Asesor Financiero IA")
-
             pregunta_usuario = st.text_input("¿Qué deseas preguntar al asesor financiero?")
 
             if st.button("Enviar pregunta"):
@@ -262,7 +268,6 @@ elif page == "Asesor financiero":
 
         elif opcion == "📅 Planificador de Ahorro Personalizado":
             st.subheader("📅 Planificador de Ahorro")
-
             monto_objetivo = st.number_input("💰 ¿Cuánto dinero deseas ahorrar?", min_value=0.0)
             tiempo_disponible = st.number_input("🗓️ ¿En cuántos meses quieres ahorrar esa cantidad?", min_value=1)
             ingresos = st.number_input("📈 ¿Cuáles son tus ingresos mensuales?", min_value=0.0)
@@ -270,39 +275,59 @@ elif page == "Asesor financiero":
 
             if st.button("Generar plan de ahorro"):
                 plan_ahorro = ia_asesor.plan_ahorro_objetivo(
-                    monto_objetivo,
-                    tiempo_disponible,
-                    ingresos,
-                    gastos,
-                    usar_contexto=True,
-                    contexto_gastos=contexto
+                    monto_objetivo, tiempo_disponible, ingresos, gastos,
+                    usar_contexto=True, contexto_gastos=contexto
                 )
                 st.success(plan_ahorro)
 
         elif opcion == "🚨 Alerta de gasto excesivo":
             st.subheader("🚨 Alerta de gasto excesivo")
-
             if st.button("Analizar gastos"):
-                # Asegurar que existe columna 'fecha' como en main.py
-                df_total['fecha'] = pd.to_datetime(df_total['fecha_operacion'])
-
                 alertas = ia_asesor.alerta_gasto_excesivo(df_total)
                 if not alertas.empty:
                     st.dataframe(alertas)
+                    st.markdown("### 📝 Resumen del Asesor:")
+                    resumen_alerta = ia_asesor.resumen_alerta_gastos(alertas)
+                    st.success(resumen_alerta)
                 else:
                     st.success("✅ No se detectaron gastos excesivos.")
 
         elif opcion == "🏡 Asesoría para compra de vivienda":
             st.subheader("🏡 Asesoría para compra de vivienda")
-
-            ingresos = st.number_input("💵 Ingresos mensuales:", min_value=0.0)
-            ahorro = st.number_input("💵 Ahorro disponible:", min_value=0.0)
-            precio_vivienda = st.number_input("🏠 Precio de la vivienda:", min_value=0.0)
+            decision = st.selectbox("¿Qué deseas evaluar?", ["compra", "alquiler", "independizarme"])
+            usar_chatgpt = st.checkbox("¿Deseas una recomendación avanzada con ChatGPT?", value=False)
 
             if st.button("Generar asesoría"):
-                respuesta = ia_asesor.asesoria_vivienda(ingresos, ahorro, precio_vivienda)
+                respuesta = ia_asesor.asesoria_vivienda(
+                    opcion=decision,
+                    usar_contexto=True,
+                    contexto_gastos=contexto,
+                    usar_chatgpt=usar_chatgpt
+                )
                 st.success(respuesta)
 
         elif opcion == "🏦 Estrategia para pago de deudas":
             st.subheader("🏦 Estrategia para pago de deudas")
-            st.info("🚧 Funcionalidad en construcción (puedes implementar método bola de nieve o avalancha).")
+
+            deudas_demo = [
+                {'nombre': 'Tarjeta crédito', 'saldo': 3000, 'interes': 28},
+                {'nombre': 'Préstamo personal', 'saldo': 8000, 'interes': 7},
+                {'nombre': 'Crédito estudios', 'saldo': 15000, 'interes': 4}
+            ]
+
+            ingresos_disponibles = st.number_input("💶 Ingresos disponibles al mes para pagar deudas:", min_value=1)
+
+            if st.button("Simular estrategias de pago"):
+                df_nieve = ia_asesor.generar_tabla_orden_pago(deudas_demo, 'bola de nieve')
+                df_avalancha = ia_asesor.generar_tabla_orden_pago(deudas_demo, 'avalancha')
+
+                st.write("### Bola de Nieve:")
+                st.dataframe(df_nieve)
+
+                st.write("### Avalancha:")
+                st.dataframe(df_avalancha)
+
+                rep_nieve, rep_aval, recomendacion = ia_asesor.comparar_estrategias_deuda(deudas_demo, ingresos_disponibles)
+                st.markdown(f"### 📄 Reporte Bola de Nieve\n{rep_nieve}")
+                st.markdown(f"### 📄 Reporte Avalancha\n{rep_aval}")
+                st.markdown(f"### ✅ Recomendación:\n{recomendacion}")

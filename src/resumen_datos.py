@@ -1,6 +1,6 @@
 import pandas as pd
 
-def resumir_movimientos(filepath: str) -> str:
+def resumir_movimientos(filepath):
     """
     Carga un archivo CSV con movimientos bancarios y genera un resumen de importes mensuales
     por categoría (incluyendo ingresos) para los últimos 18 meses.
