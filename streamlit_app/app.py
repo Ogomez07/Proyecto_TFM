@@ -24,6 +24,9 @@ import streamlit_app.historial as historial
 # ========================
 if 'df_total' not in st.session_state:
     st.session_state['df_total'] = None
+if 'df_total_limpio' not in st.session_state:
+    st.session_state['df_total_limpio'] = None
+
 
 
 # Título general
@@ -97,7 +100,7 @@ if page == "Extracción de movimientos":
 
         # Guarda df_total en session_state
         st.session_state.df_total = df_total
-        st.session_state.df_total_limpio = df_total.copy()
+
                 
 
         # st.write("🔍 Datos procesados:")
@@ -115,10 +118,8 @@ elif page == "Predicciones por categorías":
         df_total = st.session_state.df_total.copy()
 
         # st.subheader("Clasificación automática de movimientos")
-        # Guarda df_total en session_state
-        st.session_state.df_total = df_total
-        # Guarda una copia limpia antes de modificar
-        st.session_state.df_total_limpio = df_total.copy()
+
+
 
         x_train, x_test, y_train, y_test, x_text_train, x_text_test, vectorizer = categorizar.preparar_datos_modelo(df_total)
         modelo = categorizar.entrenar_modelo_clasificador(x_train, y_train)
@@ -132,13 +133,19 @@ elif page == "Predicciones por categorías":
             df_sin_etiquetar = categorizar.predecir_categorias(df_sin_etiquetar, vectorizer, modelo)
             df_total = categorizar.actualizar_categorias(df_total, df_sin_etiquetar)
 
+
         # ELIMINACIÓN DE OUTLIERS Y AJUSTES DE IMPORTE
         df_total = etl.mover_outliers_a_gastos_extra(df_total)
         df_total = etl.eliminar_outliers_prestamo(df_total)
         df_total['importe'] = df_total['importe'].abs()
 
+        
+
         st.success("✔️ Movimientos clasificados correctamente.")
         #st.dataframe(df_total[['fecha_operacion', 'operacion', 'importe', 'categoria']].head())
+        # Guarda df_total en session_state
+        st.session_state.df_total_limpio = df_total.copy()
+
 
         # ========================
         # ⬇️ DESCARGAR CSV CATEGORIZADO
@@ -155,6 +162,8 @@ elif page == "Predicciones por categorías":
         # 🔮 PREDICCIÓN DE GASTOS
         # ========================
         st.subheader("🔮 Predicción de gastos futuros por categoría")
+        st.write("🚨 Valores únicos en la columna 'categoria':")
+        st.write(df_total['categoria'].unique())
 
         df_gastos = df_total[df_total['tipo'] == 'gasto']
         df_gastos['importe'] = df_gastos['importe'].abs()
@@ -223,27 +232,32 @@ elif page == "Predicciones por categorías":
 elif page == "Asesor financiero":
     st.header("💬 Asesor Financiero Inteligente")
 
-    if st.session_state.df_total is None:
-        st.error("⚠️ No has subido aún ningún PDF. Por favor ve a 'Extracción de movimientos' primero.")
+    df_total = st.session_state.get("df_total_limpio")
+
+    if df_total is None:
+        st.error("⚠️ Debes pasar por la página 'Predicciones por categorías' para aplicar el modelo de categorización automática.")
     else:
-        df_total = st.session_state.df_total.copy()
-
-        # ✅ AÑADIDO NECESARIO: columna 'fecha' para compatibilidad con ia_asesor
-        df_total['fecha'] = pd.to_datetime(df_total['fecha_operacion'])
-
-        # ✅ Inicializar contexto si no existe
-        if 'contexto' not in st.session_state:
-            st.session_state.contexto = historial.resumir_movimientos(df_total)
+        # Crear o acceder al contexto generado
+        # Guardamos directamente el DataFrame categorizado para usarlo como contexto
+        if "contexto" not in st.session_state:
+            st.session_state.contexto = df_total.copy()
 
         contexto = st.session_state.contexto
+
+        # Ver cuántos movimientos no tienen categoría
+        sin_categoria = df_total[df_total['categoria'].isna() | (df_total['categoria'] == 'Sin categorizar')]
+        st.write(f"🔍 Movimientos sin categorizar: {len(sin_categoria)}")
+
 
         st.markdown("### 🧠 ¿Qué deseas consultar?")
         opcion = st.selectbox("Selecciona un servicio:", [
             "📈 Proyección de gastos futuros",
             "💬 Chat con el Asesor Financiero IA",
+            "🛟 Recomendación fondo de emergencia",
             "📅 Planificador de Ahorro Personalizado",
             "🚨 Alerta de gasto excesivo",
             "🏡 Asesoría para compra de vivienda",
+            "📊 Gestión general de gastos"
             "🏦 Estrategia para pago de deudas"
         ])
 
@@ -266,16 +280,39 @@ elif page == "Asesor financiero":
                 else:
                     st.warning("⚠️ Por favor, escribe tu pregunta antes de enviar.")
 
+        elif opcion == "🛟 Recomendación fondo de emergencia":
+            st.subheader("🛟 Fondo de Emergencia")
+
+            ingreso_mensual = st.number_input("💵 Ingreso mensual", min_value=0.0)
+            gastos_fijos = st.number_input("📉 Gastos fijos mensuales", min_value=0.0)
+            usar_contexto = st.checkbox("📊 Usar contexto de gastos históricos")
+
+            if st.button("Generar recomendación"):
+                resultado = ia_asesor.recomendacion_emergencia(
+                    ingreso_mensual, gastos_fijos,
+                    usar_contexto=usar_contexto,
+                    contexto_gastos=st.session_state.contexto if usar_contexto else None
+                )
+                st.text_area("💬 Recomendación", resultado, height=350)
+
         elif opcion == "📅 Planificador de Ahorro Personalizado":
             st.subheader("📅 Planificador de Ahorro")
-            monto_objetivo = st.number_input("💰 ¿Cuánto dinero deseas ahorrar?", min_value=0.0)
+            cantidad_objetivo = st.number_input("💰 ¿Cuánto dinero deseas ahorrar?", min_value=0.0)
             tiempo_disponible = st.number_input("🗓️ ¿En cuántos meses quieres ahorrar esa cantidad?", min_value=1)
             ingresos = st.number_input("📈 ¿Cuáles son tus ingresos mensuales?", min_value=0.0)
             gastos = st.number_input("📉 ¿Cuáles son tus gastos mensuales?", min_value=0.0)
+            usar_contexto = st.checkbox("📊 Usar contexto de gastos históricos")
+            if st.button("Calcular plan de ahorro"):
+                resultado = ia_asesor.plan_ahorro_objetivo(
+                    cantidad_objetivo, tiempo_disponible, ingresos, gastos,
+                    usar_contexto=usar_contexto,
+                    contexto_gastos=st.session_state.contexto if usar_contexto else None
+                )
+                st.text_area("💬 Recomendación", resultado, height=350)
 
             if st.button("Generar plan de ahorro"):
                 plan_ahorro = ia_asesor.plan_ahorro_objetivo(
-                    monto_objetivo, tiempo_disponible, ingresos, gastos,
+                    cantidad_objetivo, tiempo_disponible, ingresos, gastos,
                     usar_contexto=True, contexto_gastos=contexto
                 )
                 st.success(plan_ahorro)
@@ -305,6 +342,15 @@ elif page == "Asesor financiero":
                     usar_chatgpt=usar_chatgpt
                 )
                 st.success(respuesta)
+
+        elif opcion == "📊 Gestión general de gastos":
+            st.subheader("📊 Distribución inteligente de gastos")
+
+            consulta = st.text_area("Describe tu situación o tus objetivos financieros:")
+
+            if st.button("Obtener estrategia"):
+                resultado = ia_asesor.gestion_gastos(consulta)
+                st.text_area("💬 Estrategia recomendada", resultado, height=350)
 
         elif opcion == "🏦 Estrategia para pago de deudas":
             st.subheader("🏦 Estrategia para pago de deudas")

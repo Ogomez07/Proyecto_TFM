@@ -1,22 +1,27 @@
 import pandas as pd
 
 def resumir_movimientos(data):
+    import pandas as pd
+
     if isinstance(data, str):
         df = pd.read_csv(data)
     else:
-        df = data  # si es DataFrame, úsalo directamente
+        df = data  # Si ya es DataFrame, úsalo directamente
 
-    # Asegúrate de que 'fecha_operacion' esté en datetime
     df['fecha_operacion'] = pd.to_datetime(df['fecha_operacion'])
 
-    df_filtrado = df[df['tipo'] == 'gasto']
+    # Separar ingresos y gastos
+    df_gastos = df[df['tipo'] == 'gasto']
+    df_ingresos = df[df['tipo'] == 'ingreso']
 
-    resumen_texto = (
-        f"En el periodo analizado has tenido un gasto total de {df_filtrado['importe'].sum():.2f} €.\n"
-        f"Gastos por categoría:\n"
-        f"{df_filtrado.groupby('categoria')['importe'].sum().to_string()}\n\n"
-        f"Gastos mensuales por categoría:\n"
-        f"{df_filtrado.groupby([pd.Grouper(key='fecha_operacion', freq='ME'), 'categoria'])['importe'].sum().unstack(fill_value=0)}"
-    )
+    # Calcular ingreso mensual promedio
+    n_meses = df['fecha_operacion'].dt.to_period("M").nunique()
+    ingresos_mensuales = df_ingresos['importe'].sum() / n_meses if n_meses > 0 else 0
 
-    return resumen_texto
+    # Agrupar gastos por categoría
+    gastos_por_categoria = df_gastos.groupby("categoria")["importe"].sum().to_dict()
+
+    return {
+        "ingresos_mensuales": ingresos_mensuales,
+        "gastos": gastos_por_categoria
+    }

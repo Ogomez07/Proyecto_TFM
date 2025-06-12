@@ -3,115 +3,98 @@ import numpy as np
 import pandas as pd
 import os
 import openai
-from openai import ChatCompletion
+from openai import OpenAI
 from dotenv import load_dotenv
 from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 from IPython.display import display
 
 # Cargar la clave desde el .env
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def asesor_con_contexto(mensaje_usuario, contexto):
-    """ Genera una respuesta usando la IA con el contexto extraído de los datos."""
+    """Genera una respuesta usando IA con el contexto proporcionado."""
     prompt = (
-        f"Contexto financiero del usuario: \n {contexto}\n\n"
-        f"Pregunta del usuario: {mensaje_usuario}\n\n"
-        f"Responde de forma clara, empática. Con recomendaciones útiles y personalizadas."
+        f"Contexto financiero del usuario:\n{contexto}\n\n"
+        f"Pregunta del usuario:\n{mensaje_usuario}\n\n"
+        f"Responde de forma clara, empática y con recomendaciones personalizadas."
     )
 
     try:
-        respuesta = openai.ChatCompletion.create(
-            model ="gpt-3.5-turbo",
-            messages= [
-                {"role": "system", "content": "Eres un asesor financiero experto en economía y finanzas"},
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Eres un asesor financiero experto y empático."},
                 {"role": "user", "content": prompt}
-            ], 
+            ],
             temperature=0.7,
-            max_tokens=325
+            max_tokens=350
         )
-        return respuesta.choices[0].message.content.strip()
+        return response.choices[0].message.content.strip()
+
     except Exception as e:
-        return f" Error al generar la respuesta: {e}"
+        return f"❌ Error al generar la respuesta de IA: {e}"
     
 def gestion_gastos(consulta):
-    """ Genera una respuesta usando la IA con el contexto extraído de los datos."""
+    """Ofrece distribución de gastos en proporción, maximizando el ahorro."""
     prompt = (
-        f"Pregunta del usuario: {consulta}\n\n"
-        f"Responde de forma clara, con recomendaciones útiles y personalizadas, la mejor forma en la que se pueden repartir los gastos (en proporción), maximizando el ahorro."
+        f"Consulta del usuario:\n{consulta}\n\n"
+        f"Ofrece una estrategia clara, útil y bien argumentada para repartir los gastos y ahorrar más."
     )
 
     try:
-        respuesta = openai.ChatCompletion.create(
-            model ="gpt-3.5-turbo",
-            messages= [
-                {"role": "system", "content": "Eres un asesor financiero experto y empático. Tu objetivo es ayudar a los usuarios a distribuir sus gastos mensuales de forma eficiente, adaptada a sus necesidades reales, maximizando sus ahorros sin afectar su bienestar"},
+        response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": "Eres un experto financiero especializado en presupuestos personales, debes dar valores numéricos en caso de indicar que debe reducir alguna categoría."},
                 {"role": "user", "content": prompt}
-            ], 
-            temperature=0.7,
-            max_tokens=280
+            ],
+            temperature=0.6,
+            max_tokens=320
         )
-        return respuesta.choices[0].message.content.strip()
+        return response.choices[0].message.content.strip()
+
     except Exception as e:
-        return f" Error al generar la respuesta: {e}"
-    
+        return f"❌ Error al generar respuesta de IA: {e}"
 
 
 def plan_ahorro_objetivo(cantidad_objetivo, meses, ingresos, gastos_fijos, usar_contexto=False, contexto_gastos=None):
-    """
-    Genera un plan de ahorro mensual para alcanzar un objetivo económico.
-    Si el usuario lo solicita, la IA sugiere en qué categorías recortar basándose en su historial de gastos.
-    """
-    ahorro_mensual_necesario = cantidad_objetivo / meses
-    dinero_disponible = ingresos - gastos_fijos
-    porcentaje_ahorro = (ahorro_mensual_necesario / ingresos) * 100
+    """Calcula cuánto debe ahorrar al mes un usuario para lograr una meta económica."""
+    ahorro_mensual = cantidad_objetivo / meses
+    disponible = ingresos - gastos_fijos
+    porcentaje_ahorro = (ahorro_mensual / ingresos) * 100 if ingresos else 0
 
     mensaje = (
-        f" Para alcanzar tu objetivo de ahorrar {cantidad_objetivo:.2f} € en {meses} meses, "
-        f"necesitas guardar {ahorro_mensual_necesario:.2f} € al mes.\n"
-        f"Esto representa un {porcentaje_ahorro:.1f}% de tus ingresos mensuales.\n\n"
+        f"💰 Para ahorrar {cantidad_objetivo:.2f}€ en {meses} meses necesitas ahorrar {ahorro_mensual:.2f}€/mes.\n"
+        f"Eso representa el {porcentaje_ahorro:.1f}% de tus ingresos mensuales.\n"
     )
 
-    if dinero_disponible >= ahorro_mensual_necesario:
-        mensaje += (
-            f" Con tus ingresos actuales ({ingresos:.2f} €) y gastos fijos de {gastos_fijos:.2f} €, "
-            f"puedes lograrlo si controlas los gastos variables.\n"
-        )
+    if disponible >= ahorro_mensual:
+        mensaje += f"✅ Puedes lograrlo, ya que dispones de {disponible:.2f}€/mes tras tus gastos fijos.\n"
     else:
-        diferencia = ahorro_mensual_necesario - dinero_disponible
-        mensaje += (
-            f" Actualmente solo dispones de {dinero_disponible:.2f} € al mes tras tus gastos fijos.\n"
-            f"Te faltarían {diferencia:.2f} € mensuales para alcanzar ese objetivo.\n"
-        )
+        mensaje += f"⚠️ Te faltarían {ahorro_mensual - disponible:.2f}€ mensuales para lograrlo con tus ingresos actuales.\n"
 
     if usar_contexto and contexto_gastos:
-        prompt = (
-            f"Contexto financiero del usuario (historial de gastos por categoría):\n{contexto_gastos}\n\n"
-            f"Quiere ahorrar {cantidad_objetivo:.2f} € en {meses} meses, lo que implica "
-            f"un ahorro mensual de {ahorro_mensual_necesario:.2f} €.\n\n"
-            f"Revisa sus gastos históricos y recomienda en qué categorías debería recortar y cuánto, "
-            f"para lograr ese ahorro mensual sin afectar demasiado su calidad de vida."
+        contexto_texto = (
+            f"Tus ingresos son {ingresos}€, tus gastos fijos {gastos_fijos}€ y quieres ahorrar {ahorro_mensual:.2f}€/mes.\n"
+            f"Este es tu contexto de gastos:\n{contexto_gastos}"
         )
-
         try:
-            respuesta = ChatCompletion.create(
+            response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "Eres un asesor financiero profesional, cercano y práctico. Ayudas al usuario a ahorrar."},
-                    {"role": "user", "content": prompt}
+                    {"role": "system", "content": "Eres un asesor financiero que recomienda cómo ahorrar más dinero."},
+                    {"role": "user", "content": f"{contexto_texto}\n\nIndica en qué partidas podría recortar para conseguir su objetivo sin afectar mucho su calidad de vida."}
                 ],
                 temperature=0.7,
                 max_tokens=400
             )
-            sugerencias = respuesta.choices[0].message.content.strip()
-            mensaje += f"\n\n Recomendación personalizada de la IA:\n{sugerencias}"
+            mensaje += "\n📌 Recomendación de IA:\n" + response.choices[0].message.content.strip()
         except Exception as e:
-            mensaje += f"\n\n No se pudo obtener la recomendación automática: {e}"
-
-    elif usar_contexto and not contexto_gastos:
-        mensaje += "\n\nHas activado el análisis con IA, pero no se ha proporcionado contexto financiero."
+            mensaje += f"\n⚠️ No se pudo obtener recomendación de IA: {e}"
 
     return mensaje
+
 
 
 def predecir_naive_media(serie, fecha_corte='2024-12-31', n_meses=6, meses_pred=4):
@@ -626,7 +609,7 @@ Sé claro, sencillo, razonado y adapta la recomendación a la situación financi
 """
     try:
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "Asistente financiero experto en asesoría de compra y alquiler de vivienda."},
                 {"role": "user", "content": prompt_usuario}
