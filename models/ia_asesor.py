@@ -74,17 +74,20 @@ def plan_ahorro_objetivo(cantidad_objetivo, meses, ingresos, gastos_fijos, usar_
     else:
         mensaje += f"⚠️ Te faltarían {ahorro_mensual - disponible:.2f}€ mensuales para lograrlo con tus ingresos actuales.\n"
 
-    if usar_contexto and contexto_gastos:
+    if usar_contexto and contexto_gastos is not None and not contexto_gastos.empty:
         contexto_texto = (
             f"Tus ingresos son {ingresos}€, tus gastos fijos {gastos_fijos}€ y quieres ahorrar {ahorro_mensual:.2f}€/mes.\n"
             f"Este es tu contexto de gastos:\n{contexto_gastos}"
+            "Debes realizar recomedaciones centrandote únicamente en las categorías que dispones."
+            " Debes indicar porcentajes de reducción de gastos en cada categoría que estimes necesaria"
+            "Refleja además lo que se acabaría ahorrando en el periodo de tiempo que se indicó que quiere conseguir esa cantidad si se aplican esas reducciones."
         )
         try:
             response = client.chat.completions.create(
                 model="gpt-3.5-turbo",
                 messages=[
                     {"role": "system", "content": "Eres un asesor financiero que recomienda cómo ahorrar más dinero."},
-                    {"role": "user", "content": f"{contexto_texto}\n\nIndica en qué partidas podría recortar para conseguir su objetivo sin afectar mucho su calidad de vida."}
+                    {"role": "user", "content": f"{contexto_texto}\n\nIndica en qué partidas podría recortar para conseguir su objetivo sin afectar mucho su calidad de vida, no se deben tomar en cuenta los gastos extraordinarios."}
                 ],
                 temperature=0.7,
                 max_tokens=400
@@ -263,41 +266,46 @@ def recomendacion_emergencia(ingreso_mensual, gastos_fijos, usar_contexto=False,
         "- Destinar ingresos extra puntuales (pagas extras) al fondo.\n"
         "- Generar ingresos adicionales temporales (trabajos freelance, venta de objetos en desuso)."
     )
+    resumen = contexto_gastos.groupby("categoria")["importe"].sum().sort_values(ascending=False)
+    contexto_resumido = resumen.to_string()
+    if usar_contexto and contexto_gastos is not None and not contexto_gastos.empty:
+        prompt = (
+            f"El usuario tiene ingresos mensuales de {ingreso_mensual:.2f}€ y gastos fijos mensuales de {gastos_fijos:.2f}€.\n"
+            f"Quiere construir un fondo de emergencia mínimo de {fondo_minimo:.2f}€ rápidamente.\n"
+            f"Contexto histórico resumido de gastos (por categoría):\n{contexto_resumido}\n\n"
+            f"Sugiere específicamente qué categorías de gasto debería reducir y en qué medida "
+            "para acelerar la creación de este fondo de emergencia sin afectar demasiado su calidad de vida."
+            "Ten en cuenta que estás analizando el total de gastos del usuario, no solo los gastos fijos mensuales.\n"
+            "Finaliza indicando el fondo de emergencia que recomendarías en función de su capacidad de ahorro actual"
+        )
 
-    if usar_contexto and contexto_gastos:
-            prompt = (
-                f"El usuario tiene ingresos mensuales de {ingreso_mensual:.2f}€ y gastos fijos mensuales de {gastos_fijos:.2f}€.\n"
-                f"Quiere construir un fondo de emergencia mínimo de {fondo_minimo:.2f}€ rápidamente.\n"
-                f"Contexto histórico de gastos:\n{contexto_gastos}\n\n"
-                f"Sugiere específicamente qué categorías de gasto debería reducir y en qué medida "
-                "para acelerar la creación de este fondo de emergencia sin afectar demasiado su calidad de vida."
+        try:
+            respuesta = client.chat.completions.create(
+                model="gpt-3.5-turbo",
+                messages=[
+                    {"role": "system", "content": "Eres un asesor financiero experto en finanzas personales, cercano y muy práctico."},
+                    {"role": "user", "content": prompt}
+                ],
+                temperature=0.7,
+                max_tokens=400
             )
 
-            try:
-                respuesta = openai.ChatCompletion.create(
-                    model="gpt-3.5-turbo",
-                    messages=[
-                        {"role": "system", "content": "Eres un asesor financiero experto en finanzas personales, cercano y muy práctico."},
-                        {"role": "user", "content": prompt}
-                    ],
-                    temperature=0.7,
-                    max_tokens=400
-                )
+            sugerencias = respuesta.choices[0].message.content.strip()
 
-                sugerencias = respuesta.choices[0].message.content.strip()
+            mensaje_base += (
+                "\n **Análisis personalizado según tus gastos históricos:**\n"
+                f"{sugerencias}"
+            )
 
-                mensaje_base += (
-                    "\n **Análisis personalizado según tus gastos históricos:**\n"
-                    f"{sugerencias}"
-                )
+        except Exception as e:
+            mensaje_base += f"\n No se pudo obtener recomendación automática: {e}"
 
-            except Exception as e:
-                mensaje_base += f"\n No se pudo obtener recomendación automática: {e}"
-
-    elif usar_contexto and not contexto_gastos:
-            mensaje_base += "\n Activaste el contexto histórico, pero no proporcionaste los datos necesarios."
+    elif usar_contexto:
+        mensaje_base += "\n Activaste el contexto histórico, pero no proporcionaste los datos necesarios."
 
     return mensaje_base
+
+
 
 
 def alerta_gasto_excesivo(historial_gastos, meses_media=3, umbral_alerta=0.3):
@@ -607,16 +615,19 @@ Basándote en estos datos reales de un usuario:
 Asesora de forma profesional y razonada si debería comprar vivienda, seguir alquilado o si puede independizarse.
 Sé claro, sencillo, razonado y adapta la recomendación a la situación financiera.
 """
+
     try:
-        response = openai.ChatCompletion.create(
+        response = client.chat.completions.create(
             model="gpt-3.5-turbo",
             messages=[
                 {"role": "system", "content": "Asistente financiero experto en asesoría de compra y alquiler de vivienda."},
                 {"role": "user", "content": prompt_usuario}
             ],
-            temperature=0.3
+            temperature=0.3,
+            max_tokens=400
         )
-        return response['choices'][0]['message']['content']
+        return response.choices[0].message.content.strip()
+
     except Exception as e:
         return f"Error al generar asesoría con ChatGPT: {str(e)}"
 
@@ -633,13 +644,50 @@ def asesoria_vivienda(opcion, usar_contexto=True, contexto_gastos=None, usar_cha
 
     if not usar_contexto or contexto_gastos is None:
         return "Actualmente esta función requiere usar contexto financiero real."
+    
+     # ✅ Este bloque es clave: convierte el DataFrame solo si hace falta
 
-    datos = procesar_contexto(contexto_gastos)
+    if isinstance(contexto_gastos, pd.DataFrame):
+        df = contexto_gastos.copy()
+        
+        if 'fecha_operacion' in df.columns:
+            df['fecha_operacion'] = pd.to_datetime(df['fecha_operacion'], errors='coerce')
+            df['fecha_mes'] = df['fecha_operacion'].dt.to_period("M").dt.to_timestamp()
 
-    if usar_chatgpt:
-        return generar_asesoria_chatgpt(opcion.lower(), datos)
-    else:
-        return generar_asesoria_manual(opcion.lower(), datos)
+        df['categoria'] = df['categoria'].str.lower()
+
+        # ✅ Clasificar como ingreso solo si la categoría es exactamente 'ingreso'
+
+        # Calcular ingreso mensual promedio usando solo la categoría 'Ingreso'
+        ingreso_mensual = (
+            df[df['categoria'] == 'ingreso']
+            .groupby('fecha_mes')['importe']
+            .sum()
+            .mean()
+        )
+
+        # Gasto mensual total promedio (excluyendo ingreso y gastos extraordinarios)
+        df_filtrado = df[~df["categoria"].isin(["ingreso", "gastos extraordinarios"])]
+
+        gastos_por_categoria = (
+            df_filtrado
+            .groupby("fecha_mes")["importe"]
+            .sum()
+            .mean()
+        )
+
+        # ✅ Sobreescribimos como dict para que funcione con procesar_contexto()
+        contexto_gastos = {
+            'ingresos_mensuales': ingreso_mensual,
+            'gastos': gastos_por_categoria
+        }
+
+        datos = procesar_contexto(contexto_gastos)  # ✅ ← esta línea es clave
+
+        if usar_chatgpt:
+            return generar_asesoria_chatgpt(opcion.lower(), datos)
+        else:
+            return generar_asesoria_manual(opcion.lower(), datos)
 
 
 

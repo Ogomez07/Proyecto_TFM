@@ -159,10 +159,10 @@ if __name__ == "__main__":
     # Funciones de asesor financiero
     # Funcion 1
 
-    # # Generamos resumen de los datos
+    # Generamos resumen de los datos
     contexto = resumen.resumir_movimientos(ruta_csv)
 
-    # # Pregunta del usuario
+    # Pregunta del usuario
     # print("¿Qué deseas consultar?: ")
     # pregunta = input("> ")
 
@@ -175,7 +175,7 @@ if __name__ == "__main__":
 
 
     # Función 2
-    #print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
+    # print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
 
     """Función 3"""
     # Cargar CSV de movimientos
@@ -188,7 +188,9 @@ if __name__ == "__main__":
 
 
     """Fucnión 5"""
-    print(ia_asesor.recomendacion_emergencia(1300, 500, usar_contexto=False, contexto_gastos=None))
+    df_contexto = pd.read_csv("data/Movimientos_categorizados.csv", parse_dates=["fecha_operacion"])
+
+    print(ia_asesor.recomendacion_emergencia(1300, 500, usar_contexto=True, contexto_gastos=df_contexto))
 
     """Función 6"""
     alerta_df = ia_asesor.alerta_gasto_excesivo(df_movimientos)
@@ -233,7 +235,7 @@ if __name__ == "__main__":
     print(" Recomendación Final ")
     print(recomendacion)
     # Grafico evolucion deudas
-    viz.graficar_evolucion_deuda(historial_nieve, historial_avalancha)
+    #viz.graficar_evolucion_deuda(historial_nieve, historial_avalancha)
 
     """Funcion 8 (Asesor vivienda)"""
     # Cargando contexto financiero real

@@ -240,15 +240,16 @@ elif page == "Asesor financiero":
         # Crear o acceder al contexto generado
         # Guardamos directamente el DataFrame categorizado para usarlo como contexto
         if "contexto" not in st.session_state:
-            st.session_state.contexto = df_total.copy()
+            st.session_state.contexto = historial.resumir_movimientos(df_total)
+        if "contexto_df" not in st.session_state:
+            st.session_state.contexto_df = st.session_state.df_total_limpio.copy()
 
         contexto = st.session_state.contexto
 
         # Ver cuántos movimientos no tienen categoría
         sin_categoria = df_total[df_total['categoria'].isna() | (df_total['categoria'] == 'Sin categorizar')]
         st.write(f"🔍 Movimientos sin categorizar: {len(sin_categoria)}")
-
-
+        
         st.markdown("### 🧠 ¿Qué deseas consultar?")
         opcion = st.selectbox("Selecciona un servicio:", [
             "📈 Proyección de gastos futuros",
@@ -262,6 +263,7 @@ elif page == "Asesor financiero":
         ])
 
         if opcion == "📈 Proyección de gastos futuros":
+            df_total['fecha'] = df_total['fecha_operacion']
             st.subheader("📈 Proyección de gastos futuros")
             categoria = st.selectbox("Selecciona categoría a proyectar:", df_total['categoria'].unique())
 
@@ -285,13 +287,12 @@ elif page == "Asesor financiero":
 
             ingreso_mensual = st.number_input("💵 Ingreso mensual", min_value=0.0)
             gastos_fijos = st.number_input("📉 Gastos fijos mensuales", min_value=0.0)
-            usar_contexto = st.checkbox("📊 Usar contexto de gastos históricos")
-
             if st.button("Generar recomendación"):
                 resultado = ia_asesor.recomendacion_emergencia(
-                    ingreso_mensual, gastos_fijos,
-                    usar_contexto=usar_contexto,
-                    contexto_gastos=st.session_state.contexto if usar_contexto else None
+                    ingreso_mensual,
+                    gastos_fijos,
+                    usar_contexto=False,
+                    contexto_gastos=None
                 )
                 st.text_area("💬 Recomendación", resultado, height=350)
 
@@ -299,23 +300,32 @@ elif page == "Asesor financiero":
             st.subheader("📅 Planificador de Ahorro")
             cantidad_objetivo = st.number_input("💰 ¿Cuánto dinero deseas ahorrar?", min_value=0.0)
             tiempo_disponible = st.number_input("🗓️ ¿En cuántos meses quieres ahorrar esa cantidad?", min_value=1)
-            ingresos = st.number_input("📈 ¿Cuáles son tus ingresos mensuales?", min_value=0.0)
-            gastos = st.number_input("📉 ¿Cuáles son tus gastos mensuales?", min_value=0.0)
             usar_contexto = st.checkbox("📊 Usar contexto de gastos históricos")
-            if st.button("Calcular plan de ahorro"):
-                resultado = ia_asesor.plan_ahorro_objetivo(
-                    cantidad_objetivo, tiempo_disponible, ingresos, gastos,
-                    usar_contexto=usar_contexto,
-                    contexto_gastos=st.session_state.contexto if usar_contexto else None
-                )
-                st.text_area("💬 Recomendación", resultado, height=350)
+
+            contexto_df = st.session_state.contexto_df if usar_contexto else None
+
+            if usar_contexto and historial.contexto_valido(contexto_df):
+                ingresos, gastos = historial.extraer_movimientos(contexto_df)
+                st.write(f"📈 Ingresos mensuales estimados: {ingresos:.2f} €")
+                st.write(f"📉 Gastos fijos estimados: {gastos:.2f} €")
+            else:
+                ingresos = st.number_input("📈 ¿Cuáles son tus ingresos mensuales?", min_value=0.0)
+                gastos = st.number_input("📉 ¿Cuáles son tus gastos mensuales?", min_value=0.0)
 
             if st.button("Generar plan de ahorro"):
-                plan_ahorro = ia_asesor.plan_ahorro_objetivo(
-                    cantidad_objetivo, tiempo_disponible, ingresos, gastos,
-                    usar_contexto=True, contexto_gastos=contexto
-                )
-                st.success(plan_ahorro)
+                if usar_contexto and not historial.contexto_valido(contexto_df):
+                    st.error("⚠️ No se puede usar el contexto porque no está definido o está vacío.")
+                else:
+                    resultado = ia_asesor.plan_ahorro_objetivo(
+                        cantidad_objetivo,
+                        tiempo_disponible,
+                        ingresos,
+                        gastos,
+                        usar_contexto=usar_contexto,
+                        contexto_gastos=contexto_df
+                    )
+                    st.text_area("💬 Recomendación", resultado, height=350)
+
 
         elif opcion == "🚨 Alerta de gasto excesivo":
             st.subheader("🚨 Alerta de gasto excesivo")
@@ -338,7 +348,7 @@ elif page == "Asesor financiero":
                 respuesta = ia_asesor.asesoria_vivienda(
                     opcion=decision,
                     usar_contexto=True,
-                    contexto_gastos=contexto,
+                    contexto_gastos=st.session_state.contexto,
                     usar_chatgpt=usar_chatgpt
                 )
                 st.success(respuesta)
