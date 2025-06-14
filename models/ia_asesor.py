@@ -35,11 +35,18 @@ def asesor_con_contexto(mensaje_usuario, contexto):
     except Exception as e:
         return f"❌ Error al generar la respuesta de IA: {e}"
     
-def gestion_gastos(consulta):
+def gestion_gastos(consulta, contexto):
     """Ofrece distribución de gastos en proporción, maximizando el ahorro."""
     prompt = (
         f"Consulta del usuario:\n{consulta}\n\n"
-        f"Ofrece una estrategia clara, útil y bien argumentada para repartir los gastos y ahorrar más."
+        f"Contexto financiero del usuario:\n{contexto}\n\n"
+        "Ofrece una estrategia clara, útil y bien argumentada para repartir los gastos y ahorrar más."
+        "Debes tener en cuenta los importes mensuales de cada categoría de gasto e ingreso del usuario (que obtienes de contexto) y ver las formas más óptimas de recortarlos"
+        "Útiliza en las recomendaciones valores numéricos y porcentajes (redondea siempre a dos decimales) en cada categoría de gasto que estimes necesaria."
+        "Si hablas de la distribución de las categorías usa importes mensuales en € y no porcentajes"
+        "Además de ser necesario usa métodos populares de ahorro o de estructuración de gastos como la regla 50/30/20, método del sobre, etc"
+        "Si usas un método de ahorro en función de sus gastos indícalo y explica cómo se aplica en su caso concreto."
+        "Finaliza indicando el importe total que se podría ahorrar al mes si se aplican esas reducciones."
     )
 
     try:
@@ -50,7 +57,7 @@ def gestion_gastos(consulta):
                 {"role": "user", "content": prompt}
             ],
             temperature=0.6,
-            max_tokens=320
+            max_tokens=550
         )
         return response.choices[0].message.content.strip()
 
@@ -266,9 +273,9 @@ def recomendacion_emergencia(ingreso_mensual, gastos_fijos, usar_contexto=False,
         "- Destinar ingresos extra puntuales (pagas extras) al fondo.\n"
         "- Generar ingresos adicionales temporales (trabajos freelance, venta de objetos en desuso)."
     )
-    resumen = contexto_gastos.groupby("categoria")["importe"].sum().sort_values(ascending=False)
-    contexto_resumido = resumen.to_string()
-    if usar_contexto and contexto_gastos is not None and not contexto_gastos.empty:
+    if usar_contexto and isinstance(contexto_gastos, pd.DataFrame) and not contexto_gastos.empty:
+        resumen = contexto_gastos.groupby("categoria")["importe"].sum().sort_values(ascending=False)
+        contexto_resumido = resumen.to_string()
         prompt = (
             f"El usuario tiene ingresos mensuales de {ingreso_mensual:.2f}€ y gastos fijos mensuales de {gastos_fijos:.2f}€.\n"
             f"Quiere construir un fondo de emergencia mínimo de {fondo_minimo:.2f}€ rápidamente.\n"
@@ -614,6 +621,10 @@ Basándote en estos datos reales de un usuario:
 
 Asesora de forma profesional y razonada si debería comprar vivienda, seguir alquilado o si puede independizarse.
 Sé claro, sencillo, razonado y adapta la recomendación a la situación financiera.
+Ten en cuenta que si el usuario no cuenta con gastos de alquiler es posible que viva con los padres o algún familiar.
+En función de sus ahorros además, si la opción es comprar, indica el valor máximo estimado de la vivienda que podría permitirse.
+También el valor máximo de la hipoteca que podría asumir mensualmente.
+Si la opción es alquilar o independizarse indica el valor máximo de alquiler que podría asumir mensulamente, teniendo en cuenta gastos de agua y luz adicionales
 """
 
     try:
@@ -624,7 +635,7 @@ Sé claro, sencillo, razonado y adapta la recomendación a la situación financi
                 {"role": "user", "content": prompt_usuario}
             ],
             temperature=0.3,
-            max_tokens=400
+            max_tokens=450
         )
         return response.choices[0].message.content.strip()
 
@@ -665,16 +676,21 @@ def asesoria_vivienda(opcion, usar_contexto=True, contexto_gastos=None, usar_cha
             .sum()
             .mean()
         )
-
-        # Gasto mensual total promedio (excluyendo ingreso y gastos extraordinarios)
         df_filtrado = df[~df["categoria"].isin(["ingreso", "gastos extraordinarios"])]
 
         gastos_por_categoria = (
             df_filtrado
-            .groupby("fecha_mes")["importe"]
+            .groupby(['fecha_mes', 'categoria'])['importe']
             .sum()
+            .groupby('categoria')
             .mean()
+            .to_dict()
         )
+
+        contexto_gastos = {
+            'ingresos_mensuales': ingreso_mensual,
+            'gastos': gastos_por_categoria
+        }
 
         # ✅ Sobreescribimos como dict para que funcione con procesar_contexto()
         contexto_gastos = {

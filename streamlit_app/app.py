@@ -258,7 +258,7 @@ elif page == "Asesor financiero":
             "📅 Planificador de Ahorro Personalizado",
             "🚨 Alerta de gasto excesivo",
             "🏡 Asesoría para compra de vivienda",
-            "📊 Gestión general de gastos"
+            "📊 Gestión general de gastos",
             "🏦 Estrategia para pago de deudas"
         ])
 
@@ -359,31 +359,82 @@ elif page == "Asesor financiero":
             consulta = st.text_area("Describe tu situación o tus objetivos financieros:")
 
             if st.button("Obtener estrategia"):
-                resultado = ia_asesor.gestion_gastos(consulta)
-                st.text_area("💬 Estrategia recomendada", resultado, height=350)
+                if "contexto_df" in st.session_state and not st.session_state.contexto_df.empty:
+                    contexto_df = st.session_state.contexto_df.copy()
+                    contexto_df['fecha_mes'] = pd.to_datetime(contexto_df['fecha_operacion']).dt.to_period('M').dt.to_timestamp()
+                    contexto_df['categoria'] = contexto_df['categoria'].str.lower()
+
+                    # ✅ Calcular ingreso mensual promedio
+                    ingreso_mensual = (
+                        contexto_df[contexto_df['categoria'] == 'ingreso']
+                        .groupby('fecha_mes')['importe']
+                        .sum()
+                        .mean()
+                    )
+
+                    # ✅ Calcular gastos mensuales promedio por categoría, excluyendo ingreso y extraordinarios
+                    df_filtrado = contexto_df[~contexto_df['categoria'].isin(['ingreso', 'gastos extraordinarios'])]
+                    gastos_por_categoria = (
+                        df_filtrado
+                        .groupby(['fecha_mes', 'categoria'])['importe']
+                        .sum()
+                        .groupby('categoria')
+                        .mean()
+                        .to_dict()
+                    )
+
+                    # ✅ Crear contexto como dict estructurado
+                    contexto = {
+                        'ingresos_mensuales': ingreso_mensual,
+                        'gastos': gastos_por_categoria
+                    }
+
+                    resultado = ia_asesor.gestion_gastos(consulta, contexto)
+                    st.text_area("💬 Estrategia recomendada", resultado, height=350)
+                else:
+                    st.warning("⚠️ Asegúrate de haber pasado por la página de categorización primero.")
+
 
         elif opcion == "🏦 Estrategia para pago de deudas":
             st.subheader("🏦 Estrategia para pago de deudas")
 
-            deudas_demo = [
-                {'nombre': 'Tarjeta crédito', 'saldo': 3000, 'interes': 28},
-                {'nombre': 'Préstamo personal', 'saldo': 8000, 'interes': 7},
-                {'nombre': 'Crédito estudios', 'saldo': 15000, 'interes': 4}
-            ]
+            modo = st.radio("Selecciona cómo introducir tus deudas:", ["🧪 Usar ejemplo precargado", "✍️ Introducir mis propias deudas"])
+
+            if modo == "🧪 Usar ejemplo precargado":
+                deudas = [
+                    {'nombre': 'Tarjeta crédito', 'saldo': 3000, 'interes': 28},
+                    {'nombre': 'Préstamo personal', 'saldo': 8000, 'interes': 7},
+                    {'nombre': 'Crédito estudios', 'saldo': 15000, 'interes': 4}
+                ]
+            else:
+                st.markdown("### ✍️ Introduce tus deudas manualmente")
+                num_deudas = st.number_input("¿Cuántas deudas quieres registrar?", min_value=1, max_value=10, step=1)
+                deudas = []
+
+                for i in range(num_deudas):
+                    st.markdown(f"**Deuda {i+1}**")
+                    nombre = st.text_input(f"🔹 Nombre deuda {i+1}", key=f"nombre_{i}")
+                    saldo = st.number_input(f"💰 Saldo pendiente (€) deuda {i+1}", min_value=0.0, step=100.0, key=f"saldo_{i}")
+                    interes = st.number_input(f"📈 Interés anual (%) deuda {i+1}", min_value=0.0, step=0.1, key=f"interes_{i}")
+                    if nombre:
+                        deudas.append({'nombre': nombre, 'saldo': saldo, 'interes': interes})
 
             ingresos_disponibles = st.number_input("💶 Ingresos disponibles al mes para pagar deudas:", min_value=1)
 
             if st.button("Simular estrategias de pago"):
-                df_nieve = ia_asesor.generar_tabla_orden_pago(deudas_demo, 'bola de nieve')
-                df_avalancha = ia_asesor.generar_tabla_orden_pago(deudas_demo, 'avalancha')
+                if not deudas:
+                    st.warning("⚠️ Debes ingresar al menos una deuda válida.")
+                else:
+                    df_nieve = ia_asesor.generar_tabla_orden_pago(deudas, 'bola de nieve')
+                    df_avalancha = ia_asesor.generar_tabla_orden_pago(deudas, 'avalancha')
 
-                st.write("### Bola de Nieve:")
-                st.dataframe(df_nieve)
+                    st.write("### Bola de Nieve:")
+                    st.dataframe(df_nieve)
 
-                st.write("### Avalancha:")
-                st.dataframe(df_avalancha)
+                    st.write("### Avalancha:")
+                    st.dataframe(df_avalancha)
 
-                rep_nieve, rep_aval, recomendacion = ia_asesor.comparar_estrategias_deuda(deudas_demo, ingresos_disponibles)
-                st.markdown(f"### 📄 Reporte Bola de Nieve\n{rep_nieve}")
-                st.markdown(f"### 📄 Reporte Avalancha\n{rep_aval}")
-                st.markdown(f"### ✅ Recomendación:\n{recomendacion}")
+                    rep_nieve, rep_aval, recomendacion = ia_asesor.comparar_estrategias_deuda(deudas, ingresos_disponibles)
+                    st.markdown(f"### 📄 Reporte Bola de Nieve\n{rep_nieve}")
+                    st.markdown(f"### 📄 Reporte Avalancha\n{rep_aval}")
+                    st.markdown(f"### ✅ Recomendación:\n{recomendacion}")
