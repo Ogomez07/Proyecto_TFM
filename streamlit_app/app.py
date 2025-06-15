@@ -7,6 +7,8 @@ import tempfile
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+import base64
+
 
 import src.eda as eda
 import src.etl as etl
@@ -19,6 +21,59 @@ importlib.reload(ia_asesor)
 import src.resumen_datos as resumen
 import streamlit_app.historial as historial
 
+st.markdown("""
+    <style>
+    /* Cambia el color de fondo general */
+    .stApp {
+        background-color: #e9e8ed;
+    }
+
+    /* Opcional: suaviza el color de los bloques centrales */
+    .block-container {
+        background-color: #e9e8ed;
+        padding-top: 2rem;
+    }
+
+    /* Opcional: elimina bordes de algunos elementos */
+    .css-18e3th9 {
+        background-color: #e9e8ed;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+    <style>
+    /* Sidebar background */
+    section[data-testid="stSidebar"] {
+        background-color: #dbd5e0;
+    }
+
+    /* Sidebar text color */
+    section[data-testid="stSidebar"] .css-1v3fvcr {
+        color: white;
+    }
+
+    /* Selectbox input (lo que se ve antes de desplegar) */
+    section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="select"] > div {
+        background-color: #e9e8ed;
+        color: black;
+        border-radius: 5px;
+    }
+
+    /* Selectbox dropdown (la lista desplegable) */
+    section[data-testid="stSidebar"] .stSelectbox div[data-baseweb="popover"] {
+        background-color: #f0e6f6 !important;
+        color: black !important;
+        border-radius: 8px;
+    }
+
+    /* Selectbox text options */
+    section[data-testid="stSidebar"] .stSelectbox span {
+        color: black;
+    }
+    </style>
+""", unsafe_allow_html=True)
+
 # ========================
 # Inicializar session_state
 # ========================
@@ -29,8 +84,9 @@ if 'df_total_limpio' not in st.session_state:
 
 
 
-# Título general
-st.title("Asistente Financiero Inteligente")
+# ========================
+# 💠 Cabecera visual AFI
+# ========================
 
 # Barra de navegación
 st.sidebar.title("Navegación")
@@ -45,9 +101,23 @@ page = st.sidebar.selectbox("Selecciona una página", [
 # 🚀 Página 1: Extracción de movimientos
 # ========================
 if page == "Extracción de movimientos":
-    st.header("🧾 Extractor de movimientos")
-    st.write("Sube tu archivo PDF con movimientos bancarios. El sistema detectará automáticamente el formato.")
+    # Mostrar banner SOLO en esta página
+    with open("streamlit_app/assets/afi_banner(2).png", "rb") as f:
+        data = f.read()
+        encoded = base64.b64encode(data).decode()
 
+    st.markdown(
+        f"""
+        <div style='padding-top: 30px; padding-bottom: 10px;'>
+            <img src="data:image/png;base64,{encoded}" style="width:100%; border-radius: 10px;" />
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+
+    st.markdown("## 🧠 Asistente Financiero Inteligente")
+    st.header("Extractor de movimientos")
+    st.write("Sube tu archivo PDF con movimientos bancarios. El sistema detectará automáticamente el formato.")
 
     archivos_pdf = st.file_uploader(
         "📤 Sube tus PDFs", 
@@ -162,7 +232,7 @@ elif page == "Predicciones por categorías":
         # 🔮 PREDICCIÓN DE GASTOS
         # ========================
         st.subheader("🔮 Predicción de gastos futuros por categoría")
-        st.write("🚨 Valores únicos en la columna 'categoria':")
+        st.write("🚨 Valores únicos por categoria:")
         st.write(df_total['categoria'].unique())
 
         df_gastos = df_total[df_total['tipo'] == 'gasto']
