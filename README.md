@@ -5,6 +5,7 @@ Este proyecto combina extracción automática de movimientos bancarios, categori
 
 - Estructura del Proyecto
 
+```bash
 AFI/
 ├── app.py                     # Interfaz Streamlit de usuario
 ├── main.py                   # Script de ejecución principal (modo consola)
@@ -23,7 +24,7 @@ AFI/
 ├── data/                     # Archivos CSV procesados
 ├── .env                      # Archivo de entorno para API Key
 └── requirements.txt          # Dependencias del proyecto
-
+```
 
 - Cómo Ejecutar
 1. Clonar el repositorio
