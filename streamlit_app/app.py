@@ -115,7 +115,7 @@ if page == "Extracción de movimientos":
         unsafe_allow_html=True
     )
 
-    st.markdown("## 🧠 Asistente Financiero Inteligente")
+    st.markdown("## 🧠 Asesor Financiero Inteligente")
     st.header("Extractor de movimientos")
     st.write("Sube tu archivo PDF con movimientos bancarios. El sistema detectará automáticamente el formato.")
 
@@ -300,7 +300,7 @@ elif page == "Predicciones por categorías":
 # 🚀 Página 3: Asesor financiero
 # ========================
 elif page == "Asesor financiero":
-    st.header("💬 Asesor Financiero Inteligente")
+    st.header("💬 Asesor Financiero")
 
     df_total = st.session_state.get("df_total_limpio")
 

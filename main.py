@@ -98,18 +98,18 @@ if __name__ == "__main__":
 
     # Vizualizar resultados
     print(f' Movimientos sin etiquetar: {df_sin_etiquetar.shape[0]}')
-    #display(df_sin_etiquetar[['operacion_limpia', 'categoria_predicha']].sample(15))
+    display(df_sin_etiquetar[['operacion_limpia', 'categoria_predicha']].sample(15))
 
     # Actualizamos las categorías en el Dataframe original
     df_actualizado = categorizar.actualizar_categorias(df_categorizacion, df_sin_etiquetar)
     print(f" Aún sin categorizar: {df_actualizado[df_actualizado['categoria'] == 'Sin categorizar'].shape[0]}")
-    #print(df_actualizado.info())
+    print(df_actualizado.info())
 
     # Visualizamos el reparto de categorías
-    #viz.mostrar_distribucion_categorias(df_actualizado)
+    viz.mostrar_distribucion_categorias(df_actualizado)
 
     # Vemos como se comportan sus importes por categoría con un Boxplot
-    #viz.mostrar_boxplots_por_categoria(df_actualizado)
+    viz.mostrar_boxplots_por_categoria(df_actualizado)
 
     # Limpiamos lo valores atípicos de cada categoría y los agrupamos en una categoría nueva llamada "Gastos extras"
     df_actualizado = etl.mover_outliers_a_gastos_extra(df_actualizado)
@@ -122,10 +122,10 @@ if __name__ == "__main__":
     df_actualizado['importe'] = df_actualizado['importe'].abs()
 
     # Revisamos como se encuentra cada categoría con un boxplot
-    #viz.mostrar_boxplots_por_categoria(df_actualizado)
+    viz.mostrar_boxplots_por_categoria(df_actualizado)
 
     # Guardar el CSV
-    #df_actualizado.to_csv("data/Movimientos_categorizados.csv", index=False)
+    df_actualizado.to_csv("data/Movimientos_categorizados.csv", index=False)
 
     # Abrir el CSV de movimientos categorizados
     df_prediccion =pd.read_csv('data/Movimientos_categorizados.csv', parse_dates=['fecha_operacion'])
@@ -157,25 +157,25 @@ if __name__ == "__main__":
     ruta_csv = 'data/Movimientos_categorizados.csv'
 
     # Funciones de asesor financiero
-    # Funcion 1
+    """Funcion 1"""
 
     # Generamos resumen de los datos
     contexto = resumen.resumir_movimientos(ruta_csv)
 
     # Pregunta del usuario
-    # print("¿Qué deseas consultar?: ")
-    # pregunta = input("> ")
+    print("¿Qué deseas consultar?: ")
+    pregunta = input("> ")
 
-    # # Preparar respuesta de la IA
-    # respuesta = ia_asesor.asesor_con_contexto(pregunta, contexto)
+    # Preparar respuesta de la IA
+    respuesta = ia_asesor.asesor_con_contexto(pregunta, contexto)
 
-    # # Respuesta generada
-    # print("\n Respuesta: \n")
-    # print(respuesta)
+    # Respuesta generada
+    print("\n Respuesta: \n")
+    print(respuesta)
 
 
-    # Función 2
-    # print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
+    """Función 2"""
+    print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
 
     """Función 3"""
     # Cargar CSV de movimientos
@@ -235,7 +235,7 @@ if __name__ == "__main__":
     print(" Recomendación Final ")
     print(recomendacion)
     # Grafico evolucion deudas
-    #viz.graficar_evolucion_deuda(historial_nieve, historial_avalancha)
+    viz.graficar_evolucion_deuda(historial_nieve, historial_avalancha)
 
     """Funcion 8 (Asesor vivienda)"""
     # Cargando contexto financiero real
@@ -245,7 +245,7 @@ if __name__ == "__main__":
     print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto))
 
     # Asesoría avanzada con ChatGPT
-    #print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto, usar_chatgpt=True))
+    print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto, usar_chatgpt=True))
 
 
 
