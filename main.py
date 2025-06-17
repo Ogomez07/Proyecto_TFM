@@ -19,7 +19,8 @@ if __name__ == "__main__":
     # Lista con la ruta de los archivos PDF a procesar.
     pdf_path = [
             "File.pdf",
-            "movimientosgenerados_07052025.pdf"
+            "movimientosgenerados_07052025.pdf",
+            "movimiento.pdf"
     ]
 
     # Lista para almacenar los dataframes extraidos
