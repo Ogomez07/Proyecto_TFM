@@ -106,17 +106,17 @@ Asesor financiero: Accede a funcionalidades avanzadas como:
 
 ![alt text](imágenes/página_3.png)
 
-Chat IA con contexto financiero.
+* Chat IA con contexto financiero.
 
-Recomendación de fondo de emergencia.
+* Recomendación de fondo de emergencia.
 
-Planificador de ahorro.
+* Planificador de ahorro.
 
-Detección de gastos excesivos.
+* Detección de gastos excesivos.
 
-Estrategia de pago de deudas (bola de nieve vs avalancha).
+* Estrategia de pago de deudas (bola de nieve vs avalancha).
 
-Asesoría personalizada sobre vivienda.
+* Asesoría personalizada sobre vivienda.
 
 - Tecnologías usadas
 
