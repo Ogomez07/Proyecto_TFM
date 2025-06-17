@@ -28,7 +28,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2025-04-14,"en domyhome, telde, . :*179057",1.5,en domyhome telde,gasto,2025-04,Supermercado,modelo
 2025-04-09,"en picoteo s. migu, telde, . :*179057",22.0,en picoteo s migu telde,gasto,2025-04,Restauración,manual
 2025-04-07,"compra nyx*airservspain, sansebastiand, eta 5489010358179057 , comision 0,00",1.0,compra nyx airservspain sansebastiand eta comision,gasto,2025-04,Ocio / Suscripciones,modelo
-2025-04-07,"en la surena, palmas de gra, . :*179057",5.0,en la surena palmas de gra,gasto,2025-04,Transporte,modelo
+2025-04-07,"en la surena, palmas de gra, . :*179057",5.0,en la surena palmas de gra,gasto,2025-04,Restauración,modelo
 2025-04-07,"en oakberry gran c, las palmas de, . :*179057",19.9,en oakberry gran c las palmas de,gasto,2025-04,Restauración,manual
 2025-04-07,"en mercadona las t, hornos del re, . :*179057",48.83,en mercadona las t hornos del re,gasto,2025-04,Supermercado,manual
 2025-04-07,"en media markt - t, jinamar, . :*179057",19.99,en media markt t jinamar,gasto,2025-04,Compras no esenciales,manual
@@ -124,7 +124,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2025-01-31,"en el corral telde, telde, . :*179057",77.0,en el corral telde telde,gasto,2025-01,Facturas,manual
 2025-01-30,transferencia a favor de óscar gómez bastidas,400.0,transferencia a favor de óscar gómez bastidas,gasto,2025-01,Gastos extraordinarios,manual
 2025-01-30,"transferencia de dius madrid + delegaciones, concepto recibo de nomina.",1392.86,transferencia de dius madrid + delegaciones concepto recibo de nomina,ingreso,2025-01,Ingreso,manual
-2025-01-30,"en el roque, telde, . :*179057",15.0,en el roque telde,gasto,2025-01,Facturas,modelo
+2025-01-30,"en el roque, telde, . :*179057",15.0,en el roque telde,gasto,2025-01,Supermercado,modelo
 2025-01-28,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",22.99,compra apple com bill eta comision,gasto,2025-01,Ocio / Suscripciones,manual
 2025-01-28,"en mercadona las t, hornos del re, . :*179057",1.61,en mercadona las t hornos del re,gasto,2025-01,Supermercado,manual
 2025-01-27,"compra apple.com/bill, itunes.com, eta 5489010358179057 , comision 0,00",9.99,compra apple com bill itunes com eta comision,gasto,2025-01,Ocio / Suscripciones,manual
@@ -135,18 +135,18 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2025-01-24,"transferencia inmediata de evelymar bastidas rosario, concepto seguro medico febrero",75.0,transferencia inmediata de evelymar bastidas rosario concepto seguro medico febrero,ingreso,2025-01,Ingreso,manual
 2025-01-24,"transferencia inmediata de evelymar bastidas rosario, concepto master 2/18 meses",300.0,transferencia inmediata de evelymar bastidas rosario concepto master meses,ingreso,2025-01,Ingreso,manual
 2025-01-24,"en el corral telde, telde, . :*179057",60.36,en el corral telde telde,gasto,2025-01,Facturas,manual
-2025-01-24,"en el roque, telde, . :*179057",10.01,en el roque telde,gasto,2025-01,Facturas,modelo
+2025-01-24,"en el roque, telde, . :*179057",10.01,en el roque telde,gasto,2025-01,Supermercado,modelo
 2025-01-24,"en cafeteria paris, telde, . :*179057",3.0,en cafeteria paris telde,gasto,2025-01,Restauración,manual
 2025-01-23,"en media markt - t, jinamar, . :*179057",9.35,en media markt t jinamar,gasto,2025-01,Compras no esenciales,manual
 2025-01-21,"compra ubr* pending.uber.com, amsterdam, eta 5489010358179057 , comision 0,00",4.99,compra ubr pending uber com amsterdam eta comision,gasto,2025-01,Restauración,modelo
 2025-01-20,"en lidl can-gc-tel, telde, . :*179057",33.35,en lidl can gc tel telde,gasto,2025-01,Supermercado,manual
 2025-01-20,"en hd melenara, telde, . :*179057",67.25,en hd melenara telde,gasto,2025-01,Supermercado,modelo
-2025-01-20,"en muelle deportiv, palmas de gra, . :*179057",0.9,en muelle deportiv palmas de gra,gasto,2025-01,Transporte,modelo
+2025-01-20,"en muelle deportiv, palmas de gra, . :*179057",0.9,en muelle deportiv palmas de gra,gasto,2025-01,Restauración,modelo
 2025-01-20,"en school busrger, las palmas de, . :*179057",38.65,en school busrger las palmas de,gasto,2025-01,Restauración,modelo
 2025-01-17,"en media markt - t, jinamar, . :*179057",39.99,en media markt t jinamar,gasto,2025-01,Compras no esenciales,manual
 2025-01-17,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",4.99,compra apple com bill eta comision,gasto,2025-01,Ocio / Suscripciones,manual
 2025-01-16,"recibo vodafone factura: yj25-000092107/ nº recibo 0049 6140 755 bbgclzk ref. mandato 0111207734, de",74.39,recibo vodafone factura yj nº recibo bbgclzk ref mandato de,gasto,2025-01,Facturas,manual
-2025-01-16,"en el roque, telde, . :*179057",7.6,en el roque telde,gasto,2025-01,Facturas,modelo
+2025-01-16,"en el roque, telde, . :*179057",7.6,en el roque telde,gasto,2025-01,Supermercado,modelo
 2025-01-14,recibo banco bilbao vizcaya argentaria s.a. nº recibo 0049 6140 755 bbgclls ref. mandato 91718303309,332.78,recibo banco bilbao vizcaya argentaria s a nº recibo bbgclls ref mandato,gasto,2025-01,Gastos extraordinarios,manual
 2025-01-13,"compra worten mirador, canarias, eta 5489010358179057 , comision 0,00",17.99,compra worten mirador canarias eta comision,gasto,2025-01,Compras no esenciales,modelo
 2025-01-13,"en mercadona las t, hornos del re, . :*179057",1.65,en mercadona las t hornos del re,gasto,2025-01,Supermercado,manual
@@ -189,7 +189,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-24,"en sagulpa / elder, las palmas, . :*179057",2.25,en sagulpa elder las palmas,gasto,2024-12,Transporte,modelo
 2024-12-23,"compra ubr* pending.uber.com, amsterdam, eta 5489010358179057 , comision 0,00",4.99,compra ubr pending uber com amsterdam eta comision,gasto,2024-12,Restauración,modelo
 2024-12-23,bizum de debora vega ravelo concepto todo saldado,78.0,bizum de debora vega ravelo concepto todo saldado,ingreso,2024-12,Ingreso,manual
-2024-12-23,"en rest hermanos m, santa brigida, . :*179057",8.1,en rest hermanos m santa brigida,gasto,2024-12,Transporte,modelo
+2024-12-23,"en rest hermanos m, santa brigida, . :*179057",8.1,en rest hermanos m santa brigida,gasto,2024-12,Restauración,modelo
 2024-12-23,"en kobe express, telde, . :*179057",12.9,en kobe express telde,gasto,2024-12,Supermercado,modelo
 2024-12-23,"en momenti cc las, telde, . :*179057",1.5,en momenti cc las telde,gasto,2024-12,Restauración,modelo
 2024-12-23,"en administracion, telde, . :*179057",20.0,en administracion telde,gasto,2024-12,Supermercado,modelo
@@ -198,8 +198,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-23,"compra internet en repsol waylet, madrid, . :*179057",48.77,compra internet en repsol waylet madrid,gasto,2024-12,Transporte,manual
 2024-12-23,bizum a favor de manuel hilario reina rocha concepto: ramo a recoger 28 diciembre r y g,25.0,bizum a favor de manuel hilario reina rocha concepto ramo a recoger diciembre r y g,gasto,2024-12,Transferencia personal,manual
 2024-12-20,"en las terrazas tp, telde, . :*179057",7.9,en las terrazas tp telde,gasto,2024-12,Supermercado,modelo
-2024-12-19,"en el roque, telde, . :*179057",1.3,en el roque telde,gasto,2024-12,Facturas,modelo
-2024-12-19,"en muelle deportiv, palmas de gra, . :*179057",2.4,en muelle deportiv palmas de gra,gasto,2024-12,Transporte,modelo
+2024-12-19,"en el roque, telde, . :*179057",1.3,en el roque telde,gasto,2024-12,Supermercado,modelo
+2024-12-19,"en muelle deportiv, palmas de gra, . :*179057",2.4,en muelle deportiv palmas de gra,gasto,2024-12,Restauración,modelo
 2024-12-18,"compra kaspersky nexway, puteaux, eta 5489010358179057 , comision 0,00",39.99,compra kaspersky nexway puteaux eta comision,gasto,2024-12,Gastos extraordinarios,modelo
 2024-12-17,"compra datacamp inc., datacamp.cny, eta 5489010358179057 , comision 4,76",163.58,compra datacamp inc datacamp cny eta comision,gasto,2024-12,Gastos extraordinarios,modelo
 2024-12-17,"transferencia de trade republic bank gmbh, concepto tu retirada de la cuenta de compensacion de trad",200.0,transferencia de trade republic bank gmbh concepto tu retirada de la cuenta de compensacion de trad,ingreso,2024-12,Ingreso,manual
@@ -212,7 +212,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-16,"en dulceria san ma, vega de san m, . :*179057",12.7,en dulceria san ma vega de san m,gasto,2024-12,Restauración,modelo
 2024-12-16,reintegro contra cuenta en atm 004903590000 el 14/12/2024 a las 20:33. .pan: 5489010358179057.,40.0,reintegro contra cuenta en atm el a las pan,gasto,2024-12,Ingreso,manual
 2024-12-16,"devolucion en netx tv pc gami, las palmas de, . :*179057",874.0,devolucion en netx tv pc gami las palmas de,ingreso,2024-12,Gastos extraordinarios,modelo
-2024-12-16,"en sagulpa parquim, palmas de gra, . :*179057 −0,20€ −171,94€ 16 dic 2024 f. valor: 14 dic 2024 en netx tv pc gami, las palmas de, . :*179057 −874,00€ −171,74€ 16 dic 2024 f. valor: 14 dic 2024 en sagulpa parquim, palmas de gra, . :*179057",0.2,en sagulpa parquim palmas de gra − € − € dic f valor dic en netx tv pc gami las palmas de − € − € dic f valor dic en sagulpa parquim palmas de gra,gasto,2024-12,Transporte,modelo
+2024-12-16,"en sagulpa parquim, palmas de gra, . :*179057 −0,20€ −171,94€ 16 dic 2024 f. valor: 14 dic 2024 en netx tv pc gami, las palmas de, . :*179057 −874,00€ −171,74€ 16 dic 2024 f. valor: 14 dic 2024 en sagulpa parquim, palmas de gra, . :*179057",0.2,en sagulpa parquim palmas de gra − € − € dic f valor dic en netx tv pc gami las palmas de − € − € dic f valor dic en sagulpa parquim palmas de gra,gasto,2024-12,Restauración,modelo
 2024-12-16,"en picoteo s. migu, telde, . :*179057",16.22,en picoteo s migu telde,gasto,2024-12,Restauración,manual
 2024-12-16,"en pizza royers te, telde, . :*179057",18.4,en pizza royers te telde,gasto,2024-12,Restauración,manual
 2024-12-13,"devolucion en stradivarius mi, las palmas de, . :*179057",45.99,devolucion en stradivarius mi las palmas de,ingreso,2024-12,Gastos extraordinarios,manual
@@ -226,7 +226,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-09,"en mercadona las t, hornos del re, . :*179057",6.25,en mercadona las t hornos del re,gasto,2024-12,Supermercado,manual
 2024-12-09,"en domyhome, telde, . :*179057",12.05,en domyhome telde,gasto,2024-12,Supermercado,modelo
 2024-12-09,"en alcampo, telde, . :*179057",25.0,en alcampo telde,gasto,2024-12,Supermercado,manual
-2024-12-09,"compra internet en loteria la cruz, madrid, . :*179057",20.0,compra internet en loteria la cruz madrid,gasto,2024-12,Restauración,modelo
+2024-12-09,"compra internet en loteria la cruz, madrid, . :*179057",20.0,compra internet en loteria la cruz madrid,gasto,2024-12,Transporte,modelo
 2024-12-09,bizum a favor de maria pilar suarez suarez concepto: regalo debora,39.0,bizum a favor de maria pilar suarez suarez concepto regalo debora,gasto,2024-12,Transferencia personal,manual
 2024-12-09,"en heladeria quint, las palmas de, . :*179057",3.5,en heladeria quint las palmas de,gasto,2024-12,Restauración,manual
 2024-12-09,"en tagliatella los, palmas de gra, . :*179057",42.05,en tagliatella los palmas de gra,gasto,2024-12,Gastos extraordinarios,manual
@@ -244,7 +244,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-12-02,bizum a favor de alba margarita canal marrero concepto: comida empresa,16.0,bizum a favor de alba margarita canal marrero concepto comida empresa,gasto,2024-12,Transferencia personal,manual
 2024-12-02,bizum a favor de fernando lafuente gonzalez concepto: pirsa,8.9,bizum a favor de fernando lafuente gonzalez concepto pirsa,gasto,2024-12,Transferencia personal,manual
 2024-12-02,"compra internet en repsol waylet, madrid, . :*179057",34.06,compra internet en repsol waylet madrid,gasto,2024-12,Transporte,manual
-2024-12-02,"en muelle deportiv, palmas de gra, . :*179057",1.35,en muelle deportiv palmas de gra,gasto,2024-12,Transporte,modelo
+2024-12-02,"en muelle deportiv, palmas de gra, . :*179057",1.35,en muelle deportiv palmas de gra,gasto,2024-12,Restauración,modelo
 2024-12-02,"en el corte ingles, las palmas, . :*179057",8.8,en el corte ingles las palmas,gasto,2024-12,Restauración,modelo
 2024-12-02,"en picoteo s. migu, telde, . :*179057",13.7,en picoteo s migu telde,gasto,2024-12,Restauración,manual
 2024-11-29,bizum a favor de debora vega ravelo concepto: compra,20.0,bizum a favor de debora vega ravelo concepto compra,gasto,2024-11,Transferencia personal,manual
@@ -253,7 +253,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-11-28,"en mercadona las t, hornos del re, . :*179057",15.25,en mercadona las t hornos del re,gasto,2024-11,Supermercado,manual
 2024-11-28,bizum a favor de samuel trujillo santana concepto: billeton,80.89,bizum a favor de samuel trujillo santana concepto billeton,gasto,2024-11,Transferencia personal,manual
 2024-11-26,"compra spotify p31bdf5ca9, stockholm, eta 5489010358179057 , comision 0,00",14.99,compra spotify pbdfca stockholm eta comision,gasto,2024-11,Ocio / Suscripciones,manual
-2024-11-25,"compra amzn mktp es*te9bi60p4, 800-279-6620, eta 5489010358179057 , comision 0,00",9.99,compra amzn mktp es tebip eta comision,gasto,2024-11,Ocio / Suscripciones,modelo
+2024-11-25,"compra amzn mktp es*te9bi60p4, 800-279-6620, eta 5489010358179057 , comision 0,00",9.99,compra amzn mktp es tebip eta comision,gasto,2024-11,Compras no esenciales,modelo
 2024-11-25,"compra llaollao es las palmas, las palmas, eta 5489010358179057 , comision 0,00",4.4,compra llaollao es las palmas las palmas eta comision,gasto,2024-11,Restauración,manual
 2024-11-25,bizum de debora vega ravelo concepto todo saldado,70.0,bizum de debora vega ravelo concepto todo saldado,ingreso,2024-11,Ingreso,manual
 2024-11-25,"en quinta cumbre l, las palmas de, . :*179057",12.4,en quinta cumbre l las palmas de,gasto,2024-11,Restauración,manual
@@ -261,7 +261,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-11-25,"en ocine premium 7, las palmas de, . :*179057",13.0,en ocine premium las palmas de,gasto,2024-11,Ocio / Suscripciones,manual
 2024-11-25,bizum a favor de samuel trujillo santana concepto: cine x2,23.2,bizum a favor de samuel trujillo santana concepto cine x,gasto,2024-11,Transferencia personal,manual
 2024-11-25,"en lidl can-gc-tel, telde, . :*179057",42.15,en lidl can gc tel telde,gasto,2024-11,Supermercado,manual
-2024-11-21,"en fund grube el m, jinamar, . :*179057",44.95,en fund grube el m jinamar,gasto,2024-11,Gastos extraordinarios,modelo
+2024-11-21,"en fund grube el m, jinamar, . :*179057",44.95,en fund grube el m jinamar,gasto,2024-11,Compras no esenciales,modelo
 2024-11-21,"en stradivarius mi, las palmas de, . :*179057",45.99,en stradivarius mi las palmas de,gasto,2024-11,Compras no esenciales,manual
 2024-11-21,"en decimas, telde, . :*179057",29.99,en decimas telde,gasto,2024-11,Supermercado,modelo
 2024-11-21,"en kiwoko telde la, cruz de la ga, . :*179057",71.08,en kiwoko telde la cruz de la ga,gasto,2024-11,Gastos extraordinarios,manual
@@ -356,7 +356,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-10-08,"en 2834 tb metropo, madrid, . :*179057",3.0,en tb metropo madrid,gasto,2024-10,Restauración,manual
 2024-10-08,"en 2834 tb metropo, madrid, . :*179057",5.0,en tb metropo madrid,gasto,2024-10,Restauración,manual
 2024-10-07,"en lidl can-gc-tel, telde, . :*179057",47.18,en lidl can gc tel telde,gasto,2024-10,Supermercado,manual
-2024-10-07,"compra prime video*to0rg8ze4, primevideo.co, eta 5489010358179057 , comision 0,00",3.99,compra prime video torgze primevideo co eta comision,gasto,2024-10,Ocio / Suscripciones,modelo
+2024-10-07,"compra prime video*to0rg8ze4, primevideo.co, eta 5489010358179057 , comision 0,00",3.99,compra prime video torgze primevideo co eta comision,gasto,2024-10,Compras no esenciales,modelo
 2024-10-07,bizum a favor de elena maria rivero hafez concepto: cumplesillo,9.12,bizum a favor de elena maria rivero hafez concepto cumplesillo,gasto,2024-10,Transferencia personal,manual
 2024-10-04,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",8.99,compra apple com bill eta comision,gasto,2024-10,Ocio / Suscripciones,manual
 2024-10-04,"en pasteleria yera, la estrella, . :*179057",4.5,en pasteleria yera la estrella,gasto,2024-10,Restauración,manual
@@ -402,12 +402,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-08-20,"en autos basso, s., telde, . :*179057",44.4,en autos basso s telde,gasto,2024-08,Supermercado,modelo
 2024-08-20,"transferencia de trade republic bank gmbh, concepto tu retirada de la cuenta de compensacion de trad",60.0,transferencia de trade republic bank gmbh concepto tu retirada de la cuenta de compensacion de trad,ingreso,2024-08,Ingreso,manual
 2024-08-19,transferencia a favor de brisa psicologos concepto: oscar gomez bastidas,60.0,transferencia a favor de brisa psicologos concepto oscar gomez bastidas,gasto,2024-08,Transferencia personal,manual
-2024-08-19,"en el roque, telde, . :*179057",1.7,en el roque telde,gasto,2024-08,Facturas,modelo
+2024-08-19,"en el roque, telde, . :*179057",1.7,en el roque telde,gasto,2024-08,Supermercado,modelo
 2024-08-19,reintegro contra cuenta en atm 004901520010 el 18/08/2024 a las 19:15. .pan: 5489010358179057.,10.0,reintegro contra cuenta en atm el a las pan,gasto,2024-08,Ingreso,manual
 2024-08-19,"en hi bubble tea 1, las palmas de, . :*179057",4.5,en hi bubble tea las palmas de,gasto,2024-08,Restauración,modelo
 2024-08-19,"en administracion, telde, . :*179057",1.5,en administracion telde,gasto,2024-08,Supermercado,modelo
 2024-08-19,bizum a favor de lucia artiles sanchez concepto: cerveza,2.0,bizum a favor de lucia artiles sanchez concepto cerveza,gasto,2024-08,Transferencia personal,manual
-2024-08-19,"en aparcamiento ac, palmas (las), . :*179057",1.2,en aparcamiento ac palmas las,gasto,2024-08,Compras no esenciales,modelo
+2024-08-19,"en aparcamiento ac, palmas (las), . :*179057",1.2,en aparcamiento ac palmas las,gasto,2024-08,Restauración,modelo
 2024-08-19,"transaccion contactless en camaleon cubata, las palmas de, . :*179057",5.0,transaccion contactless en camaleon cubata las palmas de,gasto,2024-08,Restauración,manual
 2024-08-16,"en mercadona las t, hornos del re, . :*179057",2.8,en mercadona las t hornos del re,gasto,2024-08,Supermercado,manual
 2024-08-16,"compra internet en repsol waylet, madrid, . :*179057",29.06,compra internet en repsol waylet madrid,gasto,2024-08,Transporte,manual
@@ -441,10 +441,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-08-05,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",8.99,compra apple com bill eta comision,gasto,2024-08,Ocio / Suscripciones,manual
 2024-08-05,"en las terrazas tp, telde, . :*179057",13.85,en las terrazas tp telde,gasto,2024-08,Supermercado,modelo
 2024-08-05,"en la mareta, telde, . :*179057",13.0,en la mareta telde,gasto,2024-08,Restauración,modelo
-2024-08-05,"en el roque, telde, . :*179057",0.95,en el roque telde,gasto,2024-08,Facturas,modelo
+2024-08-05,"en el roque, telde, . :*179057",0.95,en el roque telde,gasto,2024-08,Supermercado,modelo
 2024-08-05,"en lidl can-gc-tel, telde, . :*179057",47.76,en lidl can gc tel telde,gasto,2024-08,Supermercado,manual
 2024-08-05,bizum de debora vega ravelo concepto gasolina y cosas varias,78.0,bizum de debora vega ravelo concepto gasolina y cosas varias,ingreso,2024-08,Ingreso,manual
-2024-08-02,"en el roque, telde, . :*179057",15.9,en el roque telde,gasto,2024-08,Facturas,modelo
+2024-08-02,"en el roque, telde, . :*179057",15.9,en el roque telde,gasto,2024-08,Supermercado,modelo
 2024-08-02,bizum a favor de eduvigis saavedra davila concepto: bocadillo,4.1,bizum a favor de eduvigis saavedra davila concepto bocadillo,gasto,2024-08,Transferencia personal,manual
 2024-08-02,"en picoteo s. migu, telde, . :*179057",21.8,en picoteo s migu telde,gasto,2024-08,Restauración,manual
 2024-08-01,"recibo sanitas s a de seguros nº recibo 0049 6140 755 bbfwmyq ref. mandato 800014242109, de",73.06,recibo sanitas s a de seguros nº recibo bbfwmyq ref mandato de,gasto,2024-08,Facturas,manual
@@ -454,8 +454,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-30,"en quinta cumbre a, las palmas de, . :*179057",10.2,en quinta cumbre a las palmas de,gasto,2024-07,Restauración,manual
 2024-07-29,"en los charcones p, arucas, . :*179057",3.0,en los charcones p arucas,gasto,2024-07,Restauración,manual
 2024-07-29,"en mercadona banad, arucas, . :*179057",1.95,en mercadona banad arucas,gasto,2024-07,Supermercado,manual
-2024-07-29,"en viveres pedro, arucas, . :*179057",3.4,en viveres pedro arucas,gasto,2024-07,Restauración,modelo
-2024-07-29,"en el roque, telde, . :*179057",25.9,en el roque telde,gasto,2024-07,Facturas,modelo
+2024-07-29,"en viveres pedro, arucas, . :*179057",3.4,en viveres pedro arucas,gasto,2024-07,Compras no esenciales,modelo
+2024-07-29,"en el roque, telde, . :*179057",25.9,en el roque telde,gasto,2024-07,Supermercado,modelo
 2024-07-29,"en hd melenara, telde, . :*179057",110.36,en hd melenara telde,gasto,2024-07,Gastos extraordinarios,modelo
 2024-07-29,"en mc donald las t, hornos del re, . :*179057",5.82,en mc donald las t hornos del re,gasto,2024-07,Restauración,manual
 2024-07-29,"en artesiete las t, hornos del re, . :*179057",4.5,en artesiete las t hornos del re,gasto,2024-07,Ocio / Suscripciones,manual
@@ -466,7 +466,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-26,"compra playstation network, hilversum, eta 5489010358179057 , comision 0,00",2.25,compra playstation network hilversum eta comision,gasto,2024-07,Compras no esenciales,manual
 2024-07-26,"compra llaollao es las palmas, las palmas, eta 5489010358179057 , comision 0,00",4.4,compra llaollao es las palmas las palmas eta comision,gasto,2024-07,Restauración,manual
 2024-07-26,bizum a favor de juan ayoze gonzalez perez concepto: factura 12890,257.44,bizum a favor de juan ayoze gonzalez perez concepto factura,gasto,2024-07,Gastos extraordinarios,manual
-2024-07-25,"en picoteo s. migu, telde, . :*179057",41.2,en picoteo s migu telde,gasto,2024-07,Restauración,manual
+2024-07-25,"en picoteo s. migu, telde, . :*179057",41.2,en picoteo s migu telde,gasto,2024-07,Gastos extraordinarios,manual
 2024-07-24,"transferencia de evelymar bastidas rosario, concepto seguro julio.",74.38,transferencia de evelymar bastidas rosario concepto seguro julio,ingreso,2024-07,Ingreso,manual
 2024-07-24,"transferencia de evelymar bastidas rosario, concepto movil julio.",15.0,transferencia de evelymar bastidas rosario concepto movil julio,ingreso,2024-07,Ingreso,manual
 2024-07-24,"transferencia de evelymar bastidas rosario, concepto regalo cumpleanos 2/2.",300.0,transferencia de evelymar bastidas rosario concepto regalo cumpleanos,ingreso,2024-07,Ingreso,manual
@@ -476,8 +476,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-19,"en lidl can-gc-tel, llanos de la, . :*179057",37.16,en lidl can gc tel llanos de la,gasto,2024-07,Supermercado,manual
 2024-07-19,"en stadio sport, jinamar, . :*179057",11.95,en stadio sport jinamar,gasto,2024-07,Compras no esenciales,modelo
 2024-07-19,ingreso en efectivo de gomez bastidas oscar alejandro en suc. 0049 0520,210.0,ingreso en efectivo de gomez bastidas oscar alejandro en suc,ingreso,2024-07,Ingreso,modelo
-2024-07-18,"compra h m, jinamar, eta 5489010358179057 , comision 0,00",12.99,compra h m jinamar eta comision,gasto,2024-07,Ocio / Suscripciones,modelo
-2024-07-18,"compra h m, jinamar, eta 5489010358179057 , comision 0,00",22.99,compra h m jinamar eta comision,gasto,2024-07,Ocio / Suscripciones,modelo
+2024-07-18,"compra h m, jinamar, eta 5489010358179057 , comision 0,00",12.99,compra h m jinamar eta comision,gasto,2024-07,Compras no esenciales,modelo
+2024-07-18,"compra h m, jinamar, eta 5489010358179057 , comision 0,00",22.99,compra h m jinamar eta comision,gasto,2024-07,Compras no esenciales,modelo
 2024-07-18,"en kobe express, telde, . :*179057",7.7,en kobe express telde,gasto,2024-07,Supermercado,modelo
 2024-07-18,"compra internet en repsol waylet, madrid, . :*179057",19.21,compra internet en repsol waylet madrid,gasto,2024-07,Transporte,manual
 2024-07-18,bizum a favor de debora vega ravelo concepto: viaje,110.0,bizum a favor de debora vega ravelo concepto viaje,gasto,2024-07,Transferencia personal,manual
@@ -489,7 +489,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-16,"en mercadona las t, hornos del re, . :*179057",5.3,en mercadona las t hornos del re,gasto,2024-07,Supermercado,manual
 2024-07-16,"en las terrazas tp, telde, . :*179057",11.14,en las terrazas tp telde,gasto,2024-07,Supermercado,modelo
 2024-07-16,bizum de debora vega ravelo concepto vicios,11.95,bizum de debora vega ravelo concepto vicios,ingreso,2024-07,Ingreso,manual
-2024-07-15,"en el roque, telde, . :*179057",5.9,en el roque telde,gasto,2024-07,Facturas,modelo
+2024-07-15,"en el roque, telde, . :*179057",5.9,en el roque telde,gasto,2024-07,Supermercado,modelo
 2024-07-15,"en mercadona las t, hornos del re, . :*179057",8.7,en mercadona las t hornos del re,gasto,2024-07,Supermercado,manual
 2024-07-15,"en mercadona las t, hornos del re, . :*179057",12.23,en mercadona las t hornos del re,gasto,2024-07,Supermercado,manual
 2024-07-15,"devolucion compra en hotel casablanc, puerto rico, . :*179057",150.0,devolucion compra en hotel casablanc puerto rico,ingreso,2024-07,Gastos extraordinarios,modelo
@@ -497,7 +497,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-15,"en di un gelato, s bartolome t, . :*179057",7.8,en di un gelato s bartolome t,gasto,2024-07,Restauración,manual
 2024-07-15,"en taj lavdi, las palmas, . :*179057",24.5,en taj lavdi las palmas,gasto,2024-07,Transporte,modelo
 2024-07-12,"en hotel casablanc, puerto rico, . :*179057",150.0,en hotel casablanc puerto rico,gasto,2024-07,Gastos extraordinarios,modelo
-2024-07-12,"en hde c.c. bahia, palmas de gra, . :*179057",4.25,en hde c c bahia palmas de gra,gasto,2024-07,Transporte,modelo
+2024-07-12,"en hde c.c. bahia, palmas de gra, . :*179057",4.25,en hde c c bahia palmas de gra,gasto,2024-07,Restauración,modelo
 2024-07-11,"transferencia de trade republic bank gmbh, concepto your puk is su7eh4. please keep. no transfer to",0.01,transferencia de trade republic bank gmbh concepto your puk is sueh please keep no transfer to,ingreso,2024-07,Ingreso,manual
 2024-07-11,"compra internet en repsol waylet, madrid, . :*179057",9.6,compra internet en repsol waylet madrid,gasto,2024-07,Transporte,manual
 2024-07-11,"en alcampo telde, telde, . :*179057",2.39,en alcampo telde telde,gasto,2024-07,Supermercado,manual
@@ -506,9 +506,9 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-07-10,bizum a favor de debora vega ravelo concepto: compra,23.0,bizum a favor de debora vega ravelo concepto compra,gasto,2024-07,Transferencia personal,manual
 2024-07-10,"en 2834 tb metropo, madrid, . :*179057",11.45,en tb metropo madrid,gasto,2024-07,Restauración,manual
 2024-07-09,"compra playstation network, hilversum, eta 5489010358179057 , comision 0,00",8.99,compra playstation network hilversum eta comision,gasto,2024-07,Compras no esenciales,manual
-2024-07-09,"en el roque, telde, . :*179057",20.03,en el roque telde,gasto,2024-07,Facturas,modelo
+2024-07-09,"en el roque, telde, . :*179057",20.03,en el roque telde,gasto,2024-07,Supermercado,modelo
 2024-07-09,"en jack jones las, las palmas de, . :*179057",4.57,en jack jones las las palmas de,gasto,2024-07,Restauración,modelo
-2024-07-08,"en llao llao las c, palmas (las), . :*179057",8.8,en llao llao las c palmas las,gasto,2024-07,Transporte,modelo
+2024-07-08,"en llao llao las c, palmas (las), . :*179057",8.8,en llao llao las c palmas las,gasto,2024-07,Restauración,modelo
 2024-07-05,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",3.49,compra apple com bill eta comision,gasto,2024-07,Ocio / Suscripciones,manual
 2024-07-05,"compra internet en repsol waylet, madrid, . :*179057",30.0,compra internet en repsol waylet madrid,gasto,2024-07,Transporte,manual
 2024-07-05,"en 2834 tb metropo, madrid, . :*179057",24.55,en tb metropo madrid,gasto,2024-07,Restauración,manual
@@ -596,12 +596,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-06-11,"en mercadona las t, hornos del re, . :*179057",19.04,en mercadona las t hornos del re,gasto,2024-06,Supermercado,manual
 2024-06-11,bizum a favor de elena maria rivero hafez concepto: ta weno,15.0,bizum a favor de elena maria rivero hafez concepto ta weno,gasto,2024-06,Transferencia personal,manual
 2024-06-10,"compra playstation network, hilversum, eta 5489010358179057 , comision 0,00",8.99,compra playstation network hilversum eta comision,gasto,2024-06,Compras no esenciales,manual
-2024-06-10,"compra prime video*hj9ex77o4, primevideo.co, eta 5489010358179057 , comision 0,00",2.99,compra prime video hjexo primevideo co eta comision,gasto,2024-06,Ocio / Suscripciones,modelo
+2024-06-10,"compra prime video*hj9ex77o4, primevideo.co, eta 5489010358179057 , comision 0,00",2.99,compra prime video hjexo primevideo co eta comision,gasto,2024-06,Compras no esenciales,modelo
 2024-06-10,"en paris ole las t, telde, . :*179057",13.95,en paris ole las t telde,gasto,2024-06,Compras no esenciales,modelo
 2024-06-10,bizum de debora vega ravelo concepto compra cena y tabaco,85.0,bizum de debora vega ravelo concepto compra cena y tabaco,ingreso,2024-06,Ingreso,manual
 2024-06-10,"en school busrger, las palmas de, . :*179057",3.9,en school busrger las palmas de,gasto,2024-06,Restauración,modelo
 2024-06-10,"en school busrger, las palmas de, . :*179057",39.2,en school busrger las palmas de,gasto,2024-06,Restauración,modelo
-2024-06-10,"en el roque, telde, . :*179057",7.6,en el roque telde,gasto,2024-06,Facturas,modelo
+2024-06-10,"en el roque, telde, . :*179057",7.6,en el roque telde,gasto,2024-06,Supermercado,modelo
 2024-06-10,"en mcdonalds telde, telde, . :*179057",16.06,en mcdonalds telde telde,gasto,2024-06,Restauración,manual
 2024-06-06,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",4.99,compra apple com bill eta comision,gasto,2024-06,Ocio / Suscripciones,manual
 2024-06-04,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",22.99,compra apple com bill eta comision,gasto,2024-06,Ocio / Suscripciones,manual
@@ -610,11 +610,11 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-06-03,"compra apple.com/bill, 900812703, eta 5489010358179057 , comision 0,00",8.99,compra apple com bill eta comision,gasto,2024-06,Ocio / Suscripciones,manual
 2024-06-03,"en mercadona las t, hornos del re, . :*179057",1.15,en mercadona las t hornos del re,gasto,2024-06,Supermercado,manual
 2024-06-03,"compra internet en repsol waylet, madrid, . :*179057",33.8,compra internet en repsol waylet madrid,gasto,2024-06,Transporte,manual
-2024-06-03,"en sagulpa parquim, palmas de gra, . :*179057",1.15,en sagulpa parquim palmas de gra,gasto,2024-06,Transporte,modelo
+2024-06-03,"en sagulpa parquim, palmas de gra, . :*179057",1.15,en sagulpa parquim palmas de gra,gasto,2024-06,Restauración,modelo
 2024-06-03,"recibo sanitas s a de seguros nº recibo 0049 6140 755 bbftwnw ref. mandato 800014242109, de",65.97,recibo sanitas s a de seguros nº recibo bbftwnw ref mandato de,gasto,2024-06,Facturas,manual
 2024-06-03,"en alcampo telde, telde, . :*179057",43.05,en alcampo telde telde,gasto,2024-06,Supermercado,manual
 2024-06-03,"en lidl can-gc-tel, telde, . :*179057",56.33,en lidl can gc tel telde,gasto,2024-06,Supermercado,manual
-2024-05-31,"en decathlon telde, telde, . :*179057",67.45,en decathlon telde telde,gasto,2024-05,Gastos extraordinarios,manual
+2024-05-31,"en decathlon telde, telde, . :*179057",67.45,en decathlon telde telde,gasto,2024-05,Compras no esenciales,manual
 2024-05-31,"en obramat jinamar, jinamar, . :*179057",5.59,en obramat jinamar jinamar,gasto,2024-05,Restauración,modelo
 2024-05-31,"en obramat jinamar, jinamar, . :*179057",21.0,en obramat jinamar jinamar,gasto,2024-05,Restauración,modelo
 2024-05-31,traspaso: ahorro hucha objetivo: regalo,15.88,traspaso ahorro hucha objetivo regalo,gasto,2024-05,Transferencia personal,manual
@@ -628,12 +628,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-05-29,recibo gym canarias sl - fp telde - las terraza nº recibo 0049 6140 755 bbftvsd ref. mandato rumfic4,30.0,recibo gym canarias sl fp telde las terraza nº recibo bbftvsd ref mandato rumfic,gasto,2024-05,Facturas,manual
 2024-05-29,"transferencia de dius madrid + delegaciones, concepto recibo de nomina.",1403.63,transferencia de dius madrid + delegaciones concepto recibo de nomina,ingreso,2024-05,Ingreso,manual
 2024-05-29,bizum de debora vega ravelo concepto compras etc,105.0,bizum de debora vega ravelo concepto compras etc,ingreso,2024-05,Ingreso,manual
-2024-05-28,"compra rockabilly venegas, las palmas de, eta 5489010358179057 , comision 0,00",41.4,compra rockabilly venegas las palmas de eta comision,gasto,2024-05,Restauración,modelo
+2024-05-28,"compra rockabilly venegas, las palmas de, eta 5489010358179057 , comision 0,00",41.4,compra rockabilly venegas las palmas de eta comision,gasto,2024-05,Gastos extraordinarios,modelo
 2024-05-28,traspaso: ahorro hucha objetivo: regalo,0.14,traspaso ahorro hucha objetivo regalo,gasto,2024-05,Transferencia personal,manual
 2024-05-27,"compra spotify p2c74a56fa, stockholm, eta 5489010358179057 , comision 0,00",14.99,compra spotify pcafa stockholm eta comision,gasto,2024-05,Ocio / Suscripciones,manual
 2024-05-27,"en hd arnao, telde, . :*179057",24.34,en hd arnao telde,gasto,2024-05,Supermercado,modelo
 2024-05-27,gestion de devoluciones -exterior,14.19,gestion de devoluciones exterior,ingreso,2024-05,Ingreso,modelo
-2024-05-27,"en sagulpa parquim, palmas de gra, . :*179057",0.2,en sagulpa parquim palmas de gra,gasto,2024-05,Transporte,modelo
+2024-05-27,"en sagulpa parquim, palmas de gra, . :*179057",0.2,en sagulpa parquim palmas de gra,gasto,2024-05,Restauración,modelo
 2024-05-27,"en sagulpa / elder, las palmas, . :*179057",2.55,en sagulpa elder las palmas,gasto,2024-05,Transporte,modelo
 2024-05-24,"compra internet en repsol waylet, madrid, . :*179057",28.97,compra internet en repsol waylet madrid,gasto,2024-05,Transporte,manual
 2024-05-23,"compra temu.com, dublin 2, eta 5489010358179057 , comision 0,00",9.64,compra temu com dublin eta comision,gasto,2024-05,Ocio / Suscripciones,modelo
@@ -651,10 +651,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-05-16,"en lacan primero d, las palmas de, . :*179057",37.9,en lacan primero d las palmas de,gasto,2024-05,Restauración,modelo
 2024-05-14,"en mercadona las t, telde, . :*179057",0.35,en mercadona las t telde,gasto,2024-05,Supermercado,manual
 2024-05-14,"en el corral telde, telde, . :*179057",8.66,en el corral telde telde,gasto,2024-05,Facturas,manual
-2024-05-13,"en sagulpa parquim, palmas de gra, . :*179057",1.25,en sagulpa parquim palmas de gra,gasto,2024-05,Transporte,modelo
+2024-05-13,"en sagulpa parquim, palmas de gra, . :*179057",1.25,en sagulpa parquim palmas de gra,gasto,2024-05,Restauración,modelo
 2024-05-13,"compra internet en repsol waylet, madrid, . :*179057",28.97,compra internet en repsol waylet madrid,gasto,2024-05,Transporte,manual
 2024-05-13,"en spar bahia feli, juan grande, . :*179057",11.54,en spar bahia feli juan grande,gasto,2024-05,Restauración,modelo
-2024-05-13,"en hde c.c. bahia, palmas de gra, . :*179057",4.4,en hde c c bahia palmas de gra,gasto,2024-05,Transporte,modelo
+2024-05-13,"en hde c.c. bahia, palmas de gra, . :*179057",4.4,en hde c c bahia palmas de gra,gasto,2024-05,Restauración,modelo
 2024-05-09,"en lidl can-gc-tel, llanos de la, . :*179057",47.48,en lidl can gc tel llanos de la,gasto,2024-05,Supermercado,manual
 2024-05-08,"en hd melenara, telde, . :*179057",113.12,en hd melenara telde,gasto,2024-05,Gastos extraordinarios,modelo
 2024-05-08,"compra playstation network, hilversum, eta 5489010358179057 , comision 0,00",8.99,compra playstation network hilversum eta comision,gasto,2024-05,Compras no esenciales,manual
@@ -750,7 +750,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-04-02,"en hd melenara, telde, . :*179057",69.71,en hd melenara telde,gasto,2024-04,Supermercado,modelo
 2024-04-02,"en el corral clini, telde, . :*179057",4.16,en el corral clini telde,gasto,2024-04,Facturas,manual
 2024-04-02,"recibo sanitas s a de seguros nº recibo 0049 6140 755 bbfsbtp ref. mandato 800014242109, de",65.97,recibo sanitas s a de seguros nº recibo bbfsbtp ref mandato de,gasto,2024-04,Facturas,manual
-2024-04-01,"compra prime video*q985y2q45, primevideo.co, eta 5489010358179057 , comision 0,00",9.99,compra prime video qyq primevideo co eta comision,gasto,2024-04,Ocio / Suscripciones,modelo
+2024-04-01,"compra prime video*q985y2q45, primevideo.co, eta 5489010358179057 , comision 0,00",9.99,compra prime video qyq primevideo co eta comision,gasto,2024-04,Compras no esenciales,modelo
 2024-04-01,"transferencia de gomez bastidas oscar alejandro, .",210.0,transferencia de gomez bastidas oscar alejandro,ingreso,2024-04,Ingreso,manual
 2024-04-01,transferencia a favor de óscar gómez bastidas,200.0,transferencia a favor de óscar gómez bastidas,gasto,2024-04,Gastos extraordinarios,manual
 2024-04-01,"en guayoyos cafe, telde, . :*179057",22.8,en guayoyos cafe telde,gasto,2024-04,Supermercado,modelo
@@ -798,13 +798,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-03-19,"en el corral clini, telde, . :*179057",6.2,en el corral clini telde,gasto,2024-03,Facturas,manual
 2024-03-19,"en ikea tienda sue, telde, . :*179057",3.95,en ikea tienda sue telde,gasto,2024-03,Compras no esenciales,manual
 2024-03-18,"compra h m, tamaraceite, eta 5489010358179057 , comision 0,00",25.98,compra h m tamaraceite eta comision,gasto,2024-03,Ocio / Suscripciones,modelo
-2024-03-18,"en el roque, telde, . :*179057",5.9,en el roque telde,gasto,2024-03,Facturas,modelo
+2024-03-18,"en el roque, telde, . :*179057",5.9,en el roque telde,gasto,2024-03,Supermercado,modelo
 2024-03-18,"en supermercado k3, maspalomas, . :*179057",6.74,en supermercado k maspalomas,gasto,2024-03,Restauración,modelo
 2024-03-18,"compra internet en repsol waylet, madrid, . :*179057",28.95,compra internet en repsol waylet madrid,gasto,2024-03,Transporte,manual
 2024-03-18,"en cafe regina ali, las palmas, . :*179057",17.95,en cafe regina ali las palmas,gasto,2024-03,Restauración,modelo
 2024-03-18,traspaso: ahorro hucha objetivo: regalo,0.6,traspaso ahorro hucha objetivo regalo,gasto,2024-03,Transferencia personal,manual
 2024-03-18,"en lidl can-gc-tel, llanos de la, . :*179057",39.73,en lidl can gc tel llanos de la,gasto,2024-03,Supermercado,manual
-2024-03-15,"en hd melenara, telde, . :*179057",92.46,en hd melenara telde,gasto,2024-03,Supermercado,modelo
+2024-03-15,"en hd melenara, telde, . :*179057",92.46,en hd melenara telde,gasto,2024-03,Gastos extraordinarios,modelo
 2024-03-15,"transferencia de evelymar bastidas rosario, concepto pago universidad diferencia feb mar",60.0,transferencia de evelymar bastidas rosario concepto pago universidad diferencia feb mar,ingreso,2024-03,Ingreso,manual
 2024-03-14,"en bazar valsequil, valsequillo, . :*179057",3.6,en bazar valsequil valsequillo,gasto,2024-03,Restauración,modelo
 2024-03-11,"en mcdonalds telde, telde, . :*179057",12.41,en mcdonalds telde telde,gasto,2024-03,Restauración,manual
@@ -848,7 +848,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-03-04,"en lidl can-gc-tel, llanos de la, . :*179057",58.69,en lidl can gc tel llanos de la,gasto,2024-03,Supermercado,manual
 2024-03-04,"en hd melenara, telde, . :*179057",72.93,en hd melenara telde,gasto,2024-03,Supermercado,modelo
 2024-03-01,"en el corral telde, telde, . :*179057",15.3,en el corral telde telde,gasto,2024-03,Facturas,manual
-2024-03-01,"en el roque, telde, . :*179057",25.12,en el roque telde,gasto,2024-03,Facturas,modelo
+2024-03-01,"en el roque, telde, . :*179057",25.12,en el roque telde,gasto,2024-03,Supermercado,modelo
 2024-03-01,"recibo sanitas s a de seguros nº recibo 0049 6140 755 bbfrhkw ref. mandato 800014242109, de",65.97,recibo sanitas s a de seguros nº recibo bbfrhkw ref mandato de,gasto,2024-03,Facturas,manual
 2024-03-01,bizum de yazmina sanchez hernandez concepto cerveceo,14.95,bizum de yazmina sanchez hernandez concepto cerveceo,ingreso,2024-03,Ingreso,manual
 2024-03-01,"en la mareta, telde, . :*179057",8.26,en la mareta telde,gasto,2024-03,Restauración,modelo
@@ -884,12 +884,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-02-19,"en rockabilly vene, palmas (las), . :*179057",38.45,en rockabilly vene palmas las,gasto,2024-02,Transporte,modelo
 2024-02-19,"en mercadona cc el, hornos del re, . :*179057",16.79,en mercadona cc el hornos del re,gasto,2024-02,Supermercado,manual
 2024-02-19,traspaso: ahorro hucha objetivo: regalo,0.4,traspaso ahorro hucha objetivo regalo,gasto,2024-02,Transferencia personal,manual
-2024-02-16,"en el roque, telde, . :*179057",20.0,en el roque telde,gasto,2024-02,Facturas,modelo
+2024-02-16,"en el roque, telde, . :*179057",20.0,en el roque telde,gasto,2024-02,Supermercado,modelo
 2024-02-16,bizum de debora vega ravelo concepto compra,40.0,bizum de debora vega ravelo concepto compra,ingreso,2024-02,Ingreso,manual
 2024-02-15,"compra trade republic, berlin, eta 5489010358179057 , comision 0,00",500.0,compra trade republic berlin eta comision,gasto,2024-02,Gastos extraordinarios,modelo
 2024-02-15,"transferencia de gomez bastidas oscar alejandro, concepto mmm.",500.0,transferencia de gomez bastidas oscar alejandro concepto mmm,ingreso,2024-02,Ingreso,manual
 2024-02-15,transferencia a favor de óscar gómez bastidas concepto: tr,500.0,transferencia a favor de óscar gómez bastidas concepto tr,gasto,2024-02,Gastos extraordinarios,manual
-2024-02-15,"en chiwawa venegas, las palmas, . :*179057",24.9,en chiwawa venegas las palmas,gasto,2024-02,Compras no esenciales,modelo
+2024-02-15,"en chiwawa venegas, las palmas, . :*179057",24.9,en chiwawa venegas las palmas,gasto,2024-02,Restauración,modelo
 2024-02-14,traspaso: ahorro hucha objetivo: regalo,6.0,traspaso ahorro hucha objetivo regalo,gasto,2024-02,Transferencia personal,manual
 2024-02-14,"compra www.amazon* 404-950400, luxembourg, eta 5489010358179057 , comision 0,00",13.44,compra www amazon luxembourg eta comision,gasto,2024-02,Compras no esenciales,manual
 2024-02-14,"transferencia de trade republic bank gmbh, concepto your puk is 4anfxs. please keep. no transfer to",0.01,transferencia de trade republic bank gmbh concepto your puk is anfxs please keep no transfer to,ingreso,2024-02,Ingreso,manual
@@ -943,21 +943,21 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-29,"en lidl can-gc-tel, telde, . :*179057",4.54,en lidl can gc tel telde,gasto,2024-01,Supermercado,manual
 2024-01-29,"en laiba doner keb, telde, . :*179057",9.6,en laiba doner keb telde,gasto,2024-01,Supermercado,modelo
 2024-01-29,"en cafeteria paris, telde, . :*179057",14.4,en cafeteria paris telde,gasto,2024-01,Restauración,manual
-2024-01-29,"en aparcamiento ac, palmas (las), . :*179057",2.5,en aparcamiento ac palmas las,gasto,2024-01,Compras no esenciales,modelo
+2024-01-29,"en aparcamiento ac, palmas (las), . :*179057",2.5,en aparcamiento ac palmas las,gasto,2024-01,Restauración,modelo
 2024-01-29,"en restaurante pap, las palmas, . :*179057",26.65,en restaurante pap las palmas,gasto,2024-01,Restauración,manual
 2024-01-29,"compra internet en repsol waylet, madrid, . :*179057",20.0,compra internet en repsol waylet madrid,gasto,2024-01,Transporte,manual
 2024-01-26,"compra spotifyes p28f2dab82, stockholm, eta 5489010358179057 , comision 0,00",14.99,compra spotifyes pfdab stockholm eta comision,gasto,2024-01,Ocio / Suscripciones,manual
 2024-01-26,"en worten mirador, jinamar, . :*179057",63.99,en worten mirador jinamar,gasto,2024-01,Gastos extraordinarios,modelo
 2024-01-24,traspaso: ahorro hucha objetivo: regalo,1.72,traspaso ahorro hucha objetivo regalo,gasto,2024-01,Transferencia personal,manual
 2024-01-23,"en llaollao, palmas de gra, . :*179057",8.8,en llaollao palmas de gra,gasto,2024-01,Restauración,manual
-2024-01-23,"en papparazi arena, palmas de gra, . :*179057",54.6,en papparazi arena palmas de gra,gasto,2024-01,Transporte,modelo
+2024-01-23,"en papparazi arena, palmas de gra, . :*179057",54.6,en papparazi arena palmas de gra,gasto,2024-01,Gastos extraordinarios,modelo
 2024-01-23,"en e.s. sical, las palmas, . :*179057",20.0,en e s sical las palmas,gasto,2024-01,Transporte,modelo
 2024-01-23,traspaso: ahorro hucha objetivo: regalo,0.45,traspaso ahorro hucha objetivo regalo,gasto,2024-01,Transferencia personal,manual
 2024-01-23,bizum a favor de debora vega ravelo concepto: spas,60.0,bizum a favor de debora vega ravelo concepto spas,gasto,2024-01,Transferencia personal,manual
 2024-01-23,bizum de debora vega ravelo concepto ropa compra y tabaco,172.0,bizum de debora vega ravelo concepto ropa compra y tabaco,ingreso,2024-01,Ingreso,manual
 2024-01-22,"en mercadona las t, telde, . :*179057",24.5,en mercadona las t telde,gasto,2024-01,Supermercado,manual
 2024-01-22,traspaso: .,400.0,traspaso,gasto,2024-01,Gastos extraordinarios,manual
-2024-01-22,"en muelle deportiv, palmas de gra, . :*179057",1.05,en muelle deportiv palmas de gra,gasto,2024-01,Transporte,modelo
+2024-01-22,"en muelle deportiv, palmas de gra, . :*179057",1.05,en muelle deportiv palmas de gra,gasto,2024-01,Restauración,modelo
 2024-01-22,"en gicha bubble te, las palmas de, . :*179057",8.5,en gicha bubble te las palmas de,gasto,2024-01,Restauración,modelo
 2024-01-22,"en stradivarius me, las palmas de, . :*179057",79.06,en stradivarius me las palmas de,gasto,2024-01,Gastos extraordinarios,manual
 2024-01-22,"en makan food, las palmas, . :*179057",20.5,en makan food las palmas,gasto,2024-01,Restauración,manual
@@ -968,10 +968,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-17,"compra internet en repsol waylet, madrid, . :*179057",16.77,compra internet en repsol waylet madrid,gasto,2024-01,Transporte,manual
 2024-01-16,bizum a favor de gonzalo carreo ascanio concepto: capo,50.0,bizum a favor de gonzalo carreo ascanio concepto capo,gasto,2024-01,Transferencia personal,manual
 2024-01-15,"en fitness park la, jinamar, . :*179057",4.11,en fitness park la jinamar,gasto,2024-01,Compras no esenciales,modelo
-2024-01-15,"en muelle deportiv, palmas de gra, . :*179057",1.05,en muelle deportiv palmas de gra,gasto,2024-01,Transporte,modelo
+2024-01-15,"en muelle deportiv, palmas de gra, . :*179057",1.05,en muelle deportiv palmas de gra,gasto,2024-01,Restauración,modelo
 2024-01-15,"en lacan farray, las palmas de, . :*179057",43.3,en lacan farray las palmas de,gasto,2024-01,Gastos extraordinarios,modelo
 2024-01-12,bizum a favor de juan ayoze gonzalez perez concepto: arreglo bobina,121.98,bizum a favor de juan ayoze gonzalez perez concepto arreglo bobina,gasto,2024-01,Transferencia personal,manual
-2024-01-11,"en el roque, telde, . :*179057",5.6,en el roque telde,gasto,2024-01,Facturas,modelo
+2024-01-11,"en el roque, telde, . :*179057",5.6,en el roque telde,gasto,2024-01,Supermercado,modelo
 2024-01-11,"en la mareta, telde, . :*179057",16.92,en la mareta telde,gasto,2024-01,Restauración,modelo
 2024-01-10,"compra tb3502 alisios cleo, las palmas, eta 5489010358179057 , comision 0,00",9.96,compra tb alisios cleo las palmas eta comision,gasto,2024-01,Restauración,modelo
 2024-01-10,recibo gym canarias sl - fp telde - las terraza nº recibo 0049 6140 755 bbfqdyb ref. mandato rumfic4,25.0,recibo gym canarias sl fp telde las terraza nº recibo bbfqdyb ref mandato rumfic,gasto,2024-01,Facturas,manual
@@ -989,7 +989,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2024-01-03,"compra apple.com/bill, itunes.com, eta 5489010358179057 , comision 0,00",8.99,compra apple com bill itunes com eta comision,gasto,2024-01,Ocio / Suscripciones,manual
 2024-01-03,"en restauranate el, aguimes (capi, . :*179057",34.6,en restauranate el aguimes capi,gasto,2024-01,Restauración,modelo
 2024-01-03,traspaso: ahorro hucha objetivo: regalo,0.11,traspaso ahorro hucha objetivo regalo,gasto,2024-01,Transferencia personal,manual
-2024-01-02,"compra h m, jinamar, eta 5489010358179057 , comision 0,00",19.99,compra h m jinamar eta comision,gasto,2024-01,Ocio / Suscripciones,modelo
+2024-01-02,"compra h m, jinamar, eta 5489010358179057 , comision 0,00",19.99,compra h m jinamar eta comision,gasto,2024-01,Compras no esenciales,modelo
 2024-01-02,"compra playstation network, hilversum, eta 5489010358179057 , comision 0,00",13.99,compra playstation network hilversum eta comision,gasto,2024-01,Compras no esenciales,manual
 2024-01-02,"recibo sanitas s a de seguros nº recibo 0049 6140 755 bbfprvm ref. mandato 800014242109, de",65.97,recibo sanitas s a de seguros nº recibo bbfprvm ref mandato de,gasto,2024-01,Facturas,manual
 2024-01-02,"en rockabilly vene, palmas (las), . :*179057",38.95,en rockabilly vene palmas las,gasto,2024-01,Transporte,modelo
@@ -1032,7 +1032,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-26,bizum de debora vega ravelo concepto depresion,58.0,bizum de debora vega ravelo concepto depresion,ingreso,2023-12,Ingreso,manual
 2023-12-26,"en mercadona los p, telde, . :*179057",8.15,en mercadona los p telde,gasto,2023-12,Supermercado,manual
 2023-12-22,"en hi bubble tea, palmas las, . :*179057",8.4,en hi bubble tea palmas las,gasto,2023-12,Transporte,modelo
-2023-12-22,"en lefties, las palmas, . :*179057",7.99,en lefties las palmas,gasto,2023-12,Compras no esenciales,modelo
+2023-12-22,"en lefties, las palmas, . :*179057",7.99,en lefties las palmas,gasto,2023-12,Restauración,modelo
 2023-12-22,"en manuel navarro, las palmas, . :*179057",65.0,en manuel navarro las palmas,gasto,2023-12,Gastos extraordinarios,modelo
 2023-12-22,traspaso: ahorro hucha objetivo: regalo,1.18,traspaso ahorro hucha objetivo regalo,gasto,2023-12,Transferencia personal,manual
 2023-12-22,"en artesiete las t, hornos del re, . :*179057",1.2,en artesiete las t hornos del re,gasto,2023-12,Ocio / Suscripciones,manual
@@ -1052,7 +1052,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-18,"compra h m, tamaraceite, eta 5489010358179057 , comision 0,00",45.88,compra h m tamaraceite eta comision,gasto,2023-12,Gastos extraordinarios,modelo
 2023-12-18,"compra h m, tamaraceite, eta 5489010358179057 , comision 0,00",15.99,compra h m tamaraceite eta comision,gasto,2023-12,Ocio / Suscripciones,modelo
 2023-12-18,"compra internet en repsol waylet, madrid, . :*179057",34.31,compra internet en repsol waylet madrid,gasto,2023-12,Transporte,manual
-2023-12-18,"en muelle deportiv, palmas de gra, . :*179057",1.55,en muelle deportiv palmas de gra,gasto,2023-12,Transporte,modelo
+2023-12-18,"en muelle deportiv, palmas de gra, . :*179057",1.55,en muelle deportiv palmas de gra,gasto,2023-12,Restauración,modelo
 2023-12-18,"en kiwoko alisios, toscon bajo -, . :*179057",13.36,en kiwoko alisios toscon bajo,gasto,2023-12,Compras no esenciales,manual
 2023-12-18,traspaso: ahorro hucha objetivo: regalo,0.3,traspaso ahorro hucha objetivo regalo,gasto,2023-12,Transferencia personal,manual
 2023-12-15,"transaccion contactless en china market, las palmas de, . :*179057",15.99,transaccion contactless en china market las palmas de,gasto,2023-12,Restauración,modelo
@@ -1080,7 +1080,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-07,"en la mareta, telde, . :*179057",7.96,en la mareta telde,gasto,2023-12,Restauración,modelo
 2023-12-07,"en mcdonalds telde, telde, . :*179057",12.82,en mcdonalds telde telde,gasto,2023-12,Restauración,manual
 2023-12-07,"en centro hogar, telde, . :*179057",22.3,en centro hogar telde,gasto,2023-12,Supermercado,modelo
-2023-12-05,"en el roque, telde, . :*179057",1.95,en el roque telde,gasto,2023-12,Facturas,modelo
+2023-12-05,"en el roque, telde, . :*179057",1.95,en el roque telde,gasto,2023-12,Supermercado,modelo
 2023-12-05,"en hd melenara, telde, . :*179057",67.54,en hd melenara telde,gasto,2023-12,Supermercado,modelo
 2023-12-05,"en ikea las palmas, telde, . :*179057",61.75,en ikea las palmas telde,gasto,2023-12,Compras no esenciales,manual
 2023-12-05,"en ikea las palmas, telde, . :*179057",21.9,en ikea las palmas telde,gasto,2023-12,Compras no esenciales,manual
@@ -1091,10 +1091,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-12-04,"en bazar valsequil, valsequillo, . :*179057",5.95,en bazar valsequil valsequillo,gasto,2023-12,Restauración,modelo
 2023-12-04,bizum de juan miguel viera rodriguez concepto deudasss,17.15,bizum de juan miguel viera rodriguez concepto deudasss,ingreso,2023-12,Ingreso,manual
 2023-12-04,bizum de alba gonzalez reyes concepto gasolina,2.5,bizum de alba gonzalez reyes concepto gasolina,ingreso,2023-12,Ingreso,manual
-2023-12-04,"en la peatonal, palmas de gra, . :*179057",4.0,en la peatonal palmas de gra,gasto,2023-12,Transporte,modelo
-2023-12-04,"en la peatonal, palmas de gra, . :*179057",2.0,en la peatonal palmas de gra,gasto,2023-12,Transporte,modelo
-2023-12-04,"en la peatonal, palmas de gra, . :*179057",4.0,en la peatonal palmas de gra,gasto,2023-12,Transporte,modelo
-2023-12-04,"en la peatonal, palmas de gra, . :*179057",6.0,en la peatonal palmas de gra,gasto,2023-12,Transporte,modelo
+2023-12-04,"en la peatonal, palmas de gra, . :*179057",4.0,en la peatonal palmas de gra,gasto,2023-12,Restauración,modelo
+2023-12-04,"en la peatonal, palmas de gra, . :*179057",2.0,en la peatonal palmas de gra,gasto,2023-12,Restauración,modelo
+2023-12-04,"en la peatonal, palmas de gra, . :*179057",4.0,en la peatonal palmas de gra,gasto,2023-12,Restauración,modelo
+2023-12-04,"en la peatonal, palmas de gra, . :*179057",6.0,en la peatonal palmas de gra,gasto,2023-12,Restauración,modelo
 2023-12-04,traspaso: ahorro hucha objetivo: regalo,1.77,traspaso ahorro hucha objetivo regalo,gasto,2023-12,Transferencia personal,manual
 2023-12-04,"reintegro, atm:00494991, palmas g cana, . :*179057",40.0,reintegro atm palmas g cana,gasto,2023-12,Ingreso,manual
 2023-12-04,"en e.s. cidelmar, las palmas, . :*179057",11.3,en e s cidelmar las palmas,gasto,2023-12,Transporte,modelo
@@ -1140,12 +1140,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-11-23,"en poke poke las a, las palmas, . :*179057",10.95,en poke poke las a las palmas,gasto,2023-11,Restauración,manual
 2023-11-23,bizum de debora vega ravelo concepto .,36.0,bizum de debora vega ravelo concepto,ingreso,2023-11,Ingreso,manual
 2023-11-22,traspaso: ahorro hucha objetivo: regalo,0.48,traspaso ahorro hucha objetivo regalo,gasto,2023-11,Transferencia personal,manual
-2023-11-21,"compra prime video*hi34f03l4, primevideo.co, eta 5489010358179057 , comision 0,00",3.99,compra prime video hifl primevideo co eta comision,gasto,2023-11,Ocio / Suscripciones,modelo
+2023-11-21,"compra prime video*hi34f03l4, primevideo.co, eta 5489010358179057 , comision 0,00",3.99,compra prime video hifl primevideo co eta comision,gasto,2023-11,Compras no esenciales,modelo
 2023-11-21,traspaso: ahorro hucha objetivo: regalo,0.42,traspaso ahorro hucha objetivo regalo,gasto,2023-11,Transferencia personal,manual
 2023-11-21,"transferencia de gomez bastidas oscar alejandro, .",48.07,transferencia de gomez bastidas oscar alejandro,ingreso,2023-11,Ingreso,manual
 2023-11-21,"en primor el mirad, las palmas de, . :*179057",58.07,en primor el mirad las palmas de,gasto,2023-11,Compras no esenciales,manual
 2023-11-20,bizum de debora vega ravelo concepto tabaco burguer líquido y dunkin,25.4,bizum de debora vega ravelo concepto tabaco burguer líquido y dunkin,ingreso,2023-11,Ingreso,manual
-2023-11-20,"compra prime video*hi6uu0l94, primevideo.co, eta 5489010358179057 , comision 0,00",12.99,compra prime video hiuul primevideo co eta comision,gasto,2023-11,Ocio / Suscripciones,modelo
+2023-11-20,"compra prime video*hi6uu0l94, primevideo.co, eta 5489010358179057 , comision 0,00",12.99,compra prime video hiuul primevideo co eta comision,gasto,2023-11,Compras no esenciales,modelo
 2023-11-20,"recibo vodafone factura: yj23-001814707/ nº recibo 0049 6140 755 bbfnrsm ref. mandato 0111207734, de",33.62,recibo vodafone factura yj nº recibo bbfnrsm ref mandato de,gasto,2023-11,Facturas,manual
 2023-11-20,"en bk 28703 oceano, pozuelo de al, . :*179057",7.95,en bk oceano pozuelo de al,gasto,2023-11,Restauración,manual
 2023-11-20,"en mcdonalds telde, telde, . :*179057",12.72,en mcdonalds telde telde,gasto,2023-11,Restauración,manual
@@ -1168,7 +1168,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-11-15,recibo gym canarias sl - fp telde - las terraza nº recibo 0049 6140 755 bbfnqqy ref. mandato rumfic4,25.0,recibo gym canarias sl fp telde las terraza nº recibo bbfnqqy ref mandato rumfic,gasto,2023-11,Facturas,manual
 2023-11-14,bizum de debora vega ravelo concepto compras rock más p,65.0,bizum de debora vega ravelo concepto compras rock más p,ingreso,2023-11,Ingreso,manual
 2023-11-13,"en jamaica capitol, las palmas de, . :*179057",8.35,en jamaica capitol las palmas de,gasto,2023-11,Restauración,modelo
-2023-11-13,"en sagulpa parquim, palmas de gra, . :*179057",1.25,en sagulpa parquim palmas de gra,gasto,2023-11,Transporte,modelo
+2023-11-13,"en sagulpa parquim, palmas de gra, . :*179057",1.25,en sagulpa parquim palmas de gra,gasto,2023-11,Restauración,modelo
 2023-11-13,"en rockabilly vene, las palmas de, . :*179057",34.45,en rockabilly vene las palmas de,gasto,2023-11,Restauración,modelo
 2023-11-13,"en laiba doner keb, telde, . :*179057",8.6,en laiba doner keb telde,gasto,2023-11,Supermercado,modelo
 2023-11-13,"en lidl can-gc-tel, llanos de la, . :*179057",29.45,en lidl can gc tel llanos de la,gasto,2023-11,Supermercado,manual
@@ -1223,7 +1223,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-10-19,bizum de debora vega ravelo concepto .,25.0,bizum de debora vega ravelo concepto,ingreso,2023-10,Ingreso,manual
 2023-10-19,"en lidl can-gc-tel, llanos de la, . :*179057",34.78,en lidl can gc tel llanos de la,gasto,2023-10,Supermercado,manual
 2023-10-18,recibo gym canarias sl - fp telde - las terraza nº recibo 0049 6140 755 bbfmwnt ref. mandato rumfic4,25.0,recibo gym canarias sl fp telde las terraza nº recibo bbfmwnt ref mandato rumfic,gasto,2023-10,Facturas,manual
-2023-10-17,"en minimarket la x, las palmas, . :*179057",1.8,en minimarket la x las palmas,gasto,2023-10,Compras no esenciales,modelo
+2023-10-17,"en minimarket la x, las palmas, . :*179057",1.8,en minimarket la x las palmas,gasto,2023-10,Restauración,modelo
 2023-10-17,"en las casitas, las palmas de, . :*179057",2.9,en las casitas las palmas de,gasto,2023-10,Restauración,manual
 2023-10-17,traspaso: ahorro hucha objetivo: regalo,0.32,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-16,bizum de debora vega ravelo concepto gasolina,28.44,bizum de debora vega ravelo concepto gasolina,ingreso,2023-10,Ingreso,manual
@@ -1236,7 +1236,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-10-13,bizum a favor de nereida ravelo suarez concepto: los pollos,10.0,bizum a favor de nereida ravelo suarez concepto los pollos,gasto,2023-10,Transferencia personal,manual
 2023-10-11,"en alcampo telde, telde, . :*179057",32.62,en alcampo telde telde,gasto,2023-10,Supermercado,manual
 2023-10-11,traspaso: ahorro hucha objetivo: regalo,0.77,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
-2023-10-10,"en muelle deportiv, palmas de gra, . :*179057",0.45,en muelle deportiv palmas de gra,gasto,2023-10,Transporte,modelo
+2023-10-10,"en muelle deportiv, palmas de gra, . :*179057",0.45,en muelle deportiv palmas de gra,gasto,2023-10,Restauración,modelo
 2023-10-10,"en rower minimarke, palmas (las), . :*179057",1.5,en rower minimarke palmas las,gasto,2023-10,Transporte,modelo
 2023-10-10,"transferencia de evelymar bastidas rosario, concepto camisas",52.0,transferencia de evelymar bastidas rosario concepto camisas,ingreso,2023-10,Ingreso,manual
 2023-10-10,"transferencia de evelymar bastidas rosario, concepto amazon prime",25.0,transferencia de evelymar bastidas rosario concepto amazon prime,ingreso,2023-10,Ingreso,manual
@@ -1257,7 +1257,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-10-05,traspaso: ahorro hucha objetivo: regalo,0.45,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-04,bizum de debora vega ravelo concepto compra churros y copias,45.0,bizum de debora vega ravelo concepto compra churros y copias,ingreso,2023-10,Ingreso,manual
 2023-10-04,"en laiba doner keb, telde, . :*179057",5.0,en laiba doner keb telde,gasto,2023-10,Supermercado,modelo
-2023-10-03,"en minimarket la x, las palmas, . :*179057",4.4,en minimarket la x las palmas,gasto,2023-10,Compras no esenciales,modelo
+2023-10-03,"en minimarket la x, las palmas, . :*179057",4.4,en minimarket la x las palmas,gasto,2023-10,Restauración,modelo
 2023-10-03,traspaso: ahorro hucha objetivo: regalo,0.03,traspaso ahorro hucha objetivo regalo,gasto,2023-10,Transferencia personal,manual
 2023-10-02,"en bar cafeteria t, valsequillo (, . :*179057",5.8,en bar cafeteria t valsequillo,gasto,2023-10,Restauración,manual
 2023-10-02,bizum a favor de debora vega ravelo concepto: cochitos,3.3,bizum a favor de debora vega ravelo concepto cochitos,gasto,2023-10,Transferencia personal,manual
@@ -1344,7 +1344,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-08-01,traspaso: ahorro hucha objetivo: regalo,0.07,traspaso ahorro hucha objetivo regalo,gasto,2023-08,Transferencia personal,manual
 2023-08-01,bizum de debora vega ravelo concepto .,23.0,bizum de debora vega ravelo concepto,ingreso,2023-08,Ingreso,manual
 2023-07-31,"compra sq *everywhere meal&sw, aguimes, eta 5163830309585729 , comision 0,00",6.5,compra sq everywhere meal&sw aguimes eta comision,gasto,2023-07,Ocio / Suscripciones,modelo
-2023-07-31,"en llao llao, palmas de gra, . :*585729",4.85,en llao llao palmas de gra,gasto,2023-07,Transporte,modelo
+2023-07-31,"en llao llao, palmas de gra, . :*585729",4.85,en llao llao palmas de gra,gasto,2023-07,Restauración,modelo
 2023-07-31,"compra internet en las arenas web, las palmas de, . :*585729",23.6,compra internet en las arenas web las palmas de,gasto,2023-07,Transporte,modelo
 2023-07-31,bizum de juan miguel viera rodriguez concepto comida,7.85,bizum de juan miguel viera rodriguez concepto comida,ingreso,2023-07,Ingreso,manual
 2023-07-31,"en bar cafeteria t, valsequillo (, . :*585729",2.8,en bar cafeteria t valsequillo,gasto,2023-07,Restauración,manual
@@ -1394,7 +1394,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-11,"compra internet en repsol waylet, madrid, . :*585729",28.45,compra internet en repsol waylet madrid,gasto,2023-07,Transporte,manual
 2023-07-10,"en busca y gusta, las palmas, . :*585729",7.8,en busca y gusta las palmas,gasto,2023-07,Transporte,modelo
 2023-07-10,"en foto color rima, las palmas, . :*585729",5.5,en foto color rima las palmas,gasto,2023-07,Transporte,modelo
-2023-07-10,"en sagulpa parquim, palmas de gra, . :*585729",1.65,en sagulpa parquim palmas de gra,gasto,2023-07,Transporte,modelo
+2023-07-10,"en sagulpa parquim, palmas de gra, . :*585729",1.65,en sagulpa parquim palmas de gra,gasto,2023-07,Restauración,modelo
 2023-07-10,bizum a favor de samuel trujillo santana concepto: jambuguesa,11.4,bizum a favor de samuel trujillo santana concepto jambuguesa,gasto,2023-07,Transferencia personal,manual
 2023-07-10,"en transportes y s, galdar, . :*585729",10.0,en transportes y s galdar,gasto,2023-07,Restauración,modelo
 2023-07-10,"en agroquimica jua, telde, . :*585729",10.45,en agroquimica jua telde,gasto,2023-07,Compras no esenciales,manual
@@ -1402,7 +1402,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-07,"en hd melenara, telde, . :*585729",34.15,en hd melenara telde,gasto,2023-07,Supermercado,modelo
 2023-07-07,"en lidl can-gc-tel, llanos de la, . :*585729",46.26,en lidl can gc tel llanos de la,gasto,2023-07,Supermercado,manual
 2023-07-07,"en cafe manhattan, telde, . :*585729",6.4,en cafe manhattan telde,gasto,2023-07,Supermercado,modelo
-2023-07-07,"en tiger los alisi, palmas (las), . :*585729",16.0,en tiger los alisi palmas las,gasto,2023-07,Compras no esenciales,modelo
+2023-07-07,"en tiger los alisi, palmas (las), . :*585729",16.0,en tiger los alisi palmas las,gasto,2023-07,Restauración,modelo
 2023-07-07,"en bershka, tamaraceite, . :*585729",3.99,en bershka tamaraceite,gasto,2023-07,Compras no esenciales,modelo
 2023-07-06,"compra internet en repsol waylet, madrid, . :*585729",10.55,compra internet en repsol waylet madrid,gasto,2023-07,Transporte,manual
 2023-07-05,"en las terrazas tp, telde, . :*585729",5.49,en las terrazas tp telde,gasto,2023-07,Supermercado,modelo
@@ -1412,13 +1412,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-07-04,"compra spotifyes p24137cfdd, stockholm, eta 5163830309585729 , comision 0,00",9.99,compra spotifyes pcfdd stockholm eta comision,gasto,2023-07,Ocio / Suscripciones,manual
 2023-07-03,"en alcampo telde, telde, . :*585729",26.41,en alcampo telde telde,gasto,2023-07,Supermercado,manual
 2023-07-03,"compra internet en repsol waylet, madrid, . :*585729",28.47,compra internet en repsol waylet madrid,gasto,2023-07,Transporte,manual
-2023-07-03,"en muelle deportiv, palmas de gra, . :*585729",2.4,en muelle deportiv palmas de gra,gasto,2023-07,Transporte,modelo
+2023-07-03,"en muelle deportiv, palmas de gra, . :*585729",2.4,en muelle deportiv palmas de gra,gasto,2023-07,Restauración,modelo
 2023-07-03,"en minimercado los, telde, . :*585729",8.65,en minimercado los telde,gasto,2023-07,Compras no esenciales,modelo
 2023-07-03,"en all or nothing, las palmas g., . :*585729",40.2,en all or nothing las palmas g,gasto,2023-07,Restauración,manual
 2023-07-03,"en agroquimica jua, telde, . :*585729",21.95,en agroquimica jua telde,gasto,2023-07,Compras no esenciales,manual
 2023-06-30,"en spar salinetas, telde, . :*585729",2.58,en spar salinetas telde,gasto,2023-06,Compras no esenciales,modelo
 2023-06-30,"en restaurante el, las palmas, . :*585729",6.45,en restaurante el las palmas,gasto,2023-06,Restauración,manual
-2023-06-30,"en starbucks las c, las palmas, . :*585729",14.4,en starbucks las c las palmas,gasto,2023-06,Transporte,modelo
+2023-06-30,"en starbucks las c, las palmas, . :*585729",14.4,en starbucks las c las palmas,gasto,2023-06,Restauración,modelo
 2023-06-30,"en kiwoko telde la, cruz de la ga, . :*585729",8.5,en kiwoko telde la cruz de la ga,gasto,2023-06,Compras no esenciales,manual
 2023-06-30,"transferencia de fundacion canaria universidad de las palmas, concepto junio oscar gomez bastidas os",358.65,transferencia de fundacion canaria universidad de las palmas concepto junio oscar gomez bastidas os,ingreso,2023-06,Ingreso,manual
 2023-06-30,"compra internet en repsol waylet, madrid, . :*585729",28.47,compra internet en repsol waylet madrid,gasto,2023-06,Transporte,manual
@@ -1482,19 +1482,19 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-05-23,"compra internet en repsol waylet, madrid, . :*585729",28.57,compra internet en repsol waylet madrid,gasto,2023-05,Transporte,manual
 2023-05-23,bizum de debora vega ravelo concepto .,35.0,bizum de debora vega ravelo concepto,ingreso,2023-05,Ingreso,manual
 2023-05-23,"en ruth peluqueria, las palmas, . :*585729",8.0,en ruth peluqueria las palmas,gasto,2023-05,Restauración,modelo
-2023-05-22,"en minimarket la x, las palmas, . :*585729",1.3,en minimarket la x las palmas,gasto,2023-05,Compras no esenciales,modelo
+2023-05-22,"en minimarket la x, las palmas, . :*585729",1.3,en minimarket la x las palmas,gasto,2023-05,Restauración,modelo
 2023-05-22,transferencia a favor de javier concepto: orla,20.0,transferencia a favor de javier concepto orla,gasto,2023-05,Transferencia personal,manual
 2023-05-22,"en alisios tpv1, las palmas de, . :*585729",6.95,en alisios tpv las palmas de,gasto,2023-05,Restauración,modelo
 2023-05-22,"transaccion contactless en mercadona las t, telde, . :*585729",9.31,transaccion contactless en mercadona las t telde,gasto,2023-05,Supermercado,manual
 2023-05-22,"en alcampo telde, telde, . :*585729",16.98,en alcampo telde telde,gasto,2023-05,Supermercado,manual
-2023-05-22,"en riegoplant, s.l, palmas de gra, . :*585729",62.9,en riegoplant s l palmas de gra,gasto,2023-05,Transporte,modelo
+2023-05-22,"en riegoplant, s.l, palmas de gra, . :*585729",62.9,en riegoplant s l palmas de gra,gasto,2023-05,Gastos extraordinarios,modelo
 2023-05-22,"en lidl can-gc-tel, telde, . :*585729",26.16,en lidl can gc tel telde,gasto,2023-05,Supermercado,manual
 2023-05-22,"en hd arnao, telde, . :*585729",23.12,en hd arnao telde,gasto,2023-05,Supermercado,modelo
 2023-05-19,"recibo vodafone factura: yj23-000793033/ nº recibo 0049 6140 755 bbfhycf ref. mandato 0111207734, de",33.43,recibo vodafone factura yj nº recibo bbfhycf ref mandato de,gasto,2023-05,Facturas,manual
 2023-05-18,"en el bosque encan, gran canaria, . :*585729",20.9,en el bosque encan gran canaria,gasto,2023-05,Restauración,modelo
 2023-05-17,"en el corral telde, telde, . :*585729",145.11,en el corral telde telde,gasto,2023-05,Facturas,manual
 2023-05-17,"compra internet en repsol waylet, madrid, . :*585729",28.57,compra internet en repsol waylet madrid,gasto,2023-05,Transporte,manual
-2023-05-15,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2023-05,Compras no esenciales,modelo
+2023-05-15,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2023-05,Restauración,modelo
 2023-05-15,"en las casitas emp, las palmas de, . :*585729",4.1,en las casitas emp las palmas de,gasto,2023-05,Restauración,manual
 2023-05-15,bizum de debora vega ravelo concepto .,43.0,bizum de debora vega ravelo concepto,ingreso,2023-05,Ingreso,manual
 2023-05-15,"en lidl can-gc-tel, telde, . :*585729",40.7,en lidl can gc tel telde,gasto,2023-05,Supermercado,manual
@@ -1556,7 +1556,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2021-10-22,"compra pago m:vil en la peatonal, palmas de gra, . :*585729",5.0,compra pago m vil en la peatonal palmas de gra,gasto,2021-10,Restauración,modelo
 2021-10-21,"compra pago m:vil en la peatonal, palmas de gra, . :*585729",6.0,compra pago m vil en la peatonal palmas de gra,gasto,2021-10,Restauración,modelo
 2021-10-21,"compra pago m:vil en la peatonal, palmas de gra, . :*585729",5.0,compra pago m vil en la peatonal palmas de gra,gasto,2021-10,Restauración,modelo
-2021-10-22,"compra pago m:vil en la boheme, las palmas, . :*585729",2.5,compra pago m vil en la boheme las palmas,gasto,2021-10,Transporte,modelo
+2021-10-22,"compra pago m:vil en la boheme, las palmas, . :*585729",2.5,compra pago m vil en la boheme las palmas,gasto,2021-10,Restauración,modelo
 2021-10-22,"compra pago m:vil en petroprix sede, martos, . :*585729",24.0,compra pago m vil en petroprix sede martos,gasto,2021-10,Transporte,manual
 2021-10-25,"compra pago m:vil en muelle deportiv, palmas de gra, . :*585729",1.95,compra pago m vil en muelle deportiv palmas de gra,gasto,2021-10,Restauración,modelo
 2021-10-25,"compra pago m:vil en cafeteria aular, las palmas, . :*585729",1.9,compra pago m vil en cafeteria aular las palmas,gasto,2021-10,Restauración,manual
@@ -1575,14 +1575,14 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2021-11-08,"transaccion contactless en muelle deportiv, palmas de gra, . :*585729",1.25,transaccion contactless en muelle deportiv palmas de gra,gasto,2021-11,Restauración,modelo
 2021-11-06,"transaccion contactless en mcdonalds-mogan, mogan, . :*585729",7.6,transaccion contactless en mcdonalds mogan mogan,gasto,2021-11,Restauración,manual
 2021-11-08,"compra internet en univ. las palma, las palmas de, . :*585729",135.09,compra internet en univ las palma las palmas de,gasto,2021-11,Facturas,manual
-2021-11-08,"transaccion contactless en belize, santa brigida, . :*585729",12.0,transaccion contactless en belize santa brigida,gasto,2021-11,Transporte,modelo
+2021-11-08,"transaccion contactless en belize, santa brigida, . :*585729",12.0,transaccion contactless en belize santa brigida,gasto,2021-11,Restauración,modelo
 2021-11-09,"transaccion contactless en cafeteria aular, las palmas, . :*585729",1.3,transaccion contactless en cafeteria aular las palmas,gasto,2021-11,Restauración,manual
 2021-11-11,"compra pago m:vil en petroprix las p, las palmas, . :*585729",20.0,compra pago m vil en petroprix las p las palmas,gasto,2021-11,Transporte,manual
 2021-11-10,"transaccion contactless en banana tr, las palmas de, . :*585729",9.0,transaccion contactless en banana tr las palmas de,gasto,2021-11,Restauración,modelo
 2021-11-12,"transaccion contactless en sgp hoya parrad, san francisco, . :*585729",3.5,transaccion contactless en sgp hoya parrad san francisco,gasto,2021-11,Restauración,modelo
 2021-11-12,"transaccion contactless en las casitas, las palmas de, . :*585729",1.2,transaccion contactless en las casitas las palmas de,gasto,2021-11,Restauración,manual
 2021-11-15,"transaccion contactless en cafeteria aular, las palmas, . :*585729",1.9,transaccion contactless en cafeteria aular las palmas,gasto,2021-11,Restauración,manual
-2021-11-15,"compra pago m:vil en minimarket la x, las palmas, . :*585729",0.5,compra pago m vil en minimarket la x las palmas,gasto,2021-11,Transporte,modelo
+2021-11-15,"compra pago m:vil en minimarket la x, las palmas, . :*585729",0.5,compra pago m vil en minimarket la x las palmas,gasto,2021-11,Restauración,modelo
 2021-11-16,"compra pago m:vil en cafeteria aular, las palmas, . :*585729",1.0,compra pago m vil en cafeteria aular las palmas,gasto,2021-11,Restauración,manual
 2021-11-16,"compra pago m:vil en cafeteria aular, las palmas, . :*585729",1.3,compra pago m vil en cafeteria aular las palmas,gasto,2021-11,Restauración,manual
 2021-11-17,"compra pago m:vil en las casitas emp, las palmas de, . :*585729",1.0,compra pago m vil en las casitas emp las palmas de,gasto,2021-11,Restauración,manual
@@ -1599,7 +1599,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2021-11-24,"compra pago m:vil en petroprix las p, las palmas, . :*585729",15.0,compra pago m vil en petroprix las p las palmas,gasto,2021-11,Transporte,manual
 2021-11-25,"compra pago m:vil en cafeteria aular, las palmas, . :*585729",1.3,compra pago m vil en cafeteria aular las palmas,gasto,2021-11,Restauración,manual
 2021-11-25,"transferencia de evelymar esperanza bastidas rosario, concepto gastos fijos mas adicional",175.0,transferencia de evelymar esperanza bastidas rosario concepto gastos fijos mas adicional,ingreso,2021-11,Ingreso,manual
-2021-11-26,"compra pago m:vil en laiba doner keb, telde, . :*585729",14.1,compra pago m vil en laiba doner keb telde,gasto,2021-11,Compras no esenciales,modelo
+2021-11-26,"compra pago m:vil en laiba doner keb, telde, . :*585729",14.1,compra pago m vil en laiba doner keb telde,gasto,2021-11,Supermercado,modelo
 2021-11-26,"compra pago m:vil en tabaco barato, telde, . :*585729",2.45,compra pago m vil en tabaco barato telde,gasto,2021-11,Compras no esenciales,manual
 2021-11-26,"compra pago m:vil en petroprix las p, las palmas, . :*585729",30.0,compra pago m vil en petroprix las p las palmas,gasto,2021-11,Transporte,manual
 2021-11-29,transferencia a favor de elena rivero hafez concepto: p:del,5.0,transferencia a favor de elena rivero hafez concepto p del,gasto,2021-11,Transferencia personal,manual
@@ -1645,7 +1645,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2021-12-17,"transaccion contactless en dulces de portu, palmas (las), . :*585729",6.3,transaccion contactless en dulces de portu palmas las,gasto,2021-12,Restauración,modelo
 2021-12-20,"transaccion contactless en muelle deportiv, palmas de gra, . :*585729",1.4,transaccion contactless en muelle deportiv palmas de gra,gasto,2021-12,Restauración,modelo
 2021-12-18,"transaccion contactless en en 1 plis plas, telde, . :*585729",6.9,transaccion contactless en en plis plas telde,gasto,2021-12,Supermercado,modelo
-2021-12-21,"transaccion contactless en sd galdar, galdar, . :*585729",4.51,transaccion contactless en sd galdar galdar,gasto,2021-12,Supermercado,modelo
+2021-12-21,"transaccion contactless en sd galdar, galdar, . :*585729",4.51,transaccion contactless en sd galdar galdar,gasto,2021-12,Restauración,modelo
 2021-12-20,"transaccion contactless en estacion bp ban, banaderos, . :*585729",10.0,transaccion contactless en estacion bp ban banaderos,gasto,2021-12,Transporte,manual
 2021-12-27,"transaccion contactless en sub 24 sl, telde, . :*585729",5.95,transaccion contactless en sub sl telde,gasto,2021-12,Restauración,modelo
 2021-12-27,"transferencia de evelymar esperanza bastidas rosario, concepto gastos mensual enero mas",175.0,transferencia de evelymar esperanza bastidas rosario concepto gastos mensual enero mas,ingreso,2021-12,Ingreso,manual
@@ -1663,7 +1663,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-01-02,"transaccion contactless en sub 24 sl, telde, . :*585729",4.04,transaccion contactless en sub sl telde,gasto,2022-01,Restauración,modelo
 2022-01-03,"recibo las palmas vegueta n: recibo 0049 6140 755 bbdstmc ref. mandato 5206018331202110, de",29.9,recibo las palmas vegueta n recibo bbdstmc ref mandato de,gasto,2022-01,Facturas,manual
 2022-01-03,"transaccion contactless en que bien, telde, . :*585729",1.0,transaccion contactless en que bien telde,gasto,2022-01,Restauración,modelo
-2022-01-03,"transaccion contactless en la madera telde, telde, . :*585729",5.7,transaccion contactless en la madera telde telde,gasto,2022-01,Restauración,modelo
+2022-01-03,"transaccion contactless en la madera telde, telde, . :*585729",5.7,transaccion contactless en la madera telde telde,gasto,2022-01,Supermercado,modelo
 2022-01-04,"transaccion contactless en supermercdo lop, valsequillo (, . :*585729",23.46,transaccion contactless en supermercdo lop valsequillo,gasto,2022-01,Restauración,modelo
 2022-01-02,"compra spotifyes p18d4c01a2, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes pdca stockholm eta comision,gasto,2022-01,Ocio / Suscripciones,manual
 2022-01-04,"transaccion contactless en supermercdo lop, valsequillo (, . :*585729",3.53,transaccion contactless en supermercdo lop valsequillo,gasto,2022-01,Restauración,modelo
@@ -1673,7 +1673,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-01-10,"compra pago m:vil en mercadona avda., las palmas de, . :*585729",5.0,compra pago m vil en mercadona avda las palmas de,gasto,2022-01,Supermercado,manual
 2022-01-06,"compra playstationnetwork, london, eta 5163830309585729 , comision 0,00",7.99,compra playstationnetwork london eta comision,gasto,2022-01,Compras no esenciales,manual
 2022-01-11,"compra pago m:vil en piscolabis la h, valsequillo, . :*585729",18.5,compra pago m vil en piscolabis la h valsequillo,gasto,2022-01,Restauración,modelo
-2022-01-14,"compra pago m:vil en laiba doner keb, telde, . :*585729",6.6,compra pago m vil en laiba doner keb telde,gasto,2022-01,Compras no esenciales,modelo
+2022-01-14,"compra pago m:vil en laiba doner keb, telde, . :*585729",6.6,compra pago m vil en laiba doner keb telde,gasto,2022-01,Supermercado,modelo
 2022-01-13,"compra apple.com/bill, itunes.com, eta 5163830309585729 , comision 0,00",8.99,compra apple com bill itunes com eta comision,gasto,2022-01,Ocio / Suscripciones,manual
 2022-01-20,"compra apple.com/bill, itunes.com, eta 5163830309585729 , comision 0,00",4.99,compra apple com bill itunes com eta comision,gasto,2022-01,Ocio / Suscripciones,manual
 2022-01-21,"compra apple.com/bill, itunes.com, eta 5163830309585729 , comision 0,00",4.99,compra apple com bill itunes com eta comision,gasto,2022-01,Ocio / Suscripciones,manual
@@ -1697,13 +1697,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-01-29,"compra internet en univ. las palma, las palmas de, . :*585729",113.15,compra internet en univ las palma las palmas de,gasto,2022-01,Facturas,manual
 2022-01-30,"transaccion contactless en ciaalimnt hermn, las palmas, . :*585729",0.75,transaccion contactless en ciaalimnt hermn las palmas,gasto,2022-01,Restauración,modelo
 2022-01-30,"compra en petroprix las p, las palmas, . :*585729",20.0,compra en petroprix las p las palmas,gasto,2022-01,Transporte,manual
-2022-01-30,"transaccion contactless en siroco, arucas, . :*585729",6.0,transaccion contactless en siroco arucas,gasto,2022-01,Supermercado,modelo
+2022-01-30,"transaccion contactless en siroco, arucas, . :*585729",6.0,transaccion contactless en siroco arucas,gasto,2022-01,Restauración,modelo
 2022-01-30,"transaccion contactless en parque gastrono, santa:cruz:de, . :*585729",2.5,transaccion contactless en parque gastrono santa cruz de,gasto,2022-01,Restauración,modelo
 2022-01-30,"transaccion contactless en oscar gonzalez, las palmas de, . :*585729",5.0,transaccion contactless en oscar gonzalez las palmas de,gasto,2022-01,Restauración,modelo
 2022-02-01,"transferencia de evelymar esperanza bastidas rosario, concepto clases particulares febrero.",156.0,transferencia de evelymar esperanza bastidas rosario concepto clases particulares febrero,ingreso,2022-02,Ingreso,manual
 2022-02-01,"recibo las palmas vegueta n: recibo 0049 6140 755 bbdtlpb ref. mandato 5206018331202110, de",29.9,recibo las palmas vegueta n recibo bbdtlpb ref mandato de,gasto,2022-02,Facturas,manual
 2022-02-02,"transferencia de oscar alejandro gomez bastidas, concepto sin concepto.",3.91,transferencia de oscar alejandro gomez bastidas concepto sin concepto,ingreso,2022-02,Ingreso,manual
-2022-02-02,"transaccion contactless en belize, santa brigida, . :*585729",12.0,transaccion contactless en belize santa brigida,gasto,2022-02,Transporte,modelo
+2022-02-02,"transaccion contactless en belize, santa brigida, . :*585729",12.0,transaccion contactless en belize santa brigida,gasto,2022-02,Restauración,modelo
 2022-02-03,"transaccion contactless en laiba doner keb, telde, . :*585729",14.6,transaccion contactless en laiba doner keb telde,gasto,2022-02,Supermercado,modelo
 2022-02-04,"compra spotifyes p1998c0a59, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes pca stockholm eta comision,gasto,2022-02,Ocio / Suscripciones,manual
 2022-02-04,"transaccion contactless en coop.prod.taxis, palmas (las), . :*585729",10.0,transaccion contactless en coop prod taxis palmas las,gasto,2022-02,Restauración,modelo
@@ -1717,14 +1717,14 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-02-11,"compra en petroprix las p, las palmas, . :*585729",25.0,compra en petroprix las p las palmas,gasto,2022-02,Transporte,manual
 2022-02-11,"transferencia de oscar alejandro gomez bastidas, concepto sin concepto.",12.5,transferencia de oscar alejandro gomez bastidas concepto sin concepto,ingreso,2022-02,Ingreso,manual
 2022-02-14,"compra pago m:vil en frabecar canari, las palmas, . :*585729",3.25,compra pago m vil en frabecar canari las palmas,gasto,2022-02,Transporte,modelo
-2022-02-12,"transaccion contactless en telde-flor, telde, . :*585729",8.0,transaccion contactless en telde flor telde,gasto,2022-02,Restauración,modelo
+2022-02-12,"transaccion contactless en telde-flor, telde, . :*585729",8.0,transaccion contactless en telde flor telde,gasto,2022-02,Supermercado,modelo
 2022-02-12,"compra pago m:vil en alcampo telde, telde, . :*585729",54.57,compra pago m vil en alcampo telde telde,gasto,2022-02,Supermercado,manual
 2022-02-14,"compra en petroprix las p, las palmas, . :*585729",20.0,compra en petroprix las p las palmas,gasto,2022-02,Transporte,manual
 2022-02-16,"en las casitas emp, las palmas de, . :*585729",1.5,en las casitas emp las palmas de,gasto,2022-02,Restauración,manual
 2022-02-16,"en burger king la, las palmas, . :*585729",11.79,en burger king la las palmas,gasto,2022-02,Restauración,manual
 2022-02-14,"compra apple.com/bill, itunes.com, eta 5163830309585729 , comision 0,00",8.99,compra apple com bill itunes com eta comision,gasto,2022-02,Ocio / Suscripciones,manual
-2022-02-16,"en inside las palm, las palmas, . :*585729",46.96,en inside las palm las palmas,gasto,2022-02,Transporte,modelo
-2022-02-17,"en minimarket la x, las palmas, . :*585729",2.8,en minimarket la x las palmas,gasto,2022-02,Compras no esenciales,modelo
+2022-02-16,"en inside las palm, las palmas, . :*585729",46.96,en inside las palm las palmas,gasto,2022-02,Gastos extraordinarios,modelo
+2022-02-17,"en minimarket la x, las palmas, . :*585729",2.8,en minimarket la x las palmas,gasto,2022-02,Restauración,modelo
 2022-02-17,"transferencia de oscar alejandro gomez bastidas, concepto sin concepto.",6.0,transferencia de oscar alejandro gomez bastidas concepto sin concepto,ingreso,2022-02,Ingreso,manual
 2022-02-18,"compra worten triana, canarias, eta 5163830309585729 , comision 0,00",10.97,compra worten triana canarias eta comision,gasto,2022-02,Ocio / Suscripciones,modelo
 2022-02-21,"transaccion contactless en bar tifariti, valsequillo, . :*585729",15.8,transaccion contactless en bar tifariti valsequillo,gasto,2022-02,Restauración,manual
@@ -1751,7 +1751,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-03-08,"compra en petroprix las p, las palmas, . :*585729",25.0,compra en petroprix las p las palmas,gasto,2022-03,Transporte,manual
 2022-03-08,"transaccion contactless en supermercdo lop, valsequillo (, . :*585729",12.12,transaccion contactless en supermercdo lop valsequillo,gasto,2022-03,Restauración,modelo
 2022-03-08,"transaccion contactless en floristeria ela, valsequillo, . :*585729",5.0,transaccion contactless en floristeria ela valsequillo,gasto,2022-03,Restauración,modelo
-2022-03-09,"transaccion contactless en academia univer, palmas, . :*585729",162.0,transaccion contactless en academia univer palmas,gasto,2022-03,Facturas,manual
+2022-03-09,"transaccion contactless en academia univer, palmas, . :*585729",162.0,transaccion contactless en academia univer palmas,gasto,2022-03,Gastos extraordinarios,manual
 2022-03-09,"transferencia de evelymar esperanza bastidas rosario, concepto pago ajuste mensualidad marzo.",55.0,transferencia de evelymar esperanza bastidas rosario concepto pago ajuste mensualidad marzo,ingreso,2022-03,Ingreso,manual
 2022-03-09,"reintegro, atm:00496140, las palmas de, . :*585729",100.0,reintegro atm las palmas de,gasto,2022-03,Ingreso,manual
 2022-03-09,"transaccion contactless en las casitas emp, las palmas de, . :*585729",2.4,transaccion contactless en las casitas emp las palmas de,gasto,2022-03,Restauración,manual
@@ -1764,8 +1764,8 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-03-11,"compra apple.com/bill, itunes.com, eta 5163830309585729 , comision 0,00",8.99,compra apple com bill itunes com eta comision,gasto,2022-03,Ocio / Suscripciones,manual
 2022-03-15,"en petroprix las p, las palmas, . :*585729",40.0,en petroprix las p las palmas,gasto,2022-03,Transporte,manual
 2022-03-16,"en bazar valsequil, valsequillo, . :*585729",3.3,en bazar valsequil valsequillo,gasto,2022-03,Restauración,modelo
-2022-03-17,"en minimarket la x, las palmas, . :*585729",0.9,en minimarket la x las palmas,gasto,2022-03,Compras no esenciales,modelo
-2022-03-18,"en minimarket la x, las palmas, . :*585729",1.1,en minimarket la x las palmas,gasto,2022-03,Compras no esenciales,modelo
+2022-03-17,"en minimarket la x, las palmas, . :*585729",0.9,en minimarket la x las palmas,gasto,2022-03,Restauración,modelo
+2022-03-18,"en minimarket la x, las palmas, . :*585729",1.1,en minimarket la x las palmas,gasto,2022-03,Restauración,modelo
 2022-03-21,"compra en el corte ingles, las palmas, . :*585729",17.9,compra en el corte ingles las palmas,gasto,2022-03,Restauración,modelo
 2022-03-18,"transaccion contactless en alcampo telde, telde, . :*585729",3.99,transaccion contactless en alcampo telde telde,gasto,2022-03,Supermercado,manual
 2022-03-19,"transaccion contactless en mercadona san g, telde, . :*585729",2.25,transaccion contactless en mercadona san g telde,gasto,2022-03,Supermercado,manual
@@ -1778,7 +1778,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-03-24,"transaccion contactless en minimarket la x, las palmas, . :*585729",0.8,transaccion contactless en minimarket la x las palmas,gasto,2022-03,Restauración,modelo
 2022-03-25,"en petroprix las p, las palmas, . :*585729",30.0,en petroprix las p las palmas,gasto,2022-03,Transporte,manual
 2022-03-28,"en laiba doner keb, telde, . :*585729",13.6,en laiba doner keb telde,gasto,2022-03,Supermercado,modelo
-2022-03-29,"en minimarket la x, las palmas, . :*585729",1.35,en minimarket la x las palmas,gasto,2022-03,Compras no esenciales,modelo
+2022-03-29,"en minimarket la x, las palmas, . :*585729",1.35,en minimarket la x las palmas,gasto,2022-03,Restauración,modelo
 2022-03-31,"transferencia de oscar alejandro gomez bastidas, concepto wiii.",11.0,transferencia de oscar alejandro gomez bastidas concepto wiii,ingreso,2022-03,Ingreso,manual
 2022-04-01,"compra sagulpa, las palmas de, eta 5163830309585729 , comision 0,00",0.7,compra sagulpa las palmas de eta comision,gasto,2022-04,Restauración,modelo
 2022-04-04,"transaccion contactless en supermercdo lop, valsequillo (, . :*585729",20.08,transaccion contactless en supermercdo lop valsequillo,gasto,2022-04,Restauración,modelo
@@ -1788,11 +1788,11 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-04-01,"compra playstationnetwork, london, eta 5163830309585729 , comision 0,00",59.99,compra playstationnetwork london eta comision,gasto,2022-04,Compras no esenciales,manual
 2022-04-02,"compra spotifyes p1aabbbb95, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes paabbbb stockholm eta comision,gasto,2022-04,Ocio / Suscripciones,manual
 2022-04-05,"transaccion contactless en minimarket la x, las palmas, . :*585729",1.35,transaccion contactless en minimarket la x las palmas,gasto,2022-04,Restauración,modelo
-2022-04-06,"en academia univer, palmas, . :*585729",162.0,en academia univer palmas,gasto,2022-04,Facturas,manual
+2022-04-06,"en academia univer, palmas, . :*585729",162.0,en academia univer palmas,gasto,2022-04,Gastos extraordinarios,manual
 2022-04-06,"compra internet en e.s. la mareta, telde, . :*585729",23.43,compra internet en e s la mareta telde,gasto,2022-04,Restauración,modelo
 2022-04-06,"en las casitas, las palmas de, . :*585729",2.5,en las casitas las palmas de,gasto,2022-04,Restauración,manual
 2022-04-08,"transaccion contactless en las casitas emp, las palmas de, . :*585729",1.5,transaccion contactless en las casitas emp las palmas de,gasto,2022-04,Restauración,manual
-2022-04-08,"compra internet en www.fulp.ulpgc., palmas (las), . :*585729",40.0,compra internet en www fulp ulpgc palmas las,gasto,2022-04,Transporte,modelo
+2022-04-08,"compra internet en www.fulp.ulpgc., palmas (las), . :*585729",40.0,compra internet en www fulp ulpgc palmas las,gasto,2022-04,Restauración,modelo
 2022-04-08,"compra internet en univ. las palma, las palmas de, . :*585729",113.14,compra internet en univ las palma las palmas de,gasto,2022-04,Facturas,manual
 2022-04-11,"transaccion contactless en supermercdo lop, valsequillo (, . :*585729",7.24,transaccion contactless en supermercdo lop valsequillo,gasto,2022-04,Restauración,modelo
 2022-04-12,"transaccion contactless en piscolabis la h, valsequillo, . :*585729",4.9,transaccion contactless en piscolabis la h valsequillo,gasto,2022-04,Restauración,modelo
@@ -1819,7 +1819,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-05-02,"transaccion contactless en alcampo telde, telde, . :*585729",62.21,transaccion contactless en alcampo telde telde,gasto,2022-05,Supermercado,manual
 2022-05-02,"transferencia de oscar alejandro gomez bastidas, concepto y.",12.0,transferencia de oscar alejandro gomez bastidas concepto y,ingreso,2022-05,Ingreso,manual
 2022-05-03,"transaccion contactless en minimarket la x, las palmas, . :*585729",2.8,transaccion contactless en minimarket la x las palmas,gasto,2022-05,Restauración,modelo
-2022-05-04,"transaccion contactless en academia univer, palmas, . :*585729",156.0,transaccion contactless en academia univer palmas,gasto,2022-05,Facturas,manual
+2022-05-04,"transaccion contactless en academia univer, palmas, . :*585729",156.0,transaccion contactless en academia univer palmas,gasto,2022-05,Gastos extraordinarios,manual
 2022-05-04,"transaccion contactless en las casitas emp, las palmas de, . :*585729",4.4,transaccion contactless en las casitas emp las palmas de,gasto,2022-05,Restauración,manual
 2022-05-04,"en las casitas emp, las palmas de, . :*585729",1.0,en las casitas emp las palmas de,gasto,2022-05,Restauración,manual
 2022-05-02,"compra spotifyes p1b3abad9c, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes pbabadc stockholm eta comision,gasto,2022-05,Ocio / Suscripciones,manual
@@ -1827,7 +1827,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-05-09,"transaccion contactless en modas shanghai, telde, . :*585729",5.5,transaccion contactless en modas shanghai telde,gasto,2022-05,Supermercado,modelo
 2022-05-06,"transaccion contactless en cantina el buen, valsequillo, . :*585729",27.0,transaccion contactless en cantina el buen valsequillo,gasto,2022-05,Restauración,manual
 2022-05-08,"transaccion contactless en richard knize, san bartolom, . :*585729",3.6,transaccion contactless en richard knize san bartolom,gasto,2022-05,Restauración,manual
-2022-05-09,"en minimarket la x, las palmas, . :*585729",0.5,en minimarket la x las palmas,gasto,2022-05,Compras no esenciales,modelo
+2022-05-09,"en minimarket la x, las palmas, . :*585729",0.5,en minimarket la x las palmas,gasto,2022-05,Restauración,modelo
 2022-05-09,"en disa valsequill, valsequillo, . :*585729",1.9,en disa valsequill valsequillo,gasto,2022-05,Transporte,manual
 2022-05-09,"en supermercdo lop, valsequillo (, . :*585729",3.55,en supermercdo lop valsequillo,gasto,2022-05,Restauración,modelo
 2022-05-10,"compra internet en e.s. la mareta, telde, . :*585729",23.66,compra internet en e s la mareta telde,gasto,2022-05,Restauración,modelo
@@ -1920,7 +1920,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-07-27,"en isturk, puerto del ro, . :*585729",12.5,en isturk puerto del ro,gasto,2022-07,Restauración,modelo
 2022-07-28,"transferencia de oscar alejandro gomez bastidas, concepto gasoil.",30.0,transferencia de oscar alejandro gomez bastidas concepto gasoil,ingreso,2022-07,Ingreso,manual
 2022-07-29,"transaccion contactless en hd arnao, telde, . :*585729",18.28,transaccion contactless en hd arnao telde,gasto,2022-07,Supermercado,modelo
-2022-08-01,"en muelle deportiv, palmas de gra, . :*585729",2.3,en muelle deportiv palmas de gra,gasto,2022-08,Transporte,modelo
+2022-08-01,"en muelle deportiv, palmas de gra, . :*585729",2.3,en muelle deportiv palmas de gra,gasto,2022-08,Restauración,modelo
 2022-07-31,"en bar cafeteria t, valsequillo (, . :*585729",13.6,en bar cafeteria t valsequillo,gasto,2022-07,Restauración,manual
 2022-08-01,"transferencia de debora vega ravelo, concepto ..",19.0,transferencia de debora vega ravelo concepto,ingreso,2022-08,Ingreso,manual
 2022-07-31,"compra www.groupon.es, groupon.es, eta 5163830309585729 , comision 0,00",29.99,compra www groupon es groupon es eta comision,gasto,2022-07,Restauración,modelo
@@ -1966,10 +1966,10 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-08-26,"en hd melenara, telde, . :*585729",2.25,en hd melenara telde,gasto,2022-08,Supermercado,modelo
 2022-08-30,"transferencia de evelymar esperanza bastidas rosario, concepto gastos septiembre.",232.0,transferencia de evelymar esperanza bastidas rosario concepto gastos septiembre,ingreso,2022-08,Ingreso,manual
 2022-08-30,"transferencia de evelymar esperanza bastidas rosario, concepto universidad 2022 2023.",151.64,transferencia de evelymar esperanza bastidas rosario concepto universidad,ingreso,2022-08,Ingreso,manual
-2022-08-30,"compra internet en univ. las palma, las palmas de, . :*585729",151.64,compra internet en univ las palma las palmas de,gasto,2022-08,Facturas,manual
+2022-08-30,"compra internet en univ. las palma, las palmas de, . :*585729",151.64,compra internet en univ las palma las palmas de,gasto,2022-08,Gastos extraordinarios,manual
 2022-08-31,"en ikea tienda sue, telde, . :*585729",6.6,en ikea tienda sue telde,gasto,2022-08,Compras no esenciales,manual
-2022-09-01,"en muelle deportiv, palmas de gra, . :*585729",1.55,en muelle deportiv palmas de gra,gasto,2022-09,Transporte,modelo
-2022-08-31,"en llao llao, palmas de gra, . :*585729",7.6,en llao llao palmas de gra,gasto,2022-08,Transporte,modelo
+2022-09-01,"en muelle deportiv, palmas de gra, . :*585729",1.55,en muelle deportiv palmas de gra,gasto,2022-09,Restauración,modelo
+2022-08-31,"en llao llao, palmas de gra, . :*585729",7.6,en llao llao palmas de gra,gasto,2022-08,Restauración,modelo
 2022-09-02,"compra internet en waylet burger, sevilla, . :*585729",19.63,compra internet en waylet burger sevilla,gasto,2022-09,Transporte,modelo
 2022-09-02,"en hd arnao, telde, . :*585729",5.19,en hd arnao telde,gasto,2022-09,Supermercado,modelo
 2022-08-30,"compra bk 29421 mirador_cana, las palmas, eta 5163830309585729 , comision 0,00",2.95,compra bk mirador cana las palmas eta comision,gasto,2022-08,Restauración,manual
@@ -1988,12 +1988,12 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-09-11,"en gasolinera del, santa brigida, . :*585729",2.1,en gasolinera del santa brigida,gasto,2022-09,Transporte,manual
 2022-09-12,"en las casitas emp, las palmas de, . :*585729",2.6,en las casitas emp las palmas de,gasto,2022-09,Restauración,manual
 2022-09-13,"en 38, las palmas, . :*585729",0.6,en las palmas,gasto,2022-09,Transporte,modelo
-2022-09-12,"en multiopticas tr, palmas (las), . :*585729",20.0,en multiopticas tr palmas las,gasto,2022-09,Compras no esenciales,modelo
+2022-09-12,"en multiopticas tr, palmas (las), . :*585729",20.0,en multiopticas tr palmas las,gasto,2022-09,Restauración,modelo
 2022-09-13,"compra internet en repsol waylet, madrid, . :*585729",27.8,compra internet en repsol waylet madrid,gasto,2022-09,Transporte,manual
 2022-09-13,"transferencia de evelymar esperanza bastidas rosario, concepto gafas.",100.0,transferencia de evelymar esperanza bastidas rosario concepto gafas,ingreso,2022-09,Ingreso,manual
 2022-09-15,"en b king cc las t, telde, . :*585729",12.48,en b king cc las t telde,gasto,2022-09,Restauración,modelo
 2022-09-19,"en bazar valsequil, valsequillo d, . :*585729",3.7,en bazar valsequil valsequillo d,gasto,2022-09,Restauración,modelo
-2022-09-20,"en minimarket la x, las palmas, . :*585729",2.15,en minimarket la x las palmas,gasto,2022-09,Compras no esenciales,modelo
+2022-09-20,"en minimarket la x, las palmas, . :*585729",2.15,en minimarket la x las palmas,gasto,2022-09,Restauración,modelo
 2022-09-20,"transaccion contactless en hd arnao, telde, . :*585729",4.94,transaccion contactless en hd arnao telde,gasto,2022-09,Supermercado,modelo
 2022-09-21,"compra internet en repsol waylet, madrid, . :*585729",18.21,compra internet en repsol waylet madrid,gasto,2022-09,Transporte,manual
 2022-09-22,"en mercadona las t, telde, . :*585729",5.6,en mercadona las t telde,gasto,2022-09,Supermercado,manual
@@ -2010,7 +2010,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-09-26,"en laiba doner keb, telde, . :*585729",10.1,en laiba doner keb telde,gasto,2022-09,Supermercado,modelo
 2022-09-22,"compra domestic & general esp, madrid, eta 5163830309585729 , comision 0,00",6.19,compra domestic & general esp madrid eta comision,gasto,2022-09,Ocio / Suscripciones,modelo
 2022-09-27,"transferencia de debora vega ravelo, concepto envio de dinero - imaginbank.",17.31,transferencia de debora vega ravelo concepto envio de dinero imaginbank,ingreso,2022-09,Ingreso,manual
-2022-09-28,"en minimarket la x, las palmas, . :*585729",1.4,en minimarket la x las palmas,gasto,2022-09,Compras no esenciales,modelo
+2022-09-28,"en minimarket la x, las palmas, . :*585729",1.4,en minimarket la x las palmas,gasto,2022-09,Restauración,modelo
 2022-09-29,"en bar tifariti, valsequillo, . :*585729",3.5,en bar tifariti valsequillo,gasto,2022-09,Restauración,manual
 2022-09-28,"en cantina el buen, valsequillo, . :*585729",8.3,en cantina el buen valsequillo,gasto,2022-09,Restauración,manual
 2022-09-29,"en atracciones can, telde, . :*585729",5.0,en atracciones can telde,gasto,2022-09,Supermercado,modelo
@@ -2025,7 +2025,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-10-02,"en sakura, las palmas, . :*585729",34.45,en sakura las palmas,gasto,2022-10,Transporte,modelo
 2022-10-04,"transferencia de debora vega ravelo, concepto ..",10.0,transferencia de debora vega ravelo concepto,ingreso,2022-10,Ingreso,manual
 2022-10-02,"compra spotifyes p1e1afc44b, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes peafcb stockholm eta comision,gasto,2022-10,Ocio / Suscripciones,manual
-2022-10-04,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2022-10,Compras no esenciales,modelo
+2022-10-04,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2022-10,Restauración,modelo
 2022-10-06,"en dunkin coffee, las palmas de, . :*585729",5.55,en dunkin coffee las palmas de,gasto,2022-10,Restauración,modelo
 2022-10-05,"en supermercdo lop, valsequillo (, . :*585729",1.75,en supermercdo lop valsequillo,gasto,2022-10,Restauración,modelo
 2022-10-06,"recibo cayest turistica sl n: recibo 0049 6140 755 bbfbldq ref. mandato 5382021522202206, de",34.0,recibo cayest turistica sl n recibo bbfbldq ref mandato de,gasto,2022-10,Facturas,manual
@@ -2038,13 +2038,13 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-10-11,"compra internet en univ. las palma, las palmas de, . :*585729",26.24,compra internet en univ las palma las palmas de,gasto,2022-10,Facturas,manual
 2022-10-13,"transferencia de evelymar esperanza bastidas rosario, concepto reparacion diente.",300.0,transferencia de evelymar esperanza bastidas rosario concepto reparacion diente,ingreso,2022-10,Ingreso,manual
 2022-10-13,"transferencia de evelymar esperanza bastidas rosario, concepto pago universidad.",28.41,transferencia de evelymar esperanza bastidas rosario concepto pago universidad,ingreso,2022-10,Ingreso,manual
-2022-10-13,"transaccion contactless en carlos arboleda, telde, . :*585729",80.5,transaccion contactless en carlos arboleda telde,gasto,2022-10,Supermercado,modelo
+2022-10-13,"transaccion contactless en carlos arboleda, telde, . :*585729",80.5,transaccion contactless en carlos arboleda telde,gasto,2022-10,Gastos extraordinarios,modelo
 2022-10-13,"transaccion contactless en mcdonalds telde, telde, . :*585729",8.6,transaccion contactless en mcdonalds telde telde,gasto,2022-10,Restauración,manual
 2022-10-17,"en supermercdo lop, valsequillo (, . :*585729",4.92,en supermercdo lop valsequillo,gasto,2022-10,Restauración,modelo
 2022-10-16,"compra internet en univ. las palma, las palmas de, . :*585729",28.41,compra internet en univ las palma las palmas de,gasto,2022-10,Facturas,manual
-2022-10-19,"en minimarket la x, las palmas, . :*585729",1.4,en minimarket la x las palmas,gasto,2022-10,Compras no esenciales,modelo
+2022-10-19,"en minimarket la x, las palmas, . :*585729",1.4,en minimarket la x las palmas,gasto,2022-10,Restauración,modelo
 2022-10-20,"transaccion contactless en carlos arboleda, telde, . :*585729",130.0,transaccion contactless en carlos arboleda telde,gasto,2022-10,Gastos extraordinarios,modelo
-2022-10-20,"en minimarket la x, las palmas, . :*585729",1.4,en minimarket la x las palmas,gasto,2022-10,Compras no esenciales,modelo
+2022-10-20,"en minimarket la x, las palmas, . :*585729",1.4,en minimarket la x las palmas,gasto,2022-10,Restauración,modelo
 2022-10-21,"en est cepsa hoya, palmas (las), . :*585729",5.19,en est cepsa hoya palmas las,gasto,2022-10,Transporte,manual
 2022-10-24,"en fund grube las, telde, . :*585729",4.57,en fund grube las telde,gasto,2022-10,Supermercado,modelo
 2022-10-22,"compra domestic & general esp, madrid, eta 5163830309585729 , comision 0,00",6.19,compra domestic & general esp madrid eta comision,gasto,2022-10,Ocio / Suscripciones,modelo
@@ -2076,7 +2076,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-11-07,"en supermercdo lop, valsequillo (, . :*585729",9.83,en supermercdo lop valsequillo,gasto,2022-11,Restauración,modelo
 2022-11-06,"en bazar valsequil, valsequillo d, . :*585729",3.2,en bazar valsequil valsequillo d,gasto,2022-11,Restauración,modelo
 2022-11-07,"en e.s. la mareta, telde, . :*585729",1.75,en e s la mareta telde,gasto,2022-11,Restauración,modelo
-2022-11-07,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2022-11,Compras no esenciales,modelo
+2022-11-07,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2022-11,Restauración,modelo
 2022-11-05,"compra steamgames.com 4259522, hamburg, eta 5163830309585729 , comision 0,00",13.99,compra steamgames com hamburg eta comision,gasto,2022-11,Ocio / Suscripciones,modelo
 2022-11-08,"recibo cayest turistica sl n: recibo 0049 6140 755 bbfcfjp ref. mandato 5382021522202206, de",34.0,recibo cayest turistica sl n recibo bbfcfjp ref mandato de,gasto,2022-11,Facturas,manual
 2022-11-09,"en ikea las palmas, telde, . :*585729",9.65,en ikea las palmas telde,gasto,2022-11,Compras no esenciales,manual
@@ -2086,7 +2086,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-11-12,"en palmetto food &, vega de san m, . :*585729",16.0,en palmetto food & vega de san m,gasto,2022-11,Restauración,manual
 2022-11-14,"compra internet en repsol waylet, madrid, . :*585729",31.81,compra internet en repsol waylet madrid,gasto,2022-11,Transporte,manual
 2022-11-16,"en laiba doner keb, telde, . :*585729 1 e x t r a c t o d e c u e n t a s p e r s o n a l e s fecha : 06-05-2025",13.6,en laiba doner keb telde e x t r a c t o d e c u e n t a s p e r s o n a l e s fecha,gasto,2022-11,Restauración,modelo
-2022-11-16,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2022-11,Compras no esenciales,modelo
+2022-11-16,"en minimarket la x, las palmas, . :*585729",0.85,en minimarket la x las palmas,gasto,2022-11,Restauración,modelo
 2022-11-17,"en hd arnao, telde, . :*585729",14.5,en hd arnao telde,gasto,2022-11,Supermercado,modelo
 2022-11-17,"transferencia de evelymar esperanza bastidas rosario, concepto curso online excel.",60.0,transferencia de evelymar esperanza bastidas rosario concepto curso online excel,ingreso,2022-11,Ingreso,manual
 2022-11-17,"en las casitas emp, las palmas de, . :*585729",5.0,en las casitas emp las palmas de,gasto,2022-11,Restauración,manual
@@ -2094,7 +2094,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-11-16,"compra excelfull-plan excel, nederland, eta 5163830309585729 , comision 0,00",49.0,compra excelfull plan excel nederland eta comision,gasto,2022-11,Gastos extraordinarios,modelo
 2022-11-21,"en bazar valsequil, valsequillo d, . :*585729",1.8,en bazar valsequil valsequillo d,gasto,2022-11,Restauración,modelo
 2022-11-21,"recibo vodafone factura: yj22-002002787/ n: recibo 0049 6140 755 bbfcjwb ref. mandato 0111207734, de",29.99,recibo vodafone factura yj n recibo bbfcjwb ref mandato de,gasto,2022-11,Facturas,manual
-2022-11-22,"en minimarket la x, las palmas, . :*585729",1.0,en minimarket la x las palmas,gasto,2022-11,Compras no esenciales,modelo
+2022-11-22,"en minimarket la x, las palmas, . :*585729",1.0,en minimarket la x las palmas,gasto,2022-11,Restauración,modelo
 2022-11-23,"en hd arnao, telde, . :*585729",10.32,en hd arnao telde,gasto,2022-11,Supermercado,modelo
 2022-11-23,"compra internet en repsol waylet, madrid, . :*585729",31.77,compra internet en repsol waylet madrid,gasto,2022-11,Transporte,manual
 2022-11-24,"compra domestic & general esp, madrid, eta 5163830309585729 , comision 0,00",6.19,compra domestic & general esp madrid eta comision,gasto,2022-11,Ocio / Suscripciones,modelo
@@ -2109,7 +2109,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-12-02,"transferencia de evelymar esperanza bastidas rosario, concepto pago universidad diciembre.",231.96,transferencia de evelymar esperanza bastidas rosario concepto pago universidad diciembre,ingreso,2022-12,Ingreso,manual
 2022-12-02,"transferencia de evelymar esperanza bastidas rosario, concepto pago factura mobil.",35.0,transferencia de evelymar esperanza bastidas rosario concepto pago factura mobil,ingreso,2022-12,Ingreso,manual
 2022-12-02,"transferencia de evelymar esperanza bastidas rosario, concepto oscar gastos extra comida.",100.0,transferencia de evelymar esperanza bastidas rosario concepto oscar gastos extra comida,ingreso,2022-12,Ingreso,manual
-2022-12-02,"en minimarket la x, las palmas, . :*585729",15.7,en minimarket la x las palmas,gasto,2022-12,Compras no esenciales,modelo
+2022-12-02,"en minimarket la x, las palmas, . :*585729",15.7,en minimarket la x las palmas,gasto,2022-12,Restauración,modelo
 2022-12-05,"en hd arnao, telde, . :*585729",75.5,en hd arnao telde,gasto,2022-12,Supermercado,modelo
 2022-12-02,"en laiba doner keb, telde, . :*585729",3.5,en laiba doner keb telde,gasto,2022-12,Supermercado,modelo
 2022-12-03,"en alcampo telde, telde, . :*585729",6.24,en alcampo telde telde,gasto,2022-12,Supermercado,manual
@@ -2117,7 +2117,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-12-03,"en floristeria ela, valsequillo, . :*585729",1.9,en floristeria ela valsequillo,gasto,2022-12,Restauración,modelo
 2022-12-03,"compra apple.com/bill, 900812703, eta 5163830309585729 , comision 0,00",5.99,compra apple com bill eta comision,gasto,2022-12,Ocio / Suscripciones,manual
 2022-12-02,"compra spotifyes p1f4a994cd, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes pfacd stockholm eta comision,gasto,2022-12,Ocio / Suscripciones,manual
-2022-12-05,"en minimarket la x, las palmas, . :*585729",0.5,en minimarket la x las palmas,gasto,2022-12,Compras no esenciales,modelo
+2022-12-05,"en minimarket la x, las palmas, . :*585729",0.5,en minimarket la x las palmas,gasto,2022-12,Restauración,modelo
 2022-12-07,"en lidl can-gc-tel, llanos de la, . :*585729",5.61,en lidl can gc tel llanos de la,gasto,2022-12,Supermercado,manual
 2022-12-07,"recibo cayest turistica sl n: recibo 0049 6140 755 bbfcxgk ref. mandato 5382021522202206, de",34.0,recibo cayest turistica sl n recibo bbfcxgk ref mandato de,gasto,2022-12,Facturas,manual
 2022-12-04,"compra apple.com/bill, 900812703, eta 5163830309585729 , comision 0,00",17.99,compra apple com bill eta comision,gasto,2022-12,Ocio / Suscripciones,manual
@@ -2138,15 +2138,15 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2022-12-16,"en las casitas emp, las palmas de, . :*585729",2.7,en las casitas emp las palmas de,gasto,2022-12,Restauración,manual
 2022-12-16,"en global salcai, las palmas de, . :*585729",1.65,en global salcai las palmas de,gasto,2022-12,Transporte,manual
 2022-12-19,"en artesiete las t, hornos del re, . :*585729",1.0,en artesiete las t hornos del re,gasto,2022-12,Ocio / Suscripciones,manual
-2022-12-17,"en muelle deportiv, palmas de gra, . :*585729",1.15,en muelle deportiv palmas de gra,gasto,2022-12,Transporte,modelo
+2022-12-17,"en muelle deportiv, palmas de gra, . :*585729",1.15,en muelle deportiv palmas de gra,gasto,2022-12,Restauración,modelo
 2022-12-17,"compra internet en repsol waylet, madrid, . :*585729",28.41,compra internet en repsol waylet madrid,gasto,2022-12,Transporte,manual
 2022-12-17,"en bazar valsequil, valsequillo d, . :*585729",3.1,en bazar valsequil valsequillo d,gasto,2022-12,Restauración,modelo
-2022-12-17,"en llao llao, palmas de gra, . :*585729",7.8,en llao llao palmas de gra,gasto,2022-12,Transporte,modelo
+2022-12-17,"en llao llao, palmas de gra, . :*585729",7.8,en llao llao palmas de gra,gasto,2022-12,Restauración,modelo
 2022-12-18,"en global salcai, las palmas de, . :*585729",1.4,en global salcai las palmas de,gasto,2022-12,Transporte,manual
 2022-12-19,"en global salcai, las palmas de, . :*585729",1.4,en global salcai las palmas de,gasto,2022-12,Transporte,manual
 2022-12-20,"transferencia de evelymar bastidas rosario, concepto gastos mensuales - hijo",250.0,transferencia de evelymar bastidas rosario concepto gastos mensuales hijo,ingreso,2022-12,Ingreso,manual
 2022-12-21,"recibo vodafone factura: yj22-002183074/ n: recibo 0049 6140 755 bbfdcnb ref. mandato 0111207734, de",31.39,recibo vodafone factura yj n recibo bbfdcnb ref mandato de,gasto,2022-12,Facturas,manual
-2022-12-21,"en la tasquita vie, las palmas, . :*585729",3.5,en la tasquita vie las palmas,gasto,2022-12,Compras no esenciales,modelo
+2022-12-21,"en la tasquita vie, las palmas, . :*585729",3.5,en la tasquita vie las palmas,gasto,2022-12,Restauración,modelo
 2022-12-21,bizum a favor de juan ayoze gonzalez perez concepto: reparacion,192.6,bizum a favor de juan ayoze gonzalez perez concepto reparacion,gasto,2022-12,Gastos extraordinarios,manual
 2022-12-22,"en spar la barrera, valsequillo (, . :*585729",24.8,en spar la barrera valsequillo,gasto,2022-12,Restauración,manual
 2022-12-22,"compra internet en repsol waylet, madrid, . :*585729",31.36,compra internet en repsol waylet madrid,gasto,2022-12,Transporte,manual
@@ -2173,7 +2173,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-01-02,bizum de debora vega ravelo concepto feliz aniversario,17.5,bizum de debora vega ravelo concepto feliz aniversario,ingreso,2023-01,Ingreso,manual
 2023-01-04,"transferencia de evelymar bastidas rosario, concepto gastos mes enero",230.0,transferencia de evelymar bastidas rosario concepto gastos mes enero,ingreso,2023-01,Ingreso,manual
 2023-01-02,"compra spotifyes p1ff209f30, stockholm, eta 5163830309585729 , comision 0,00",4.99,compra spotifyes pfff stockholm eta comision,gasto,2023-01,Ocio / Suscripciones,manual
-2023-01-05,"en muelle deportiv, palmas de gra, . :*585729",2.45,en muelle deportiv palmas de gra,gasto,2023-01,Transporte,modelo
+2023-01-05,"en muelle deportiv, palmas de gra, . :*585729",2.45,en muelle deportiv palmas de gra,gasto,2023-01,Restauración,modelo
 2023-01-04,"transferencia de evelymar bastidas rosario, concepto factura moviles diciembre",35.0,transferencia de evelymar bastidas rosario concepto factura moviles diciembre,ingreso,2023-01,Ingreso,manual
 2023-01-05,"recibo cayest turistica sl n: recibo 0049 6140 755 bbfdqbq ref. mandato 5382021522202206, de",34.0,recibo cayest turistica sl n recibo bbfdqbq ref mandato de,gasto,2023-01,Facturas,manual
 2023-01-09,"en bar cafeteria t, valsequillo (, . :*585729",5.7,en bar cafeteria t valsequillo,gasto,2023-01,Restauración,manual
@@ -2186,7 +2186,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-01-11,bizum a favor de juan ayoze gonzalez perez concepto: bateria,192.6,bizum a favor de juan ayoze gonzalez perez concepto bateria,gasto,2023-01,Gastos extraordinarios,manual
 2023-01-12,transferencia a favor de javier concepto: orla 1 e x t r a c t o d e c u e n t a s p e r s o n a l e s fecha : 06-05-2025,20.0,transferencia a favor de javier concepto orla e x t r a c t o d e c u e n t a s p e r s o n a l e s fecha,gasto,2023-01,Transferencia personal,manual
 2023-01-16,"en 38, las palmas, . :*585729",0.2,en las palmas,gasto,2023-01,Transporte,modelo
-2023-01-13,"en lacandella, palmas de gra, . :*585729",27.4,en lacandella palmas de gra,gasto,2023-01,Transporte,modelo
+2023-01-13,"en lacandella, palmas de gra, . :*585729",27.4,en lacandella palmas de gra,gasto,2023-01,Restauración,modelo
 2023-01-16,"en lidl can-gc-tel, telde, . :*585729",5.3,en lidl can gc tel telde,gasto,2023-01,Supermercado,manual
 2023-01-17,"transferencia de evelymar bastidas rosario, concepto reparacion coche, pago orla universidad y para un",100.0,transferencia de evelymar bastidas rosario concepto reparacion coche pago orla universidad y para un,ingreso,2023-01,Ingreso,manual
 2023-01-18,"en poke poke las a, las palmas, . :*585729",9.95,en poke poke las a las palmas,gasto,2023-01,Restauración,manual
@@ -2227,7 +2227,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-02-08,"en las casitas emp, las palmas de, . :*585729",1.1,en las casitas emp las palmas de,gasto,2023-02,Restauración,manual
 2023-02-10,bizum a favor de debora vega ravelo concepto: comida,50.0,bizum a favor de debora vega ravelo concepto comida,gasto,2023-02,Transferencia personal,manual
 2023-02-13,"compra internet en univ. las palma, las palmas de, . :*585729",28.05,compra internet en univ las palma las palmas de,gasto,2023-02,Facturas,manual
-2023-02-10,"en lacandella, palmas de gra, . :*585729",35.8,en lacandella palmas de gra,gasto,2023-02,Transporte,modelo
+2023-02-10,"en lacandella, palmas de gra, . :*585729",35.8,en lacandella palmas de gra,gasto,2023-02,Restauración,modelo
 2023-02-11,"en kiwoko telde la, cruz de la ga, . :*585729",16.9,en kiwoko telde la cruz de la ga,gasto,2023-02,Compras no esenciales,manual
 2023-02-11,"en mercadona las t, telde, . :*585729",13.45,en mercadona las t telde,gasto,2023-02,Supermercado,manual
 2023-02-11,"en en 1 plis plas, telde, . :*585729",15.8,en en plis plas telde,gasto,2023-02,Supermercado,modelo
@@ -2245,7 +2245,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-02-20,"en modas shanghai, telde, . :*585729",11.19,en modas shanghai telde,gasto,2023-02,Supermercado,modelo
 2023-02-23,"compra apple.com/bill, 900812703, eta 5163830309585729 , comision 0,00",8.99,compra apple com bill eta comision,gasto,2023-02,Ocio / Suscripciones,manual
 2023-02-23,"compra internet en repsol waylet, madrid, . :*585729",36.98,compra internet en repsol waylet madrid,gasto,2023-02,Transporte,manual
-2023-02-24,"en la tasquita vie, palmas de gra, . :*585729",1.5,en la tasquita vie palmas de gra,gasto,2023-02,Transporte,modelo
+2023-02-24,"en la tasquita vie, palmas de gra, . :*585729",1.5,en la tasquita vie palmas de gra,gasto,2023-02,Restauración,modelo
 2023-02-24,"reintegro cajero servired, atm:01824951, palmas (las), . :*585729, comis. cajero",22.7,reintegro cajero servired atm palmas las comis cajero,gasto,2023-02,Ingreso,manual
 2023-02-27,"en pura vida pan &, las palmas de, . :*585729",2.3,en pura vida pan & las palmas de,gasto,2023-02,Restauración,modelo
 2023-02-23,"compra domestic & general esp, madrid, eta 5163830309585729 , comision 0,00",6.19,compra domestic & general esp madrid eta comision,gasto,2023-02,Ocio / Suscripciones,modelo
@@ -2254,7 +2254,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-03-01,"transferencia de evelymar bastidas rosario, concepto movil febrero",35.0,transferencia de evelymar bastidas rosario concepto movil febrero,ingreso,2023-03,Ingreso,manual
 2023-03-01,"transferencia de evelymar bastidas rosario, concepto universidad pago marzo",231.96,transferencia de evelymar bastidas rosario concepto universidad pago marzo,ingreso,2023-03,Ingreso,manual
 2023-03-02,bizum a favor de delia carolina cabrera go concepto: desayuno chachi,4.0,bizum a favor de delia carolina cabrera go concepto desayuno chachi,gasto,2023-03,Transferencia personal,manual
-2023-03-02,"en minimarket la x, las palmas, . :*585729",1.0,en minimarket la x las palmas,gasto,2023-03,Compras no esenciales,modelo
+2023-03-02,"en minimarket la x, las palmas, . :*585729",1.0,en minimarket la x las palmas,gasto,2023-03,Restauración,modelo
 2023-03-03,"en pura vida pan &, las palmas de, . :*585729",2.5,en pura vida pan & las palmas de,gasto,2023-03,Restauración,modelo
 2023-03-06,"en alcampo telde, telde, . :*585729",82.47,en alcampo telde telde,gasto,2023-03,Supermercado,manual
 2023-03-04,bizum de ana maria ylla pallares concepto botas,70.0,bizum de ana maria ylla pallares concepto botas,ingreso,2023-03,Ingreso,manual
@@ -2289,7 +2289,7 @@ fecha_operacion,operacion,importe,operacion_limpia,tipo,año_mes,categoria,orige
 2023-03-21,"recibo vodafone factura: yj23-000446847/ n: recibo 0049 6140 755 bbfgknv ref. mandato 0111207734, de",33.43,recibo vodafone factura yj n recibo bbfgknv ref mandato de,gasto,2023-03,Facturas,manual
 2023-03-21,"compra internet en repsol waylet, madrid, . :*585729",36.85,compra internet en repsol waylet madrid,gasto,2023-03,Transporte,manual
 2023-03-23,"compra apple.com/bill, 900812703, eta 5163830309585729 , comision 0,00",8.99,compra apple com bill eta comision,gasto,2023-03,Ocio / Suscripciones,manual
-2023-03-27,"en llao llao las c, palmas (las), . :*585729",7.8,en llao llao las c palmas las,gasto,2023-03,Transporte,modelo
+2023-03-27,"en llao llao las c, palmas (las), . :*585729",7.8,en llao llao las c palmas las,gasto,2023-03,Restauración,modelo
 2023-03-28,"transferencia de evelymar bastidas rosario, concepto clases particulares",162.0,transferencia de evelymar bastidas rosario concepto clases particulares,ingreso,2023-03,Ingreso,manual
 2023-03-28,"transferencia de evelymar bastidas rosario, concepto producto limpieza camisas",10.0,transferencia de evelymar bastidas rosario concepto producto limpieza camisas,ingreso,2023-03,Ingreso,manual
 2023-03-28,"transferencia de evelymar bastidas rosario, concepto mensualidad mas extra abril 2023",230.0,transferencia de evelymar bastidas rosario concepto mensualidad mas extra abril,ingreso,2023-03,Ingreso,manual

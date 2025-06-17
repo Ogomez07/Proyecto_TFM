@@ -19,8 +19,7 @@ if __name__ == "__main__":
     # Lista con la ruta de los archivos PDF a procesar.
     pdf_path = [
             "File.pdf",
-            "movimientosgenerados_07052025.pdf",
-            "movimiento.pdf"
+            "movimientosgenerados_07052025.pdf"
     ]
 
     # Lista para almacenar los dataframes extraidos
@@ -156,6 +155,7 @@ if __name__ == "__main__":
 
     # # Generamos la ruta a seguir del asesor a los datos
     ruta_csv = 'data/Movimientos_categorizados.csv'
+    contexto_df = pd.read_csv(ruta_csv, parse_dates=['fecha_operacion'])
 
     # Funciones de asesor financiero
     """Funcion 1"""
@@ -176,7 +176,7 @@ if __name__ == "__main__":
 
 
     """Función 2"""
-    print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=True, contexto_gastos=contexto))
+    print(ia_asesor.plan_ahorro_objetivo(5000, 10, 1300, 600, usar_contexto=False, contexto_gastos=contexto))
 
     """Función 3"""
     # Cargar CSV de movimientos
@@ -243,10 +243,10 @@ if __name__ == "__main__":
     contexto = etl.preparar_contexto(ruta_csv)
 
     # Asesoría normal basada en lógica
-    print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto))
+    print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto_df))
 
     # Asesoría avanzada con ChatGPT
-    print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto, usar_chatgpt=True))
+    print(ia_asesor.asesoria_vivienda("compra", usar_contexto=True, contexto_gastos=contexto_df, usar_chatgpt=True))
 
 
 

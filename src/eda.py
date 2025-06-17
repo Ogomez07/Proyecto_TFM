@@ -4,9 +4,9 @@ import re
 import pandas as pd
 from io import BytesIO
 from typing import List, Optional
-# Si no recibe bien otros formatos streamlit usar esta función -->
+# Si no recibe bien otros formatos streamlit usar esta función
 
-# def abrir_pdf_y_extraer_texto(pdf_input) 
+# def abrir_pdf_y_extraer_texto(pdf_input) -> str:
 #     """
 #     Extrae el texto completo de un PDF.
 #     Acepta una ruta de archivo (str) o un archivo subido en memoria (BytesIO).
@@ -24,13 +24,13 @@ from typing import List, Optional
 #     doc.close()
 #     return texto
 
-def abrir_pdf_y_extraer_texto(pdf_path):
+def abrir_pdf_y_extraer_texto(pdf_path: str) -> str:
     """Extrae el texto completo de un PDF."""
     with fitz.open(pdf_path) as doc:
         texto = "".join([pagina.get_text() for pagina in doc])
     return texto
 
-def extraer_movimientos_formato1(texto):
+def extraer_movimientos_formato1(texto: str) -> pd.DataFrame:
     """Extrae movimientos para el formato 1 (con 'F. valor')."""
     patron = re.compile(
         r"(?P<fecha>\d{1,2} \w{3} 20\d{2})\s+F\. valor:.*?\n(?P<operacion>.*?)(?P<importe>[−\-]?\d{1,3}(?:\.\d{3})*,\d{2})€\s+(?P<saldo>\d{1,3}(?:\.\d{3})*,\d{2})€",
@@ -50,7 +50,7 @@ def extraer_movimientos_formato1(texto):
 
     return pd.DataFrame(datos, columns=["Fecha_operacion", "Operacion", "Importe", "Saldo"])
 
-def extraer_movimientos_formato2(texto):
+def extraer_movimientos_formato2(texto: str) -> pd.DataFrame:
     """Extrae movimientos para el formato 2 (con fechas tipo dd-mm-yy)."""
     lineas = texto.split('\n')
     movimientos = []
@@ -82,7 +82,7 @@ def extraer_movimientos_formato2(texto):
     df["Fecha_operacion"] = pd.to_datetime(df["Fecha_operacion"], format="%d-%m-%y")
     return df
 
-def extraer_movimientos_formato3(texto):
+def extraer_movimientos_formato3(texto: str) -> pd.DataFrame:
     import pandas as pd
     import re
 
@@ -115,7 +115,7 @@ def extraer_movimientos_formato3(texto):
 
 
 
-def detectar_formato(texto):
+def detectar_formato(texto: str) -> str:
     """Detecta el formato del PDF analizando el texto."""
     if "F. valor" in texto:
         return "formato1"
@@ -126,7 +126,7 @@ def detectar_formato(texto):
     else:
         raise ValueError("❌ No se pudo detectar el formato del PDF.")
 
-def extraer_movimientos(pdf_path, formato = "auto"):
+def extraer_movimientos(pdf_path: str, formato: Optional[str] = "auto") -> pd.DataFrame:
     """Extrae los movimientos bancarios desde un PDF según su formato."""
     texto = abrir_pdf_y_extraer_texto(pdf_path)
 
