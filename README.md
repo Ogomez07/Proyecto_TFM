@@ -1,4 +1,4 @@
-🧠 AFI – Asesor Financiero Inteligente
+# 🧠 AFI – Asesor Financiero Inteligente
 Domina tus gastos, predice tu futuro.
 
 Este proyecto combina extracción automática de movimientos bancarios, categorización inteligente, predicción de gastos y asesoría financiera personalizada. Incluye una interfaz interactiva en Streamlit y un entorno de desarrollo para pruebas, exploración y mejora continua.
@@ -46,7 +46,7 @@ Funcionalidades principales:
 La IA ha sido adaptada con prompts específicos para que no de respuestas poco útiles o genéricas y refleje información real y bien estructurada, siendo de gran utilidad para el usuario. Esto convierte el sistema en un asistente financiero personalizado, capaz de responder a preguntas del tipo “¿En qué puedo ahorrar este mes?”, “¿Me conviene alquilar o comprar?” o “¿Cómo reduzco mis deudas más rápido?”.
 
 
-- Estructura del Proyecto
+## Estructura del Proyecto
 
 ```bash
 AFI/
@@ -82,14 +82,14 @@ pip install -r requirements.txt
 Nota: Crea un archivo .env con tu clave de OpenAI:
 
 
-- Modo Consola (Análisis paso a paso)
+## Modo Consola (Análisis paso a paso)
 Ejecuta:
 
 python main.py
 
 Esto procesará archivos PDF bancarios, limpiará los datos, clasificará los movimientos, predecirá gastos y generará estrategias de ahorro, deuda o vivienda. Todos los pasos están comentados en el script.
 
-- Modo Interactivo (Interfaz Streamlit)
+## Modo Interactivo (Interfaz Streamlit)
 Ejecuta:
 
 streamlit run app.py
@@ -130,7 +130,7 @@ Regex y reglas heurísticas (para clasificación)
 
 Modelos Naïve y métricas (para predicción de gastos)
 
-- Ejemplo de predicción
+## Ejemplo de predicción
 Predicción mensual de gastos en "Restauración" basada en la media de los últimos meses.
 
 📄 Licencia
