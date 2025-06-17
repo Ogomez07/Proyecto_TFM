@@ -101,7 +101,9 @@ Extracción de movimientos: Sube PDFs bancarios y limpia los datos automáticame
 
 Predicciones por categorías: Clasifica gastos, descarga CSV y predice valores futuros.
 ![alt text](imágenes/pagina_2(1).png)
+
 Asesor financiero: Accede a funcionalidades avanzadas como:
+
 ![alt text](imágenes/página_3.png)
 
 Chat IA con contexto financiero.
